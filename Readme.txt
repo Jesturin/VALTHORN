@@ -1,11 +1,8 @@
-This repack was fixed by HighGamer.com (Discord: HighGamer.com#8990), 
+This repack was fixed by Jetsu (Discord:_jetsuo), 
 
 If you have problems like Application Error (The application was unable to start correctly (0xc0000142). Click OK to close the application. 
 
 I have no idea how to fix this error but it goes away if you run MainSvrT.exe many times I would prefer just holding down the Enter key while clicking on MainSvrT.exe this usually starts it right away.
-
-Under the approval of XEAxMaste (Discord: XEAxMaste#8117)
-This Clean Repack Made By Scintyx (Discord: Scintyx:6419), updated on 2020-10-04 by XEAxMaste for AbaddonKal
 
 Clean Repack V1.0 22/7/2020:
 
