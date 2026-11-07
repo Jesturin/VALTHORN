@@ -1,0 +1,3451 @@
+﻿<!--
+
+Dear translator,
+
+If you would like to translate this language file, or apppend it with non translated strings, please scroll this xml file down. All non translated strings are usually located at the file end.
+
+How to know what string to protect?
+Each language string contains from "original" and "translated" strings, if translated string is empty - then it requires to be translated.
+
+How to send translated language file to developers?
+Please send it to support@enigmaprotector.com
+
+Regards
+  Vladimir Sukhov
+
+-->
+<?xml version="1.0" encoding="windows-1251"?>
+<messages>
+	<message>
+		<original>Protect</original>
+		<translated>Koruma</translated>
+	</message>
+	<message>
+		<original>Project details</original>
+		<translated>Proje Detayları</translated>
+	</message>
+	<message>
+		<original>Full name of project:</original>
+		<translated>Projenin tam adı:</translated>
+	</message>
+	<message>
+		<original>Project description:</original>
+		<translated>Projenin açıklaması:</translated>
+	</message>
+	<message>
+		<original>Input</original>
+		<translated>Giriş:</translated>
+	</message>
+	<message>
+		<original>Enter file name of program module to protect:</original>
+		<translated>Korunacak program modülünün dosya adını girin:</translated>
+	</message>
+	<message>
+		<original>Enter product name or get actual:</original>
+		<translated>Program adı girin veya güncelleyin:</translated>
+	</message>
+	<message>
+		<original>Enter version info or get actual:</original>
+		<translated>Sürüm bilgisini girin veya güncelleyin:</translated>
+	</message>
+	<message>
+		<original>Browse</original>
+		<translated>Gözat</translated>
+	</message>
+	<message>
+		<original>Get actual</original>
+		<translated>Güncelleyin</translated>
+	</message>
+	<message>
+		<original>Icon</original>
+		<translated>İkon</translated>
+	</message>
+	<message>
+		<original>Output</original>
+		<translated>Çıktı</translated>
+	</message>
+	<message>
+		<original>Enter file name for resulting program module:</original>
+		<translated>Elde edilen program modülü için dosya adını girin:</translated>
+	</message>
+	<message>
+		<original>Same as input file name</original>
+		<translated>Girilen dosya adı ile aynı</translated>
+	</message>
+	<message>
+		<original>Compression</original>
+		<translated>Sıkıştırma</translated>
+	</message>
+	<message>
+		<original>Compression type</original>
+		<translated>Sıkıştırma türü</translated>
+	</message>
+	<message>
+		<original>Fast</original>
+		<translated>Hızlı</translated>
+	</message>
+	<message>
+		<original>Best</original>
+		<translated>En iyi</translated>
+	</message>
+	<message>
+		<original>Compression mode</original>
+		<translated>Sıkıştırma modu</translated>
+	</message>
+	<message>
+		<original>Compress all resources, except icon</original>
+		<translated>Simgelerin dışındaki tüm kaynakları sıkıştır</translated>
+	</message>
+	<message>
+		<original>Compress all resources, except icon and version</original>
+		<translated>Simgelerin ve sürümlerin haricindeki tüm kaynakları sıkıştır</translated>
+	</message>
+	<message>
+		<original>Compress all resources</original>
+		<translated>Tüm kaynakları sıkıştır</translated>
+	</message>
+	<message>
+		<original>Allow only hardware locked keys</original>
+		<translated>Yalnızca donanım kilitli anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Allow only time limited keys</original>
+		<translated>Sadece zaman sınırlı anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Registration data storage</original>
+		<translated>Kayıt verileri</translated>
+	</message>
+	<message>
+		<original>Select place where registration information will be stored:</original>
+		<translated>Kayıt bilgilerinin saklanacağı yeri seçin:</translated>
+	</message>
+	<message>
+		<original>Base folder in file system:</original>
+		<translated>Dosya sisteminde temel klasör seçin:</translated>
+	</message>
+	<message>
+		<original>Relative path in file system (e.g.: \YourCompany\key.dat):</original>
+		<translated>Dosya sistemine bağlı yol (örnek: \ProgramAdı\Anahtar.dat):</translated>
+	</message>
+	<message>
+		<original>Base place in registry:</original>
+		<translated>Kayıt altındaki temel yer:</translated>
+	</message>
+	<message>
+		<original>Relative path in registry (e.g.: \SOFTWARE\Programma\):</original>
+		<translated>Kayıt defterine bağlı yol (örnek: \SOFTWARE\Programma\):</translated>
+	</message>
+	<message>
+		<original>Use system registry</original>
+		<translated>Sistem kayıt defterini kullan</translated>
+	</message>
+	<message>
+		<original>Use file system</original>
+		<translated>Dosya sistemini kullan</translated>
+	</message>
+	<message>
+		<original>Use both techniques</original>
+		<translated>Her iki tekniği de kullan</translated>
+	</message>
+	<message>
+		<original>Hardware lock</original>
+		<translated>Donanım kilidi</translated>
+	</message>
+	<message>
+		<original>Select devices that will be used in hardware locking:</original>
+		<translated>Donanım kilidinde kullanılacak cihazları seçin:</translated>
+	</message>
+	<message>
+		<original>System Volume Serial Number</original>
+		<translated>Sistem Birimi Seri Numarası</translated>
+	</message>
+	<message>
+		<original>System Volume Name</original>
+		<translated>Sistem Birimi Adı</translated>
+	</message>
+	<message>
+		<original>Computer Name</original>
+		<translated>Bilgisayar Adı</translated>
+	</message>
+	<message>
+		<original>CPU Type</original>
+		<translated>CPU Türü</translated>
+	</message>
+	<message>
+		<original>MAC</original>
+		<translated>MAC</translated>
+	</message>
+	<message>
+		<original>Registration Dialog</original>
+		<translated>Kayıt Formu</translated>
+	</message>
+	<message>
+		<original>Use custom registration dialog</original>
+		<translated>Özel kayıt formu kullan</translated>
+	</message>
+	<message>
+		<original>Show dialog properties</original>
+		<translated>Kayıt formu özelliklerini göster</translated>
+	</message>
+	<message>
+		<original>Show if the trial has expired</original>
+		<translated>Deneme süresi dolduysa göster</translated>
+	</message>
+	<message>
+		<original>Show if unregistered</original>
+		<translated>Kayıt yapılmadıysa göster</translated>
+	</message>
+	<message>
+		<original>Dialog Messages</original>
+		<translated>Kayıt Formu Mesajları</translated>
+	</message>
+	<message>
+		<original>Show message if key is invalid</original>
+		<translated>Girilen anahtar yanlış ise mesaj göster</translated>
+	</message>
+	<message>
+		<original>Show message if key is valid</original>
+		<translated>Girilen anahtar doğru ise mesaj göster</translated>
+	</message>
+	<message>
+		<original>Design</original>
+		<translated>Tasarım</translated>
+	</message>
+	<message>
+		<original>Anti-debugger</original>
+		<translated>Karşıt-HataAyıklayıcı</translated>
+	</message>
+	<message>
+		<original>Use anti-debugger check-up</original>
+		<translated>Karşıt-HataAyıklayıcı kontrolünü kullan</translated>
+	</message>
+	<message>
+		<original>Design message</original>
+		<translated>Mesaj tasarla</translated>
+	</message>
+	<message>
+		<original>Show message before termination</original>
+		<translated>Deneme süresinin bitiminden önce mesaj göster</translated>
+	</message>
+	<message>
+		<original>Control sum</original>
+		<translated>Hesabı denetle</translated>
+	</message>
+	<message>
+		<original>Use control sum check-up</original>
+		<translated>Hesap denetim kontrolünü kullan</translated>
+	</message>
+	<message>
+		<original>Run-time integrity checking</original>
+		<translated>Çalışma zamanı bütünlüğü denetleme</translated>
+	</message>
+	<message>
+		<original>Startup password</original>
+		<translated>Başlangıç parolası</translated>
+	</message>
+	<message>
+		<original>Password:</original>
+		<translated>Parola:</translated>
+	</message>
+	<message>
+		<original>Use password check-up</original>
+		<translated>Parola denetimini kullan</translated>
+	</message>
+	<message>
+		<original>Action</original>
+		<translated>Eylem</translated>
+	</message>
+	<message>
+		<original>Always ask for password</original>
+		<translated>Her zaman parola sor</translated>
+	</message>
+	<message>
+		<original>Ask for password only first time</original>
+		<translated>Yalnızca ilk girişte parola sor</translated>
+	</message>
+	<message>
+		<original>Passwords</original>
+		<translated>Parolalar</translated>
+	</message>
+	<message>
+		<original>Add</original>
+		<translated>Ekle</translated>
+	</message>
+	<message>
+		<original>Edit</original>
+		<translated>Düzenle</translated>
+	</message>
+	<message>
+		<original>Delete</original>
+		<translated>Sil</translated>
+	</message>
+	<message>
+		<original>File name</original>
+		<translated>Dosya adı</translated>
+	</message>
+	<message>
+		<original>Original file name:</original>
+		<translated>Özgün dosya adı:</translated>
+	</message>
+	<message>
+		<original>Use file name check-up</original>
+		<translated>Dosya adı denetimini kullan</translated>
+	</message>
+	<message>
+		<original>Disk drive</original>
+		<translated>Disk sürücüsü türü</translated>
+	</message>
+	<message>
+		<original>Use disk drive type check-up</original>
+		<translated>Disk sürücü türü denetimini kullan</translated>
+	</message>
+	<message>
+		<original>Selection</original>
+		<translated>Seçenek</translated>
+	</message>
+	<message>
+		<original>The drive type cannot be determined</original>
+		<translated>Sürücü türü denetlenemiyor</translated>
+	</message>
+	<message>
+		<original>The root directory does not exist</original>
+		<translated>Kök dizin yok</translated>
+	</message>
+	<message>
+		<original>The disk can be removed from the drive</original>
+		<translated>Disk sürücüden çıkarılabilir</translated>
+	</message>
+	<message>
+		<original>The disk cannot be removed from the drive</original>
+		<translated>Disk sürücüden çıkarılmamalıdır</translated>
+	</message>
+	<message>
+		<original>The drive is a remote (network) drive</original>
+		<translated>Sürücü uzak (ağ) bir sürücüdür</translated>
+	</message>
+	<message>
+		<original>The drive is a CD-ROM drive</original>
+		<translated>Sürücü bir CD-ROM sürücüsüdür</translated>
+	</message>
+	<message>
+		<original>The drive is a RAM disk</original>
+		<translated>Sürücü bir RAM disktir</translated>
+	</message>
+	<message>
+		<original>Check-up policy</original>
+		<translated>Politikayı denetle</translated>
+	</message>
+	<message>
+		<original>Deny all except selected</original>
+		<translated>Seçilenler dışında hepsini reddet</translated>
+	</message>
+	<message>
+		<original>Allow all except selected</original>
+		<translated>Seçilenler dışında hepsini kabul et</translated>
+	</message>
+	<message>
+		<original>Executed copies</original>
+		<translated>Uygulanan kopyalar</translated>
+	</message>
+	<message>
+		<original>Allow copies:</original>
+		<translated>Kopyaları onayla:</translated>
+	</message>
+	<message>
+		<original>Use limitation of count of executed copies</original>
+		<translated>Uygulanan kopyaların sayı sınırlamasını kullan</translated>
+	</message>
+	<message>
+		<original>Show message if copies count is exceeded</original>
+		<translated>Kopya sayı sınırı aşılırsa mesaj göster</translated>
+	</message>
+	<message>
+		<original>User language</original>
+		<translated>Kullanıcı dili</translated>
+	</message>
+	<message>
+		<original>Lock execution to user language</original>
+		<translated>Uygulamayı kullanıcı diline kilitle</translated>
+	</message>
+	<message>
+		<original>Select countries to allow execution only</original>
+		<translated>Uygulanacak ülkeleri seçin</translated>
+	</message>
+	<message>
+		<original>Select all</original>
+		<translated>Tümünü seç</translated>
+	</message>
+	<message>
+		<original>Unselect all</original>
+		<translated>Tüm seçimi kaldır</translated>
+	</message>
+	<message>
+		<original>Invert selection</original>
+		<translated>Seçimi ters çevir</translated>
+	</message>
+	<message>
+		<original>External Files</original>
+		<translated>Dış Dosyalar</translated>
+	</message>
+	<message>
+		<original>Use checkup of external files</original>
+		<translated>Dış dosyaların denetimini kullan</translated>
+	</message>
+	<message>
+		<original>Add File</original>
+		<translated>Dosya Ekle</translated>
+	</message>
+	<message>
+		<original>Delete File</original>
+		<translated>Dosyayı Sil</translated>
+	</message>
+	<message>
+		<original>File Name</original>
+		<translated>Dosya Adı</translated>
+	</message>
+	<message>
+		<original>Base Relative Path</original>
+		<translated>Temel Bağıl Yol</translated>
+	</message>
+	<message>
+		<original>Relative Path</original>
+		<translated>Bağıl Yol</translated>
+	</message>
+	<message>
+		<original>Current File Path</original>
+		<translated>Geçerli Dosya Yolu</translated>
+	</message>
+	<message>
+		<original>Size</original>
+		<translated>Boyut</translated>
+	</message>
+	<message>
+		<original>Date</original>
+		<translated>Tarih</translated>
+	</message>
+	<message>
+		<original>Attributes</original>
+		<translated>Özellikler</translated>
+	</message>
+	<message>
+		<original>Hash</original>
+		<translated>Hash</translated>
+	</message>
+	<message>
+		<original>Version</original>
+		<translated>Sürüm</translated>
+	</message>
+	<message>
+		<original>Executed Processes</original>
+		<translated>Uygulanan İşlemler</translated>
+	</message>
+	<message>
+		<original>Use checkup of executed processes</original>
+		<translated>Uygulanan işlemler denetimini kullan</translated>
+	</message>
+	<message>
+		<original>Window Text</original>
+		<translated>Pencere Metni</translated>
+	</message>
+	<message>
+		<original>Window Class</original>
+		<translated>Pencere Sınıfı</translated>
+	</message>
+	<message>
+		<original>Add Process</original>
+		<translated>İşlem Ekle</translated>
+	</message>
+	<message>
+		<original>Delete Process</original>
+		<translated>İşlem Sil</translated>
+	</message>
+	<message>
+		<original>Installed Services</original>
+		<translated>Yüklü Hizmetler</translated>
+	</message>
+	<message>
+		<original>Use checkup of installed services</original>
+		<translated>Kurulu servislerin denetimini kullan</translated>
+	</message>
+	<message>
+		<original>Display Name</original>
+		<translated>Görünen Ad</translated>
+	</message>
+	<message>
+		<original>Add Service</original>
+		<translated>Hizmet Ekle</translated>
+	</message>
+	<message>
+		<original>Delete Service</original>
+		<translated>Hizmet Sil</translated>
+	</message>
+	<message>
+		<original>Windows Version</original>
+		<translated>Windows Sürümü</translated>
+	</message>
+	<message>
+		<original>Use checkup of Windows version</original>
+		<translated>Windows sürüm denetimini kullan</translated>
+	</message>
+	<message>
+		<original>Virtualization Tools</original>
+		<translated>Sanallaştırma Araçları</translated>
+	</message>
+	<message>
+		<original>Use checkup of Virtualization Tools</original>
+		<translated>Sanallaştırma Araç denetimini kullan</translated>
+	</message>
+	<message>
+		<original>File analyzer deception</original>
+		<translated>Güvenlik entegrasyonu</translated>
+	</message>
+	<message>
+		<original>Name of the protection code section:</original>
+		<translated>Güvenlik kodu bölümünün adı:</translated>
+	</message>
+	<message>
+		<original>Hide protection code with:</original>
+		<translated>Bununla güvenlik kodunu gizle:</translated>
+	</message>
+	<message>
+		<original>Original file size preservation</original>
+		<translated>Conservar dimensiones originales</translated>
+	</message>
+	<message>
+		<original>Use original file size preservation</original>
+		<translated>Dosya boyut korumasını kullan</translated>
+	</message>
+	<message>
+		<original>Extra resource protection</original>
+		<translated>Ekstra kaynak koruması</translated>
+	</message>
+	<message>
+		<original>Use extra resource protection</original>
+		<translated>Ekstra kaynak korumasını kullan</translated>
+	</message>
+	<message>
+		<original>Advance force import protection</original>
+		<translated>Gelişmiş içe aktarma koruması</translated>
+	</message>
+	<message>
+		<original>Use advance force import protection</original>
+		<translated>Gelişmiş içe aktarma korumasını kullan</translated>
+	</message>
+	<message>
+		<original>WinAPI redirection</original>
+		<translated>WinAPI yönlendirme</translated>
+	</message>
+	<message>
+		<original>Use functions of redirection WinAPI</original>
+		<translated>WinAPI yönlendirme işlevini kullan</translated>
+	</message>
+	<message>
+		<original>WinAPI emulation</original>
+		<translated>WinAPI öykünmesi</translated>
+	</message>
+	<message>
+		<original>Use WinAPI functions emulation</original>
+		<translated>WinAPI öykünmesi işlevi kullan</translated>
+	</message>
+	<message>
+		<original>Files attachment</original>
+		<translated>Dosya eki</translated>
+	</message>
+	<message>
+		<original>Use protected files attachment</original>
+		<translated>Dosya eki koruması kullan</translated>
+	</message>
+	<message>
+		<original>Action:</original>
+		<translated>Eylem:</translated>
+	</message>
+	<message>
+		<original>Relative Path:</original>
+		<translated>İlgili Yol:</translated>
+	</message>
+	<message>
+		<original>Never Write to Disk</original>
+		<translated>Asla diske yazma</translated>
+	</message>
+	<message>
+		<original>Always Write to Disk</original>
+		<translated>Daima diske yaz</translated>
+	</message>
+	<message>
+		<original>Write if not Present</original>
+		<translated>Mevcut değilse yaz</translated>
+	</message>
+	<message>
+		<original>File entry point</original>
+		<translated>Dosya giriş noktası</translated>
+	</message>
+	<message>
+		<original>Use file entry point obfuscation</original>
+		<translated>Dosya giriş noktası şaşırtmasını kullan</translated>
+	</message>
+	<message>
+		<original>Virtual machine</original>
+		<translated>Sanal makine</translated>
+	</message>
+	<message>
+		<original>Functions selecting</original>
+		<translated>İşlev seçimi</translated>
+	</message>
+	<message>
+		<original>Show functions</original>
+		<translated>İşlevleri göster</translated>
+	</message>
+	<message>
+		<original>Enable virtual machine</original>
+		<translated>Sanal makineyi etkinleştir</translated>
+	</message>
+	<message>
+		<original>Select functions for virtualization</original>
+		<translated>Sanallaştırma için işlev seç</translated>
+	</message>
+	<message>
+		<original>Accurate selecting</original>
+		<translated>Kesin seçim</translated>
+	</message>
+	<message>
+		<original>All</original>
+		<translated>Tümü</translated>
+	</message>
+	<message>
+		<original>Selected</original>
+		<translated>Seçili</translated>
+	</message>
+	<message>
+		<original>Non selected</original>
+		<translated>Seçili değil</translated>
+	</message>
+	<message>
+		<original>Custom</original>
+		<translated>Özel</translated>
+	</message>
+	<message>
+		<original>Filter</original>
+		<translated>Filtre</translated>
+	</message>
+	<message>
+		<original>Expression:</original>
+		<translated>Anlatım:</translated>
+	</message>
+	<message>
+		<original>Do</original>
+		<translated>Yap</translated>
+	</message>
+	<message>
+		<original>Mass Selecting</original>
+		<translated>Yığın Seçim</translated>
+	</message>
+	<message>
+		<original>Select</original>
+		<translated>Seç</translated>
+	</message>
+	<message>
+		<original>Deselect</original>
+		<translated>Seçme</translated>
+	</message>
+	<message>
+		<original>From:</original>
+		<translated>Buradan:</translated>
+	</message>
+	<message>
+		<original>To:</original>
+		<translated>Buraya:</translated>
+	</message>
+	<message>
+		<original>Simulating</original>
+		<translated>Simülasyon</translated>
+	</message>
+	<message>
+		<original>Command line</original>
+		<translated>Komut satırı</translated>
+	</message>
+	<message>
+		<original>Unselect non used functions</original>
+		<translated>Kullanılmayan işlevlerin seçimini kaldır</translated>
+	</message>
+	<message>
+		<original>Unselect high used functions</original>
+		<translated>Çok kullanılan işlevlerin seçimini kaldır</translated>
+	</message>
+	<message>
+		<original>Start simulating</original>
+		<translated>Simülasyonu başlat</translated>
+	</message>
+	<message>
+		<original>Stop simulating</original>
+		<translated>Simülasyonu bitir</translated>
+	</message>
+	<message>
+		<original>Name</original>
+		<translated>Ad</translated>
+	</message>
+	<message>
+		<original>Virtual Address</original>
+		<translated>Sanal Adres</translated>
+	</message>
+	<message>
+		<original>Executions counter</original>
+		<translated>Uygulama sayacı</translated>
+	</message>
+	<message>
+		<original>Splash screen</original>
+		<translated>Açılış ekranı</translated>
+	</message>
+	<message>
+		<original>Location of the bitmap file for splash:</original>
+		<translated>Açılıştaki bitmap dosyasının yeri:</translated>
+	</message>
+	<message>
+		<original>Splash screen time to show (milliseconds):</original>
+		<translated>Açılış ekranının gösterim süresi (milisaniye):</translated>
+	</message>
+	<message>
+		<original>Use splash screen</original>
+		<translated>Açılış ekranı kullan</translated>
+	</message>
+	<message>
+		<original>Show on the top of all windows</original>
+		<translated>Tüm pencerelerin üstünde göster</translated>
+	</message>
+	<message>
+		<original>Common</original>
+		<translated>Genel</translated>
+	</message>
+	<message>
+		<original>Reset trial in new version</original>
+		<translated>Yeni sürümde deneme süresini sıfırla</translated>
+	</message>
+	<message>
+		<original>Trial expiration action</original>
+		<translated>Deneme süresinin sona erme eylemi</translated>
+	</message>
+	<message>
+		<original>Open file if the trial has expired</original>
+		<translated>Deneme süresi dolduysa dosya aç</translated>
+	</message>
+	<message>
+		<original>File name:</original>
+		<translated>Dosya adı:</translated>
+	</message>
+	<message>
+		<original>Lock trial to user language</original>
+		<translated>Denemeyi kullanıcı diline kilitle</translated>
+	</message>
+	<message>
+		<original>Select countries to allow trial settings only</original>
+		<translated>Deneme ayarlarına izin vermek istediğiniz ülkeleri seçin</translated>
+	</message>
+	<message>
+		<original>Limitation by executions count</original>
+		<translated>Uygulama kullanım sayısıyla sınırlama</translated>
+	</message>
+	<message>
+		<original>Maximal count of executions:</original>
+		<translated>En fazla uygulama kullanım sayısı:</translated>
+	</message>
+	<message>
+		<original>Use limitation by executions count</original>
+		<translated>Uygulama kullanım sayısıyla sınırlama kullan</translated>
+	</message>
+	<message>
+		<original>Action when expired</original>
+		<translated>Deneme süresi dolduğunda yapılacak eylem</translated>
+	</message>
+	<message>
+		<original>Terminate execution after (seconds)</original>
+		<translated>Çalışmayı (saniye) sonra sonlandır</translated>
+	</message>
+	<message>
+		<original>Limitation by days count</original>
+		<translated>Gün sayısıyla sınırlama</translated>
+	</message>
+	<message>
+		<original>Maximal count of days:</original>
+		<translated>En fazla gün sayısı:</translated>
+	</message>
+	<message>
+		<original>Use limitation by days count</original>
+		<translated>Gün sayısıyla sınırlama kullan</translated>
+	</message>
+	<message>
+		<original>Limitation by expiration date</original>
+		<translated>Son kullanma tarihine göre sınırlama</translated>
+	</message>
+	<message>
+		<original>Expiration date:</original>
+		<translated>Son kullanma tarihi:</translated>
+	</message>
+	<message>
+		<original>Use limitation by expiration date</original>
+		<translated>Son kullanma tarihine göre sınırlama kullan</translated>
+	</message>
+	<message>
+		<original>Limitation from date till date</original>
+		<translated>Belirli bir tarihe kadar sınırlama</translated>
+	</message>
+	<message>
+		<original>Use limitation from date till date</original>
+		<translated>Belirli bir tarihe kadar sınırlama kullan</translated>
+	</message>
+	<message>
+		<original>Start trial date:</original>
+		<translated>Denemenin başlangıç tarihi:</translated>
+	</message>
+	<message>
+		<original>End trial date:</original>
+		<translated>Denemenin bitiş tarihi:</translated>
+	</message>
+	<message>
+		<original>Limitation of execution time</original>
+		<translated>Uygulama süresinin sınırlanması</translated>
+	</message>
+	<message>
+		<original>Number of minutes:</original>
+		<translated>Dakika sayısı:</translated>
+	</message>
+	<message>
+		<original>Use limitation of execution time</original>
+		<translated>Uygulama süresinin sınırlanmasını kullan</translated>
+	</message>
+	<message>
+		<original>Terminate on expiration</original>
+		<translated>Son kullanma tarihinde sonlandır</translated>
+	</message>
+	<message>
+		<original>Reminder</original>
+		<translated>Hatırlatma</translated>
+	</message>
+	<message>
+		<original>Seconds between shows:</original>
+		<translated>Gösterimler arası saniye:</translated>
+	</message>
+	<message>
+		<original>Use reminder</original>
+		<translated>Hatırlatma kullan</translated>
+	</message>
+	<message>
+		<original>Time control</original>
+		<translated>Zaman kontrolü</translated>
+	</message>
+	<message>
+		<original>Terminate on clock reversing</original>
+		<translated>Saat tamamlandığında sonlandır</translated>
+	</message>
+	<message>
+		<original>Program modules (*.exe *.scr *.dll *.ocx)|*.EXE;*.SCR;*.DLL;*.OCX|All files (*.*)|*.*</original>
+		<translated>Dosya uzantıları (*.exe *.scr *.dll *.ocx)|*.EXE;*.SCR;*.DLL;*.OCX|Tüm dosyalar (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Select file name of programm module to protect</original>
+		<translated>Koruma için program modülünün adını seçin</translated>
+	</message>
+	<message>
+		<original>Bitmap files (*.bmp)|*.BMP|All files (*.*)|*.*</original>
+		<translated>Bitmap dosyaları (*.bmp)|*.BMP|Tüm dosyalar (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Select bitmap file for splash</original>
+		<translated>Açılış ekranı için bitmap dosyası seçin</translated>
+	</message>
+	<message>
+		<original>DLL files (*.dll)|*.DLL|All files (*.*)|*.*</original>
+		<translated>DLL dosyası (*.dll)|*.DLL|Tüm dosyalar (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Select DLL file to attach</original>
+		<translated>Eklenecek DLL dosyasını seçin</translated>
+	</message>
+	<message>
+		<original>Map files (*.map)|*.MAP|All files (*.*)|*.*</original>
+		<translated>Map dosyası (*.map)|*.MAP|Tüm dosyalar (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Select map file</original>
+		<translated>Map dosyası seçin</translated>
+	</message>
+	<message>
+		<original>Select file name for resulting program module</original>
+		<translated>Oluşan program modülü için dosya adını seçin</translated>
+	</message>
+	<message>
+		<original>&amp;File</original>
+		<translated>&amp;Dosya</translated>
+	</message>
+	<message>
+		<original>&amp;New project</original>
+		<translated>&amp;Yeni proje</translated>
+	</message>
+	<message>
+		<original>&amp;Open project...</original>
+		<translated>&amp;Proje aç...</translated>
+	</message>
+	<message>
+		<original>&amp;Close project</original>
+		<translated>&amp;Projeyi kapat</translated>
+	</message>
+	<message>
+		<original>&amp;Save project</original>
+		<translated>&amp;Projeyi kaydet</translated>
+	</message>
+	<message>
+		<original>Save project &amp;As...</original>
+		<translated>Projeyi &amp;Farklı kaydet...</translated>
+	</message>
+	<message>
+		<original>E&amp;xit</original>
+		<translated>Ç&amp;ıkış</translated>
+	</message>
+	<message>
+		<original>&amp;Tools</original>
+		<translated>&amp;Araçlar</translated>
+	</message>
+	<message>
+		<original>Key generator</original>
+		<translated>Anahtar üreteci</translated>
+	</message>
+	<message>
+		<original>Debug</original>
+		<translated>HataAyıklama</translated>
+	</message>
+	<message>
+		<original>Reset local trial information</original>
+		<translated>Yerel deneme bilgisini sıfırlayın</translated>
+	</message>
+	<message>
+		<original>Reset local registration information</original>
+		<translated>Yerel kayıt bilgilerini sıfırlayın</translated>
+	</message>
+	<message>
+		<original>&amp;Language</original>
+		<translated>&amp;Dil</translated>
+	</message>
+	<message>
+		<original>&amp;Help</original>
+		<translated>&amp;Yardım</translated>
+	</message>
+	<message>
+		<original>Help context</original>
+		<translated>Yardım bağlamı</translated>
+	</message>
+	<message>
+		<original>Unlock...</original>
+		<translated>Kilit Aç...</translated>
+	</message>
+	<message>
+		<original>On-line registration</original>
+		<translated>Çevrimiçi Kayıt</translated>
+	</message>
+	<message>
+		<original>About...</original>
+		<translated>Hakkında...</translated>
+	</message>
+	<message>
+		<original>SETTINGS</original>
+		<translated>AYARLAR</translated>
+	</message>
+	<message>
+		<original>REGISTRATION FEATURES</original>
+		<translated>KAYIT ÖZELLİKLERİ</translated>
+	</message>
+	<message>
+		<original>CHECK-UP</original>
+		<translated>İNCELEME</translated>
+	</message>
+	<message>
+		<original>PROTECTION FEATURES</original>
+		<translated>GÜVENLİK ÖZELLİKLERİ</translated>
+	</message>
+	<message>
+		<original>OBFUSCATION</original>
+		<translated>ŞAŞIRTMACA</translated>
+	</message>
+	<message>
+		<original>MISCELLANEOUS</original>
+		<translated>MUHTELİF</translated>
+	</message>
+	<message>
+		<original>TRIAL CONTROL</original>
+		<translated>DENEME KONTROLLERİ</translated>
+	</message>
+	<message>
+		<original>Could not open selected file. Program terminated.</original>
+		<translated>Seçilen dosya açılamadı. Program sona erdi.</translated>
+	</message>
+	<message>
+		<original>You gave two parameters and first of them is not -param. Program terminated.</original>
+		<translated>İki parametre belirtilmiş ve bunlardan ilki -param değil. Program sona erdi.</translated>
+	</message>
+	<message>
+		<original>Local trial information was reseted successfully.</original>
+		<translated>Yerel deneme sürümü bilgileri başarıyla sıfırlandı.</translated>
+	</message>
+	<message>
+		<original>Local trial information was not found.</original>
+		<translated>Yerel deneme sürümü bilgileri bulunamadı.</translated>
+	</message>
+	<message>
+		<original>Local registration information was reseted successfully.</original>
+		<translated>Yerel kayıt bilgileri başarıyla sıfırlandı.</translated>
+	</message>
+	<message>
+		<original>Local registration information was not found.</original>
+		<translated>Yerel kayıt bilgileri bulunamadı.</translated>
+	</message>
+	<message>
+		<original>Language was changed. Please restart application.</original>
+		<translated>Uygulama dili değişti. Lütfen uygulamayı tekrar başlatın.</translated>
+	</message>
+	<message>
+		<original>Would you like to save the project?</original>
+		<translated>Projeyi kaydetmek ister misiniz?</translated>
+	</message>
+	<message>
+		<original>restart of the application is needed</original>
+		<translated>Uygulamanın yeniden başlatılması gerekiyor</translated>
+	</message>
+	<message>
+		<original>This password is exists!</original>
+		<translated>Bu parola kullanılıyor!</translated>
+	</message>
+	<message>
+		<original>Save current project?</original>
+		<translated>Geçerli projeyi kaydedelim mi?</translated>
+	</message>
+	<message>
+		<original>The extension &quot;enigma&quot; is not associated with the Enigma Protector. Associate it?</original>
+		<translated>&quot;Enigma&quot; uzantısı, Enigma Protector ile ilişkili değildir. Benzettiniz mi?</translated>
+	</message>
+	<message>
+		<original>Please, fill out the registration name field!</original>
+		<translated>Lütfen, kayıt adı alanını doldurun!</translated>
+	</message>
+	<message>
+		<original>Please, fill out the registration key field!</original>
+		<translated>Lütfen kayıt anahtarı alanını doldurun!</translated>
+	</message>
+	<message>
+		<original>Please, fill out the registration name and key fields!</original>
+		<translated>Lütfen kayıt adını ve anahtar alanını doldurun!</translated>
+	</message>
+	<message>
+		<original>Enter key!</original>
+		<translated>Kayıt anahtarını girin!</translated>
+	</message>
+	<message>
+		<original>Password can&apos;t be edited!</original>
+		<translated>Parola değiştirilemez!</translated>
+	</message>
+	<message>
+		<original>Loading project settings...</original>
+		<translated>Proje ayarları yükleniyor...</translated>
+	</message>
+	<message>
+		<original>Loading extrenal file: %s</original>
+		<translated>Harici dosya yükleniyor: %s</translated>
+	</message>
+	<message>
+		<original>- file is not found!</original>
+		<translated>- dosya bulunamadı!</translated>
+	</message>
+	<message>
+		<original>Loading functions under Virtual Machine...</original>
+		<translated>Sanal Makine altındaki işlevler yükleniyor...</translated>
+	</message>
+	<message>
+		<original>- function %s  found</original>
+		<translated>- %s işlevi bulundu</translated>
+	</message>
+	<message>
+		<original>Source file not found</original>
+		<translated>Kaynak dosya bulunamadı</translated>
+	</message>
+	<message>
+		<original>Destination file is write protected</original>
+		<translated>Hedef dosya yazmaya karşı korumalı</translated>
+	</message>
+	<message>
+		<original>Source file is empty</original>
+		<translated>Kaynak dosya boş</translated>
+	</message>
+	<message>
+		<original>Unexpected value in PE header</original>
+		<translated>PE üstbilgisinde beklenmedik değer</translated>
+	</message>
+	<message>
+		<original>File already protected(compressed), protection stopped</original>
+		<translated>Dosya zaten korunmuş (sıkıştırılmış), koruma durduruldu</translated>
+	</message>
+	<message>
+		<original>Input file size = %d bytes</original>
+		<translated>Giriş dosya boyutu = %d bayt</translated>
+	</message>
+	<message>
+		<original>Detect compiler : %s</original>
+		<translated>Derleyiciyi belirle : %s</translated>
+	</message>
+	<message>
+		<original>File entropy : %f</original>
+		<translated>Dosya entropisi : %f</translated>
+	</message>
+	<message>
+		<original>Process Black List ...</original>
+		<translated>İşlem Kara Listesi ...</translated>
+	</message>
+	<message>
+		<original>Number of Stolen keys: %d</original>
+		<translated>Çalınmış anahtar sayısı: %d</translated>
+	</message>
+	<message>
+		<original>Process Entry point ...</original>
+		<translated>Giriş noktası işlemi ...</translated>
+	</message>
+	<message>
+		<original>- number of emulated instructions: %d instructions</original>
+		<translated>- öykünülmüş talimatların sayısı: %d talimat</translated>
+	</message>
+	<message>
+		<original>Compress section :</original>
+		<translated>Sıkıştırma bölümü :</translated>
+	</message>
+	<message>
+		<original> - &quot;%s&quot;, size %d bytes ...</original>
+		<translated> - &quot;%s&quot;, boyut %d bayt ...</translated>
+	</message>
+	<message>
+		<original>done, new size %d bytes</original>
+		<translated>bitti, yeni boyut %d bayt</translated>
+	</message>
+	<message>
+		<original>All completed, new file size = %d bytes, ratio %f%%</original>
+		<translated>Tamamlandı, yeni dosya boyutu = %d bayt, sıkıştırma oranı %f%%</translated>
+	</message>
+	<message>
+		<original>- %d function(s) processed</original>
+		<translated>- %d işlev(ler) işlendi</translated>
+	</message>
+	<message>
+		<original>Process map file %s</original>
+		<translated>Map dosyası işleme %s</translated>
+	</message>
+	<message>
+		<original>- %d function(s) found</original>
+		<translated>- %d işlev(ler) bulundu</translated>
+	</message>
+	<message>
+		<original>Marker found: %s, virtual address: 0x%.8x</original>
+		<translated>İşaretçi bulundu: %s, sanal adres: 0x%.8x</translated>
+	</message>
+	<message>
+		<original>Markers error: the END marker is placed before BEGIN marker! All data will be ignored</original>
+		<translated>İşaretleme hatası: END işaretçisi BEGIN işaretçisinden önce yerleştirildi! Tüm veriler yok sayılır</translated>
+	</message>
+	<message>
+		<original>Markers error: the BEGIN marker %s is placed without END marker! All data will be ignored</original>
+		<translated>İşaretleme hatası: BEGIN işaretçisi %s END işaretçisi olmadan yerleştirildi! Tüm veriler yok sayılır</translated>
+	</message>
+	<message>
+		<original>Markers error: the marker %s can&apos;t be placed into %s marker! All data will be ignored</original>
+		<translated>İşaretleme hatası: %s işaretçisi, %s işaretçisine yerleştirilemiyor! Tüm veriler yok sayılır</translated>
+	</message>
+	<message>
+		<original>Markers error: incorrect pair of markers %s - %s</original>
+		<translated>İşaretleme hatası: yanlış işaretçi çifti %s - %s</translated>
+	</message>
+	<message>
+		<original>Enter unlock information</original>
+		<translated>Kilit açma bilgisi girin</translated>
+	</message>
+	<message>
+		<original>Enter registration key:</original>
+		<translated>Kayıt anahtarı girin:</translated>
+	</message>
+	<message>
+		<original>Enter registration name:</original>
+		<translated>Kayıt adını girin:</translated>
+	</message>
+	<message>
+		<original>Hardware ID</original>
+		<translated>Donanım Kimliği</translated>
+	</message>
+	<message>
+		<original>Ok</original>
+		<translated>Tamam</translated>
+	</message>
+	<message>
+		<original>Cancel</original>
+		<translated>İptal</translated>
+	</message>
+	<message>
+		<original>Unregister</original>
+		<translated>Kayıt iptali</translated>
+	</message>
+	<message>
+		<original>Copy</original>
+		<translated>Kopyala</translated>
+	</message>	
+	<message>
+		<original>Enigma Key generator</original>
+		<translated>Enigma Anahtar Üreteci</translated>
+	</message>
+	<message>
+		<original>Registration name:</original>
+		<translated>Kayıt adı:</translated>
+	</message>
+	<message>
+		<original>Registration key:</original>
+		<translated>Kayıt anahtarı:</translated>
+	</message>
+	<message>
+		<original>Result of the verification:</original>
+		<translated>Doğrulama sonucu:</translated>
+	</message>
+	<message>
+		<original>Verify</original>
+		<translated>Doğrula</translated>
+	</message>
+	<message>
+		<original>Select sections for decryption</original>
+		<translated>Şifre çözme bölümlerini seçin</translated>
+	</message>
+	<message>
+		<original>Section 7</original>
+		<translated>Bölüm 7</translated>
+	</message>
+	<message>
+		<original>Section 1</original>
+		<translated>Bölüm 1</translated>
+	</message>
+	<message>
+		<original>Section 2</original>
+		<translated>Bölüm 2</translated>
+	</message>
+	<message>
+		<original>Section 3</original>
+		<translated>Bölüm 3</translated>
+	</message>
+	<message>
+		<original>Section 4</original>
+		<translated>Bölüm 4</translated>
+	</message>
+	<message>
+		<original>Section 5</original>
+		<translated>Bölüm 5</translated>
+	</message>
+	<message>
+		<original>Section 6</original>
+		<translated>Bölüm 6</translated>
+	</message>
+	<message>
+		<original>Section 8</original>
+		<translated>Bölüm 8</translated>
+	</message>
+	<message>
+		<original>Section 9</original>
+		<translated>Bölüm 9</translated>
+	</message>
+	<message>
+		<original>Section 10</original>
+		<translated>Bölüm 10</translated>
+	</message>
+	<message>
+		<original>Section 11</original>
+		<translated>Bölüm 11</translated>
+	</message>
+	<message>
+		<original>Section 12</original>
+		<translated>Bölüm 12</translated>
+	</message>
+	<message>
+		<original>Section 13</original>
+		<translated>Bölüm 13</translated>
+	</message>
+	<message>
+		<original>Section 14</original>
+		<translated>Bölüm 14</translated>
+	</message>
+	<message>
+		<original>Section 15</original>
+		<translated>Bölüm 15</translated>
+	</message>
+	<message>
+		<original>Section 16</original>
+		<translated>Bölüm 16</translated>
+	</message>
+	<message>
+		<original>Paste</original>
+		<translated>Yapıştır</translated>
+	</message>
+	<message>
+		<original>Key expiration date</original>
+		<translated>Anahtar son kullanma tarihi</translated>
+	</message>
+	<message>
+		<original>Generate</original>
+		<translated>Oluştur</translated>
+	</message>
+	<message>
+		<original>Close</original>
+		<translated>Kapat</translated>
+	</message>
+	<message>
+		<original>This copy is registered to:</original>
+		<translated>Bu kopyanın kayıtlı olduğu isim:</translated>
+	</message>
+	<message>
+		<original>E-mail: </original>
+		<translated>E-posta: </translated>
+	</message>
+	<message>
+		<original>Web site: </original>
+		<translated>Website: </translated>
+	</message>
+	<message>
+		<original>License type:</original>
+		<translated>Lisans türü:</translated>
+	</message>
+	<message>
+		<original>Protection process log</original>
+		<translated>Güvenlik işlemi günlüğü</translated>
+	</message>
+	<message>
+		<original>Run</original>
+		<translated>Çalıştır</translated>
+	</message>
+	<message>
+		<original> - &quot;%s&quot;, size %d bytes ... </original>
+		<translated> - &quot;%s&quot;, boyut %d bayt ... </translated>
+	</message>
+	<message>
+		<original>Motherboard</original>
+		<translated>Anakart</translated>
+	</message>
+	<message>
+		<original>Password</original>
+		<translated>Parola</translated>
+	</message>
+	<message>
+		<original>Commentary</original>
+		<translated>Yorum</translated>
+	</message>
+	<message>
+		<original>Modified</original>
+		<translated>Değşitirilmiş</translated>
+	</message>
+	<message>
+		<original>UNREGISTERED</original>
+		<translated>KAYITLI DEĞİL</translated>
+	</message>
+	<message>
+		<original>Message designer</original>
+		<translated>Mesaj tasarımcısı</translated>
+	</message>
+	<message>
+		<original>URL of hyperlink (for example: http://www.yoursite.com/)</original>
+		<translated>Köprü Bağlantısı (örnek: http://www.siteniz.com/)</translated>
+	</message>
+	<message>
+		<original>Text of the message:</original>
+		<translated>Mesaj metni:</translated>
+	</message>
+	<message>
+		<original>Title of the message:</original>
+		<translated>Mesaj başlığı:</translated>
+	</message>
+	<message>
+		<original>Text of the sentence with hyperlink</original>
+		<translated>Köprü bağlantılı cümlenin metni</translated>
+	</message>
+	<message>
+		<original>Use hyperlink</original>
+		<translated>Bağlantı kullan</translated>
+	</message>
+	<message>
+		<original>Preview</original>
+		<translated>Önizleme</translated>
+	</message>
+	<message>
+		<original>Unexpected exception:</original>
+		<translated>Beklenmedik durum:</translated>
+	</message>
+	<message>
+		<original>Please, send this error to errors@enigmaprotector.com to remove bug in new version!</original>
+		<translated>Lütfen, yeni sürümdeki hatayı çözmek için errors@enigmaprotector.com adresine gönderin!</translated>
+	</message>
+	<message>
+		<original>EP obfuscation has stopped... Can&apos;t process instruction: %.2x %.2x %.2x %.2x %.2x</original>
+		<translated>EP şaşırtması durdu. Komut işlenemiyor: %.2x %.2x %.2x %.2x %.2x</translated>
+	</message>
+	<message>
+		<original>Protection started ...</original>
+		<translated>Koruma işlemi başladı...</translated>
+	</message>
+	<message>
+		<original>Compress embeded file:</original>
+		<translated>Gömülü dosyayı sıkıştır:</translated>
+	</message>
+	<message>
+		<original>Can&apos;t open file:</original>
+		<translated>Dosya açılamıyor:</translated>
+	</message>
+	<message>
+		<original>Select Process</original>
+		<translated>İşlemi seçin</translated>
+	</message>
+	<message>
+		<original>Process</original>
+		<translated>İşlem</translated>
+	</message>
+	<message>
+		<original>Window</original>
+		<translated>Pencere</translated>
+	</message>
+	<message>
+		<original>Select Service</original>
+		<translated>Servisi Seçin</translated>
+	</message>
+	<message>
+		<original>Registration Manager</original>
+		<translated>Kayıt Yönetimi</translated>
+	</message>
+	<message>
+		<original>New</original>
+		<translated>Yeni</translated>
+	</message>
+	<message>
+		<original>Registrations List:</original>
+		<translated>Kayıt Listesi:</translated>
+	</message>
+	<message>
+		<original>Stolen</original>
+		<translated>Çalınmış</translated>
+	</message>
+	<message>
+		<original>Subscribed</original>
+		<translated>Abone olunan</translated>
+	</message>
+	<message>
+		<original>Customer</original>
+		<translated>Müşteri</translated>
+	</message>
+	<message>
+		<original>Key</original>
+		<translated>Anahtar</translated>
+	</message>
+	<message>
+		<original>Created Date</original>
+		<translated>Oluşturulduğu Tarih</translated>
+	</message>
+	<message>
+		<original>Expiration Date</original>
+		<translated>Son Kullanma Tarihi</translated>
+	</message>
+	<message>
+		<original>Comment</original>
+		<translated>Yorum</translated>
+	</message>
+	<message>
+		<original>Reference #</original>
+		<translated>Referans #</translated>
+	</message>
+	<message>
+		<original>Number of Licenses</original>
+		<translated>Lisans numarası</translated>
+	</message>
+	<message>
+		<original>Price</original>
+		<translated>Fiyat</translated>
+	</message>
+	<message>
+		<original>Registration record</original>
+		<translated>Tescil kaydı</translated>
+	</message>
+	<message>
+		<original>Name:</original>
+		<translated>Ad:</translated>
+	</message>
+	<message>
+		<original>Key:</original>
+		<translated>Anahtar:</translated>
+	</message>
+	<message>
+		<original>Internal Key Information</original>
+		<translated>Dahili Anahtar Bilgisi</translated>
+	</message>
+	<message>
+		<original>Key created date:</original>
+		<translated>Anahtar oluşturulma tarihi:</translated>
+	</message>
+	<message>
+		<original>Hardware ID:</original>
+		<translated>Donanım Kimliği:</translated>
+	</message>
+	<message>
+		<original>Sections unlocked:</original>
+		<translated>Kiliti kaldırılan bölümler:</translated>
+	</message>
+	<message>
+		<original>Reference number:</original>
+		<translated>Referans numarası:</translated>
+	</message>
+	<message>
+		<original>Number of licenses:</original>
+		<translated>Lisans numarası:</translated>
+	</message>
+	<message>
+		<original>Price:</original>
+		<translated>Fiyat:</translated>
+	</message>
+	<message>
+		<original>Subscribed (Uses by Enigma Mailer)</original>
+		<translated>Abone olan (Enigma Mailer tarafından kullanılır)</translated>
+	</message>
+	<message>
+		<original>Comment:</original>
+		<translated>Yorum:</translated>
+	</message>
+	<message>
+		<original>Customers list:</original>
+		<translated>Müşteri listesi:</translated>
+	</message>
+	<message>
+		<original>First name</original>
+		<translated>Adı</translated>
+	</message>
+	<message>
+		<original>Last name</original>
+		<translated>Soyadı</translated>
+	</message>
+	<message>
+		<original>E-mail</original>
+		<translated>E-posta</translated>
+	</message>
+	<message>
+		<original>Company</original>
+		<translated>Şirket</translated>
+	</message>
+	<message>
+		<original>Country</original>
+		<translated>Ülke</translated>
+	</message>
+	<message>
+		<original>Language</original>
+		<translated>Dil</translated>
+	</message>
+	<message>
+		<original>Street address</original>
+		<translated>Adres</translated>
+	</message>
+	<message>
+		<original>State</original>
+		<translated>Eyalet</translated>
+	</message>
+	<message>
+		<original>ZIP / Postal code</original>
+		<translated>Posta Kodu</translated>
+	</message>
+	<message>
+		<original>City</original>
+		<translated>Şehir</translated>
+	</message>
+	<message>
+		<original>Phone</original>
+		<translated>Telefon</translated>
+	</message>
+	<message>
+		<original>Fax</original>
+		<translated>Faks</translated>
+	</message>
+	<message>
+		<original>Company:</original>
+		<translated>Şirket:</translated>
+	</message>
+	<message>
+		<original>First name:</original>
+		<translated>Adı:</translated>
+	</message>
+	<message>
+		<original>Last name:</original>
+		<translated>Soyadı:</translated>
+	</message>
+	<message>
+		<original>Country:</original>
+		<translated>Ülke:</translated>
+	</message>
+	<message>
+		<original>Language:</original>
+		<translated>Dil:</translated>
+	</message>
+	<message>
+		<original>Street address:</original>
+		<translated>Adres:</translated>
+	</message>
+	<message>
+		<original>State/Province:</original>
+		<translated>Eyalet/İl:</translated>
+	</message>
+	<message>
+		<original>Zip or postal code:</original>
+		<translated>Posta Kodu:</translated>
+	</message>
+	<message>
+		<original>City:</original>
+		<translated>Şehir:</translated>
+	</message>
+	<message>
+		<original>Phone:</original>
+		<translated>Telefon:</translated>
+	</message>
+	<message>
+		<original>Fax:</original>
+		<translated>Faks:</translated>
+	</message>
+	<message>
+		<original>Mailer</original>
+		<translated>Posta bölgesi</translated>
+	</message>
+	<message>
+		<original>Send</original>
+		<translated>Gönder</translated>
+	</message>
+	<message>
+		<original>Registration Name</original>
+		<translated>Kayıt Adı</translated>
+	</message>
+	<message>
+		<original>Registration Key</original>
+		<translated>Kayıt Anahtarı</translated>
+	</message>
+	<message>
+		<original>Customers</original>
+		<translated>Müşteri</translated>
+	</message>
+	<message>
+		<original>Options</original>
+		<translated>Seçenekler</translated>
+	</message>
+	<message>
+		<original>&quot;FROM&quot; Address (this email address must satisfy User Name and Password shown below)</original>
+		<translated>&quot;KİMDEN&quot; Adres (Bu e-posta adresi, aşağıda gösterilen Kullanıcı Adı ve Parolaya karşılık gelmelidir)</translated>
+	</message>
+	<message>
+		<original>Account Information (for authentication on the server)</original>
+		<translated>Hesap Bilgileri (sunucuda kimlik doğrulama için)</translated>
+	</message>
+	<message>
+		<original>User Name:</original>
+		<translated>Kullanıcı Adı:</translated>
+	</message>
+	<message>
+		<original>Mail Server</original>
+		<translated>Posta Sunucusu</translated>
+	</message>
+	<message>
+		<original>SMTP Server:</original>
+		<translated>SMTP Sunucusu:</translated>
+	</message>
+	<message>
+		<original>Port Number:</original>
+		<translated>Port Numarası:</translated>
+	</message>
+	<message>
+		<original>Send Delay</original>
+		<translated>Gönderme Gecikmesi</translated>
+	</message>
+	<message>
+		<original>Delay of email sending if server error occurs:</original>
+		<translated>Sunucu hatası oluşursa e-posta gönderiminin gecikme süresi:</translated>
+	</message>
+	<message>
+		<original>minutes</original>
+		<translated>dakika</translated>
+	</message>
+	<message>
+		<original>This value uses when the server responses any exception (for example if the message quota has exceeded). Attempt to submit emials will be renewed after following number of minutes.</original>
+		<translated>Bu değer, sunucuya herhangi bir istisnai durum oluştuğunda kullanılır (örneğin, mesaj kotası aşılırsa). Posta teslim girişimi, aşağıda belirtilen dakika kadar sonra tekrar edilir.</translated>
+	</message>
+	<message>
+		<original>Template</original>
+		<translated>Şablon</translated>
+	</message>
+	<message>
+		<original>Load Template From File:</original>
+		<translated>Dosyadan Şablon Yükle:</translated>
+	</message>
+	<message>
+		<original>Open</original>
+		<translated>Aç</translated>
+	</message>
+	<message>
+		<original>Save As</original>
+		<translated>Farklı Kaydet</translated>
+	</message>
+	<message>
+		<original>&quot;FROM&quot; field:</original>
+		<translated>&quot;KİMDEN&quot; alan:</translated>
+	</message>
+	<message>
+		<original>&quot;TO&quot; field:</original>
+		<translated>&quot;KİME&quot; alan:</translated>
+	</message>
+	<message>
+		<original>&quot;SUBJECT&quot; field:</original>
+		<translated>&quot;KONU&quot; alan:</translated>
+	</message>
+	<message>
+		<original>&quot;BODY&quot; field:</original>
+		<translated>&quot;GÖVDE&quot; alan:</translated>
+	</message>
+	<message>
+		<original>Generate Emails</original>
+		<translated>E-posta Oluştur</translated>
+	</message>
+	<message>
+		<original>Mails</original>
+		<translated>Postalar</translated>
+	</message>
+	<message>
+		<original>Subject:</original>
+		<translated>Konu:</translated>
+	</message>
+	<message>
+		<original>Outbox (%d)</original>
+		<translated>Giden Kutusu (%d)</translated>
+	</message>
+	<message>
+		<original>Sent Mail (%d)</original>
+		<translated>Gönderilmiş Postalar (%d)</translated>
+	</message>
+	<message>
+		<original>Trash (%d)</original>
+		<translated>Çöp (%d)</translated>
+	</message>
+	<message>
+		<original>XML Files (*.xml)|*.xml|All Files (*.*)|*.*</original>
+		<translated>XML Dosyaları (*.xml)|*.xml|Tüm dosyalar (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Open file with a template...</original>
+		<translated>Dosyayı bir şablonla aç...</translated>
+	</message>
+	<message>
+		<original>Save template to file...</original>
+		<translated>Şablonu dosyaya kaydet...</translated>
+	</message>
+	<message>
+		<original>Yes</original>
+		<translated>Evet</translated>
+	</message>
+	<message>
+		<original>No</original>
+		<translated>Hayır</translated>
+	</message>
+	<message>
+		<original>Sent emails 0 (%d)</original>
+		<translated>Gönderilen e-posta 0 (%d)</translated>
+	</message>
+	<message>
+		<original>[%s] Connection succeeds!</original>
+		<translated>[%s] Bağlantı başarılı!</translated>
+	</message>
+	<message>
+		<original>[%s] Message for %s &lt;%s&gt; has been sent</original>
+		<translated>[%s] %s &lt;%s&gt; için mesaj gönderildi</translated>
+	</message>
+	<message>
+		<original>Sent emails %d (%d)</original>
+		<translated>Gönderilen e-posta %d (%d)</translated>
+	</message>
+	<message>
+		<original>[%s] All messages have been sent!</original>
+		<translated>[%s] Tüm mesajlar gönderildi!</translated>
+	</message>
+	<message>
+		<original>[%s] Exception : %s</original>
+		<translated>[%s] Sıradışı Durum : %s</translated>
+	</message>
+	<message>
+		<original>[%s] Attempt will be started after %d minute(s)</original>
+		<translated>[%s] %d dakika sonra deneme başlatılacak</translated>
+	</message>
+	<message>
+		<original>Show help topic for:</original>
+		<translated>Bunun için yardım konusunu göster:</translated>
+	</message>
+	<message>
+		<original>Reset local special information</original>
+		<translated>Yerel özel bilgileri sıfırla</translated>
+	</message>
+	<message>
+		<original>Local special information was reseted successfully.</original>
+		<translated>Yerel özel bilgiler başarıyla sıfırlandı.</translated>
+	</message>
+	<message>
+		<original>Local special information was not found.</original>
+		<translated>Yerel özel bilgiler bulunamadı.</translated>
+	</message>
+	<message>
+		<original>Watermark Viewer</original>
+		<translated>Filigran Görüntüleyici</translated>
+	</message>
+	<message>
+		<original>Select Enigma Protected file to view it's watermark</original>
+		<translated>Filigranı görüntülemek için Enigma korumalı dosya seçin</translated>
+	</message>
+	<message>
+		<original>Watermark is not found!</original>
+		<translated>Filigran bulunamadı!</translated>
+	</message>
+	<message>
+		<original>File is not found!</original>
+		<translated>Dosya bulunamadı!</translated>
+	</message>
+	<message>
+		<original>Text</original>
+		<translated>Metin</translated>
+	</message>
+	<message>
+		<original>File</original>
+		<translated>Dosya</translated>
+	</message>
+	<message>
+		<original>Size: %d bytes</original>
+		<translated>Boyut: %d bayt</translated>
+	</message>
+	<message>
+		<original>Save</original>
+		<translated>Kaydet</translated>
+	</message>
+	<message>
+		<original>Watermark</original>
+		<translated>Filigran</translated>
+	</message>
+	<message>
+		<original>Use Watermark</original>
+		<translated>Filigran Kullan</translated>
+	</message>
+	<message>
+		<original>Type</original>
+		<translated>Türü</translated>
+	</message>
+	<message>
+		<original>Add Watermark</original>
+		<translated>Filigran Ekle</translated>
+	</message>
+	<message>
+		<original>Type:</original>
+		<translated>Türü:</translated>
+	</message>
+	<message>
+		<original>Add a file:</original>
+		<translated>Dosya ekle:</translated>
+	</message>
+	<message>
+		<original>PRIVATE</original>
+		<translated>ÖZEL</translated>
+	</message>
+	<message>
+		<original>PUBLIC</original>
+		<translated>GENEL</translated>
+	</message>
+	<message>
+		<original>Key expiration reminder</original>
+		<translated>Anahtar son kullanma tarihi hatırlatıcısı</translated>
+	</message>
+	<message>
+		<original>Show key expiration reminder</original>
+		<translated>Anahtar son kullanma tarihi hatırlatıcısını göster</translated>
+	</message>
+	<message>
+		<original>Start to show reminder (days before expiration)</original>
+		<translated>Hatırlatıcının gösteriminin başlaması (sona erme tarihinden önceki gün sayısı)</translated>
+	</message>
+	<message>
+		<original>Ask in days</original>
+		<translated>Günleri sor</translated>
+	</message>
+	<message>
+		<original>Additional options</original>
+		<translated>Ekstra seçenekler</translated>
+	</message>
+	<message>
+		<original>Hide password symbols</original>
+		<translated>Parola simgelerini gizle</translated>
+	</message>
+	<message>
+		<original>Allow to change password</original>
+		<translated>Parola değiştirmeye izin ver</translated>
+	</message>
+	<message>
+		<original>Loading project settings...</original>
+		<translated>Proje ayarları yükleniyor...</translated>
+	</message>
+	<message>
+		<original>Loading main information</original>
+		<translated>Başlıca bilgiler yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading Registration Features - Common</original>
+		<translated>Kayıt Özellikleri Yükleniyor - Genel</translated>
+	</message>
+	<message>
+		<original>Loading Registration Features - Registration Data Storage</original>
+		<translated>Kayıt Özellikleri Yükleniyor - Kayıt Veri Depolama</translated>
+	</message>
+	<message>
+		<original>Loading Registration Features - Registration Dialog</original>
+		<translated>Kayıt Özellikleri Yükleniyor - Kayıt İletişim Kutusu</translated>
+	</message>
+	<message>
+		<original>Loading Registration Features - Key Expiration Reminder</original>
+		<translated>Kayıt Özellikleri Yükleniyor - Anahtar Son Kullanım Tarihi Hatırlatıcı</translated>
+	</message>
+	<message>
+		<original>Loading Checkup</original>
+		<translated>Kontroller Yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Anti Debugger</original>
+		<translated>Kontroller Yükleniyor - Karşıt-HataAyıklayıcı</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Control Sum</original>
+		<translated>Kontroller Yükleniyor - Doğrulama Kontrolü</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Startup Password</original>
+		<translated>Kontroller Yükleniyor - Başlangıç Parolası</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - File Name</original>
+		<translated>Kontroller Yükleniyor - Dosya Adı</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Disk Drive</original>
+		<translated>Kontroller Yükleniyor - Disk Sürücüsü</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Executed Copies</original>
+		<translated>Kontroller Yükleniyor - Yapılan Kopyalar</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - User Language</original>
+		<translated>Kontroller Yükleniyor - Kullanıcı Dili</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - External Files</original>
+		<translated>Kontroller Yükleniyor - Harici Dosyalar</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Executed Processes</original>
+		<translated>Kontroller Yükleniyor - Yürütülen İşlemler</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Installed Services</original>
+		<translated>Kontroller Yükleniyor - Yüklü Hizmetler</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Windows Version</original>
+		<translated>Kontroller Yükleniyor - Windows Sürümü</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Virtualization Tools</original>
+		<translated>Kontroller Yükleniyor - Sanallaştırma Araçları</translated>
+	</message>
+	<message>
+		<original>Loading Protection</original>
+		<translated>>Koruma Yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading Protection - Files Attachment</original>
+		<translated>Koruma Yükleniyor - Dosya Ekleri</translated>
+	</message>
+	<message>
+		<original>Loading Obfuscation</original>
+		<translated>Gizleme Yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous</original>
+		<translated>Muhtelifler Yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous - Splash Screen</original>
+		<translated>Muhtelifler Yükleniyor - Açılış Ekranı </translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous - Watermark</original>
+		<translated>Muhtelifler Yükleniyor - Filigran</translated>
+	</message>
+	<message>
+		<original>Loading Virtual Machine</original>
+		<translated>Sanal Makine Yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Common</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Genel</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Lock Trial to User Language</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Kullanıcı Dil ayarını denemede kilitleme</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Limitation by Executions Count</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Uygulama Sayısı ile Sınırlama</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Limitation by Days Count</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Gün Sayısı ile Sınırlama</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Limitation by Expiration Date</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Son Kullanma Tarihi ile sınırlama</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Limitation from Date till Date</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Tarihten Tarihe Sınırlama</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Limitation of Execution Time</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Uygulama Zamanının Sınırlandırılması</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Reminder</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Hatırlatıcı</translated>
+	</message>
+	<message>
+		<original>Loading Trial Control - Time Control</original>
+		<translated>Deneme Sürümü Kontrolleri Yükleniyor - Zaman Kontrolü</translated>
+	</message>
+	<message>
+		<original>Floppy disk (removable)</original>
+		<translated>Floppy Disk (kaldırılabilir)</translated>
+	</message>
+	<message>
+		<original>Hard Disk Drive</original>
+		<translated>Harddisk Sürücüsü</translated>
+	</message>
+	<message>
+		<original>Network drive</original>
+		<translated>Ağ Sürücüsü</translated>
+	</message>
+	<message>
+		<original>CD-ROM drive</original>
+		<translated>CD-ROM sürücüsü</translated>
+	</message>
+	<message>
+		<original>RAM disk</original>
+		<translated>RAM disk</translated>
+	</message>
+	<message>
+		<original>Advance Input</original>
+		<translated>Gelişmiş Giriş</translated>
+	</message>
+	<message>
+		<original>Select additional files to protect</original>
+		<translated>Korumak için ek dosyalar seçin</translated>
+	</message>
+	<message>
+		<original>Input File</original>
+		<translated>Giriş dosyası</translated>
+	</message>
+	<message>
+		<original>Output File</original>
+		<translated>Çıkış dosyası</translated>
+	</message>
+	<message>
+		<original>Protect additional files after main executable</original>
+		<translated>Ana yürütülebilir dosyanın ardından ek dosyaları koruyun</translated>
+	</message>
+	<message>
+		<original>Add File(s)</original>
+		<translated>Dosya(lar) Ekle</translated>
+	</message>
+	<message>
+		<original>Do not create backup (.bak) files</original>
+		<translated>Yedekleme dosyaları (.bak) oluşturmayın</translated>
+	</message>
+	<message>
+		<original>Registration keys type</original>
+		<translated>Kayıt anahtarı türü</translated>
+	</message>
+	<message>
+		<original>Registration key safety/length:</original>
+		<translated>Kayıt anahtarı güvenliği/uzunluğu:</translated>
+	</message>
+	<message>
+		<original>Registration key output base:</original>
+		<translated>Kayıt anahtarı çıktı tabanı:</translated>
+	</message>
+	<message>
+		<original>~ RSA 512 bits</original>
+		<translated>~ RSA 512 bit</translated>
+	</message>
+	<message>
+		<original>~ RSA 768 bits</original>
+		<translated>~ RSA 768 bit</translated>
+	</message>
+	<message>
+		<original>~ RSA 1024 bits</original>
+		<translated>~ RSA 1024 bit</translated>
+	</message>
+	<message>
+		<original>~ RSA 2048 bits</original>
+		<translated>~ RSA 2048 bit</translated>
+	</message>
+	<message>
+		<original>~ RSA 3072 bits</original>
+		<translated>~ RSA 3072 bit</translated>
+	</message>
+	<message>
+		<original>~ RSA 4096 bits</original>
+		<translated>~ RSA 4096 bit</translated>
+	</message>
+	<message>
+		<original>Base 2</original>
+		<translated>Temel 2</translated>
+	</message>
+	<message>
+		<original>Base 8</original>
+		<translated>Temel 8</translated>
+	</message>
+	<message>
+		<original>Base 16</original>
+		<translated>Temel 16</translated>
+	</message>
+	<message>
+		<original>Base 32</original>
+		<translated>Temel 32</translated>
+	</message>
+	<message>
+		<original>Base 64</original>
+		<translated>Temel 64</translated>
+	</message>
+	<message>
+		<original>Allow execution only if registered</original>
+		<translated>Yalnızca kayıtlıysa yürütülmesine izin ver</translated>
+	</message>
+	<message>
+		<original>Encrypt application with Encryption Constant (please take a look at the manual before using this option)</original>
+		<translated>Uygulamayı Şifreleme Sabiti ile şifreleyin (lütfen bu seçeneği kullanmadan önce el kitabına bir göz atın)</translated>
+	</message>
+	<message>
+		<original>Copy to clipboard</original>
+		<translated>Panoya kopyala</translated>
+	</message>
+	<message>
+		<original>Information for Custom Keys Generator</original>
+		<translated>Özel Anahtar Üreteci İçin Bilgiler</translated>
+	</message>
+	<message>
+		<original>Encryption Constant</original>
+		<translated>Şifreleme Sabiti</translated>
+	</message>
+	<message>
+		<original>Public Key</original>
+		<translated>Genel Anahtar</translated>
+	</message>
+	<message>
+		<original>Private Key</original>
+		<translated>Özel Anahtar</translated>
+	</message>
+	<message>
+		<original>UNICODE Registration Scheme</original>
+		<translated>UNICODE Kayıt Şeması</translated>
+	</message>
+	<message>
+		<original>Key Properties</original>
+		<translated>Anahtar Özellikleri</translated>
+	</message>
+	<message>
+		<original>Allow only keys with expiration date</original>
+		<translated>Yalnızca son kullanma tarihine sahip anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Allow only keys with Register After date</original>
+		<translated>Yalnızca Kayıt Sonrası tarihli anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Allow only keys with Register Before date</original>
+		<translated>Yalnızca Kayıt Öncesi tarihli anahtarlara İzin Ver</translated>
+	</message>
+	<message>
+		<original>Allow only executions limited keys</original>
+		<translated>Yalnızca sınırlı anahtarların uygulanmasına izin ver</translated>
+	</message>
+	<message>
+		<original>Allow only days limited keys</original>
+		<translated>Yalnızca gün sınırlı anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Allow only run-time limited keys</original>
+		<translated>Yalnızca çalışma zamanı sınırlı anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Allow only global time limited keys</original>
+		<translated>Yalnızca küresel zaman sınırlı anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Allow only country locked keys</original>
+		<translated>Yalnızca ülke (bölge) kilitli anahtarlara izin ver</translated>
+	</message>
+	<message>
+		<original>Relative path in registry (e.g.: SOFTWARE\YourCompany):</original>
+		<translated>Kayıt defterindeki ilgili yol (ör.: SOFTWARE\Firmanız):</translated>
+	</message>
+	<message>
+		<original>Set File Attributes</original>
+		<translated>Dosya Özniteliklerini Ayarla</translated>
+	</message>
+	<message>
+		<original>&amp;Select all</original>
+		<translated>&amp;Tümünü seç</translated>
+	</message>
+	<message>
+		<original>&amp;Deselect all</original>
+		<translated>&amp;Tümünü bırak</translated>
+	</message>
+	<message>
+		<original>&amp;Invert all</original>
+		<translated>&amp;Tümünü ters çevir</translated>
+	</message>
+	<message>
+		<original>Allow Changes</original>
+		<translated>Değişikliğe İzin Ver</translated>
+	</message>
+	<message>
+		<original>Windows Serial Key</original>
+		<translated>Windows Seri Anahtarı</translated>
+	</message>
+	<message>
+		<original>Hard Disk Serial Number</original>
+		<translated>Harddisk Seri Numarası</translated>
+	</message>
+	<message>
+		<original>Windows User Name</original>
+		<translated>Windows Kullanıcı Adı</translated>
+	</message>
+	<message>
+		<original>Encrypt with hardware id</original>
+		<translated>Donanım kimliği ile şifrele</translated>
+	</message>
+	<message>
+		<original>Enter Hardware ID to encrypt with</original>
+		<translated>Şifrelemek için donanım kimliğini girin</translated>
+	</message>
+	<message>
+		<original>Encrypt application with particular Hardware ID</original>
+		<translated>Uygulamayı belirli Donanım Kimliği ile şifreleyin</translated>
+	</message>
+	<message>
+		<original>Drive Type</original>
+		<translated>Sürücü Türü</translated>
+	</message>
+	<message>
+		<original>Execution Permissions</original>
+		<translated>Uygulama İzinleri</translated>
+	</message>
+	<message>
+		<original>Terminate execution</original>
+		<translated>Uygulamayı sona erdir</translated>
+	</message>
+	<message>
+		<original>second(s)</original>
+		<translated>saniye</translated>
+	</message>
+	<message>
+		<original>Add Process(es)</original>
+		<translated>İşlem(ler) Ekle</translated>
+	</message>
+	<message>
+		<original>Check Executed Processes every</original>
+		<translated>Çalıştırılan işlemlerin hepsini kontrol et</translated>
+	</message>
+	<message>
+		<original>Loaded Drivers</original>
+		<translated>Yüklü Sürücüler</translated>
+	</message>
+	<message>
+		<original>Use checkup of loaded drivers</original>
+		<translated>Yüklü sürücü kontrolünü kullanın</translated>
+	</message>
+	<message>
+		<original>Driver Name</original>
+		<translated>Sürücü Adı</translated>
+	</message>
+	<message>
+		<original>Add Service(s)</original>
+		<translated>Hizmet(ler) Ekle</translated>
+	</message>
+	<message>
+		<original>Select Windows version to deny execution of protected module on.</original>
+		<translated>Korunan modülün yürütülmesini engellemeye Windows sürümü belirleyin.</translated>
+	</message>
+	<message>
+		<original>Node</original>
+		<translated>Düğüm</translated>
+	</message>
+	<message>
+		<original>Privileges</original>
+		<translated>Ayrıcalıklar</translated>
+	</message>
+	<message>
+		<original>Administrator privileges</original>
+		<translated>Yönetici ayrıcalıkları</translated>
+	</message>
+	<message>
+		<original>Use checkup of administrator privileges</original>
+		<translated>Yönetici ayrıcalıklarının kontrolünü kullan</translated>
+	</message>
+	<message>
+		<original>None</original>
+		<translated>Yok</translated>
+	</message>
+	<message>
+		<original>Use WinAPI functions redirection</original>
+		<translated>WinAPI işlevlerini yönlendirmeyi kullan</translated>
+	</message>
+	<message>
+		<original>Inline Patching</original>
+		<translated>Sıralı Düzeltme</translated>
+	</message>
+	<message>
+		<original>Number of protection threads</original>
+		<translated>Koruma parçacığı sayısı</translated>
+	</message>
+	<message>
+		<original>Inline checkup delay</original>
+		<translated>Sıralı denetim gecikmesi</translated>
+	</message>
+	<message>
+		<original>Use Inline Patching Protection</original>
+		<translated>Sıralı Düzeltme Koruması kullan</translated>
+	</message>
+	<message>
+		<original>Protected strings</original>
+		<translated>Korunan dizeler</translated>
+	</message>
+	<message>
+		<original>ID</original>
+		<translated>Kimlik</translated>
+	</message>
+	<message>
+		<original>String Data</original>
+		<translated>Dizi Verileri</translated>
+	</message>
+	<message>
+		<original>Resources Protection</original>
+		<translated>Kaynak Koruması</translated>
+	</message>
+	<message>
+		<original>Select resources protection type</original>
+		<translated>Kaynak koruma türünü seçin</translated>
+	</message>
+	<message>
+		<original>Protect all resources, except icon</original>
+		<translated>Simgelerin dışında tüm kaynakları koruyun</translated>
+	</message>
+	<message>
+		<original>Protect all resources, except icon and version</original>
+		<translated>Simgelerin ve sürümlerin haricindeki tüm kaynakları koruyun</translated>
+	</message>
+	<message>
+		<original>Protect all resources</original>
+		<translated>Tüm kaynakları koruyun</translated>
+	</message>
+	<message>
+		<original>Files</original>
+		<translated>Dosyalar</translated>
+	</message>
+	<message>
+		<original>Enable File virtual box</original>
+		<translated>Dosya sanal kutusunu etkinleştir</translated>
+	</message>
+	<message>
+		<original>Allow loading from any folder</original>
+		<translated>Herhangi bir klasörden yüklemeye izin ver</translated>
+	</message>
+	<message>
+		<original>Delete extracted files on exit</original>
+		<translated>Çıkışta ayıklanan dosyaları sil</translated>
+	</message>
+	<message>
+		<original>Compress files</original>
+		<translated>Dosyaları sıkıştır</translated>
+	</message>
+	<message>
+		<original>Add Folder Recursive</original>
+		<translated>Özyinelemeli Klasör Ekle</translated>
+	</message>
+	<message>
+		<original>New Folder</original>
+		<translated>Yeni Klasör</translated>
+	</message>
+	<message>
+		<original>Properties</original>
+		<translated>Özellikler</translated>
+	</message>
+	<message>
+		<original>All Files (*.*)|*.*</original>
+		<translated>Tüm Dosyalar (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Virtual Box Registry</original>
+		<translated>Sanal Kutu Kayıt Defteri</translated>
+	</message>
+	<message>
+		<original>Enable virtualization of file entry point</original>
+		<translated>Dosya giriş noktasının sanallaştırılmasını etkinleştir</translated>
+	</message>
+	<message>
+		<original>Select functions</original>
+		<translated>İşlevleri seç</translated>
+	</message>
+	<message>
+		<original>Function Name</original>
+		<translated>İşlev Adı</translated>
+	</message>
+	<message>
+		<original>Select picture file for splash screen:</original>
+		<translated>Açılış ekranı için resim dosyası seçin:</translated>
+	</message>
+	<message>
+		<original>Stop execution when splash screen is showing</original>
+		<translated>Açılış ekranı gösterildiğinde yürütmeyi durdur</translated>
+	</message>
+	<message>
+		<original>Show at Program Start</original>
+		<translated>Program Başladığında Göster</translated>
+	</message>
+	<message>
+		<original>Close Options</original>
+		<translated>Seçenekleri Kapat</translated>
+	</message>
+	<message>
+		<original>Time to Show (milliseconds)</original>
+		<translated>Gösterilme Zamanı (milisaniye)</translated>
+	</message>
+	<message>
+		<original>Close on mouse click</original>
+		<translated>Fare tıklamasıyla kapat</translated>
+	</message>
+	<message>
+		<original>Plugins</original>
+		<translated>Eklentiler</translated>
+	</message>
+	<message>
+		<original>Click on the plugin to view it&apos;s description</original>
+		<translated>Açıklamasını görmek için eklentiyi tıklayın</translated>
+	</message>
+	<message>
+		<original>Use</original>
+		<translated>Kullan</translated>
+	</message>
+	<message>
+		<original>About</original>
+		<translated>Hakkında</translated>
+	</message>
+	<message>
+		<original>Custom VERSION Resource</original>
+		<translated>Özel SÜRÜM Kaynağı</translated>
+	</message>
+	<message>
+		<original>Add Custom VERSION Resource</original>
+		<translated>Özel SÜRÜM Kaynağı Ekle</translated>
+	</message>
+	<message>
+		<original>Locale ID:</original>
+		<translated>Yerel Kimlik:</translated>
+	</message>
+	<message>
+		<original>Value</original>
+		<translated>Değer</translated>
+	</message>
+	<message>
+		<original>Module Version Number</original>
+		<translated>Modül Sürüm Numarası</translated>
+	</message>
+	<message>
+		<original>Major Version</original>
+		<translated>Majör Sürüm</translated>
+	</message>
+	<message>
+		<original>Minor Version</original>
+		<translated>Minör Sürüm</translated>
+	</message>
+	<message>
+		<original>Release</original>
+		<translated>Sürüm</translated>
+	</message>
+	<message>
+		<original>Build</original>
+		<translated>Derle</translated>
+	</message>
+	<message>
+		<original>Module Attributes</original>
+		<translated>Modül Öznitelikleri</translated>
+	</message>
+	<message>
+		<original>Debug Build</original>
+		<translated>Hata Ayıklama ile Derle</translated>
+	</message>
+	<message>
+		<original>Pre-release</original>
+		<translated>Ön-Sürüm</translated>
+	</message>
+	<message>
+		<original>Special Build</original>
+		<translated>Ayrıcalıklı Derleme</translated>
+	</message>
+	<message>
+		<original>Private Build</original>
+		<translated>Kişisel Derleme</translated>
+	</message>
+	<message>
+		<original>DLL</original>
+		<translated>DLL</translated>
+	</message>
+	<message>
+		<original>Custom MANIFEST Resource</original>
+		<translated>Özel MANIFESTO Kaynağı</translated>
+	</message>
+	<message>
+		<original>Add Custom MANIFEST Resource</original>
+		<translated>Özel MANIFESTO Kaynağı Ekle</translated>
+	</message>
+	<message>
+		<original>MANIFEST type</original>
+		<translated>MANIFESTO türü</translated>
+	</message>
+	<message>
+		<original>Select Type of MANIFEST Resource Template:</original>
+		<translated>MANIFESTO Kaynak Türü Şablonunu seçin:</translated>
+	</message>
+	<message>
+		<original>Resource Data:</original>
+		<translated>Kaynak Verileri:</translated>
+	</message>
+	<message>
+		<original>External MANIFEST File:</original>
+		<translated>Harici MANIFESTO Dosyası:</translated>
+	</message>
+	<message>
+		<original>Get MANIFEST from External File</original>
+		<translated>Harici Dosyadan MANIFESTO al</translated>
+	</message>
+	<message>
+		<original>Browse...</original>
+		<translated>Gözat...</translated>
+	</message>
+	<message>
+		<original>Markers Analyses</original>
+		<translated>İşaretçi Analizleri</translated>
+	</message>
+	<message>
+		<original>Exclude selected sections from markers analysing:</original>
+		<translated>İşaretçi analizlerinden seçilen bölümleri hariç tutun:</translated>
+	</message>
+	<message>
+		<original>Raw Address</original>
+		<translated>İşlenmemiş Adres</translated>
+	</message>
+	<message>
+		<original>Raw Size</original>
+		<translated>İşlenmemiş Boyut</translated>
+	</message>
+	<message>
+		<original>Virtual Size</original>
+		<translated>Sanal Boyut</translated>
+	</message>
+	<message>
+		<original>Characteristics</original>
+		<translated>Karakteristik</translated>
+	</message>
+	<message>
+		<original>Found Markers</original>
+		<translated>Bulunan İşaretleyiciler</translated>
+	</message>
+	<message>
+		<original>Analyse</original>
+		<translated>Analiz</translated>
+	</message>
+	<message>
+		<original>Enter command line parameters</original>
+		<translated>Komut satırı parametrelerini girin</translated>
+	</message>
+	<message>
+		<original>Overwrite parameters</original>
+		<translated>Parametreleri üzerine yaz</translated>
+	</message>
+	<message>
+		<original>Append parameters</original>
+		<translated>Parametreleri ekle</translated>
+	</message>
+	<message>
+		<original>Override command line parameters</original>
+		<translated>Komut satırı parametrelerini üzerine yaz</translated>
+	</message>
+	<message>
+		<original>Environment Variables</original>
+		<translated>Ortam Değişkenleri</translated>
+	</message>
+	<message>
+		<original>Trial Data Storing</original>
+		<translated>Deneme Sürümü Veri Saklama</translated>
+	</message>
+	<message>
+		<original>Use custom defined places where trial information will be stored</original>
+		<translated>Deneme sürümü bilgilerinin saklanacağı özel tanımlı yerler kullan</translated>
+	</message>
+	<message>
+		<original>Place</original>
+		<translated>Yer</translated>
+	</message>
+	<message>
+		<original>Path</original>
+		<translated>Yol</translated>
+	</message>
+	<message>
+		<original>Help Tool</original>
+		<translated>Yardım Araçları</translated>
+	</message>
+	<message>
+		<original>Select file name of program module to protect</original>
+		<translated>Korumak için program modülünün dosya adını seçin</translated>
+	</message>
+	<message>
+		<original>All supported files|*.BMP;*.JPG;*.JPE;*.JPEG;*.PNG|Bitmap files (*.bmp)|*.BMP|Jpeg files (*.jpg;*.jpe;*.jpeg)|*.JPG;*.JPE;*.JPEG|Png files (*.png)|*.PNG</original>
+		<translated>Desteklenen Tüm Dosyalar|*.BMP;*.JPG;*.JPE;*.JPEG;*.PNG|Bitmap dosyaları (*.bmp)|*.BMP|Jpeg dosyaları (*.jpg;*.jpe;*.jpeg)|*.JPG;*.JPE;*.JPEG|Png dosyaları (*.png)|*.PNG</translated>
+	</message>
+	<message>
+		<original>Select picture file for splash screen</original>
+		<translated>Açılış ekranı için resim dosyası seçin</translated>
+	</message>
+	<message>
+		<original>Select files to attach</original>
+		<translated>Eklenecek dosyaları seçin</translated>
+	</message>
+	<message>
+		<original>Select file name for resulting program module</original>
+		<translated>Oluşan program modülü için dosya adı seçin</translated>
+	</message>
+	<message>
+		<original>&amp;Reopen</original>
+		<translated>&amp;Yeniden Aç</translated>
+	</message>
+	<message>
+		<original>&amp;Protect</original>
+		<translated>&amp;Güvenlik</translated>
+	</message>
+	<message>
+		<original>Hardware ID Checker</original>
+		<translated>Donanım Kimliği Denetleyicisi</translated>
+	</message>
+	<message>
+		<original>License Manager</original>
+		<translated>Lisans Yöneticisi</translated>
+	</message>
+	<message>
+		<original>Export Key generator</original>
+		<translated>Anahtar üretecini dışa aktar</translated>
+	</message>
+	<message>
+		<original>Reset all local information</original>
+		<translated>Tüm yerel bilgileri sıfırlayın</translated>
+	</message>
+	<message>
+		<original>He&amp;lp</original>
+		<translated>Yar&amp;dım</translated>
+	</message>
+	<message>
+		<original>Contents</original>
+		<translated>İçerik</translated>
+	</message>
+	<message>
+		<original>Unregister...</original>
+		<translated>Kayıt iptal etme...</translated>
+	</message>
+	<message>
+		<original>Select file</original>
+		<translated>Dosya seçin</translated>
+	</message>
+	<message>
+		<original>MANIFEST Files (*.manifest)|*.manifest|All Files (*.*)|*.*</original>
+		<translated>MANIFESTO Dosyaları (*.manifest)|*.manifest|Tüm Dosyalar (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Select MANIFEST File</original>
+		<translated>MANIFESTO Dosyası Seçin</translated>
+	</message>
+	<message>
+		<original>Select file(s) to protect</original>
+		<translated>Korumak için dosya seçin</translated>
+	</message>
+	<message>
+		<original>VIRTUAL BOX</original>
+		<translated>SANAL KUTU</translated>
+	</message>
+	<message>
+		<original>Loading project settings, please wait...</original>
+		<translated>Proje ayarları yükleniyor, lütfen bekleyin...</translated>
+	</message>
+	<message>
+		<original>Example of the registration key:
+Mode: %d
+Base: %d
+Aproximate minimum size: %d symbols
+Registration key:
+%s</original>
+		<translated>Kayıt anahtarı örneği:
+Mod: %d
+Taban: %d
+Yaklaşık minimum boyut: %d sembol
+Kayıt anahtarı:
+%s</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Loaded Drivers</original>
+		<translated>Kontroller yükleniyor - Yüklenmiş Sürücüler</translated>
+	</message>
+	<message>
+		<original>Loading Checkup - Privileges</original>
+		<translated>Kontroller yükleniyor - Ayrıcalıklar</translated>
+	</message>
+	<message>
+		<original>Loading Protection - Protected Strings</original>
+		<translated>Koruma Yükleniyor - Korunmuş Dizeler</translated>
+	</message>
+	<message>
+		<original>Loading Protection - Resources Protection</original>
+		<translated>Koruma Yükleniyor - Kaynak Koruması</translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous - Plugins</original>
+		<translated>Muhtelifler Yükleniyor - Eklentiler</translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous - Custom VERSION Resource</original>
+		<translated>Muhtelifler Yükleniyor - Özel SÜRÜM Kaynağı</translated>
+	</message>
+	<message>
+		<original>Locale ID: 0x%.4x</original>
+		<translated>Yerel Kimlik: 0x%.4x</translated>
+	</message>
+	<message>
+		<original>Default</original>
+		<translated>Varsayılan</translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous - Custom MANIFEST Resource</original>
+		<translated>Muhtelifler Yükleniyor - Özel MANIFESTO Kaynağı</translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous - Markers Analyses</original>
+		<translated>Muhtelifler Yükleniyor - İşaretçi Analizleri</translated>
+	</message>
+	<message>
+		<original>Loading Miscellaneous - Command Line</original>
+		<translated>Muhtelifler Yükleniyor - Komut Satırı</translated>
+	</message>
+	<message>
+		<original>Loading Protection - Environment Variables</original>
+		<translated>Koruma Yükleniyor - Ortam Değişkenleri</translated>
+	</message>
+	<message>
+		<original>Loading Protection - Trial Data Storing</original>
+		<translated>Koruma Yükleniyor - Deneme Sürümü Veri Saklanması</translated>
+	</message>
+	<message>
+		<original>Loading VirtualBox</original>
+		<translated>Sanal Kutu Yükleniyor</translated>
+	</message>
+	<message>
+		<original>Loading VirtualBox - Files</original>
+		<translated>Sanal Kutu Yükleniyor - Dosyalar</translated>
+	</message>
+	<message>
+		<original>Check Hardware ID</original>
+		<translated>Donanım Kimliği Denetle</translated>
+	</message>
+	<message>
+		<original>mins</original>
+		<translated>dak</translated>
+	</message>
+	<message>
+		<original>Add hyphens</original>
+		<translated>Tire ekle</translated>
+	</message>
+	<message>
+		<original>Executions</original>
+		<translated>Uygulamalar</translated>
+	</message>
+	<message>
+		<original>Days</original>
+		<translated>Gün</translated>
+	</message>
+	<message>
+		<original>Run Time</original>
+		<translated>Çalışma Zamanı</translated>
+	</message>
+	<message>
+		<original>Global Time</original>
+		<translated>Küresel Zaman</translated>
+	</message>
+	<message>
+		<original>Register After</original>
+		<translated>Sonra Kayıt Ol</translated>
+	</message>
+	<message>
+		<original>Register Before</original>
+		<translated>Önce Kayıt Ol</translated>
+	</message>
+	<message>
+		<original>Country Lock</original>
+		<translated>Ülke Kiliti</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Hardware ID, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Hardware ID only. We recommend you to enter Hardware ID or uncheck option REGISTRATION FEATURES - Key Properties - Allow only hardware locked keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Donanım Kimliği olmadan kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikler panelinde girilen proje ayarları, yalnızca Donanım Kimliği olan kayıt anahtarlarını gerektiriyor. Donanım Kimliği'ni girmenizi veya KAYIT ÖZELLİKLERİ - Anahtar Özellikleri - Yalnızca donanım kilitli anahtarlara izin ver seçeneğini iptal etmenizi öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>Warning Reminder</original>
+		<translated>Uyarı Hatırlatıcı</translated>
+	</message>
+	<message>
+		<original>Warning</original>
+		<translated>Uyarı</translated>
+	</message>
+	<message>
+		<original>Do not show me this again</original>
+		<translated>Bunu tekrar gösterme</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Expiration Date, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Expiration Date only. We recommend you to enter Expiration Date or uncheck option REGISTRATION FEATURES - Key Properties - Allow only time limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Sona Erme Tarihi olmadan kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikleri panelinde girilen proje ayarları yalnızca Sona Erme Tarihli kayıt anahtarlarını gerektiriyor. Sona Erme Tarihini girmenizi veya KAYIT ÖZELLİKLERİ - Anahtar Özellikleri - Sadece zaman sınırlı tuşlara izin ver seçimini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Register After Date, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Register After Date only. We recommend you to enter Register After Date or uncheck option REGISTRATION FEATURES - Key Properties - Allow only keys with Register After date. The registration key will be known as invalid by protected software!</original>
+		<translated>Kayıt Sonrası Tarihi olmadan kayıt anahtarı oluşturmaya çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikleri panelinde girilen proje ayarları, Kayıt Sonrası Tarihli kayıt anahtarlarını gerektiriyor. Kayıt Sonrası Tarihini girmenizi veya KAYIT ÖZELLİKLERİ - Anahtar Özellikleri - Yalnızca Kayıt Sonrası tarihli anahtarlara izin ver seçeneğini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Register Before Date, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Register Before Date only. We recommend you to enter Register Before Date or uncheck option REGISTRATION FEATURES - Key Properties - Allow only keys with Register Before date. The registration key will be known as invalid by protected software!</original>
+		<translated>Kalan Kayıt Tarihi olmadan kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikleri panelinde girilen proje ayarları, Kayıt Öncesi Tarihli kayıt anahtarlarını gerektiriyor. Kalan Kayıt Tarihini girmenizi veya KAYIT ÖZELLİKLERİ - Anahtar Özellikleri - Yalnızca Kayıt Öncesi Tarihli Sadece Anahtarlara İzin Verme seçeneğini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Executions limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Executions limit only. We recommend you to enter Executions or uncheck option REGISTRATION FEATURES - Key Properties - Allow only executions limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Uygulama sınırı olmadan kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikleri panelinde girilen proje ayarları, Yalnızca Uygulama limiti olan kayıt anahtarlarını gerektiriyor. Uygulama işlemlerini girmenizi veya seçenek KONTROL ÖZELLİKLERİ - Anahtar Özellikleri - Yalnızca yürütülmesine izin verilen sınırlı anahtarlar işaretini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Days limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Days limit only. We recommend you to enter Days or uncheck option REGISTRATION FEATURES - Key Properties - Allow only days limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Gün sınırı olmaksızın kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikler panelinde girilen proje ayarları, Sadece Gün sınırı olan kayıt anahtarlarını gerektiriyor. Günleri girmenizi veya KAYIT ÖZELLİKLERİ - Anahtar Özellikleri - Sadece sınırlı sayıda anahtara izin ver onay özelliklerini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Runtime limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Runtime limit only. We recommend you to enter Runtime or uncheck option REGISTRATION FEATURES - Key Properties - Allow only runtime limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Süre anahtarı olmadan kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikleri panelinde girilen proje ayarları, yalnızca Çalışma Süresi limitli kayıt anahtarları gerektiriyor. Çalışma Zamanı'na girmenizi veya KURULUM ÖZELLİKLERİ - Anahtar Özellikleri - Yalnızca çalışma zamanı sınırlı anahtarlarına izin ver seçeneği onay kutusunun işaretini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Global time limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Global time limit only. We recommend you to enter Global time or uncheck option REGISTRATION FEATURES - Key Properties - Allow only global time limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Küresel süre sınırı olmadan kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikleri panelinde girilen proje ayarları, yalnızca Küresel süre sınırına sahip kayıt anahtarları gerektiriyor. Küresel saati girmenizi veya KONTROL ÖZELLİKLERİ - Anahtar Özellikleri - Sadece küresel süre sınırlı anahtarlara izin ver seçimini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Country lock limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Country Lock only. We recommend you to enter Country lock or uncheck option REGISTRATION FEATURES - Key Properties - Allow only country locked keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Ülke kilidi sınırı olmadan kayıt anahtarı üretmeye çalışıyorsunuz, ancak KAYIT ÖZELLİKLERİ - Anahtar Özellikleri panelinde girilen proje ayarları, yalnızca Ülke Kilidi ile kayıt anahtarları gerektiriyor. Ülke kilidini girmenizi veya KONTROL ÖZELLİKLERİ - Anahtar Özellikleri - Yalnızca ülkeye kilitli anahtarlara izin verin onay kutusunun işaretini kaldırmanızı öneririz. Kayıt anahtarı, korunan yazılım tarafından geçersiz sayılacaktır!</translated>
+	</message>
+	<message>
+		<original>Enter Hardware ID</original>
+		<translated>Donanım Kimliği Girin</translated>
+	</message>
+	<message>
+		<original>Hardware ID to compare</original>
+		<translated>Karşılaştırılacak Donanım Kimliği</translated>
+	</message>
+	<message>
+		<original>Result</original>
+		<translated>Sonuç</translated>
+	</message>
+	<message>
+		<original>Check</original>
+		<translated>Kontrol Et</translated>
+	</message>
+	<message>
+		<original>Compare</original>
+		<translated>Karşılaştır</translated>
+	</message>
+	<message>
+		<original>Please enter Hardware ID!</original>
+		<translated>Lütfen Donanım Kimliği girin!</translated>
+	</message>
+	<message>
+		<original>Enigma License Manager</original>
+		<translated>Enigma Lisans Yöneticisi</translated>
+	</message>
+	<message>
+		<original>ToolBar1</original>
+		<translated>AraçÇubuğu1</translated>
+	</message>
+	<message>
+		<original>ToolButton4</original>
+		<translated>AraçButonu4</translated>
+	</message>
+	<message>
+		<original>New Customer</original>
+		<translated>Yeni Müşteri</translated>
+	</message>
+	<message>
+		<original>Edit Customer</original>
+		<translated>Müşteri Düzenle</translated>
+	</message>
+	<message>
+		<original>Delete Customer</original>
+		<translated>Müşteri Sil</translated>
+	</message>
+	<message>
+		<original>&amp;Manager</original>
+		<translated>&amp;Yönetici</translated>
+	</message>
+	<message>
+		<original>Import Database...</original>
+		<translated>Veritabanını İçe Aktarma...</translated>
+	</message>
+	<message>
+		<original>Keys Generator Properties...</original>
+		<translated>Anahtar Üreticisi Özellikleri...</translated>
+	</message>
+	<message>
+		<original>Exit</original>
+		<translated>Çıkış</translated>
+	</message>
+	<message>
+		<original>&amp;Customer</original>
+		<translated>&amp;Müşteri</translated>
+	</message>
+	<message>
+		<original>E-mail:</original>
+		<translated>E-posta:</translated>
+	</message>
+	<message>
+		<original>Customer Licenses</original>
+		<translated>Müşteri Lisansları</translated>
+	</message>
+	<message>
+		<original>Today</original>
+		<translated>Bugün</translated>
+	</message>
+	<message>
+		<original>Additional Parameters</original>
+		<translated>Ek Parametreler</translated>
+	</message>
+	<message>
+		<original>Edit License</original>
+		<translated>Lisans Düzenle</translated>
+	</message>
+	<message>
+		<original>Additional License Properties</original>
+		<translated>Ek Lisans Özellikleri</translated>
+	</message>
+	<message>
+		<original>License Price:</original>
+		<translated>Lisans Fiyatı:</translated>
+	</message>
+	<message>
+		<original>Stolen License</original>
+		<translated>Çalınmış Lisans</translated>
+	</message>
+	<message>
+		<original>Subscription (Uses by Enigma Mailer)</original>
+		<translated>Abonelik (Enigma Mailer tarafından kullanılıyor)</translated>
+	</message>
+	<message>
+		<original>Subscribed License</original>
+		<translated>Abone Olunan Lisans</translated>
+	</message>
+	<message>
+		<original>Expire Subscription</original>
+		<translated>Aboneliğin Bitiş Zamanı</translated>
+	</message>
+	<message>
+		<original>Generate Email</original>
+		<translated>E-posta Üret</translated>
+	</message>
+	<message>
+		<original>Specify additional parameters</original>
+		<translated>Ek parametreler belirtin</translated>
+	</message>
+	<message>
+		<original>Enter values of the additional parameters</original>
+		<translated>Ek parametrelerin değerlerini girin</translated>
+	</message>
+	<message>
+		<original>Parameter</original>
+		<translated>Parametre</translated>
+	</message>
+	<message>
+		<original>Keys Generator Settings</original>
+		<translated>Anahtar Üreticisi Ayarları</translated>
+	</message>
+	<message>
+		<original>Register After Date</original>
+		<translated>Tarihten Sonra Kayıt Ol</translated>
+	</message>
+	<message>
+		<original>Register Before Date</original>
+		<translated>Tarihten Önce Kayıt Ol</translated>
+	</message>
+	<message>
+		<original>Executions Limit</original>
+		<translated>Uygulama Sınırı</translated>
+	</message>
+	<message>
+		<original>Days Limit</original>
+		<translated>Gün Sınırı</translated>
+	</message>
+	<message>
+		<original>Run-time Limit</original>
+		<translated>Çalışma Zamanı Sınırı</translated>
+	</message>
+	<message>
+		<original>Global Time limit</original>
+		<translated>Küresel Zaman Sınırı</translated>
+	</message>
+	<message>
+		<original>Crypted Section</original>
+		<translated>Şifrelenmiş Bölüm</translated>
+	</message>
+	<message>
+		<original>Stolen Keys</original>
+		<translated>Çalınmış Anahtarlar</translated>
+	</message>
+	<message>
+		<original>Subscription</original>
+		<translated>Abonelik</translated>
+	</message>
+	<message>
+		<original>Customer Parameters</original>
+		<translated>Müşteri Parametreleri</translated>
+	</message>
+	<message>
+		<original>License Parameters</original>
+		<translated>Lisans Parametreleri</translated>
+	</message>
+	<message>
+		<original>Today +</original>
+		<translated>Bugün +</translated>
+	</message>
+	<message>
+		<original>Use Key Expiration (by default)</original>
+		<translated>Anahtar Son Kullanma Tarihini Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Fixed Value</original>
+		<translated>Sabit değer</translated>
+	</message>
+	<message>
+		<original>Custom Value</original>
+		<translated>Özel Değer</translated>
+	</message>
+	<message>
+		<original>Months</original>
+		<translated>Ay</translated>
+	</message>
+	<message>
+		<original>Years</original>
+		<translated>Yıl</translated>
+	</message>
+	<message>
+		<original>Use Register After (by default)</original>
+		<translated>Sonra Kayıt Ol Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Use Register Before (by default)</original>
+		<translated>Önce Kayıt Ol Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Executions count</original>
+		<translated>Uygulama sayısı</translated>
+	</message>
+	<message>
+		<original>Use Executions Limit (by default)</original>
+		<translated>Uygulama Sınırı Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Days count</original>
+		<translated>Gün Sayısı</translated>
+	</message>
+	<message>
+		<original>Use Days Limit (by default)</original>
+		<translated>Gün Sayısı Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Run-time minutes</original>
+		<translated>Çalışma Zamanı dakikaları</translated>
+	</message>
+	<message>
+		<original>Use Run-time Limit (by default)</original>
+		<translated>Çalışma Zamanı Sınırı Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Global Time minutes</original>
+		<translated>Küresel Zaman Dakikaları</translated>
+	</message>
+	<message>
+		<original>Use Global Time Limit (by default)</original>
+		<translated>Küresel Zaman Sınırı Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Use Country Lock (by default)</original>
+		<translated>Ülke Kilidi Kullan (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Select Crypted Sections (by default)</original>
+		<translated>Şifreli Bölümleri Seçin (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>Automatically make expired keys as stolen</original>
+		<translated>Süresi geçmiş anahtarları otomatik olarak çalınmış say</translated>
+	</message>
+	<message>
+		<original>License is subscribed (by default)</original>
+		<translated>Lisans onaylandı (varsayılan olarak)</translated>
+	</message>
+	<message>
+		<original>License Expiration</original>
+		<translated>Lisans Süre Sonu</translated>
+	</message>
+	<message>
+		<original>License has expiration</original>
+		<translated>Lisans süresi doldu</translated>
+	</message>
+	<message>
+		<original>Select a folder to search files in:</original>
+		<translated>Dosyaları aramak için bir klasör seçin:</translated>
+	</message>
+	<message>
+		<original>Single template selected in Mailer</original>
+		<translated>Mailer için tek şablon seçildi</translated>
+	</message>
+	<message>
+		<original>All templates in the folder</original>
+		<translated>Klasördeki tüm şablonlar</translated>
+	</message>
+	<message>
+		<original>Selected template files</original>
+		<translated>Seçilmiş şablon dosyaları</translated>
+	</message>
+	<message>
+		<original>Specify the list of additional parameters for customer records</original>
+		<translated>Müşteri kayıtları için ek parametrelerin listesini belirtin</translated>
+	</message>
+	<message>
+		<original>Desciption</original>
+		<translated>Açıklama</translated>
+	</message>
+	<message>
+		<original>Short Name</original>
+		<translated>Kısa Ad</translated>
+	</message>
+	<message>
+		<original>Default Value</original>
+		<translated>Varsayılan Değer</translated>
+	</message>
+	<message>
+		<original>Add Parameter</original>
+		<translated>Parametre Ekle</translated>
+	</message>
+	<message>
+		<original>Specify the list of additional parameters for license records</original>
+		<translated>Lisans kayıtları için ek parametrelerin listesini belirtin</translated>
+	</message>
+	<message>
+		<original>Select Folder with the templates...</original>
+		<translated>Şablonların olduğu klasörü seçin...</translated>
+	</message>
+	<message>
+		<original>*.xml</original>
+		<translated>*.xml</translated>
+	</message>
+	<message>
+		<original>Enigma Mailer</original>
+		<translated>Enigma Mailer</translated>
+	</message>
+	<message>
+		<original>Use SSL (for SSL connection it is recommended to use port number 465)</original>
+		<translated>SSL kullan (SSL bağlantısı için 465 numaralı bağlantı noktası kullanılması önerilir)</translated>
+	</message>
+	<message>
+		<original>EMail Address</original>
+		<translated>E-posta Adresi</translated>
+	</message>
+	<message>
+		<original>&quot;CC&quot; field (email address):</original>
+		<translated>&quot;CC&quot; alanı (e-posta adresi):</translated>
+	</message>
+	<message>
+		<original>&quot;BCC&quot; field (email address):</original>
+		<translated>&quot;BCC&quot; alanı (e-posta adresi):</translated>
+	</message>
+	<message>
+		<original>To</original>
+		<translated>Kime</translated>
+	</message>
+	<message>
+		<original>Subject</original>
+		<translated>Konu</translated>
+	</message>
+	<message>
+		<original>Created</original>
+		<translated>Oluşturulan</translated>
+	</message>
+	<message>
+		<original>Sent</original>
+		<translated>Gönderilen</translated>
+	</message>
+	<message>
+		<original>Send Email</original>
+		<translated>E-posta gönder</translated>
+	</message>
+	<message>
+		<original>Move to &quot;Outbox&quot;</original>
+		<translated>&quot;Giden Kutusuna&quot; Taşı</translated>
+	</message>
+	<message>
+		<original>Move to &quot;Sent Mail&quot;</original>
+		<translated>&quot;Gönderilmiş Postalara&quot; Taşı</translated>
+	</message>
+	<message>
+		<original>Move to Trash</original>
+		<translated>&quot;Çöpe&quot; Taşı</translated>
+	</message>
+	<message>
+		<original>Send Emails</original>
+		<translated>Postaları Gönder</translated>
+	</message>
+	<message>
+		<original>Move ALL to &quot;Outbox&quot;</original>
+		<translated>Tümünü &quot;Giden Kutusuna&quot; Taşı</translated>
+	</message>
+	<message>
+		<original>Move ALL to &quot;Sent Mail&quot;</original>
+		<translated>Tümünü &quot;Gönderilmiş Postalara&quot; Taşı</translated>
+	</message>
+	<message>
+		<original>Move ALL to &quot;Trash&quot;</original>
+		<translated>Tümünü &quot;Çöpe&quot; Taşı</translated>
+	</message>
+	<message>
+		<original>Generate E-Mail(s)</original>
+		<translated>E-Posta Oluştur</translated>
+	</message>
+	<message>
+		<original>Enigma Watermark Viewer</original>
+		<translated>Enigma Filigran Görüntüleyicisi</translated>
+	</message>
+	<message>
+		<original>Form Designer</original>
+		<translated>Form Tasarımcısı</translated>
+	</message>
+	<message>
+		<original>Components</original>
+		<translated>Bileşenler</translated>
+	</message>
+	<message>
+		<original>Load from File...</original>
+		<translated>Dosyadan Yükle...</translated>
+	</message>
+	<message>
+		<original>Save to File...</original>
+		<translated>Dosyaya Kaydet...</translated>
+	</message>
+	<message>
+		<original>&amp;Edit</original>
+		<translated>&amp;Düzenle</translated>
+	</message>
+	<message>
+		<original>Cu&amp;t</original>
+		<translated>Ke&amp;s</translated>
+	</message>
+	<message>
+		<original>&amp;Copy</original>
+		<translated>&amp;Kopyala</translated>
+	</message>
+	<message>
+		<original>&amp;Paste</original>
+		<translated>&amp;Yapıştır</translated>
+	</message>
+	<message>
+		<original>&amp;Delete</original>
+		<translated>&amp;Sil</translated>
+	</message>
+	<message>
+		<original>Select &amp;All</original>
+		<translated>&amp;Tümünü Seç</translated>
+	</message>
+	<message>
+		<original>Bring to &amp;Front</original>
+		<translated>&amp;Öne Getir</translated>
+	</message>
+	<message>
+		<original>Send to &amp;Back</original>
+		<translated>&amp;Arkaya Gönder</translated>
+	</message>
+	<message>
+		<original>Align to &amp;Grid</original>
+		<translated>&amp;Izgaraya Hizala</translated>
+	</message>
+	<message>
+		<original>&amp;View</original>
+		<translated>&amp;Görünüm</translated>
+	</message>
+	<message>
+		<original>Object Inspector</original>
+		<translated>Nesne Denetçisi</translated>
+	</message>
+	<message>
+		<original>Designed Form</original>
+		<translated>Tasarlanmış Form</translated>
+	</message>
+	<message>
+		<original>Enigma Protector form (*.enigmaform)|*.enigmaform|Any file (*.*)|*.*</original>
+		<translated>Enigma Güvenlik formu (*.enigmaform)|*.enigmaform|Herhangi bir dosya (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Password designer</original>
+		<translated>Parola oluşturucu</translated>
+	</message>
+	<message>
+		<original>Commentary:</original>
+		<translated>Yorum:</translated>
+	</message>
+	<message>
+		<original>Virtual Machine Functions Selecting</original>
+		<translated>Sanal Makine İşlev Seçimi</translated>
+	</message>
+	<message>
+		<original>Enter Filter Expression</original>
+		<translated>Filtre İfadesini Girin</translated>
+	</message>
+	<message>
+		<original>Apply</original>
+		<translated>Uygula</translated>
+	</message>
+	<message>
+		<original>Not Selected</original>
+		<translated>Seçilmedi</translated>
+	</message>
+	<message>
+		<original>Multiple Select</original>
+		<translated>Çoktan Seçmeli</translated>
+	</message>
+	<message>
+		<original>From #:</original>
+		<translated>Kimden #:</translated>
+	</message>
+	<message>
+		<original>To #:</original>
+		<translated>Kime #:</translated>
+	</message>
+	<message>
+		<original>Go To</original>
+		<translated>Git</translated>
+	</message>
+	<message>
+		<original>First Selected</original>
+		<translated>İlk Seçilen</translated>
+	</message>
+	<message>
+		<original>Last Selected</original>
+		<translated>Son Seçilen</translated>
+	</message>
+	<message>
+		<original>Previous Selected</original>
+		<translated>Önceki Seçim</translated>
+	</message>
+	<message>
+		<original>Next Selected</original>
+		<translated>Sonraki Seçim</translated>
+	</message>
+	<message>
+		<original>List Beginning</original>
+		<translated>Liste Başlangıcı</translated>
+	</message>
+	<message>
+		<original>List End</original>
+		<translated>Liste Sonu</translated>
+	</message>
+	<message>
+		<original>Deselect All</original>
+		<translated>Tüm Seçimleri Kaldır</translated>
+	</message>
+	<message>
+		<original>Go to Disassembly</original>
+		<translated>Ayırma İşlemine Git</translated>
+	</message>
+	<message>
+		<original>function: &quot;%s&quot;</original>
+		<translated>işlev: &quot;%s&quot;</translated>
+	</message>
+	<message>
+		<original>Text:</original>
+		<translated>Metin:</translated>
+	</message>
+	<message>
+		<original>Do you really want to unregister Enigma Protector?
+This action will delete license information from you computer.</original>
+		<translated>Gerçekten Enigma Güvenliği silmek istiyor musun?
+Bu işlem lisans bilgilerini de bilgisayarınızdan silecektir.</translated>
+	</message>
+	<message>
+		<original>Copy log to clipboard</original>
+		<translated>Günlüğü panoya kopyala</translated>
+	</message>
+	<message>
+		<original>Save log to file</original>
+		<translated>Günlüğü dosyaya kaydet</translated>
+	</message>
+	<message>
+		<original>Having problems with protection? Ask your question on our support forum!</original>
+		<translated>Güvenlik ile ilgili sorunlarınız mı var? Sorunlarınıza destek forumlarımızda çözüm bulun!</translated>
+	</message>
+	<message>
+		<original>Text Files (*.txt)|*.txt</original>
+		<translated>Metin Dosyaları (*.txt)|*.txt</translated>
+	</message>
+	<message>
+		<original>Choose file for saving</original>
+		<translated>Kaydetmek için dosya seçin</translated>
+	</message>
+	<message>
+		<original>Protect file: %s</original>
+		<translated>Dosyayı koru: %s</translated>
+	</message>
+	<message>
+		<original>Process Virtual Machine ...</original>
+		<translated>Sanal Makineye İşleme...</translated>
+	</message>
+	<message>
+		<original>Search markers...</original>
+		<translated>İşaretçileri ara...</translated>
+	</message>
+	<message>
+		<original>File successfully protected: %s</original>
+		<translated>Dosya başarıyla korundu: %s</translated>
+	</message>
+	<message>
+		<original>It is impossible to generate new projects in the DEMO version!</original>
+		<translated>DEMO sürümünde yeni projeler üretmek mümkün değildir!</translated>
+	</message>
+	<message>
+		<original>WARNING: You are using registration constants from default project</original>
+		<translated>UYARI: Varsayılan projeden kayıt sabitleri kullanıyorsunuz</translated>
+	</message>
+	<message>
+		<original>WARNING: It is strongly recommended to create new project firstly!</original>
+		<translated>UYARI: Önce yeni bir proje yaratmanız şiddetle tavsiye edilir!</translated>
+	</message>
+</messages>

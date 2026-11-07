@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<CREATE_MONSTERPET>
+	
+	<MONSTER_PET Index = "7700" > <MATERIAL Index = "7708" Count = "500"/> <MATERIAL Index = "7716" Count = "5"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--????? ?-->
+	<MONSTER_PET Index = "7701" > <MATERIAL Index = "7709" Count = "500"/> <MATERIAL Index = "7716" Count = "5"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--???? ????? ?-->
+	<MONSTER_PET Index = "7702" > <MATERIAL Index = "7710" Count = "600"/> <MATERIAL Index = "7716" Count = "5"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--??? ?-->
+	<MONSTER_PET Index = "7703" > <MATERIAL Index = "7711" Count = "600"/> <MATERIAL Index = "7716" Count = "5"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--?? ?-->
+	<MONSTER_PET Index = "7704" > <MATERIAL Index = "7712" Count = "700"/> <MATERIAL Index = "3360" Count = "49"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--?? ????? ??? ?-->
+	<MONSTER_PET Index = "7705" > <MATERIAL Index = "7713" Count = "300"/> <MATERIAL Index = "3360" Count = "49"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--??? ?? ??? ?-->
+	<MONSTER_PET Index = "7706" > <MATERIAL Index = "7714" Count = "300"/> <MATERIAL Index = "3360" Count = "49"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--??? ???? ?? ?-->
+	<MONSTER_PET Index = "7707" > <MATERIAL Index = "7715" Count = "700"/> <MATERIAL Index = "3360" Count = "49"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--??? ?? ?? ?? ?-->
+
+
+	<MONSTER_PET Index = "7719" > <MATERIAL Index = "7723" Count = "500"/> <MATERIAL Index = "7716" Count = "5"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--??? ??? ?-->
+	<MONSTER_PET Index = "7720" > <MATERIAL Index = "7724" Count = "500"/> <MATERIAL Index = "7716" Count = "5"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>    <!--??? ??? ? ?-->
+	<MONSTER_PET Index = "7721" > <MATERIAL Index = "7725" Count = "600"/> <MATERIAL Index = "3360" Count = "49"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--??? ??? ?? ?-->
+ 	<MONSTER_PET Index = "7722" > <MATERIAL Index = "7726" Count = "600"/> <MATERIAL Index = "3360" Count = "49"/> <MONSTERPET_PRICE  Money= "100000" Jewel = "0"/></MONSTER_PET>   <!--???? ? ?? ??? ?-->
+	
+	
+</CREATE_MONSTERPET>

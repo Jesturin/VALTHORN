@@ -1,0 +1,25 @@
+;==================XEAxMaste MD5 Protection
+;1 = Enabled, 0 = Disabled
+
+[MD5]
+Active = 0
+
+;==================Client Protection==================
+
+[EngineProtect]
+Engine.dll = 1365ce85057322beb81d8b0389b9092c
+
+;==================client files to add================
+
+;list of files md5 check
+;==========================
+((File engine.exe) (Hash 1618443fc9562a47b2f4c8f901942c13))
+((File data/Config/config.pk) (Hash afe6d2fc77ec4347baea426629ac06ad))
+((File data/HyperText/nui/script.pk) (Hash a047f38e2c5dac2e0ff0bc89ac863584))
+((File d3dx9_29.dll) (Hash 99f4fc172a5ace36cf00aa7038d23f2c))
+((File BugTrap.dll) (Hash 7a7060302825c2e9b31c12fbc10231f4))
+((File dbghelp.dll) (Hash 3b5f0bf4125688a531fa21c823ea6193))
+((File data/MAPS/n_030_031.kcm) (Hash 3dde57f63cad4ca89a3ba40608424859))
+((File data/MAPS/n_030_031.opl) (Hash 3a314a365992ab524a4de9770e3e5180))
+((File data/MAPS/n_032_029.kcm) (Hash 65e91ca38ec2992b7c61b840186d8c83))
+((File data/MAPS/n_032_029.opl) (Hash df9d8b66eb4334dd090505e1ba2130c7))

@@ -1,0 +1,14 @@
+;Give xx amount of item and get winner gets full amount when it picks him (2x times a day)
+
+[Lottery]
+Active = 1
+
+[Quest]
+Index = 4095
+
+[ReplyQuest]
+Index = 4096
+
+[Item]
+Index = 31
+Amount = 100000

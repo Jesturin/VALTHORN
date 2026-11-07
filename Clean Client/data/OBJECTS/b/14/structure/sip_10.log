@@ -1,0 +1,30 @@
+
+(Material	(count 1) (frame 1) (offset 164)
+	(0 "06 - Default" (texture "sip_05.dds" "") (mapoption 0x0) (power 0) (szoption "")))
+
+(Mesh (offset 182)
+	(0 "06 - Default" RIGID   STRIP   (vertex 177) (index 299) (bone_index 0) (material_ref 0) (original_ref 1)
+		(light_map "")
+		(GeomObject "Cylinder04")))
+
+(Header
+	(version 12)
+	(bone count 0)
+	(bone file 0)
+	(material count 1)
+	(mesh count 1)
+	(vertex count 177)
+	(index count 299)
+	(anim file count 0)
+	(keyframe count 0)
+	(string size 71))
+
+(size
+	(header 164)
+	(bone 164, 0)
+	(material 164, 18)
+	(mesh 182, 6277)
+	(anim 6459, 0)
+	(collision 6459, 2230)
+	(string 8689, 71)
+	(total 8760))

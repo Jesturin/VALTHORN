@@ -1,0 +1,8 @@
+(*ANIMATION
+	(0
+		(*EFFECT_EXPLOSION "2")
+	)
+	(45
+		(*EFFECT_EXPLOSION "2")
+	)
+)

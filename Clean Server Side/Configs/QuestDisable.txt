@@ -1,0 +1,3 @@
+(QuestDisable (index 1234 5))
+;(QuestDisable (index 9015 4)(Map 10))
+(QuestDisable (index 2237 7))

@@ -1,0 +1,29 @@
+
+(Material	(count 1) (frame 1) (offset 76)
+	(0 "8 - Default" (texture "dg03.dds") (RefCount 1) (mapoption 0x1) (power 0) (szoption "")))
+
+(Mesh (offset 94)
+	(0 "8 - Default" STATIC  STRIP   (vertex 166) (index 251) (bone index 0) (material ref 0) (light map "")
+		(GeomObject "C_Box259" "C_Box260" "C_Box261" "C_Box262" "C_Box263" "C_Box253" "C_Box08")))
+
+(Header
+	(version 10)
+	(bone count 0)
+	(bone file 0)
+	(material count 1)
+	(mesh count 1)
+	(vertex count 166)
+	(index count 251)
+	(anim file count 0)
+	(keyframe count 0)
+	(string size 74))
+
+(size
+	(header 76)
+	(bone 76, 0)
+	(material 76, 18)
+	(mesh 94, 5829)
+	(anim 5923, 0)
+	(collision 5923, 3376)
+	(string 9299, 74)
+	(total 9373))

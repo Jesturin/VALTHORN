@@ -1,0 +1,69 @@
+//HTML s300133.dat for registration/joining battle
+// /leave to leave T-Battle
+// /triangularbattle or EventTimer "TriangularBattle" for teams selection and players to be able to join battle
+
+[Map]
+Index = 17
+
+[Registration]
+MinPlayers = 1
+MaxPlayers = 300
+MinLevel = 1
+MaxLevel = 255
+
+[Time]
+Duration = 1800
+CooldownToStart = 300
+
+[RandomBuff]
+Every = 180
+
+[Emblem]
+PullTime = 10
+SetTime = 10
+ExpirationTime = 300
+
+// Configs/Rewards.txt (You can edit the reward visuals on config.pk message.dat, 3486 to 3491)
+[Reward]
+NoEssence = 0
+OneEssence = 1
+TwoEssence = 2
+ThreeEssence = 3
+
+[TeleportBack]
+X = 257514
+Y = 259273
+Z = 0
+
+[HumanSpawn]
+X = 217239
+Y = 252959
+Z = 16553
+
+[DoggebiSpawn]
+X = 219591
+Y = 257665
+Z = 21020
+
+[DemonSpawn]
+X = 222718
+Y = 252647
+Z = 18591
+
+//to add initnpc.txt with ur map index
+( gennpc (index 729) (country 0 1 2) (kind 1) (shape 144) (html ) (map 17) (xy 217216 252820 16553) (dir 217209 252806)) ;??? ??
+
+; ??? ??? ??? npc
+( gennpc (index 732) (country 0 1 2) (kind 1) (shape 145) (html ) (map 17) (xy 217216 252820 16553) (dir 217209 252806)) ;??? ??
+
+; ??? ??? ??? npc
+( gennpc (index 730) (country 0 1 2) (kind 1) (shape 144) (html ) (map 17) (xy 219553 257648 21030) (dir 219549 257632)) ;???? ??
+
+; ??? ??? ??? npc
+( gennpc (index 733) (country 0 1 2) (kind 1) (shape 147) (html ) (map 17) (xy 219553 257648 21030) (dir 219549 257632)) ;???? ??
+
+; ??? ??? ??? npc
+( gennpc (index 731) (country 0 1 2) (kind 1) (shape 144) (html ) (map 17) (xy 222712 252652 18591) (dir 252644 18591)) ;???? ??
+
+; ??? ??? ??? npc
+( gennpc (index 734) (country 0 1 2) (kind 0) (shape 146) (html ) (map 17) (xy 222712 252652 18591) (dir 252644 18591)) ;???? ??

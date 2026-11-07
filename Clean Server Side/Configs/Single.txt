@@ -1,0 +1,1 @@
+(single (index %d)(grade %d)(buff %d)(remove %d))

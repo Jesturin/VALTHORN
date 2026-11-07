@@ -1,0 +1,9 @@
+[Mix]
+Rate = 20
+
+[Imp]
+Rate = 15
+
+[Mirrors]
+Upgrade = 5
+Change = 10

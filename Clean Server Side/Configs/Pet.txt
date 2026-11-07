@@ -1,0 +1,3 @@
+(pet (index %d)(time %d)(heal %d)(hplimit %d)(autopick %d)(pickrange %d)(addexp %d))
+
+(pet (index %d)(monster %d)(speed %d)(time %d)(heal %d)(hplimit %d)(autopick %d)(pickrange %d)(addexp %d)(attack %d)(AOEDelay %d)(effects '%[a-z | A-Z | 0-9/<>|.,~*;`:!^+%&=?_-£#$€]'))

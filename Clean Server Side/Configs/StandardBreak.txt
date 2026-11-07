@@ -1,0 +1,9 @@
+// addon for standard items breaking when dying (Example: Guild flags)
+
+[Break]
+Active = 0
+
+[StandardBuff]
+Active = 0
+
+(unbreak (index 100))

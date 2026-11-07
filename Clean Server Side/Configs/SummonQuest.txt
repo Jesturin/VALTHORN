@@ -1,0 +1,1 @@
+(SummonQuest (Quest 9115 555) (ReplyQuest 9015 6666) (Item_Index 31) (Item_Amount 1000) (Monster_Index 1) (Monster_Amount 1) (Coordinates 0-266978-242402) (Notice 'Demon Vulgar just got spawned at fort ramp.') (Check 1) (DailyLimit 5))

@@ -1,0 +1,21 @@
+[Quest]
+Index = 9508
+
+[Map]
+Index = 26
+
+[Time]
+Time = 1800
+
+[Reward]
+Index = 3360
+Amount = 20
+HonorPoints = 2500
+RewardPoints = 5000
+
+;Red TEAM Teleport
+(gennpc (index 1244) (country 0 2) (kind 1) (shape 46) (html 846)  (map 26) (xy 288839 351137 25700) (dir 288845 351086))
+
+;Blue TEAM Teleport
+(gennpc (index 1245) (country 0 2) (kind 1) (shape 46) (html 847)  (map 26) (xy 284777 350898 26040) (dir 284783 350953))
+

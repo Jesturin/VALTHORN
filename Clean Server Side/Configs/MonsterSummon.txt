@@ -1,0 +1,1 @@
+(mss (itemindex 2426)(mobindex 1171)(amount 1)(time 120))

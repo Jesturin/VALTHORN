@@ -1,0 +1,21 @@
+[Quest]
+Index = 9505
+Cooldown = 1800
+
+[Map]
+Index = 5
+
+[Teleport]
+X = 183160
+Y = 17847
+
+[TeleportBack]
+X = 309950
+Y = 287453
+
+[Spawn]
+X = 183160
+Y = 17847
+
+[Reward]
+RewardID = 0

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- perExp 100??? -->
+<!-- Free_TIME 1?? 10000 -->
+
+<DEFINES>
+	<!-- 10??? ??? ?? -->
+	<GET_EXP_TIME time="10000" />
+	<!-- ?? ?? ?? ?? -->
+	<GET_Free_TIME free_time="1800000" />
+	<!-- ?? ? ?? ?? ? -->
+	<GET_Time_Price Time_price="2" />	
+	
+</DEFINES>
+<AUTOEXP>
+	<VALUE maxLv="5" fixExp="44" dropType="0"/>
+	<VALUE maxLv="10" fixExp="76" dropType="0"/>
+	<VALUE maxLv="15" fixExp="110" dropType="0"/>
+	<VALUE maxLv="20" fixExp="160" dropType="0"/>
+	<VALUE maxLv="25" fixExp="218" dropType="0"/>
+	<VALUE maxLv="30" fixExp="320" dropType="0"/>
+	<!-- 10% -->
+	<VALUE maxLv="35" fixExp="690" dropType="0"/>
+	<VALUE maxLv="40" fixExp="946" dropType="0"/>
+	<!-- 2% -->
+	<VALUE maxLv="45" fixExp="1270" dropType="0"/>
+	<VALUE maxLv="50" fixExp="1818" dropType="0"/>
+	<!-- 0.1% -->
+	<VALUE maxLv="55" fixExp="2400" dropType="0"/>
+	<VALUE maxLv="60" fixExp="3314" dropType="0"/>
+	<!-- 0.1% -->
+	<VALUE maxLv="65" fixExp="3880" dropType="0"/>
+	<VALUE maxLv="70" fixExp="4480" dropType="0"/>
+	<!-- 0.1% -->
+	<VALUE maxLv="75" fixExp="12240" dropType="0"/>
+	<VALUE maxLv="80" fixExp="130000" dropType="0"/>
+	<!-- 0.01% -->
+	<VALUE maxLv="85" fixExp="150000" dropType="0"/>
+	<VALUE maxLv="90" fixExp="195600" dropType="0"/>
+	<VALUE maxLv="95" fixExp="300000" dropType="0"/>
+	<VALUE maxLv="100" fixExp="340000" dropType="0"/>
+	<VALUE maxLv="120" fixExp="500000" dropType="0"/>
+	<!--  ?? ??? ??. ??? ???? ??? ?? -->	
+	<VALUE maxLv="250" fixExp="500000" dropType="0"/>
+</AUTOEXP>
+
+<DROPTYPE>					
+	<!-- ???? 100% -->				
+	<VALUE key="0" rate="500" itemIndex="1"/>							
+</DROPTYPE>	

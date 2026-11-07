@@ -1,0 +1,37 @@
+;chance 0,1,2 (0 being the easiest, 2 being the hardest)
+;items (1 means it will only pick 1 item from the indexes and give it)
+;Area Limit = 1 => can only mine in geum-oh-mine, 0 => can mine anywhere
+
+[Area]
+Limit = 1
+
+;Normal Pickax
+(mining (pickax 2524)(chance 0)(items 1)(index 2537,2530,2531)(amount 1,1,1))
+(mining (pickax 2524)(chance 1)(items 1)(index 2532,2533,2534)(amount 1,1,1))
+(mining (pickax 2524)(chance 2)(items 1)(index 2535,2536,2539)(amount 1,1,1))
+
+;Blue Dragon Pickax
+(mining (pickax 2525)(chance 0)(items 1)(index 2530,2531,2532,2533,2534,2530,2531,2532,2533,2534,2530)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2525)(chance 1)(items 1)(index 2535,2536,2539,2655,2656,2659,2660,2663,2664,2667,2668)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2525)(chance 2)(items 1)(index 2657,2658,2661,2662,2665,2666,2669,2670,2671,2672,2673)(amount 1,1,1,1,1,1,1,1,1,1,1))
+
+;White Tiger Pickax
+(mining (pickax 2526)(chance 0)(items 3)(index 2530,2531,2532,2533,2534,2537,2530,2531,2532,2533,2534)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2526)(chance 1)(items 3)(index 2535,2536,2539,2655,2656,2659,2660,2663,2664,2667,2668)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2526)(chance 2)(items 3)(index 2535,2536,2539,2655,2656,2659,2660,2663,2664,2667,2668)(amount 1,1,1,1,1,1,1,1,1,1,1))
+
+;Red Bird Pickax
+(mining (pickax 2527)(chance 0)(items 2)(index 2530,2531,2532,2533,2534,2530,2531,2532,2533,2534,2530)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2527)(chance 1)(items 2)(index 2535,2536,2539,2655,2656,2659,2660,2663,2664,2667,2668)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2527)(chance 2)(items 2)(index 2657,2658,2661,2662,2665,2666,2669,2670,2671,2672,2673)(amount 1,1,1,1,1,1,1,1,1,1,1))
+
+;Black Torotise Pickax
+(mining (pickax 2528)(chance 0)(items 3)(index 2530,2531,2532,2533,2534,2530,2531,2532,2533,2534,2530)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2528)(chance 1)(items 3)(index 2535,2536,2539,2655,2656,2659,2660,2663,2664,2667,2668)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2528)(chance 2)(items 3)(index 2657,2658,2661,2662,2665,2666,2669,2670,2671,2672,2673)(amount 1,1,1,1,1,1,1,1,1,1,1))
+
+;Mysterious Pickax
+(mining (pickax 2529)(chance 0)(items 3)(index 2535,2536,2539,2655,2656,2659,2660,2663,2664,2667,2668)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2529)(chance 1)(items 3)(index 2657,2658,2661,2662,2665,2666,2669,2670,2671,2672,2673)(amount 1,1,1,1,1,1,1,1,1,1,1))
+(mining (pickax 2529)(chance 2)(items 3)(index 2539,2674,2675,2539,2674,2675,2539,2674,2675,2539,2674)(amount 1,1,1,1,1,1,1,1,1,1,1))
+

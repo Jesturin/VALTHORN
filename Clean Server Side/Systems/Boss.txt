@@ -1,0 +1,5 @@
+[Monster]
+Index = 859
+
+[Reward]
+RewardID = 1

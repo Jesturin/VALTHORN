@@ -1,0 +1,11 @@
+[PacketHack]
+Active = 0
+Limit = 100
+Time = 100
+Delay = 500
+
+(PacketBlock (type 160))
+(PacketBlock (type 166))
+(PacketBlock (type 189))
+(PacketBlock (type 116))
+(PacketBlock (type 254))

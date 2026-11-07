@@ -1,0 +1,7 @@
+[Quest]
+Index = 9203
+
+//For Winner Only
+[Reward]
+Index = 31
+Amount = 30000000

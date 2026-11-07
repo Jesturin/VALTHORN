@@ -1,0 +1,10 @@
+//infos at : https://www.kalonline.ga/ornament.php
+//press "o" to activate belt buff
+//necklace buffs activate once hitting monsters
+
+(necklaceBuff (index 206) (dmg 160) (critchance 10) (duration 26) (cooldown 5) (effect 'accessory_bd'))
+(necklaceBuff (index 101) (dmg 160) (critchance 10) (duration 6) (cooldown 60) (effect 'accessory_rp'))
+(necklaceBuff (index 103) (dmg 160) (critchance 10) (duration 6) (cooldown 60) (effect 'accessory_wt'))
+
+(beltBuff (index 1812) (hpincrease 14000) (duration 60) (cooldown 240) (effect 'accessory_bt'))
+(beltBuff (index 206) (hpincrease 14000) (duration 6) (cooldown 240) (effect 'accessory_bt'))

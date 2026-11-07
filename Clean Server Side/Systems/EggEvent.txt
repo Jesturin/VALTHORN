@@ -1,0 +1,4 @@
+[EggEvent]
+Percentage = 30
+SBName = 4408
+SBKey = 965

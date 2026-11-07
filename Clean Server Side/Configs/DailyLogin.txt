@@ -1,0 +1,16 @@
+;IPLimit for exeeding rewards for 1 person (with multiple account)
+;IPLimit 2 => only 2 accounts of that person can have the daily reward
+;IPLimit 0 => Unlimited accounts
+;Day => how many times player logged in during 31 days (day 8) means its his 8th login in the month
+;if u use 31 lines it means monthly, if u use 7 days it will be weekly (can be how many days u want untill 31)
+;Bound => 1/0 items will be given bound
+
+[DailyReward]
+Active = 0
+IPCheck = 4
+Bound = 1
+Limit = 0
+Quest = 0
+
+
+(dailylogin (day 1)(claimHTML 10000)(item 47,48)(amount 1,2)(honor 10)(reward 100)(HTML 100001))

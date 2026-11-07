@@ -1,0 +1,5 @@
+[Immortal]
+Percentage = 100
+PVPEnable = 0
+SkillBuffMsg = 1660
+SkillBuffKey = 191

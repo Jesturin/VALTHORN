@@ -1,0 +1,58 @@
+(Skill (ID 1) (AOE 4) (cooldown 60000) (effect 'effect_ef066a') (Buff 91) (BuffTime 20) (BuffValue -50) (Damage 35-47) (SBName 0) (SBKey 0))		// Curse of Defence
+(Skill (ID 2) (AOE 4) (cooldown 120000) (effect 'davi_ef148_hit') (Buff 8) (BuffTime 10) (BuffValue 1) (Damage 35-47) (SBName 0) (SBKey 0))			// Frost
+
+(monsterSkill (Index 1) (Skills 1,2))	//Dunamic Debuff
+
+
+(Skill (ID 3) (AOE 4) (cooldown 90000) (effect 'effect_ef063a') (Buff 88) (BuffTime 20) (BuffValue -30) (Damage 3811-4174) (SBName 0) (SBKey 0))		// Curse of Agility
+(Skill (ID 4) (AOE 4) (cooldown 150000) (effect 'Doggaebi_05') (Buff 29) (BuffTime 20) (BuffValue 1000) (Damage 3811-4174) (SBName 0) (SBKey 0))		// Pain
+
+(monsterSkill (Index 572) (Skills 3,4))	//Cheios Debuff
+
+
+(Skill (ID 5) (AOE 4) (cooldown 60000) (effect 'effect_ef066a') (Buff 91) (BuffTime 20) (BuffValue -50) (Damage 4083-4500) (SBName 0) (SBKey 0))		// Curse of Defence
+(Skill (ID 6) (AOE 4) (cooldown 90000) (effect 'effect_ef063a') (Buff 88) (BuffTime 20) (BuffValue -30) (Damage 4083-4500) (SBName 0) (SBKey 0))		// Curse of Agility
+(Skill (ID 7) (AOE 4) (cooldown 120000) (effect 'davi_ef148_hit') (Buff 8) (BuffTime 10) (BuffValue 1) (Damage 4083-4500) (SBName 0) (SBKey 0))			// Frost
+(Skill (ID 8) (AOE 4) (cooldown 150000) (effect 'Doggaebi_05') (Buff 29) (BuffTime 20) (BuffValue 1000) (Damage 4083-4500) (SBName 0) (SBKey 0))		// Pain
+(Skill (ID 9) (AOE 4) (cooldown 180000) (effect 'effect_ef069a') (Buff 93) (BuffTime 10) (BuffValue 1) (Damage 4083-4500) (SBName 0) (SBKey 0))			// Loss of Confidence
+(Skill (ID 10) (AOE 4) (cooldown 210000) (effect 'effect_ef071a') (Buff 94) (BuffTime 10) (BuffValue 1) (Damage 4083-4500) (SBName 0) (SBKey 0))		// Sight Blockade
+
+(monsterSkill (Index 670) (Skills 5,6,7,8,9,10))	//Mautareta
+
+
+(Skill (ID 5) (AOE 11) (cooldown 60000) (effect 'effect_ef066a') (Buff 91) (BuffTime 20) (BuffValue -50) (Damage 4395-4874) (SBName 0) (SBKey 0))		// Curse of Defence
+(Skill (ID 7) (AOE 12) (cooldown 120000) (effect 'davi_ef148_hit') (Buff 8) (BuffTime 10) (BuffValue 1) (Damage 4395-4874) (SBName 0) (SBKey 0))		// Frost
+(Skill (ID 9) (AOE 13) (cooldown 180000) (effect 'effect_ef069a') (Buff 93) (BuffTime 10) (BuffValue 1) (Damage 4395-4874) (SBName 0) (SBKey 0))		// Loss of Confidence
+
+(monsterSkill (Index 383) (Skills 11,12,13))	//A Thousand year old E-Moogi
+
+
+(Skill (ID 6) (AOE 14) (cooldown 90000) (effect 'effect_ef063a') (Buff 88) (BuffTime 20) (BuffValue -30) (Damage 4515-5018) (SBName 0) (SBKey 0))		// Curse of Agility
+(Skill (ID 8) (AOE 15) (cooldown 150000) (effect 'Doggaebi_05') (Buff 29) (BuffTime 20) (BuffValue 1000) (Damage 4515-5018) (SBName 0) (SBKey 0))		// Pain
+(Skill (ID 10) (AOE 16) (cooldown 210000) (effect 'effect_ef071a') (Buff 94) (BuffTime 10) (BuffValue 1) (Damage 4515-5018) (SBName 0) (SBKey 0))		// Sight Blockade
+
+(monsterSkill (Index 382) (Skills 14,15,16))	//Ghost of Dragon
+
+
+(Skill (ID 17) (AOE 4) (cooldown 60000) (effect 'davi_ef148_hit') (Buff 8) (BuffTime 10) (BuffValue 1) (Damage 4151-4590) (SBName 0) (SBKey 0))			// Frost
+(Skill (ID 18) (AOE 4) (cooldown 90000) (effect 'effect_ef066a') (Buff 91) (BuffTime 20) (BuffValue -50) (Damage 4151-4590) (SBName 0) (SBKey 0))		// Curse of Defence
+
+(monsterSkill (Index 341) (Skills 17,18))	//Cave Giant
+
+
+(Skill (ID 19) (AOE 4) (cooldown 120000) (effect 'effect_ef063a') (Buff 88) (BuffTime 20) (BuffValue -30) (Damage 4651-5090) (SBName 0) (SBKey 0))		// Curse of Agility
+(Skill (ID 20) (AOE 4) (cooldown 150000) (effect 'Doggaebi_05') (Buff 29) (BuffTime 20) (BuffValue 1000) (Damage 4651-5090) (SBName 0) (SBKey 0))		// Pain
+
+(monsterSkill (Index 342) (Skills 19,20))	//High Class Cave Giant
+
+
+(Skill (ID 21) (AOE 4) (cooldown 180000) (effect 'effect_ef069a') (Buff 93) (BuffTime 10) (BuffValue 1) (Damage 5151-5590) (SBName 0) (SBKey 0))		// Loss of Confidence
+(Skill (ID 22) (AOE 4) (cooldown 210000) (effect 'effect_ef071a') (Buff 94) (BuffTime 10) (BuffValue 1) (Damage 5151-5590) (SBName 0) (SBKey 0))		// Sight Blockade
+
+(monsterSkill (Index 343) (Skills 21,22))	//Evolved Cave Giant
+
+
+
+
+
+

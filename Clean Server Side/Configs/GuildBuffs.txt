@@ -1,0 +1,1 @@
+(GuildBuff (Name 'XEAxMaste Guild Buff System') (Quest 9015) (Flag 5) (FlagReply 6) (ItemIndex 48) (ItemAmount 1000) (Buff 120,11) (Time 150,10) (Value 1,2) (SBName 1525,1526) (SBKey 152,153))

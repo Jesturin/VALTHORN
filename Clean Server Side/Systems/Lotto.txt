@@ -1,0 +1,18 @@
+;give xx amount of item to register for lotto, when winner gets picked, he will receive Reward (1 time a day)
+
+[Lotto]
+Active = 1
+
+[Quest]
+Index = 4095
+
+[ReplyQuest]
+Index = 4100
+
+[Item]
+Index = 31
+Amount = 2000
+
+/Configs/Rewards.txt
+[Reward]
+WinnerRewardID = 1

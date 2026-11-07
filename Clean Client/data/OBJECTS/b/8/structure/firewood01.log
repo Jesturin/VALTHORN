@@ -1,0 +1,38 @@
+
+(Material	(count 3) (frame 1) (offset 164)
+	(0 "Material #97" (texture "8-pasture01.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(1 "6-4s" (texture "8-pasture01.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(2 "s" (texture "8-pasture01.dds" "") (mapoption 0x1) (power 0) (szoption "")))
+
+(Mesh (offset 218)
+	(0 "6-4s" RIGID   STRIP   (vertex 576) (index 1063) (bone_index 0) (material_ref 1) (original_ref 1)
+		(light_map "")
+		(GeomObject "Box26" "Box28" "Box29" "Box30" "Box31" "Box32" "Box33" "Box34" "Box35" "Box36" "Box27"))
+	(1 "Material #97" RIGID   STRIP   (vertex 97) (index 189) (bone_index 0) (material_ref 0) (original_ref 0)
+		(light_map "")
+		(GeomObject "a02"))
+	(2 "s" RIGID   STRIP   (vertex 22) (index 52) (bone_index 0) (material_ref 2) (original_ref 2)
+		(light_map "")
+		(GeomObject "Mesh04")))
+
+(Header
+	(version 12)
+	(bone count 0)
+	(bone file 0)
+	(material count 3)
+	(mesh count 3)
+	(vertex count 695)
+	(index count 1304)
+	(anim file count 0)
+	(keyframe count 0)
+	(string size 87))
+
+(size
+	(header 164)
+	(bone 164, 0)
+	(material 164, 54)
+	(mesh 218, 24893)
+	(anim 25111, 0)
+	(collision 25111, 12958)
+	(string 38069, 87)
+	(total 38156))

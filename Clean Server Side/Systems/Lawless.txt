@@ -1,0 +1,16 @@
+[Map]
+Index = 16
+
+[Points]
+PlayerKill = 10 //When killing a player, take 10% of his points
+MobKill = 1 //When killing a monster, take 1 point
+
+(lawlessEXP (points 120)) //EXP Stone 10%
+(lawlessEXP (points 230)) //EXP Stone 20% 
+(lawlessEXP (points 340)) //EXP Stone 30%
+(lawlessEXP (points 460)) //EXP Stone 40%
+(lawlessEXP (points 580)) //EXP Stone 50%
+(lawlessEXP (points 600)) //EXP Stone 60%
+(lawlessEXP (points 790)) //EXP Stone 70%
+(lawlessEXP (points 920)) //EXP Stone 80%
+(lawlessEXP (points 1040)) //EXP Stone 90%

@@ -1,0 +1,15 @@
+;this config for make item (mining)
+;referer to swapItem.dat > config.pk
+;example from config.pk
+;index : is unique number for each creating item
+;item : index of create item
+;material : is the key of require items in Materialinfo
+;material (2656 180) 2656 is index of require item , 180 is amount
+;(initmakeitem (index 2000) (type 0) (item 2712) (material 1000) )
+;(Materialinfo (key 1000) (money 1760000)
+;(material (2656 180) (2660 250) (2661 85) (2672 15)(2673 12) (2538 10)) )
+
+
+;server side config
+(makeitem (index 992000) (item 2722) (requireIndexs 31,2656) (requireAmounts 100,1))
+(makeitem (index 992001) (item 2713) (requireIndexs 31,2655,2671,2664,2667,2673) (requireAmounts 560000,250,80,25,60,3))

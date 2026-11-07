@@ -1,0 +1,2563 @@
+
+"Effect_PD_s44_01"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			2.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.220000 0.024000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 5.000000 0.000000 -0.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 22.400000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 5.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.500000 2.500000 2.500000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 8.000000 0.000000 -0.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 5.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 3.000000 0.000000 1.000000 0.500000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.059000 0.059000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 5.000000 0.000000 -0.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 3.000000 2.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 3.000000 3.000000 3.500000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 0.702000 0.702000 0.702000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.000000 0.000000 -0.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 20.000000 20.160000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.000000 1.000000 0.500000 0.500000 0.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 7.000000 0.000000 -0.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 20.000000 22.680000 )
+		size			( 10.000000 15.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.000000 2.000000 2.000000 0.500000 1.000000 )
+	}
+}
+
+"Effect_PB_s44_01"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.220000 0.024000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.000000 6.000000 -1.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	cylinder ( 2.000000 0.000000 2.000000 0.000000 )
+		direction	cone	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 7.560000 10.080000 )
+		size			( 5.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 8.000000 6.000000 2.000000 4.000000 2.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.855000 0.725000 1.000000 )
+		fadeColor		( 1.000000 0.275000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.800000 0.800000 1.000000 )
+		fadeExtension	( 0.000000 0.700000 0.700000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( 2.000000 6.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 167.399994 0.000000 )
+		size			( 15.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 5.000000 3.000000 3.000000 3.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			4
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.059000 0.059000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 2.000000 8.000000 -1.000000 )
+		gravity		10.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 4.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 10.000000 0.000000 4.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			6.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.000000 9.000000 -1.500000 )
+		gravity		7.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 15.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 0.000000 1.500000 0.500000 1.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			6.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.125000 1.000000 )
+		fadeColor		( 0.608000 0.608000 0.608000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.000000 3.000000 -1.000000 )
+		gravity		-7.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 15.120000 10.080000 )
+		size			( 25.000000 20.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 0.000000 0.500000 0.500000 0.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			2.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( -0.500000 12.000000 1.000000 )
+		gravity		-3.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 5.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 1.000000 0.500000 0.500000 0.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.220000 0.024000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 -6.000000 -0.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	cylinder ( 0.000000 0.000000 0.000000 0.000000 )
+		direction	cone	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	aimed
+		speed			( 50.000000 0.000000 )
+		rotation		( 7.560000 10.080000 )
+		size			( 5.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 8.000000 6.000000 2.000000 4.000000 2.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.855000 0.725000 1.000000 )
+		fadeColor		( 1.000000 0.275000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.800000 0.800000 1.000000 )
+		fadeExtension	( 0.000000 0.700000 0.700000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( 0.000000 -6.000000 0.500000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 167.399994 0.000000 )
+		size			( 15.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 5.000000 3.000000 3.000000 3.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			4
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.059000 0.059000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 1.000000 -8.000000 -0.500000 )
+		gravity		-10.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 4.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 10.000000 0.000000 4.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			6.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.000000 -8.000000 -0.500000 )
+		gravity		-7.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 15.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 0.000000 1.500000 0.500000 1.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			6.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.141000 1.000000 )
+		fadeColor		( 0.698000 0.698000 0.698000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.000000 -3.000000 -0.500000 )
+		gravity		7.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 12.600000 10.080000 )
+		size			( 25.000000 20.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 0.000000 0.500000 0.500000 0.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			2.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( -2.000000 -12.000000 2.000000 )
+		gravity		3.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 5.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 1.000000 0.500000 0.500000 0.500000 )
+	}
+}
+
+"Gunma028_foot_effect"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\Gunma028_01.gtx"
+		blendFunc	addblend
+		trace
+		time			0.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 0.243000 1.000000 0.451000 1.000000 )
+		fadeColor		( 0.502000 0.200000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 3.000000 0.000000 )
+		gravity		2.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( -360.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 80.000000 50.000000 )
+		size			( 0.500000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\Gunma028_01.gtx"
+		blendFunc	addblend
+		time			0.800000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.980000 0.243000 1.000000 )
+		fadeColor		( 1.000000 0.200000 0.200000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 3.000000 0.000000 )
+		gravity		1.500000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( -360.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 80.000000 50.000000 )
+		size			( 0.500000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 1.000000 1.000000 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\Gunma028_01.gtx"
+		blendFunc	addblend
+		time			1.200000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.906000 0.243000 1.000000 )
+		fadeColor		( 1.000000 0.310000 0.208000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 1.500000 0.000000 )
+		gravity		1.200000
+		trails	0
+		trailTime	1.000000
+		distribution	cylinder ( 0.000000 0.000000 0.000000 0.000000 )
+		direction	cone	( 0.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 100.000000 50.000000 )
+		size			( 0.500000 1.000000 )
+		sizerandom		( 16.128000 10.000000 )
+		startrandom
+		aspect			( 1.000000 0.500000 )
+		customPath		helix ( 1.000000 5.000000 1.500000 1.500000 0.100000 )
+	}
+	{
+		texture		"Data\Effect\Tex\Gunma028_01.gtx"
+		blendFunc	addblend
+		time			1.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 0.243000 1.000000 0.753000 1.000000 )
+		fadeColor		( 0.506000 0.208000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 1.500000 0.000000 )
+		gravity		1.200000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 0.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 100.000000 50.000000 )
+		size			( 0.500000 1.000000 )
+		sizerandom		( 16.128000 10.000000 )
+		startrandom
+		aspect			( 1.000000 0.500000 )
+		customPath		helix ( 1.000000 5.000000 1.500000 1.500000 0.100000 )
+	}
+}
+
+"Gunma_foot_effect"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_back01.gtx"
+		blendFunc	addblend
+		trace
+		time			0.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 1.000000 0.000000 1.000000 )
+		fadeColor		( 1.000000 0.000000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-1.000000
+		trails	2
+		trailTime	0.400000
+		distribution	box ( 2.000000 2.000000 2.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 3.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 1.000000 1.000000 0.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			1.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.855000 0.725000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.800000 0.800000 1.000000 )
+		fadeExtension	( 0.000000 0.700000 0.700000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-2.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.000000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 72.000000 0.000000 )
+		size			( 15.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			1.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.208000 1.000000 )
+		fadeColor		( 0.627000 0.627000 0.627000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-3.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.000000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 5.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 1.000000 1.500000 0.500000 1.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		time			0.200000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.208000 1.000000 )
+		fadeColor		( 0.627000 0.627000 0.627000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 1.000000 0.000000 )
+		gravity		-1.000000
+		trails	1
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.000000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 20.000000 15.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\ef_image000004.GTX"
+		blendFunc	addblend
+		trace
+		time			1.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		1.000000
+		color			( 0.992000 0.702000 0.216000 1.000000 )
+		fadeColor		( 0.627000 0.627000 0.627000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-1.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.000000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 6.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+	}
+}
+
+"Effect_back_decorate_2_2"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data/Effect/Tex/ef_image000178.GTX"
+		blendFunc	addblend
+		trace
+		time			1.500000
+		deadTime		0.300000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 1.000000 0.300000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.000000 0.000000 0.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 25.000000 )
+		size			( 1.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\back_decorate_2_4.gtx"
+		blendFunc	addblend
+		trace
+		time			5.000000
+		deadTime		0.000000
+		timeOffset		0.200000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 0.475000 0.592000 1.000000 0.100000 )
+		fadeColor		( 0.647000 0.216000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 30.000000 45.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\back_decorate_2_4.gtx"
+		blendFunc	addblend
+		trace
+		time			5.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.992000 1.000000 0.592000 0.100000 )
+		fadeColor		( 0.455000 1.000000 0.318000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 40.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+}
+
+"Effect_PS_s44_01"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.220000 0.024000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.500000 3.000000 0.000000 )
+		gravity		-20.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 30.000000 0.000000 )
+		rotation		( 17.639999 22.680000 )
+		size			( 10.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 10.000000 4.000000 5.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			15
+		cycles			0
+		bunching		1.000000
+		color			( 0.925000 0.439000 0.000000 1.000000 )
+		fadeColor		( 0.482000 0.133000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( 2.500000 2.000000 0.000000 )
+		gravity		-10.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 1.000000 0.000000 1.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 10.000000 10.000000 )
+		rotation		( 15.120000 10.080000 )
+		size			( 30.000000 20.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.500000 2.000000 0.000000 )
+		gravity		-20.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 20.000000 15.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 3.000000 0.000000 1.500000 0.500000 1.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.059000 0.059000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 2.500000 20.000000 0.000000 )
+		gravity		18.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 30.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 1.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 7.000000 2.000000 2.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.500000 13.000000 0.000000 )
+		gravity		7.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 25.000000 20.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 0.000000 1.500000 0.500000 1.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			2.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.500000 1.000000 0.000000 )
+		gravity		-7.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.500000 0.000000 0.500000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 5.000000 10.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 2.500000 18.000000 0.000000 )
+		gravity		10.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 2.000000 0.000000 2.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 15.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		files ( 5.000000 3.000000 3.000000 )
+	}
+}
+
+"Effect_PG_s44_01"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.220000 0.024000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.700000 -6.000000 0.000000 )
+		gravity		-20.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 10.000000 3.000000 3.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			6.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.700000 6.000000 0.000000 )
+		gravity		-8.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 1.000000 0.000000 1.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 15.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 4.000000 2.000000 2.500000 2.000000 2.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			6.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.059000 0.059000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 1.700000 12.000000 0.000000 )
+		gravity		23.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 1.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 10.000000 2.000000 4.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			2.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.700000 13.000000 0.000000 )
+		gravity		8.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 1.000000 0.000000 1.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 15.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.000000 2.000000 2.500000 2.000000 2.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.141000 1.000000 )
+		fadeColor		( 0.584000 0.584000 0.584000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.700000 5.000000 0.000000 )
+		gravity		-7.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 10.080000 5.040000 )
+		size			( 30.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 1.000000 2.000000 1.000000 )
+	}
+}
+
+"Effect_PA_s44_01"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		0.590000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.220000 0.024000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.050000 3.000000 -0.500000 )
+		gravity		-5.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 3.000000 3.000000 3.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.855000 0.725000 1.000000 )
+		fadeColor		( 1.000000 0.275000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.800000 0.800000 1.000000 )
+		fadeExtension	( 0.000000 0.700000 0.700000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( 1.050000 0.000000 -0.500000 )
+		gravity		-4.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 1.000000 0.000000 2.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 10.000000 -5.000000 )
+		rotation		( 48.240002 25.200001 )
+		size			( 20.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.500000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			7
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.208000 1.000000 )
+		fadeColor		( 0.627000 0.627000 0.627000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.050000 4.000000 -0.500000 )
+		gravity		-3.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 1.000000 1.500000 0.500000 1.500000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.686000 0.584000 1.000000 )
+		fadeColor		( 1.000000 0.059000 0.059000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 1.050000 6.000000 -0.500000 )
+		gravity		3.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 1.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 10.000000 2.000000 2.000000 2.000000 2.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			5.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			4
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.050000 5.000000 -0.500000 )
+		gravity		2.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 25.000000 20.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 1.000000 0.000000 1.500000 0.500000 1.500000 )
+	}
+}
+
+"Firecracker"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		time			0.400000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			1
+		bunching		0.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 1.000000 1.000000 0.816000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		1.257000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-70.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 100.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 10.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 0.000000 0.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		time			0.700000
+		deadTime		0.000000
+		timeOffset		0.400000
+		count			50
+		cycles			1
+		bunching		0.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 1.000000 0.702000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 70.000000 0.000000 )
+		gravity		14.400000
+		trails	1
+		trailTime	0.200000
+		distribution	box ( 10.000000 10.000000 10.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 5.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 60.000000 70.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_01.gtx"
+		blendFunc	addblend
+		time			0.500000
+		deadTime		0.000000
+		timeOffset		0.400000
+		count			3
+		cycles			1
+		bunching		1.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.000000 0.000000 0.000000 )
+		fadeExtension	( 0.000000 0.000000 0.000000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 70.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 13.000000 100.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		time			0.700000
+		deadTime		0.000000
+		timeOffset		0.400000
+		count			50
+		cycles			1
+		bunching		0.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 0.996000 0.749000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 70.000000 0.000000 )
+		gravity		10.400000
+		trails	0
+		trailTime	0.200000
+		distribution	box ( 10.000000 10.000000 10.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 5.000000 0.000000 0.000000 0.000000 )
+		orientation	aimed
+		speed			( 50.000000 60.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		time			0.480000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			1
+		bunching		0.921000
+		color			( 1.000000 1.000000 0.000000 1.000000 )
+		fadeColor		( 1.000000 0.502000 0.251000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		1.257000
+		offset			( 0.000000 10.000000 0.000000 )
+		gravity		-70.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 100.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 15.000000 1.024000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 30.000000 0.000000 4.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework02.gtx"
+		blendFunc	addblend
+		time			0.400000
+		deadTime		0.000000
+		timeOffset		0.400000
+		count			10
+		cycles			1
+		bunching		0.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.000000 0.000000 0.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 70.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 100.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		time			0.600000
+		deadTime		0.000000
+		timeOffset		0.400000
+		count			3
+		cycles			1
+		bunching		1.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 1.000000 1.000000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.700000 0.700000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 70.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 150.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework02.gtx"
+		blendFunc	addblend
+		time			0.200000
+		deadTime		0.000000
+		timeOffset		0.600000
+		count			10
+		cycles			3
+		bunching		1.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.000000 0.000000 0.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 70.000000 0.000000 )
+		gravity		2.000000
+		trails	0
+		trailTime	0.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 110.000000 115.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework02_02.gtx"
+		blendFunc	addblend
+		time			0.200000
+		deadTime		0.000000
+		timeOffset		0.600000
+		count			10
+		cycles			3
+		bunching		1.000000
+		color			( 1.000000 1.000000 1.000000 1.000000 )
+		fadeColor		( 1.000000 1.000000 1.000000 0.000000 )
+		ChangeColor	( 0.000000 0.000000 0.000000 0.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 5.000000 )
+		spindle		0.000000
+		offset			( 0.000000 70.000000 0.000000 )
+		gravity		2.000000
+		trails	0
+		trailTime	0.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 30.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 110.000000 120.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+}
+
+"Effect_back_decorate_1"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 0.643000 0.643000 0.643000 1.000000 )
+		fadeColor		( 0.569000 0.000000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( 0.000000 6.000000 0.000000 )
+		gravity		-10.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 360.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		files ( 10.000000 0.000000 3.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_back01.gtx"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 0.722000 0.173000 0.012000 1.000000 )
+		fadeColor		( 0.592000 0.000000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 10.000000 0.000000 )
+		gravity		10.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 10.000000 0.000000 3.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		0.798000
+		color			( 0.596000 0.569000 0.004000 1.000000 )
+		fadeColor		( 0.580000 0.325000 0.012000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 12.000000 0.000000 )
+		gravity		-4.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 10.080000 2.520000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		cone ( 5.000000 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.643000 0.643000 0.643000 1.000000 )
+		fadeColor		( 0.561000 0.145000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( 7.000000 4.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 360.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_back01.gtx"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.722000 0.384000 0.012000 1.000000 )
+		fadeColor		( 0.580000 0.255000 0.012000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 7.000000 4.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		0.798000
+		color			( 0.596000 0.569000 0.004000 1.000000 )
+		fadeColor		( 0.580000 0.325000 0.012000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 7.000000 4.000000 0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 10.080000 2.520000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.000000 1.000000 1.000000 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.643000 0.643000 0.643000 1.000000 )
+		fadeColor		( 0.561000 0.047000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( -7.000000 4.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 360.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_back01.gtx"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.722000 0.153000 0.012000 1.000000 )
+		fadeColor		( 0.588000 0.051000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( -7.000000 4.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		0.798000
+		color			( 0.596000 0.569000 0.004000 1.000000 )
+		fadeColor		( 0.580000 0.325000 0.012000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( -7.000000 4.000000 0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 10.080000 2.520000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.000000 1.000000 1.000000 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.643000 0.643000 0.643000 1.000000 )
+		fadeColor		( 0.561000 0.353000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( 4.500000 8.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 360.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		0.798000
+		color			( 0.827000 0.788000 0.027000 1.000000 )
+		fadeColor		( 0.561000 0.145000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( 4.500000 8.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 1.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		0.798000
+		color			( 0.596000 0.569000 0.004000 1.000000 )
+		fadeColor		( 0.588000 0.459000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( 4.500000 8.000000 0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 10.080000 2.520000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.000000 1.000000 1.000000 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.643000 0.643000 0.643000 1.000000 )
+		fadeColor		( 0.561000 0.337000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	90.000000
+		offset			( -4.500000 8.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 360.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 5.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_firework01_02.gtx"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		0.798000
+		color			( 0.827000 0.788000 0.027000 1.000000 )
+		fadeColor		( 0.561000 0.129000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( -4.500000 8.000000 0.000000 )
+		gravity		0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 1.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 5.000000 5.000000 3.000000 0.000000 0.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			6
+		cycles			0
+		bunching		0.798000
+		color			( 0.596000 0.569000 0.004000 1.000000 )
+		fadeColor		( 0.588000 0.459000 0.004000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( -4.500000 8.000000 0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 0.000000 )
+		rotation		( 10.080000 2.520000 )
+		size			( 20.000000 25.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 2.000000 1.000000 1.000000 1.000000 1.000000 )
+	}
+}
+
+"Effect_back_decorate_2_1"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\back_decorate_2_3.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			10
+		cycles			0
+		bunching		1.000000
+		color			( 0.749000 0.749000 0.749000 1.000000 )
+		fadeColor		( 0.514000 0.514000 0.514000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-0.100000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 6.283000 3.770000 0.000000 )
+		direction	outward	( 10.000000 0.000000 5.000000 0.000000 )
+		orientation	view
+		speed			( 50.000000 10.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 5.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+		customPath		spherical ( 0.100000 7.000000 7.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\back_decorate_2_3.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.812000 0.835000 0.000000 1.000000 )
+		fadeColor		( 0.714000 0.294000 0.020000 0.000000 )
+		ChangeColor	( 0.000000 1.000000 1.000000 1.000000 )
+		fadeExtension	( 0.000000 0.600000 0.600000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-1.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 20.000000 40.000000 )
+		sizerandom		( 1.000000 4.096000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\back_decorate_2_3.gtx"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 0.392000 0.867000 0.000000 1.000000 )
+		fadeColor		( 0.043000 0.525000 0.467000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-0.500000
+		trails	0
+		trailTime	0.400000
+		distribution	cylinder ( 0.000000 0.000000 0.000000 0.000000 )
+		direction	cone	( 10.000000 0.000000 0.000000 0.000000 )
+		orientation	view
+		speed			( 30.000000 30.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 30.000000 60.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+}
+
+"Gunma_eyeR_effect"
+{
+	cullDistance	768.000000
+	{
+		sub_attached
+		texture		"Data\Effect\Tex\ef_image000004.GTX"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.910000 0.702000 1.000000 )
+		fadeColor		( 1.000000 0.502000 0.251000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( -1.000000 0.000000 -0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	sphere ( 0.000000 0.000000 0.000000 0.000000 )
+		direction	outward	( 0.100000 0.000000 0.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 50.000000 30.000000 )
+		size			( 1.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 0.100000 0.100000 0.100000 0.100000 0.100000 )
+	}
+	{
+		sub_attached
+		texture		"Data\Effect\Tex\ef_image000004.GTX"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.910000 0.702000 1.000000 )
+		fadeColor		( 0.910000 0.184000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( -1.000000 0.000000 -0.000000 )
+		gravity		-0.100000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.100000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 0.000000 -0.200000 0.000000 0.100000 )
+		orientation	view
+		speed			( 1.000000 1.000000 )
+		rotation		( -60.000000 -30.000000 )
+		size			( 2.000000 0.500000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		sub_attached
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			1.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 0.922000 0.196000 0.196000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( -1.000000 0.000000 -0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.100000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 1.000000 -0.050000 0.000000 0.100000 )
+		orientation	view
+		speed			( 0.100000 0.100000 )
+		rotation		( 10.000000 15.000000 )
+		size			( 4.000000 4.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+}
+
+"Gunma_eyeL_effect"
+{
+	cullDistance	768.000000
+	{
+		sub_attached
+		texture		"Data\Effect\Tex\ef_image000004.GTX"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.910000 0.702000 1.000000 )
+		fadeColor		( 1.000000 0.502000 0.251000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		initialAngle	0.000000
+		offset			( 1.000000 0.000000 0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	sphere ( 0.000000 0.000000 0.000000 0.000000 )
+		direction	outward	( 0.100000 0.000000 0.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 50.000000 30.000000 )
+		size			( 1.000000 1.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		startrandom
+		aspect			( 1.000000 1.000000 )
+		customPath		helix ( 0.100000 0.100000 0.100000 0.100000 0.100000 )
+	}
+	{
+		sub_attached
+		texture		"Data\Effect\Tex\ef_image000004.GTX"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 0.910000 0.702000 1.000000 )
+		fadeColor		( 0.910000 0.184000 0.000000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.300000 0.300000 1.000000 )
+		spindle		0.000000
+		offset			( 1.000000 0.000000 0.000000 )
+		gravity		-0.100000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.100000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 0.000000 0.200000 0.000000 0.100000 )
+		orientation	view
+		speed			( 1.000000 1.000000 )
+		rotation		( -60.000000 -30.000000 )
+		size			( 2.000000 0.500000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		sub_attached
+		texture		"Data\Effect\Tex\15th_weapon02.gtx"
+		blendFunc	addblend
+		trace
+		time			1.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			3
+		cycles			0
+		bunching		1.000000
+		color			( 1.000000 1.000000 0.584000 1.000000 )
+		fadeColor		( 0.922000 0.196000 0.196000 0.000000 )
+		ChangeColor	( 0.000000 0.700000 0.700000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 1.000000 0.000000 0.000000 )
+		gravity		-0.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.100000 0.100000 0.100000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	cone	( 1.000000 0.050000 0.000000 0.100000 )
+		orientation	view
+		speed			( 0.100000 0.100000 )
+		rotation		( 10.000000 15.000000 )
+		size			( 4.000000 4.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+}
+
+"Effect_back_decorate_3"
+{
+	cullDistance	768.000000
+	{
+		texture		"Data\Effect\Tex\15th_back01.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			10
+		cycles			0
+		bunching		1.000000
+		color			( 0.953000 0.663000 0.537000 1.000000 )
+		fadeColor		( 0.875000 0.149000 0.149000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 -0.900000 1.600000 )
+		gravity		0.100000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 6.283000 3.770000 0.000000 )
+		direction	cone	( 10.000000 0.000000 0.000000 4.000000 )
+		orientation	view
+		speed			( 2.500000 1.500000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 2.000000 3.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\15th_back01.gtx"
+		blendFunc	addblend
+		trace
+		time			4.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			10
+		cycles			0
+		bunching		1.000000
+		color			( 0.953000 0.663000 0.537000 1.000000 )
+		fadeColor		( 0.875000 0.149000 0.149000 0.000000 )
+		ChangeColor	( 0.000000 0.300000 0.300000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 -0.900000 1.600000 )
+		gravity		0.100000
+		trails	0
+		trailTime	0.400000
+		distribution	box ( 0.000000 0.000000 1.000000 )
+		boxrotation	rotation ( 6.283000 3.770000 0.000000 )
+		direction	cone	( 10.000000 0.000000 0.000000 4.000000 )
+		orientation	view
+		speed			( 0.100000 0.100000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 2.000000 2.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\back_decorate_2_3.gtx"
+		blendFunc	addblend
+		trace
+		time			3.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			2
+		cycles			0
+		bunching		1.000000
+		color			( 0.000000 0.624000 0.835000 1.000000 )
+		fadeColor		( 0.475000 0.000000 0.733000 0.000000 )
+		ChangeColor	( 0.000000 1.000000 1.000000 1.000000 )
+		fadeExtension	( 0.000000 0.600000 0.600000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-1.000000
+		trails	0
+		trailTime	1.000000
+		distribution	box ( 0.000000 0.000000 0.000000 )
+		boxrotation	rotation ( 0.000000 0.000000 0.000000 )
+		direction	outward	( 1.000000 0.000000 1.000000 0.000000 )
+		orientation	view
+		speed			( 0.000000 0.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 10.000000 25.000000 )
+		sizerandom		( 1.000000 4.096000 )
+		aspect			( 1.000000 1.000000 )
+	}
+	{
+		texture		"Data\Effect\Tex\back_decorate_2_3.gtx"
+		blendFunc	addblend
+		trace
+		time			2.000000
+		deadTime		0.000000
+		timeOffset		0.000000
+		count			5
+		cycles			0
+		bunching		1.000000
+		color			( 0.004000 0.843000 0.863000 1.000000 )
+		fadeColor		( 0.024000 0.161000 0.525000 0.000000 )
+		ChangeColor	( 0.000000 0.500000 0.500000 1.000000 )
+		fadeExtension	( 0.000000 0.500000 0.500000 1.000000 )
+		spindle		0.000000
+		offset			( 0.000000 0.000000 0.000000 )
+		gravity		-0.500000
+		trails	0
+		trailTime	0.400000
+		distribution	cylinder ( 0.000000 0.000000 0.000000 0.000000 )
+		direction	cone	( 10.000000 0.000000 0.000000 0.000000 )
+		orientation	view
+		speed			( 30.000000 30.000000 )
+		rotation		( 0.000000 0.000000 )
+		size			( 20.000000 40.000000 )
+		sizerandom		( 1.000000 10.000000 )
+		aspect			( 1.000000 1.000000 )
+	}
+}

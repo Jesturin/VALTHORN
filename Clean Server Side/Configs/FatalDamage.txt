@@ -1,0 +1,8 @@
+[FatalDamage]
+PVERate = 100
+PVPRate = 50
+
+(fataldmg (class 2)(specialty 7)(rate 50))
+(fataldmg (class 2)(specialty 11)(rate 50))
+(fataldmg (class 2)(specialty 23)(rate 50))
+(fataldmg (class 2)(specialty 43)(rate 50))

@@ -1,0 +1,16 @@
+;Command is /bet -t (1 2 or 3) -a amount -n OpponentName
+;Command for info is /betinfo
+
+[Bet]
+Active = 1
+
+[Index]
+Geons = 31
+DC = 4323
+Coin = 4320
+
+[Suicide]
+Disable = 0
+
+[Surrender]
+Disable = 0

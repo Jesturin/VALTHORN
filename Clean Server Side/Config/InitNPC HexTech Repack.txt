@@ -1,0 +1,1819 @@
+	
+;########################################
+;######### KIND OF NPC ##################
+;########################################
+(npc (kind 0) (move 0))
+(npc (kind 1) (move 1))
+(npc (kind 2) (move 1))
+(npc (kind 3) (move 0))
+(npc (kind 4) (move 0))
+(npc (kind 5) (move 0))
+;########################################
+
+;########################################
+;############ NPC SERVER ################
+;########################################
+;Weapon Merchant, Goo-Deuk
+(gennpc (index 1) (country 2) (kind 0) (shape 3) (html 1) (map 0) (xy 257491 258584 16120) (dir 254491 257584))
+;Knight's Armor Merchant, Pa-Deukchun
+(gennpc (index 2) (country 2) (kind 0) (shape 3) (html 3) (map 0) (xy 257057 258580 16140) (dir 260016 250556))
+;Merchant, Gae-Yoo
+(gennpc (index 3) (country 2) (kind 0) (shape 3) (html 7) (map 0) (xy 257556 258207 16140) (dir 256556 258207))
+;Knightage Go-Gyunok
+(gennpc (index 4) (country 2) (kind 1) (shape 5) (html 9) (map 0) (xy 256571 257913 16505) (dir 257571 257913))
+;Bow Master, Chi-Rang
+;(gennpc (index 5) (country 2) (kind 1) (shape 6) (html 15) (map 0) (xy 256542 257999 16505) (dir 257542 258999))
+;Magic Master, Baek-Ohn
+;(gennpc (index 6) (country 2) (kind 1) (shape 7) (html 19) (map 0) (xy 256459 258025 16505) (dir 256459 259025))
+;Farmer
+(gennpc (index 7) (country ) (kind 1) (shape 1) (html 20) (map 0) (xy 256459 258025 16505) (dir 0 1))
+;Farmer
+(gennpc (index 8) (country 2) (kind 1) (shape 1) (html 21) (map 0) (xy 257190 258971 16090) (dir 277190 259971))
+;Woman
+(gennpc (index 9) (country 2) (kind 1) (shape 4) (html 23) (map 0) (xy 257765 259153 16080) (dir 257765 260153))
+;Farmer
+(gennpc (index 10) (country 2) (kind 1) (shape 1) (html 20) (map 0) (xy 257525 259011 16073) (dir 256525 260011))
+;Guard
+(gennpc (index 11) (country 2) (kind 3) (shape 8) (quest 54 1) (map 0) (xy 256607 259584 16330) (dir 255607 260584))
+;Guard
+(gennpc (index 12) (country 2) (kind 3) (shape 8) (quest 55 1) (map 0) (xy 256681 259673 16313) (dir 255681 260673))
+;Guard
+(gennpc (index 13) (country 2) (kind 3) (shape 8) (quest 56 1) (map 0) (xy 257769 259715 16090) (dir 259769 262715))
+;Guard
+(gennpc (index 14) (country 2) (kind 3) (shape 8) (quest 57 1) (map 0) (xy 257961 259672 16080) (dir 256961 257672))
+;Guard
+(gennpc (index 15) (country ) (kind 2) (shape 8) (html 26) (map 0) (xy 257392 259323 16121) (dir 0 1))
+;Chief Guard
+(gennpc (index 16) (country 2) (kind 2) (shape 9) (html 27) (map 0) (xy 256749 259652 16274) (dir 255749 259652))
+;Chief Guard
+(gennpc (index 17) (country 2) (kind 2) (shape 9) (html 27) (map 0) (xy 257985 259615 16080) (dir 256985 260615))
+;Merchant, Sa-Moeau
+(gennpc (index 18) (country 2) (kind 0) (shape 3) (html 31) (map 0) (xy 265210 261659 16170) (dir 266210 260659) (cid 1) (warrelation 0))
+;Farmer
+(gennpc (index 19) (country 2) (kind 1) (shape 1) (html 67) (map 0) (xy 265342 261851 16180) (dir 266342 261851))
+;Farmer
+(gennpc (index 20) (country 2) (kind 1) (shape 1) (html 68) (map 0) (xy 265232 262081 16180) (dir 265232 261081))
+;Woman
+(gennpc (index 21) (country 2) (kind 1) (shape 4) (html 69) (map 0) (xy 264781 262248 16160) (dir 265781 261248))
+;Guard
+(gennpc (index 22) (country 2) (kind 2) (shape 8) (html 70) (map 0) (xy 265609 262613 16360) (dir 266609 261613))
+;Guard
+(gennpc (index 23) (country 2) (kind 2) (shape 8) (html 70) (map 0) (xy 265695 262534 16360) (dir 264695 263534))
+;Guard
+(gennpc (index 24) (country 2) (kind 2) (shape 8) (html 70) (map 0) (xy 265146 262795 16300) (dir 265146 263795))
+;Guard
+(gennpc (index 25) (country 2) (kind 2) (shape 8) (html 70) (map 0) (xy 265770 261476 16214) (dir 264770 261476))
+;Guard
+(gennpc (index 26) (country 2) (kind 2) (shape 8) (html 70) (map 0) (xy 265633 261373 16190) (dir 266633 262373))
+;Guard
+(gennpc (index 27) (country 2) (kind 2) (shape 8) (html 70) (map 0) (xy 264700 261098 16115) (dir 263700 261098))
+;Chief Guard
+(gennpc (index 28) (country 2) (kind 2) (shape 9) (html 71) (map 0) (xy 265575 261384 16182) (dir 264575 265384))
+;Knight Merchant, Noh-Won
+(gennpc (index 29) (country 2) (kind 0) (shape 3) (html 35) (map 0) (xy 265212 285091 22650) (dir 266212 285091) (cid 1) (warrelation 0))
+;Archer Merchant, Woo-Jingwan
+(gennpc (index 30) (country 2) (kind 0) (shape 3) (html 39) (map 0) (xy 265138 285119 22650) (dir 266138 285119) (cid 1) (warrelation 0))
+;Miner
+(gennpc (index 31) (country 2) (kind 5) (shape 2) (html 72) (map 0) (xy 265034 285683 22650) (dir 266034 286683))
+;Miner
+(gennpc (index 32) (country 2) (kind 1) (shape 2) (html 73) (map 0) (xy 265026 285904 22650) (dir 264026 284904))
+;Miner
+(gennpc (index 33) (country 2) (kind 1) (shape 2) (html 74) (map 0) (xy 265237 285741 22640) (dir 265237 286741))
+;Miner
+(gennpc (index 34) (country 2) (kind 1) (shape 2) (html 75) (map 0) (xy 265656 285868 22636) (dir 264656 279868))
+;Mine Manager
+(gennpc (index 35) (country 2) (kind 0) (shape 2) (html 76) (map 0) (xy 267132 283120 24982) (dir 265132 286120))
+;Miner
+(gennpc (index 36) (country 2) (kind 1) (shape 2) (html 77) (map 0) (xy 267324 283596 25008) (dir 266324 283596))
+;Guard
+(gennpc (index 37) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 265754 285144 22650) (dir 266754 284144))
+;Guard
+(gennpc (index 38) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 265693 285086 22650) (dir 266693 284086))
+;Guard
+(gennpc (index 39) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 266266 285472 22650) (dir 267266 278472))
+;Guard
+(gennpc (index 40) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 266355 285492 22650) (dir 267355 278492))
+;Guard
+(gennpc (index 41) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 266653 283419 24630) (dir 265653 283419))
+;Guard
+(gennpc (index 42) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 266665 283334 24651) (dir 265665 283334))
+;Guard
+(gennpc (index 43) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 264616 283128 24717) (dir 265616 286128))
+;Guard
+(gennpc (index 44) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 264627 283239 24713) (dir 262627 278239))
+;Guard
+(gennpc (index 45) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 265470 282202 22573) (dir 265470 281202))
+;Guard
+(gennpc (index 46) (country 2) (kind 2) (shape 8) (html 78) (map 0) (xy 265385 282204 22527) (dir 265385 281204))
+;Chief Guard
+(gennpc (index 47) (country 2) (kind 2) (shape 9) (html 79) (map 0) (xy 266368 285465 22650) (dir 265368 284465))
+;Chief Guard
+(gennpc (index 48) (country 2) (kind 2) (shape 9) (html 79) (map 0) (xy 266631 283435 24618) (dir 265631 282435))
+;Chief Guard
+(gennpc (index 49) (country 2) (kind 2) (shape 9) (html 79) (map 0) (xy 264607 283255 24720) (dir 265607 278255))
+;Chief Guard
+(gennpc (index 50) (country 2) (kind 2) (shape 9) (html 79) (map 0) (xy 265364 282190 22497) (dir 266364 281190))
+;Peddler, Woo-Jinwon
+(gennpc (index 51) (country 2) (kind 0) (shape 3) (html 42) (map 0) (xy 256339 288947 27050) (dir 257339 288947) (cid 1) (warrelation 0))
+;Woman
+(gennpc (index 52) (country 2) (kind 1) (shape 4) (html 80) (map 0) (xy 256381 288253 27070) (dir 257381 288253))
+;Woman
+(gennpc (index 53) (country 2) (kind 1) (shape 4) (html 81) (map 0) (xy 256265 288696 27050) (dir 257265 285696))
+;Guard
+(gennpc (index 54) (country 2) (kind 2) (shape 8) (html 82) (map 0) (xy 255695 288035 27070) (dir 254695 285035))
+;Guard
+(gennpc (index 55) (country 2) (kind 2) (shape 8) (html 82) (map 0) (xy 255584 288096 27070) (dir 254584 285096))
+;Guard
+(gennpc (index 56) (country 2) (kind 2) (shape 8) (html 82) (map 0) (xy 257011 288917 27060) (dir 258011 288917))
+;Guard
+(gennpc (index 57) (country 2) (kind 2) (shape 8) (html 82) (map 0) (xy 257018 288806 27061) (dir 258018 288806))
+;Chief Guard
+(gennpc (index 58) (country 2) (kind 3) (shape 9)  (map 0) (xy 256162 289597 27177) (dir 255162 285597))
+;Archer's Armor Merchant, Gak-Roo
+(gennpc (index 59) (country 2) (kind 0) (shape 3) (html 28) (map 0) (xy 257016 258556 16140) (dir 269000 257513))
+;Knight's Armor Merchant, Dae-Gil
+(gennpc (index 60) (country 2) (kind 0) (shape 3) (html 49) (map 0) (xy 264928 285248 22650) (dir 265928 288248) (cid 1) (warrelation 0))
+;Archer's Armor Merchant, Bum-Ryuh
+(gennpc (index 61) (country 2) (kind 0) (shape 3) (html 50) (map 0) (xy 264875 285315 22650) (dir 265875 285315) (cid 1) (warrelation 0))
+;Weapon Merchant, Hyun-Yong
+(gennpc (index 62) (country 2) (kind 0) (shape 3) (html 33) (map 0) (xy 265161 261611 16170) (dir 266161 260611) (cid 1) (warrelation 0))
+;Armor Merchant, Nang-Wa
+(gennpc (index 63) (country 2) (kind 0) (shape 3) (html 34) (map 0) (xy 265167 261542 16170) (dir 266167 261542) (cid 1) (warrelation 0))
+;Mistress Sa-Mowall
+(gennpc (index 64) (country 2) (kind 0) (shape 4) (html 45) (map 0) (xy 256253 289118 27060) (dir 257253 289118) (cid 1) (warrelation 0))
+;Merchant, Goo-Rook
+(gennpc (index 65) (country 2) (kind 0) (shape 3) (html 52) (map 0) (xy 265045 285162 22650) (dir 266045 286162) (cid 1) (warrelation 0))
+;Chief Guard, Nak-Yonghee
+(gennpc (index 66) (country 2) (kind 2) (shape 9) (html 53) (map 0) (xy 257392 259323 16121) (dir 257392 260323))
+;Person of Narootuh, Wal-Hee
+(gennpc (index 67) (country 2) (kind 1) (shape 4) (html 63) (map 0) (xy 257345 259655 16125) (dir 257345 258655))
+;Magician Merchant, Ma-Lip
+(gennpc (index 68) (country 2) (kind 0) (shape 3) (html 84) (map 0) (xy 257012 258477 16150) (dir 258029 258441))
+;Magical Stick Merchant, Na-Hwan
+(gennpc (index 69) (country 2) (kind 0) (shape 3) (html 85) (map 0) (xy 265273 285073 22650) (dir 265273 286073) (cid 1) (warrelation 0))
+;Magician Merchant, Go-Myung
+(gennpc (index 70) (country 2) (kind 0) (shape 3) (html 88) (map 0) (xy 264927 285381 22650) (dir 265927 284381) (cid 1) (warrelation 0))
+;Storage Keeper [Dol-Sae]
+(gennpc (index 71) (country ) (kind 5) (shape 3) (html 89) (map 0) (xy 257387 257668 16040) (dir 1 0))
+;Boatman [Gwang-Chun]
+(gennpc (index 72) (country 2) (kind 3) (shape 3) (quest 0 1) (map 0) (xy 257032 257425 15960) (dir 257032 258425))
+;Chief Guard [Sea-Geun]
+(gennpc (index 73) (country 2) (kind 3) (shape 9) (quest 2 1) (map 0) (xy 258364 259226 15951) (dir 257364 259226))
+;[Wa-Ryu]
+(gennpc (index 74) (country 2) (kind 3) (shape 3) (quest 0 2) (map 0) (xy 264854 261369 16092) (dir 266854 260369))
+;Chief Guard [Mak-AnSoo]
+(gennpc (index 75) (country 2) (kind 3) (shape 9) (quest 3 1) (map 0) (xy 257614 257926 16137) (dir 257582 257924))
+;General [Sae-Won]
+(gennpc (index 76) (country 2) (kind 3) (shape 9) (quest 0 3) (map 0) (xy 264974 262227 16180) (dir 264974 263227))
+;[Nu-Rook]
+(gennpc (index 77) (country 2) (kind 3) (shape 3) (quest 1 3) (map 0) (xy 265183 262364 16208) (dir 264183 270364))
+;Farmer [Ji-Hun]
+(gennpc (index 78) (country 2) (kind 3) (shape 1) (quest 0 17) (map 0) (xy 257190 258988 16090) (dir 277190 259988))
+;Chief Guard [Joo-Jimin]
+(gennpc (index 79) (country 2) (kind 3) (shape 9) (quest 0 18) (map 0) (xy 256838 258080 16145) (dir 257928 258156))
+;Farmer [Nu-Woong]
+(gennpc (index 80) (country 2) (kind 3) (shape 1) (quest 0 4) (map 0) (xy 265131 261996 16180) (dir 266131 262996))
+;Miner [Gwee-Sik]
+(gennpc (index 81) (country 2) (kind 3) (shape 2) (quest 0 5) (map 0) (xy 265121 285614 22650) (dir 266121 287614))
+;Farmer [Ha-Jik]
+(gennpc (index 82) (country 2) (kind 3) (shape 1) (quest 0 6) (map 0) (xy 257543 259049 16070) (dir 256543 260049))
+;Guard [Won-Jung]
+(gennpc (index 83) (country 2) (kind 3) (shape 8) (quest 0 7) (map 0) (xy 265026 262810 16257) (dir 265026 263810))
+;Woman [Yae-Jin]
+(gennpc (index 84) (country 2) (kind 3) (shape 4) (quest 0 8) (map 0) (xy 257314 259663 16129) (dir 257314 258663))
+;Miner [Joo-Nong]
+(gennpc (index 85) (country 2) (kind 3) (shape 2) (quest 0 10) (map 0) (xy 264904 285787 22650) (dir 266904 284787))
+;Guard [Yang-Do]
+(gennpc (index 86) (country 2) (kind 3) (shape 8) (quest 0 12) (map 0) (xy 265263 282210 22574) (dir 265263 281210))
+;Woman [Ok-Jin]
+(gennpc (index 87) (country 2) (kind 3) (shape 4) (quest 0 11) (map 0) (xy 264778 262175 16160) (dir 264778 263175))
+;[Yoo-An]
+(gennpc (index 88) (country 2) (kind 3) (shape 3) (quest 0 15) (map 0) (xy 264976 285455 22650) (dir 266976 284455))
+;[Ja-Gan]
+(gennpc (index 89) (country 2) (kind 3) (shape 3) (quest 0 13) (map 0) (xy 265120 261453 16170) (dir 265120 260453))
+;[Won-Ga]
+(gennpc (index 90) (country 2) (kind 3) (shape 1) (quest 0 16) (map 0) (xy 265175 285287 22650) (dir 265175 284287))
+;Chief Guard [Guh-Sosun]
+(gennpc (index 91) (country 2) (kind 3) (shape 9) (quest 0 9) (map 0) (xy 265681 262508 16360) (dir 264681 262508))
+;[Joong-Gwon]
+(gennpc (index 92) (country 2) (kind 3) (shape 3) (quest 0 14) (map 0) (xy 265319 285312 22657) (dir 267319 284312))
+;[Chun-Sooin]
+(gennpc (index 93) (country 2) (kind 3) (shape 3) (quest 9001 1) (map 0) (xy 256840 258997 16207) (dir 257840 257997))
+;[Sae-Ryu]
+(gennpc (index 94) (country 2) (kind 3) (shape 3) (quest 9002 1) (map 0) (xy 256487 257047 16206) (dir 256487 258047))
+;General [In-Pill]
+(gennpc (index 95) (country 2) (kind 3) (shape 9) (quest 9002 3) (map 0) (xy 265577 262004 16335) (dir 261577 261004))
+;HyungJoo-SeungGong
+(gennpc (index 96) (country 2) (kind 3) (shape 3) (quest 9003 1) (map 0) (xy 264924 285906 22650) (dir 265924 284906))
+;Master [Jin-Pyung]
+(gennpc (index 97) (country 2) (kind 3) (shape 3) (quest 9004 1) (map 0) (xy 267622 283253 28154) (dir 268622 288253))
+;Storage Keeper [Chung-E]
+(gennpc (index 98) (country 2) (kind 5) (shape 3) (html 91) (map 0) (xy 265457 285609 22640) (dir 266457 284609) (cid 1) (warrelation 0))
+;Storage Keeper [Dol-Sae]
+(gennpc (index 99) (country 2) (kind 5) (shape 3) (html 89) (map 0) (xy 257387 257668 16040) (dir 257383 257701))
+;Knight's Weapon Merchant [Mak-Sae]
+(gennpc (index 100) (country 2) (kind 0) (shape 3) (html 93) (map 0) (xy 269120 243125 19620) (dir 268120 243125) (cid 1) (warrelation 0))
+;Archer's Weapon Merchant [On-Jo]
+(gennpc (index 101) (country 2) (kind 0) (shape 3) (html 100) (map 0) (xy 269128 243082 19620) (dir 268128 243082) (cid 1) (warrelation 0))
+;Magician’s Stick Merchant [Sung-Wonsoo]
+(gennpc (index 102) (country 2) (kind 0) (shape 3) (html 103) (map 0) (xy 269133 243029 19630) (dir 259133 242029) (cid 1) (warrelation 0))
+;Knight's Armor Merchant [Na-Rim]
+(gennpc (index 103) (country 2) (kind 0) (shape 3) (html 106) (map 0) (xy 269050 242826 19630) (dir 259050 243826) (cid 1) (warrelation 0))
+;Archer's Armor Merchant [Chung-Wal]
+(gennpc (index 104) (country 2) (kind 0) (shape 3) (html 109) (map 0) (xy 269035 242763 19630) (dir 268035 243763) (cid 1) (warrelation 0))
+;Magician Merchant [Won-Sang]
+(gennpc (index 105) (country 2) (kind 0) (shape 3) (html 112) (map 0) (xy 268960 242760 19630) (dir 268960 243760) (cid 1) (warrelation 0))
+;Knightage [Gwang-Ak]
+;(gennpc (index 106) (country 2) (kind 0) (shape 5) (html 115) (map 0) (xy 267722 243538 19620) (dir 270722 241538))
+;Bow Master [Il-Rang]
+;(gennpc (index 107) (country 2) (kind 0) (shape 6) (html 119) (map 0) (xy 268401 242608 19620) (dir 267401 246608))
+;Magic Master [Yae-Saryung]
+;(gennpc (index 108) (country 2) (kind 0) (shape 7) (html 124) (map 0) (xy 268193 242608 19630) (dir 267193 246608))
+;Fort Guard
+(gennpc (index 110) (country 2) (kind 1) (shape 8) (html 134) (map 0) (xy 267047 242724 19628) (dir 267033 242708))
+;Fort Guard
+(gennpc (index 111) (country 2) (kind 1) (shape 8) (html 139) (map 0) (xy 267131 242644 19571) (dir 267118 242634))
+;Fort Guard
+(gennpc (index 112) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 267232 242721 19630) (dir 267250 242733))
+;Fort Guard
+(gennpc (index 113) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 267798 242286 19630) (dir 267783 242292))
+;Fort Guard
+(gennpc (index 114) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 267244 242447 19578) (dir 267234 242443))
+;Fort Guard
+(gennpc (index 115) (country 2) (kind 1) (shape 8) (html 139) (map 0) (xy 267259 242356 19618) (dir 267246 242353))
+;Fort Guard
+(gennpc (index 116) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 258616 244261 19639) (dir 261616 243261))
+;Fort Guard
+(gennpc (index 117) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 268560 244210 19639) (dir 268560 245210))
+;Fort Guard
+(gennpc (index 118) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 268611 244154 19630) (dir 269611 244154))
+;Fort Guard
+(gennpc (index 119) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 268604 244139 19630) (dir 269604 243139))
+;Fort Guard
+(gennpc (index 120) (country 2) (kind 1) (shape 8) (html 138) (map 0) (xy 268673 244203 19640) (dir 267673 243203))
+;Fort Guard
+(gennpc (index 121) (country 2) (kind 1) (shape 8) (html 143) (map 0) (xy 268687 244200 19640) (dir 267687 241200))
+;Soldier from Troop of -Ga
+(gennpc (index 122) (country 2) (kind 1) (shape 8) (html 144) (map 0) (xy 268129 242967 19630) (dir 269129 241967))
+;Soldier from Troop of Jae-Ga
+(gennpc (index 123) (country 2) (kind 1) (shape 8) (html 148) (map 0) (xy 268975 243500 19625) (dir 269975 241500))
+;Soldier from Troop of Jae-Ga
+(gennpc (index 124) (country 2) (kind 1) (shape 8) (html 149) (map 0) (xy 268201 243756 19620) (dir 269201 244756))
+;Soldier from Troop of Jae-Ga
+(gennpc (index 125) (country 2) (kind 1) (shape 8) (html 150) (map 0) (xy 267437 243844 19620) (dir 265437 240844))
+;Soldier from Troop of Jae-Ga
+(gennpc (index 126) (country 2) (kind 1) (shape 8) (html 154) (map 0) (xy 268046 244143 19620) (dir 271046 245143))
+;Soldier from Troop of Jae-Ga
+(gennpc (index 127) (country 2) (kind 1) (shape 8) (html 155) (map 0) (xy 267933 243345 19630) (dir 267933 232345))
+;Scout Soldier from Troop of Jae-Ga
+(gennpc (index 128) (country 2) (kind 1) (shape 8) (html 155) (map 0) (xy 267948 243345 19630) (dir 267948 232345))
+;Scout Soldier from Troop of Jae-Ga
+(gennpc (index 129) (country 2) (kind 1) (shape 8) (html 155) (map 0) (xy 267963 243345 19630) (dir 267963 232345))
+;Scout Soldier from Troop of Jae-Ga
+(gennpc (index 130) (country 2) (kind 1) (shape 8) (html 155) (map 0) (xy 267933 243330 19630) (dir 267933 232330))
+;Scout Soldier from Troop of Jae-Ga
+(gennpc (index 131) (country 2) (kind 1) (shape 8) (html 155) (map 0) (xy 267948 243330 19630) (dir 267948 232330))
+;Scout Soldier from Troop of Jae-Ga
+(gennpc (index 132) (country 2) (kind 1) (shape 8) (html 155) (map 0) (xy 267963 243330 19630) (dir 267963 232330))
+;Scout Soldier from Troop of Jae-Ga
+(gennpc (index 133) (country 2) (kind 1) (shape 8) (html 156) (map 0) (xy 267978 243330 19630) (dir 267978 232330))
+;Right-side Soldier from Troop of Jae-Ga
+;(gennpc (index 134) (country 2) (kind 1) (shape 8) (html 157) (map 0) (xy 267984 243062 19630) (dir 267984 242062))
+;Right-side Soldier from Troop of Jae-Ga
+;(gennpc (index 135) (country 2) (kind 1) (shape 8) (html 158) (map 0) (xy 268269 243246 19620) (dir 269269 242246))
+;Right-side Soldier from Troop of Jae-Ga
+;(gennpc (index 136) (country 2) (kind 1) (shape 8) (html 159) (map 0) (xy 268171 242335 19630) (dir 269171 237335))
+;Merchant [Wal-Ha]
+(gennpc (index 137) (country 2) (kind 0) (shape 3) (html 164) (map 0) (xy 269106 242927 19630) (dir 259106 243927) (cid 1) (warrelation 0))
+;Tomb Keeper [Goo-Ryung]
+(gennpc (index 138) (country ) (kind 3) (shape 3) (quest 26 1) (map 0) (xy 258043 259381 16049) (dir -1 0))
+;Apprentice Knightage [Gang-Ryung]
+;(gennpc (index 139) (country 2) (kind 1) (shape 5) (html 165) (map 0) (xy 267768 243581 19627) (dir 270768 241581))
+;Apprentice Bow Master [Gi-Wal]
+;(gennpc (index 140) (country 2) (kind 1) (shape 6) (html 166) (map 0) (xy 268454 242632 19620) (dir 267454 246632))
+;Literary Magic Master [Sae-Hwon]
+;(gennpc (index 141) (country 2) (kind 1) (shape 7) (html 167) (map 0) (xy 268263 242636 19630) (dir 267263 246636))
+;Statue of Black Crow in Narootuh
+(gennpc (index 142) (country 2) (kind 5) (shape 10) (html 168) (map 0) (xy 257386 259305 16112) (dir 257386 260305))
+;Statue of Black Crow in Jook-Suh Cargo Station
+(gennpc (index 143) (country 2) (kind 5) (shape 10) (html 169) (map 0) (xy 264918 262111 16170) (dir 264918 263111))
+;Statue of Black Crow in Geum-Oh Mine
+(gennpc (index 144) (country 2) (kind 1) (shape 10) (html 170) (map 0) (xy 265676 285598 22640) (dir 265676 286598))
+;Statue of Black Crow in the Pub of the Giant Bird
+(gennpc (index 145) (country 2) (kind 1) (shape 10) (html 171) (map 0) (xy 256351 288473 27050) (dir 256351 289473))
+;Statue of Black Crow in Temporary Fort of Geum-Ohee Castle
+(gennpc (index 146) (country 2) (kind 1) (shape 10) (html 172) (map 0) (xy 267906 242423 19630) (dir 267906 243423))
+;Storage Keeper [Mook-Hee]
+(gennpc (index 147) (country 2) (kind 5) (shape 3) (html 173) (map 0) (xy 264647 261314 15986) (dir 265647 264314))
+;Storage Keeper [Suk-Min]
+(gennpc (index 148) (country 2) (kind 5) (shape 3) (html 174) (map 0) (xy 256123 289612 27193) (dir 255123 287612))
+;Storage Keeper [Choon-Jae]
+(gennpc (index 149) (country 2) (kind 5) (shape 3) (html 175) (map 0) (xy 267357 243100 19629) (dir 268357 242100))
+;Mother of Moon-Hee
+;(gennpc (index 155) (country 2) (kind 3) (shape 4) (quest 27 1) (map 0) (xy 267323 242818 19630) (dir 268323 241818))
+;Ghost of [Moon-Hee]
+(gennpc (index 156) (country 2) (kind 3) (shape 13) (quest 27 4) (map 0) (xy 265471 240851 18111) (dir 266471 241851))
+;Fort Guard [Heung-Pae]
+(gennpc (index 157) (country 2) (kind 3) (shape 8) (quest 28 1) (map 0) (xy 266776 242953 19620) (dir 269776 240953))
+;Chief Guard [Duk-Yoon]
+;(gennpc (index 158) (country 2) (kind 3) (shape 9) (quest 29 1) (map 0) (xy 267796 242254 19630) (dir 267807 242309))
+;Fort Guard [Soo-Go]
+;(gennpc (index 159) (country 2) (kind 3) (shape 8) (quest 30 1) (map 0) (xy 267190 242796 19623) (dir 267222 242815))
+;Fort Guard [Dan-Bok]
+(gennpc (index 160) (country 2) (kind 3) (shape 8) (quest 31 1) (map 0) (xy 266904 243535 19620) (dir 266904 242535))
+;Fort Guard [Ga-Gi]
+(gennpc (index 161) (country 2) (kind 3) (shape 8) (quest 32 1) (map 0) (xy 268201 244345 19627) (dir 267201 243345))
+;Fort Guard [Soo-Sung]
+(gennpc (index 162) (country 2) (kind 3) (shape 8) (quest 33 1) (map 0) (xy 267999 243311 19630) (dir 268999 242311))
+;Soldier from Troop of Jae-Ga [Yoo-Sang]
+(gennpc (index 163) (country 2) (kind 3) (shape 8) (html ) (map 0) (xy 268844 243518 19620) (dir 267844 242518))
+;Soldier from Troop of Jae-Ga [Lim-Gang]
+(gennpc (index 164) (country 2) (kind 3) (shape 8) (quest 35 1) (map 0) (xy 268192 243963 19630) (dir 269192 244963))
+;master of internet cafe event
+(gennpc (index 165) (country ) (kind 0) (shape 3) (html 176) (map 0) (xy 257912 259193 16072) (dir 0 1))
+;Hyun-Choong
+(gennpc (index 166) (country 2) (kind 3) (shape 3) (quest 9005 1) (map 0) (xy 267699 242298 19630) (dir 268699 243298))
+;Jin-Haeryang
+(gennpc (index 167) (country 2) (kind 3) (shape 3) (quest 9005 3) (map 0) (xy 268472 243389 19620) (dir 268472 242389))
+;Farmer Who Lost His Farmland
+(gennpc (index 168) (country 2) (kind 3) (shape 1) (quest 9006 6) (map 0) (xy 268931 243393 19630) (dir 265931 245393))
+;Smith Who Lost His Family
+(gennpc (index 169) (country 2) (kind 3) (shape 3) (quest 9006 7) (map 0) (xy 268226 243666 19624) (dir 267226 242666))
+;Parents Who Lost Their Son
+(gennpc (index 170) (country 2) (kind 3) (shape 3) (quest 9006 8) (map 0) (xy 268958 243775 19629) (dir 266958 244775))
+;Fishing Grounds Keeper
+;(gennpc (index 171) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 257259 257319 15725) (dir 257259 258319))
+;Fishing Grounds Keeper
+;(gennpc (index 172) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 264637 261854 15721) (dir 265637 262854))
+;Fishing Grounds Keeper
+;(gennpc (index 173) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 258674 258849 15734) (dir 258674 259849))
+;Fishing Grounds Keeper
+;(gennpc (index 174) (country ) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 264346 262294 15720) (dir 0 1))
+;Mistress
+(gennpc (index 175) (country 2) (kind 1) (shape 4) (html 180) (map 0) (xy 257449 258757 16088) (dir 257409 258768))
+;Mistress
+(gennpc (index 176) (country 2) (kind 1) (shape 4) (html 180) (map 0) (xy 265078 261585 16190) (dir 264078 261585))
+;Mistress
+(gennpc (index 177) (country 2) (kind 1) (shape 4) (html 180) (map 0) (xy 264853 285225 22681) (dir 265853 286225))
+;Mistress
+(gennpc (index 178) (country 2) (kind 1) (shape 4) (html 180) (map 0) (xy 268429 243868 19620) (dir 273429 242868))
+;Master of Paper-Rock-Scissors
+;(gennpc (index 179) (country ) (kind 1) (shape 14) (html 181) (map 0) (xy 257359 258996 16080) (dir 257359 259996))
+;return of king of rock paper scissors
+;(gennpc (index 180) (country ) (kind 1) (shape 14) (html 181) (map 0) (xy 264962 262471 16180) (dir 0 1))
+;return of king of rock paper scissors
+;(gennpc (index 181) (country ) (kind 1) (shape 14) (html 181) (map 0) (xy 265799 284985 22650) (dir 0 -1))
+;return of king of rock paper scissors
+;(gennpc (index 182) (country ) (kind 1) (shape 14) (html 181) (map 0) (xy 267477 242213 19661) (dir 1 1))
+;Master of Paper-Rock-Scissors
+;(gennpc (index 211) (country ) (kind 1) (shape 14) (html 181) (map 0) (xy 255886 288882 27050) (dir -3 2))
+;Statue of Black Crow in Forest
+(gennpc (index 183) (country 2) (kind 1) (shape 10) (html 182) (map 0) (xy 273179 232150 20351) (dir 273179 233150))
+;To-Woo
+;(gennpc (index 184) (country 2) (kind 3) (shape 3) (quest 36 1) (map 0) (xy 267231 242889 19630) (dir 268231 242889))
+;Hyun-Woong
+(gennpc (index 185) (country 2) (kind 3) (shape 3) (quest 36 4) (map 0) (xy 274423 232140 17652) (dir 275423 232140))
+;Takes Care of Ancient Animals by [Chang]
+(gennpc (index 186) (country 2) (kind 3) (shape 14) (quest 37 1) (map 0) (xy 257919 259110 16070) (dir 258919 260110))
+;recomment and get NPC
+;(gennpc (index 187) (country ) (kind 1) (shape 3) (html 183) (map 0) (xy 257359 258996 16080) (dir 0 1))
+;recomment and get NPC
+;(gennpc (index 188) (country ) (kind 1) (shape 3) (html 183) (map 0) (xy 264962 262471 16180) (dir 0 1))
+;recomment and get NPC
+;(gennpc (index 189) (country ) (kind 1) (shape 3) (html 183) (map 0) (xy 265799 284985 22650) (dir 0 -1))
+;recomment and get NPC
+;(gennpc (index 190) (country ) (kind 1) (shape 3) (html 183) (map 0) (xy 267477 242213 19661) (dir 1 1))
+;Red Flag's Leader [Gee-Jung]
+;(gennpc (index 191) (country 2) (kind 3) (shape 3) (quest 38 1) (map 0) (xy 267705 243137 19630) (dir 267705 242137))
+;[Hong-Jun]
+(gennpc (index 192) (country 2) (kind 1) (shape 3) (html 900445) (map 0) (xy 257685 258768 16176) (dir 256685 258768))
+;[Ha-Woogo]
+(gennpc (index 193) (country 2) (kind 3) (shape 3) (quest 38 5) (map 0) (xy 257043 259108 16092) (dir 257043 260108))
+;[Ma-Yong]
+(gennpc (index 194) (country 2) (kind 3) (shape 3) (quest 38 7) (map 0) (xy 265163 285418 23178) (dir 266163 284418))
+;"Mask of Ghost Hunter [Woo-Joong]
+(gennpc (index 195) (country 2) (kind 3) (shape 9) (quest 39 1) (map 0) (xy 268145 243451 19630) (dir 269145 244451))
+;Mask of Ghost Hunter [Joa-Ill]
+(gennpc (index 196) (country 2) (kind 3) (shape 9) (quest 40 1) (map 0) (xy 268165 243451 19630) (dir 269165 244451))
+;Mask of Ghost Hunter [Geun-Pyung]
+(gennpc (index 197) (country 2) (kind 3) (shape 9) (quest 41 1) (map 0) (xy 268185 243451 19630) (dir 269185 244451))
+;Mask of Ghost Hunter [Dan-Joong]
+(gennpc (index 198) (country 2) (kind 3) (shape 9) (quest 42 1) (map 0) (xy 268205 243451 19630) (dir 269205 244451))
+;Mask of Ghost Hunter [Choi-Choong]
+(gennpc (index 199) (country 2) (kind 3) (shape 9) (quest 43 1) (map 0) (xy 268225 243451 19630) (dir 269225 244451))
+;One Who is Looking for the Masks
+(gennpc (index 200) (country ) (kind 3) (shape 3) (quest 8002 1) (map 0) (xy 257409 259688 16103) (dir 0 -1))
+;One Who is Looking for the Masks
+(gennpc (index 201) (country ) (kind 3) (shape 3) (quest 8002 1) (map 0) (xy 265776 285249 22650) (dir 0 1))
+;One Who is Looking for the Masks
+(gennpc (index 202) (country ) (kind 3) (shape 3) (quest 8002 1) (map 0) (xy 267610 243128 19630) (dir -1 -1))
+;Doggebi Who Wants To Be a Friend with Humans
+(gennpc (index 203) (country 2) (kind 3) (shape 14) (quest 44 1) (map 0) (xy 274412 241958 19907) (dir 274412 242958))
+;Doll Craftsman [Gill-Jun]
+(gennpc (index 204) (country 2) (kind 3) (shape 3) (quest 44 5) (map 0) (xy 268266 243057 19625) (dir 269266 242057))
+;Prophet
+(gennpc (index 205) (country 2) (kind 3) (shape 7) (quest 7000 1) (map 0) (xy 257378 259285 16106) (dir 257378 258285))
+;[Seoung-Gill]
+(gennpc (index 206) (country 2) (kind 3) (shape 3) (quest 45 1) (map 0) (xy 271611 237286 17132) (dir 270611 232286))
+;[Ma-Gill]
+;(gennpc (index 207) (country 2) (kind 3) (shape 3) (quest 45 5) (map 0) (xy 268194 242452 19630) (dir 267194 241452))
+;[Hee-Ryu]
+;(gennpc (index 208) (country 2) (kind 3) (shape 4) (quest 45 5) (map 0) (xy 268201 242438 19630) (dir 267201 243438))
+;[Hak-Goo]
+(gennpc (index 209) (country 2) (kind 3) (shape 8) (quest 46 1) (map 0) (xy 263222 225746 17566) (dir 263222 224746))
+;Executive
+(gennpc (index 210) (country 2) (kind 1) (shape 5) (html 184) (map 0) (xy 268534 243276 19620) (dir 269534 242276))
+;Assassin List
+(gennpc (index 212) (country 2) (kind 1) (shape 15) (html 400001) (map 0) (xy 257409 259688 16103) (dir 257409 258688))
+;Mask Merchant
+(gennpc (index 213) (country 0 2) (kind 0) (shape 3) (html 186) (map 0) (xy 267213 243404 19624) (dir 268213 242404))
+;Ji-Joo
+(gennpc (index 214) (country 0 2) (kind 1) (shape 16) (map 0) (xy 249217 259476 25511) (dir 249207 259579) (cid 1) (warrelation 0))
+;Geum-Oh Castle's Statue of Crow
+(gennpc (index 215) (country 0 2) (kind 1) (shape 10) (html 187) (map 0) (xy 247934 257273 23207) (dir 247935 257316) (cid 1) (warrelation 0))
+;Geum-Oh Castle Keeper
+;(gennpc (index 216) (country ) (kind 1) (shape 8) (html 189) (map 0) (xy 247866 255714 23196) (dir -1 1))
+;Gate Keeper
+(gennpc (index 217) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 252648 262649 17777) (dir 253648 262649) (cid 1) (warrelation 0))
+;Gate Keeper
+(gennpc (index 218) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 252371 262466 17726) (dir 252371 261466) (cid 1) (warrelation 0))
+;Assassin List
+(gennpc (index 219) (country 2) (kind 1) (shape 15) (html 400001) (map 0) (xy 265776 285249 22650) (dir 265776 286249))
+;Assassin List
+(gennpc (index 220) (country 2) (kind 1) (shape 15) (html 400001) (map 0) (xy 267610 243128 19630) (dir 266610 242128))
+;Assassin List
+(gennpc (index 221) (country 2) (kind 1) (shape 15) (html 400001) (map 0) (xy 265003 262746 16222) (dir 265003 261746))
+
+;Gate Keeper
+(gennpc (index 223) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 248812 263518 22466) (dir 249812 264518) (cid 1) (warrelation 0))
+;Gate Keeper
+(gennpc (index 224) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 248640 263153 22265) (dir 249640 262153) (cid 1) (warrelation 0))
+;Gate Keeper
+;(gennpc (index 225) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 249659 257624 21639) (dir 249659 256624) (cid 1) (warrelation 0))
+;Gate Keeper
+(gennpc (index 226) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 249661 257979 21708) (dir 249661 258979) (cid 1) (warrelation 0))
+;Gate Keeper
+(gennpc (index 227) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 250422 258754 21996) (dir 251422 258754) (cid 1) (warrelation 0))
+;Gate Keeper
+(gennpc (index 228) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 250110 258764 22376) (dir 249110 258764) (cid 1) (warrelation 0))
+;Gate Keeper
+(gennpc (index 229) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 248657 261640 22880) (dir 248657 262640) (cid 1) (warrelation 0))
+;Gate Keeper
+(gennpc (index 230) (country 0 2) (kind 1) (shape 3) (html 188) (map 0) (xy 248542 261011 22840) (dir 248547 260975) (cid 1) (warrelation 0))
+;Geum-Oh Castle Gate Keeper
+;(gennpc (index 231) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 249625 257743 21527) (dir 250625 256743) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+;(gennpc (index 232) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 249532 257742 21499) (dir 250532 256742) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 233) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 250362 258718 22036) (dir 251362 258718) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 234) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 250358 258615 22052) (dir 251358 258615) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 235) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 248692 261577 22858) (dir 248694 261620) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 236) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 248584 261583 22777) (dir 248584 262583) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 237) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 252594 262569 17711) (dir 254594 263569) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 238) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 252645 262499 17622) (dir 254645 263499) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 239) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 248792 263436 22364) (dir 249792 264436) (cid 1) (warrelation 1))
+;Geum-Oh Castle Gate Keeper
+(gennpc (index 240) (country 0 2) (kind 1) (shape 8) (html 189) (map 0) (xy 248835 263378 22449) (dir 249835 264378) (cid 1) (warrelation 1))
+;Ascetic
+(gennpc (index 241) (country 2) (kind 1) (shape 6) (html 190) (map 0) (xy 257121 258940 16100) (dir 277121 259940))
+;Ascetic
+(gennpc (index 242) (country 2) (kind 1) (shape 6) (html 190) (map 0) (xy 265167 262166 16204) (dir 265167 261166))
+;Ascetic
+(gennpc (index 243) (country 2) (kind 1) (shape 6) (html 190) (map 0) (xy 265539 285040 22650) (dir 264539 285040))
+;Ascetic
+(gennpc (index 244) (country 2) (kind 1) (shape 6) (html 190) (map 0) (xy 255441 289428 27070) (dir 255441 290428))
+;Ascetic
+(gennpc (index 245) (country 2) (kind 1) (shape 6) (html 190) (map 0) (xy 267670 242245 19630) (dir 267662 242259))
+;Ascetic
+(gennpc (index 246) (country 2) (kind 1) (shape 6) (html 190) (map 0) (xy 273089 232144 20359) (dir 274089 232144))
+;Food Merchant
+(gennpc (index 247) (country 2) (kind 0) (shape 3) (html 194) (map 0) (xy 257131 259185 16090) (dir 258131 260185))
+;Food Merchant
+(gennpc (index 248) (country 2) (kind 0) (shape 3) (html 194) (map 0) (xy 264723 262215 16160) (dir 264723 261215) (cid 1))
+;Food Merchant
+(gennpc (index 249) (country 2) (kind 0) (shape 3) (html 194) (map 0) (xy 265429 285055 22650) (dir 265429 286055) (cid 1))
+;Food Merchant
+(gennpc (index 250) (country 2) (kind 0) (shape 3) (html 194) (map 0) (xy 255568 289420 27070) (dir 255568 290420) (cid 1))
+;Food Merchant
+(gennpc (index 251) (country 2) (kind 0) (shape 3) (html 194) (map 0) (xy 268917 242758 19628) (dir 268917 243758) (cid 1))
+;Limper
+(gennpc (index 252) (country 0 2) (kind 3) (shape 3) (quest 47 1) (map 0) (xy 259389 265165 16090) (dir 260389 266165))
+;Blind Man
+(gennpc (index 253) (country 0 2) (kind 3) (shape 3) (quest 48 1) (map 0) (xy 264965 268152 18227) (dir 263965 267152))
+;Coward
+(gennpc (index 254) (country 0 2) (kind 3) (shape 3) (quest 49 1) (map 0) (xy 266174 272175 21729) (dir 267174 272175))
+;Hunchback
+(gennpc (index 255) (country 0 2) (kind 3) (shape 3) (quest 50 1) (map 0) (xy 265417 276915 23240) (dir 265417 277915))
+;Deaf Man
+(gennpc (index 256) (country 0 2) (kind 3) (shape 3) (quest 51 1) (map 0) (xy 258738 264249 16276) (dir 257738 263249))
+;One-armed Man
+(gennpc (index 257) (country 0 2) (kind 3) (shape 3) (quest 52 1) (map 0) (xy 262113 256702 17321) (dir 261113 256702))
+;Manager
+(gennpc (index 258) (country 0 2) (kind 3) (shape 3) (quest 53 1) (map 0) (xy 265893 275953 23260) (dir 265893 274953))
+;[Ja-Sang]
+(gennpc (index 259) (country 0 2) (kind 3) (shape 3) (quest 58 1) (map 0) (xy 269407 243333 19630) (dir 268407 244333))
+;Tomb Keeper [Gang-Man]
+(gennpc (index 260) (country 0 2) (kind 3) (shape 3) (quest 0 19) (map 0) (xy 256068 289118 27050) (dir 255068 290118))
+;Agent
+(gennpc (index 261) (country 0 2) (kind 1) (shape 3) (html 191) (map 0) (xy 257369 259296 16112) (dir 257369 258296))
+;Chemist of Speed-up Medicine
+(gennpc (index 262) (country 0 2) (kind 1) (shape 3) (html 192) (map 0) (xy 257448 258731 16090) (dir 257427 258733) (warrelation 0))
+;Chemist of Speed-up Medicine
+(gennpc (index 263) (country 0 2) (kind 1) (shape 3) (html 192) (map 0) (xy 256262 289137 27060) (dir 257262 289137) (warrelation 0))
+;Chemist of Speed-up Medicine
+(gennpc (index 264) (country 0 2) (kind 1) (shape 3) (html 192) (map 0) (xy 268408 243898 19620) (dir 269408 242898) (warrelation 0))
+;Manager of Occupied Area
+(gennpc (index 265) (country 0 2) (kind 1) (shape 3) (html 195) (map 0) (xy 248248 259853 22810) (dir 248273 259853) (cid 1) (warrelation 1))
+;Doggebi Master
+(gennpc (index 266) (country 2) (kind 3) (shape 14) (quest 9008 1) (map 0) (xy 273331 232000 20243) (dir 274331 232000))
+;Master of Vagabond Swordman [Moo-Geukhyun]
+;(gennpc (index 267) (country 0 2) (kind 1) (shape 5) (html 196) (map 0) (xy 255598 288916 27070) (dir 256598 288916))
+;Master of Commander [Chiwoo-Yangmook]
+;(gennpc (index 268) (country 0 2) (kind 1) (shape 5) (html 197) (map 0) (xy 255600 288966 27070) (dir 256600 288966))
+;Master of Expert Archer [Jae-Bae]
+;(gennpc (index 269) (country 0 2) (kind 1) (shape 6) (html 198) (map 0) (xy 255602 289016 27070) (dir 256602 289016))
+;Master of Imperial Commander [Chiwoo-Jichun]
+;(gennpc (index 270) (country 0 2) (kind 1) (shape 6) (html 199) (map 0) (xy 255604 289066 27070) (dir 256604 289066))
+;Master of Hermit [Won-Tan]
+;(gennpc (index 271) (country 0 2) (kind 1) (shape 6) (html 200) (map 0) (xy 255606 289116 27070) (dir 256606 289116))
+;Master of Chairperson of Joong-Bang [Mang-Sunjae]
+;(gennpc (index 272) (country 0 2) (kind 1) (shape 6) (html 201) (map 0) (xy 255608 289166 27070) (dir 256608 289166))
+;Skill Point Manager NPC
+;(gennpc (index 273) (country 0) (kind 3) (shape 7) (quest 8006 1) (map 0) (xy 257724 259630 16090) (dir 257695 259573))
+;Statue of Black Crow of East Gate
+(gennpc (index 274) (country 0 2) (kind 1) (shape 10) (html 202) (map 0) (xy 252484 262442 19470) (dir 253484 263442) (cid 1) (warrelation 2))
+;Statue of Black Crow of West Gate
+(gennpc (index 275) (country 0 2) (kind 1) (shape 10) (html 203) (map 0) (xy 248668 263318 24010) (dir 249668 264318) (cid 1) (warrelation 2))
+;Statue of Black Crow in City of Priest
+(gennpc (index 276) (country 0 2) (kind 1) (shape 10) (html 204) (map 0) (xy 232802 294675 45300) (dir 233802 294675))
+;Mistress
+(gennpc (index 277) (country 0 2) (kind 1) (shape 4) (html 180) (map 0) (xy 236035 295752 45380) (dir 237035 295752))
+;Merchant, [Baek-Yak]
+(gennpc (index 278) (country 0 2) (kind 0) (shape 3) (html 205) (map 0) (xy 236384 294192 45420) (dir 236384 295192))
+;Food Merchant
+(gennpc (index 279) (country 0 2) (kind 0) (shape 3) (html 194) (map 0) (xy 236807 295329 45380) (dir 235807 295329))
+;Mask Merchant
+(gennpc (index 280) (country 0 2) (kind 0) (shape 3) (html 206) (map 0) (xy 236808 295790 45398) (dir 235808 295790))
+;Knight's Weapon Merchant, [Go-Soon]
+(gennpc (index 281) (country 0 2) (kind 0) (shape 3) (html 207) (map 0) (xy 235900 295175 45418) (dir 235900 294175))
+;Archer's Weapon Merchant, [Gong-Jung]
+(gennpc (index 282) (country 0 2) (kind 0) (shape 3) (html 208) (map 0) (xy 235204 295171 45370) (dir 235204 294171))
+;Magician's Weapon Merchant, [Gong-Ryuh]
+(gennpc (index 283) (country 0 2) (kind 0) (shape 3) (html 209) (map 0) (xy 234738 295160 45370) (dir 234738 294160))
+;Knight's Armor Merchant, [Go-Ohng]
+(gennpc (index 284) (country 0 2) (kind 0) (shape 3) (html 210) (map 0) (xy 235679 294177 45390) (dir 235679 295177))
+;Archer's  Armor Merchant, [Ja-Gyung]
+(gennpc (index 285) (country 0 2) (kind 0) (shape 3) (html 211) (map 0) (xy 235219 294170 45430) (dir 235219 295170))
+;Magician's Armor Merchant, [Moon-Hwa]
+(gennpc (index 286) (country 0 2) (kind 0) (shape 3) (html 212) (map 0) (xy 234514 294196 45390) (dir 234514 295196))
+;Priest [Ahn-Hyunsoo]
+(gennpc (index 287) (country 0 2) (kind 3) (shape 7) (quest 0 29) (map 0) (xy 231715 294703 45300) (dir 232056 294712))
+
+;Religious Officer
+(gennpc (index 289) (country 0 2) (kind 1) (shape 7) (html 215) (map 0) (xy 231649 294905 45300) (dir 231656 294699))
+;Religious Officer
+(gennpc (index 290) (country 0 2) (kind 1) (shape 7) (html 216) (map 0) (xy 231689 294496 45319) (dir 231656 294699))
+;Religious Officer
+(gennpc (index 291) (country 0 2) (kind 1) (shape 7) (html 217) (map 0) (xy 231732 294318 45310) (dir 231656 294699))
+;Religious Officer
+(gennpc (index 292) (country 0 2) (kind 1) (shape 7) (html 218) (map 0) (xy 231502 294344 45330) (dir 231656 294699))
+;Master of General[Sur-Pil]
+;(gennpc (index 293) (country 0 2) (kind 1) (shape 7) (html 500) (map 0) (xy 268768 242622 20220) (dir 268757 242615))
+;Master of G.Sword[Im-Bee]
+;(gennpc (index 294) (country 0 2) (kind 1) (shape 7) (html 501) (map 0) (xy 268789 242578 20220) (dir 268771 242567))
+;Master of I.General[Don-Joong]
+;(gennpc (index 295) (country 0 2) (kind 1) (shape 7) (html 502) (map 0) (xy 268806 242550 20220) (dir 268781 242537))
+;Master of G.Bow[Bong-Hack]
+;(gennpc (index 296) (country 0 2) (kind 1) (shape 7) (html 503) (map 0) (xy 268825 242512 20220) (dir 268799 242496))
+;Master of M.Adviser[Bong-Yo]
+;(gennpc (index 297) (country 0 2) (kind 1) (shape 7) (html 504) (map 0) (xy 268568 242513 20220) (dir 268578 242518))
+;Master of Ascetic[Bool-Lo]
+;(gennpc (index 298) (country 0 2) (kind 1) (shape 7) (html 505) (map 0) (xy 268586 242478 20220) (dir 268599 242485))
+;Dark Shadow Master [Duk sung]
+;(gennpc (index 299) (country 0 2) (kind 1) (shape 7) (html 525) (map 0) (xy 268603 242443 20220) (dir 268619 242452))
+;Unearthly Ghost Master [Dea gon]
+;(gennpc (index 300) (country 0 2) (kind 1) (shape 7) (html 526) (map 0) (xy 268621 242407 20220) (dir 268640 242418))
+;Fishing Grounds Keeper
+;(gennpc (index 301) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 233986 294677 45406) (dir 233986 293677))
+;Fishing Grounds Keeper
+;(gennpc (index 302) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 234408 294677 45406) (dir 234408 293677))
+;Fishing Grounds Keeper
+;(gennpc (index 303) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 234899 294677 45413) (dir 234899 293677))
+;Fishing Grounds Keeper
+;(gennpc (index 304) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 235321 294677 45413) (dir 235321 293677))
+;Fishing Grounds Keeper
+;(gennpc (index 305) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 235809 294677 45416) (dir 235809 293677))
+;Fishing Grounds Keeper
+;(gennpc (index 306) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 236234 294677 45416) (dir 236234 293677))
+;Religious Officer
+;(gennpc (index 307) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 233022 293298 45290) (dir 232022 293298))
+;Religious Officer
+;(gennpc (index 308) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 234746 294187 45400) (dir 234746 295187))
+;Religious Officer
+;(gennpc (index 309) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 235915 294172 45390) (dir 235915 295172))
+;Religious Officer
+;(gennpc (index 310) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 236823 296263 45380) (dir 235823 296263))
+;Religious Officer
+;(gennpc (index 311) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 234504 295172 45400) (dir 234504 294172))
+;Religious Officer
+;(gennpc (index 312) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 230947 295369 45280) (dir 231947 294369))
+;Religious Officer
+;(gennpc (index 313) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 231548 293018 45360) (dir 236548 294018))
+;Religious Officer
+;(gennpc (index 314) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 233002 290520 45390) (dir 232002 295520))
+;Religious Officer
+;(gennpc (index 315) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 233954 290541 45390) (dir 234954 295541))
+;Religious Officer
+;(gennpc (index 316) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 233798 291508 45290) (dir 231798 288508))
+;Religious Officer
+;(gennpc (index 317) (country 0 2) (kind 1) (shape 7) (html 230) (map 0) (xy 233051 292367 45280) (dir 232951 292339))
+;Guard
+;(gennpc (index 318) (country 0 2) (kind 1) (shape 8) (html 222) (map 0) (xy 232572 295810 45290) (dir 232576 295868))
+;Guard
+;(gennpc (index 319) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 232047 295596 45280) (dir 232047 294596))
+;Guard
+;(gennpc (index 320) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 232568 295581 45290) (dir 232568 294581))
+;Guard
+;(gennpc (index 321) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 230525 294939 45290) (dir 230218 294917))
+;Guard
+;(gennpc (index 322) (country 0 2) (kind 1) (shape 8) (html 224) (map 0) (xy 230752 294962 45290) (dir 231752 294962))
+;Guard
+;(gennpc (index 323) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 230792 294449 45290) (dir 231792 294449))
+;Guard
+;(gennpc (index 324) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 234700 291046 45310) (dir 235227 290915))
+;Guard
+;(gennpc (index 325) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 234329 290617 45397) (dir 233329 290617))
+;Guard
+;(gennpc (index 326) (country 0 2) (kind 1) (shape 8) (html 226) (map 0) (xy 234574 290579 45360) (dir 234883 290541))
+;Guard
+;(gennpc (index 327) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 234483 291113 45300) (dir 233483 291113))
+;Guard
+;(gennpc (index 328) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 237061 294392 45515) (dir 237204 294388))
+;Guard
+;(gennpc (index 329) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 236778 294393 45427) (dir 236728 294392))
+;Guard
+;(gennpc (index 330) (country 0 2) (kind 1) (shape 8) (html 227) (map 0) (xy 237062 295016 45322) (dir 237267 294906))
+;Guard
+;(gennpc (index 331) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 236778 295016 45380) (dir 236698 295013))
+;Guard
+;(gennpc (index 332) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 236671 296553 45380) (dir 236675 296833))
+;Guard
+;(gennpc (index 333) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 236687 296315 45380) (dir 236694 296255))
+;Guard
+;(gennpc (index 334) (country 0 2) (kind 1) (shape 8) (html 228) (map 0) (xy 236151 296522 45380) (dir 236100 296994))
+;Guard
+;(gennpc (index 335) (country 0 2) (kind 1) (shape 8) (html 223) (map 0) (xy 236169 296282 45380) (dir 236177 296175))
+;Low-Ranking Religious Officer
+;(gennpc (index 336) (country 0 2) (kind 1) (shape 3) (html 219) (map 0) (xy 232146 294760 45312) (dir 232936 294741))
+;Low-Ranking Religious Officer
+;(gennpc (index 337) (country 0 2) (kind 1) (shape 3) (html 220) (map 0) (xy 232149 294673 45310) (dir 232936 294741))
+;Low-Ranking Religious Officer
+;(gennpc (index 338) (country 0 2) (kind 1) (shape 3) (html 221) (map 0) (xy 231180 294627 45348) (dir 230276 294617))
+;Low-Ranking Religious Officer
+;(gennpc (index 339) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 231178 294710 45319) (dir 230276 294617))
+;Fishing Grounds Keeper
+;(gennpc (index 340) (country 1) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 232699 291121 45307) (dir 234440 290814))
+;Storage Keeper [Jin-Hee]
+(gennpc (index 341) (country 0 2) (kind 5) (shape 4) (html 231) (map 0) (xy 234264 295146 45363) (dir 234259 294880))
+;Chemist of Speed-up Medicine
+;(gennpc (index 342) (country 0 2) (kind 1) (shape 3) (html 192) (map 0) (xy 234278 294205 45390) (dir 234295 294405))
+;Low-Ranking Religious Officer
+;(gennpc (index 343) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 233402 295241 45328) (dir 233122 294895))
+;Low-Ranking Religious Officer
+;(gennpc (index 344) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 233042 295496 45290) (dir 232995 295329))
+;Low-Ranking Religious Officer
+;(gennpc (index 345) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 231544 295609 45287) (dir 231543 295388))
+;Low-Ranking Religious Officer
+;(gennpc (index 346) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 231133 295513 45290) (dir 231285 295326))
+;Low-Ranking Religious Officer
+;(gennpc (index 347) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 230849 294174 45290) (dir 231104 294235))
+;Low-Ranking Religious Officer
+;(gennpc (index 348) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 231085 293818 45290) (dir 231276 294027))
+;Low-Ranking Religious Officer
+;(gennpc (index 349) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 231252 293653 45350) (dir 231501 293869))
+;Low-Ranking Religious Officer
+;(gennpc (index 350) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 231589 292773 45360) (dir 231870 292792))
+;Low-Ranking Religious Officer
+;(gennpc (index 351) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 231575 292537 45360) (dir 231819 292525))
+;Low-Ranking Religious Officer
+;(gennpc (index 352) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 232774 290511 45420) (dir 232767 290694))
+;Low-Ranking Religious Officer
+;(gennpc (index 353) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 233484 290561 45390) (dir 233465 290855))
+;Low-Ranking Religious Officer
+;(gennpc (index 354) (country 0 2) (kind 1) (shape 3) (html 229) (map 0) (xy 233719 290574 45390) (dir 233730 290874))
+;Ascetic
+;(gennpc (index 355) (country 0 2) (kind 1) (shape 5) (html 190) (map 0) (xy 234446 291239 45307) (dir 234362 290960))
+;Master of Vagabond Swordman [Chiwoo-Giryung]
+;(gennpc (index 356) (country 0 2) (kind 1) (shape 5) (html 233) (map 0) (xy 234012 291393 45300) (dir 233919 291169))
+;Master of Commander [Chiwoo-Jomoo]
+;(gennpc (index 357) (country 0 2) (kind 1) (shape 5) (html 234) (map 0) (xy 233404 291771 45298) (dir 233270 291607))
+;Master of Expert Archer [Dan-Gyu]
+;(gennpc (index 358) (country 0 2) (kind 1) (shape 6) (html 235) (map 0) (xy 233118 292145 45294) (dir 232961 292082))
+;Master of Imperial Commander [Sa-Chan]
+(gennpc (index 359) (country 0 2) (kind 1) (shape 6) (html 236) (map 0) (xy 232966 292835 45290) (dir 232684 292814))
+;Master of Hermit [Baek-Myo]
+;(gennpc (index 360) (country 0 2) (kind 1) (shape 7) (html 237) (map 0) (xy 233082 293545 45303) (dir 232737 293664))
+;Master of Chairperson of Joong-Bang [Doo-Yae]
+;(gennpc (index 361) (country 0 2) (kind 1) (shape 7) (html 238) (map 0) (xy 233424 294152 45290) (dir 233138 294414))
+;Assassin List
+(gennpc (index 362) (country 0 2) (kind 1) (shape 15) (html 400001) (map 0) (xy 232622 295591 45300) (dir 232601 295242))
+;Agent
+(gennpc (index 363) (country 0 2) (kind 1) (shape 3) (html 191) (map 0) (xy 264898 261895 16142) (dir 264894 262060))
+;Prophet
+(gennpc (index 364) (country 2) (kind 3) (shape 7) (quest 7000 1) (map 0) (xy 265064 262006 16180) (dir 264949 262180))
+;Prophet
+(gennpc (index 365) (country 2) (kind 3) (shape 7) (quest 7000 1) (map 0) (xy 265799 285408 22642) (dir 265520 285416))
+;Prophet
+(gennpc (index 366) (country 2) (kind 3) (shape 7) (quest 7000 1) (map 0) (xy 255792 288126 27070) (dir 255886 288339))
+;Prophet
+(gennpc (index 367) (country 2) (kind 3) (shape 7) (quest 7000 1) (map 0) (xy 267596 242240 19636) (dir 267779 242525))
+;Flag Manager
+(gennpc (index 368) (country 0 2) (kind 0) (shape 3) (html 239) (map 0) (xy 268507 243254 19620) (dir 268521 243236))
+;Village Elder
+;(gennpc (index 369) (country ) (kind 1) (shape 3) (html 245) (map 0) (xy 257367 259052 16080) (dir 257379 259178))
+;Village Elder
+;(gennpc (index 370) (country ) (kind 1) (shape 3) (html 245) (map 0) (xy 267266 243000 19620) (dir 267316 242986))
+;Village Elder
+;(gennpc (index 371) (country ) (kind 1) (shape 3) (html 245) (map 0) (xy 232778 294673 45300) (dir 232726 294676))
+;BlackSmith
+(gennpc (index 372) (country 0 2) (kind 0) (shape 3) (html 243) (map 0) (xy 267436 243161 19630) (dir 267451 243142))
+;BlackSmith
+(gennpc (index 373) (country 0 2) (kind 0) (shape 3) (html 243) (map 0) (xy 234238 295145 45362) (dir 234241 295081))
+;Fifth Stone Monument
+(gennpc (index 374) (country 0 2) (kind 4) (shape 17) (html 248) (scenario 0 645) (map 3) (xy 57366 9926 30799) (dir 57366 9060))
+;Sixth Stone Monument
+(gennpc (index 375) (country 0 2) (kind 4) (shape 17) (html 249) (scenario 1 646) (map 3) (xy 58006 9678 30799) (dir 57366 9060))
+;Seventh Stone Monument
+(gennpc (index 376) (country 0 2) (kind 4) (shape 17) (html 250) (scenario 2 647) (map 3) (xy 58209 9078 30799) (dir 57366 9060))
+;Eighth Stone Monument
+(gennpc (index 377) (country 0 2) (kind 4) (shape 17) (html 251) (scenario 3 648) (map 3) (xy 57997 8467 30799) (dir 57366 9060))
+;First Stone Monument
+(gennpc (index 378) (country 0 2) (kind 4) (shape 17) (html 252) (scenario 4 641) (map 3) (xy 57366 8235 30799) (dir 57366 9060))
+;Second Stone Monument
+(gennpc (index 379) (country 0 2) (kind 4) (shape 17) (html 253) (scenario 5 642) (map 3) (xy 56743 8456 30799) (dir 57366 9060))
+;Third Stone Monument
+(gennpc (index 380) (country 0 2) (kind 4) (shape 17) (html 254) (scenario 6 643) (map 3) (xy 56504 9080 30799) (dir 57366 9060))
+;Forth Stone Monument
+(gennpc (index 381) (country 0 2) (kind 4) (shape 17) (html 255) (scenario 7 644) (map 3) (xy 56748 9742 30799) (dir 57366 9060))
+;Name Manager
+(gennpc (index 382) (country 0 2) (kind 1) (shape 3) (html 256) (map 0) (xy 257466 259669 16125) (dir 57365 30969))
+;Throne
+(gennpc (index 383) (country 0 2) (kind 4) (shape 18) (scenario 8 0) (map 3) (xy 57365 9074 30969) (dir 57366 9018))
+;skill reset event NPC
+;(gennpc (index 384) (country 0) (kind 3) (shape 7) (quest 8006 1) (map 0) (xy 265132 262754 16275) (dir 265129 262721))
+;skill reset event NPC
+;(gennpc (index 385) (country 0) (kind 3) (shape 7) (quest 8006 1) (map 0) (xy 265737 285185 22650) (dir 265690 285245))
+;skill reset event NPC
+;(gennpc (index 386) (country 0) (kind 3) (shape 7) (quest 8006 1) (map 0) (xy 256935 288798 27070) (dir 256920 288796))
+;skill reset event NPC
+;(gennpc (index 387) (country 0) (kind 3) (shape 7) (quest 8006 1) (map 0) (xy 267365 242530 19681) (dir 267387 242527))
+;skill reset event NPC
+;(gennpc (index 388) (country 0) (kind 3) (shape 7) (quest 8006 1) (map 0) (xy 232542 295557 45299) (dir 232543 295539))
+;Statue of Black Crow in Doggebi Tower
+(gennpc (index 389) (country 0 2) (kind 1) (shape 10) (html 258) (map 0) (xy 280940 248932 16390) (dir 280950 248890))
+;Master of Dice
+;(gennpc (index 390) (country ) (kind 1) (shape 19) (html 257) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;Master of Dice
+;(gennpc (index 391) (country ) (kind 1) (shape 19) (html 257) (map 0) (xy 265081 262566 16207) (dir 265081 262555))
+;Master of Dice
+;(gennpc (index 392) (country ) (kind 1) (shape 19) (html 257) (map 0) (xy 265579 285210 22650) (dir 265570 285218))
+;Master of Dice
+;(gennpc (index 393) (country ) (kind 1) (shape 19) (html 257) (map 0) (xy 255673 288390 27080) (dir 255673 288390))
+;Master of Dice
+;(gennpc (index 394) (country ) (kind 1) (shape 19) (html 257) (map 0) (xy 267394 242617 19630) (dir 267405 242619))
+;Master of Dice
+;(gennpc (index 395) (country ) (kind 1) (shape 19) (html 257) (map 0) (xy 232563 295435 45290) (dir 232563 295425))
+;Teleport Monument
+(gennpc (index 396) (country 0 2) (kind 5) (shape 20) (html 259) (teleport 3 57366 10034) (map 3) (xy 57370 7727 29999) (dir 57370 7758)) 
+;Teleport Monument
+(gennpc (index 397) (country 0 2) (kind 5) (shape 20) (html 260) (teleport 3 57358 10427) (map 3) (xy 57365 8134 30799) (dir 57365 8178))
+;Mask Merchant
+;(gennpc (index 398) (country ) (kind 0) (shape 19) (html 261) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;no thanks thanksgiving
+;(gennpc (index 399) (country ) (kind 1) (shape 3) (html 262) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;no thanks thanksgiving
+;(gennpc (index 400) (country ) (kind 1) (shape 3) (html 262) (map 0) (xy 265081 262566 16207) (dir 265081 262555))
+;no thanks thanksgiving
+;(gennpc (index 401) (country ) (kind 1) (shape 3) (html 262) (map 0) (xy 265579 285210 22650) (dir 265570 285218))
+;no thanks thanksgiving
+;(gennpc (index 402) (country ) (kind 1) (shape 3) (html 262) (map 0) (xy 255673 288390 27080) (dir 255673 288390))
+;no thanks thanksgiving
+;(gennpc (index 403) (country ) (kind 1) (shape 3) (html 262) (map 0) (xy 267394 242617 19630) (dir 267405 242619))
+;The Birds Event NPC
+;(gennpc (index 404) (country 0 2) (kind 1) (shape 24) (html 300037) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;The Birds Event NPC
+;(gennpc (index 405) (country 0 2) (kind 1) (shape 24) (html 300037) (map 0) (xy 265081 262566 16207) (dir 265081 262555))
+;The Birds Event NPC
+;(gennpc (index 406) (country 0 2) (kind 1) (shape 24) (html 300037) (map 0) (xy 265579 285210 22650) (dir 265570 285218))
+;The Birds Event NPC
+;(gennpc (index 407) (country 0 2) (kind 1) (shape 24) (html 300037) (map 0) (xy 255673 288390 27080) (dir 255673 288390))
+;The Birds Event NPC
+;(gennpc (index 408) (country 0 2) (kind 1) (shape 24) (html 300037) (map 0) (xy 267394 242617 19630) (dir 267405 242619))
+;The Birds Event NPC
+;(gennpc (index 409) (country 0 2) (kind 1) (shape 24) (html 300037) (map 0) (xy 232571 295492 45290) (dir 232570 295470))
+;Pair Maker Master
+;(gennpc (index 410) (country 0) (kind 1) (shape 26) (html 265) (map 0) (xy 268378 244227 19631) (dir 268356 244209))
+;Change Gold Coin/Zamogeon
+;(gennpc (index 411) (country 0) (kind 1) (shape 25) (html 264) (map 0) (xy 268425 244174 19627) (dir 268397 244153))
+;Pair Maker Master
+;(gennpc (index 412) (country 0) (kind 1) (shape 26) (html 265) (map 0) (xy 256853 289206 27070) (dir 256822 289150))
+;Change Gold Coin/Zamogeon
+;(gennpc (index 413) (country 0) (kind 1) (shape 25) (html 264) (map 0) (xy 256798 289247 27091) (dir 256791 289232))
+;Pair Maker Master
+;(gennpc (index 414) (country 0) (kind 1) (shape 26) (html 265) (map 0) (xy 233208 295391 45317) (dir 233202 295383))
+;Change Gold Coin/Zamogeon
+;(gennpc (index 415) (country 0) (kind 1) (shape 25) (html 264) (map 0) (xy 233272 295350 45317) (dir 233265 295340))
+;Card Maker Master
+;(gennpc (index 416) (country ) (kind 1) (shape 27) (html 266) (map 0) (xy 268335 244280 19634) (dir 268321 244270))
+;Card Maker Master
+;(gennpc (index 417) (country ) (kind 1) (shape 27) (html 266) (map 0) (xy 256743 289289 27112) (dir 256727 289264))
+;Card Maker Master
+;(gennpc (index 418) (country ) (kind 1) (shape 27) (html 266) (map 0) (xy 233138 295435 45305) (dir 233133 295422))
+;Pair Maker Master
+;(gennpc (index 419) (country 0) (kind 1) (shape 26) (html 265) (map 0) (xy 258121 259586 16068) (dir 258075 259533))
+;Change Gold Coin/Zamogeon
+;(gennpc (index 420) (country 0) (kind 1) (shape 25) (html 264) (map 0) (xy 258167 259530 16060) (dir 258123 259483))
+;Card Maker Master
+;(gennpc (index 421) (country 0) (kind 1) (shape 27) (html 266) (map 0) (xy 258215 259476 16072) (dir 258182 259445))
+;Welcome Back Event NPC
+;(gennpc (index 422) (country 2) (kind 1) (shape 3) (html 267) (map 0) (xy 257650 259459 16105) (dir 257602 259354))
+;The King of Leveling Event NPC
+;(gennpc (index 423) (country ) (kind 1) (shape 3) (html 268) (map 0) (xy 257130 259507 16103) (dir 257146 259437))
+;Fishing Grounds Manager
+(gennpc (index 424) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 257334 258856 15799) (dir 257334 258756))
+;Fishing Grounds Manager
+;(gennpc (index 425) (country 0 2) (kind 5) (shape 3) (html 269) (map 0) (xy 258674 258849 15734) (dir 258674 259849))
+;Fishing Grounds Manager
+;(gennpc (index 426) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 264637 261854 15721) (dir 265637 262854))
+;Fishing Grounds Manager
+;(gennpc (index 427) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 233986 294677 45406) (dir 233986 293677))
+;Fishing Grounds Manager
+;(gennpc (index 428) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 234408 294677 45406) (dir 234408 293677))
+;Fishing Grounds Manager
+;(gennpc (index 429) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 234899 294677 45413) (dir 234899 293677))
+;Fishing Grounds Manager
+;(gennpc (index 430) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 235321 294677 45413) (dir 235321 293677))
+;Fishing Grounds Manager
+;(gennpc (index 431) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 235809 294677 45416) (dir 235809 293677))
+;Fishing Grounds Manager
+;(gennpc (index 432) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 236234 294677 45416) (dir 236234 293677))
+;Fishing Grounds Manager
+;(gennpc (index 433) (country 0 2) (kind 5) (shape 3) (html 269)  (map 0) (xy 232699 291121 45307) (dir 234440 290814))
+;Fishing Grounds Keeper
+;(gennpc (index 434) (country 0 2) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 255904 254609 15759) (dir 255891 254605))
+;Fishing Grounds Keeper
+;(gennpc (index 435) (country 0 2) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 256080 255143 15741) (dir 256060 255138))
+;Fishing Grounds Keeper
+;(gennpc (index 436) (country 0 2) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 256484 254892 15746) (dir 256474 254870))
+;Fishing Grounds Keeper
+;(gennpc (index 437) (country 0 2) (kind 3) (shape 3) (quest 6003 1) (map 0) (xy 256342 255437 15788) (dir 256335 255407))
+;Fishing Grounds Keeper
+;(gennpc (index 438) (country 0 2) (kind 3) (shape 3) (quest 6003 1) (map 0) (xy 255074 255082 15754) (dir 255052 255093))
+;Fishing Grounds Keeper
+;(gennpc (index 439) (country 0 2) (kind 3) (shape 3) (quest 6004 1) (map 0) (xy 255059 255689 15766) (dir 255045 255663))
+;Fishing Grounds Keeper
+;(gennpc (index 440) (country 0 2) (kind 3) (shape 3) (quest 6004 1) (map 0) (xy 254581 255534 15750) (dir 254597 255529))
+;Fishing Grounds Keeper
+;(gennpc (index 441) (country 0 2) (kind 3) (shape 3) (quest 6004 1) (map 0) (xy 254268 255311 15742) (dir 254281 255316))
+;Fishing Grounds Keeper
+;(gennpc (index 442) (country 0 2) (kind 3) (shape 3) (quest 6004 1) (map 0) (xy 254482 255086 15749) (dir 254518 255090))
+;Fishing Grounds Keeper
+;(gennpc (index 443) (country 0 2) (kind 3) (shape 3) (quest 6004 1) (map 0) (xy 256370 253989 15723) (dir 256362 254005))
+;Fishing Grounds Keeper
+;(gennpc (index 444) (country 0 2) (kind 3) (shape 3) (quest 6005 1) (map 0) (xy 255964 277125 15782) (dir 255970 277144))
+;Fishing Grounds Keeper
+;(gennpc (index 445) (country 0 2) (kind 3) (shape 3) (quest 6005 1) (map 0) (xy 255632 277724 15749) (dir 255625 277715))
+;Fishing Grounds Keeper
+;(gennpc (index 446) (country 0 2) (kind 3) (shape 3) (quest 6005 1) (map 0) (xy 255362 277066 15762) (dir 255361 277074))
+;Fishing Grounds Keeper
+;(gennpc (index 447) (country 0 2) (kind 3) (shape 3) (quest 6005 1) (map 0) (xy 254817 277599 15800) (dir 254828 277610))
+;Fishing Grounds Keeper
+;(gennpc (index 448) (country 0 2) (kind 3) (shape 3) (quest 6005 1) (map 0) (xy 256581 277032 15730) (dir 256567 277033))
+;B1 Gate of Advance Base
+(gennpc (index 449) (country 0) (kind 5) (shape 28) (html 273)  (map 4) (xy 35710 37420 30000) (dir 35716 37411))
+;B2 Gate of Advance Base
+(gennpc (index 450) (country 0) (kind 5) (shape 28) (html 273)  (map 4) (xy 20383 51083 29999) (dir 20387 51088))
+;B3 Gate of Advance Base
+(gennpc (index 451) (country 0) (kind 5) (shape 28) (html 273)  (map 4) (xy 35101 53683 29635) (dir 35106 53679))
+;B4 Gate of Advance Base
+(gennpc (index 452) (country 0) (kind 5) (shape 28) (html 273)  (map 4) (xy 3151 51811 31852) (dir 3149 51801))
+;B5 Gate of Advance Base
+(gennpc (index 453) (country 0) (kind 5) (shape 28) (html 273)  (map 4) (xy 3064 67245 31536) (dir 3074 67245))
+;B6 Gate of Advance Base
+(gennpc (index 454) (country 0 2) (kind 5) (shape 28) (html 273)  (map 4) (xy 20603 67540 31686) (dir 20613 67541))
+;
+;(gennpc (index 449) (country 0) (kind 5) (shape 28) (html 281)  (map 4) (xy 35710 37420 30000) (dir 35716 37411) ) 
+;
+;(gennpc (index 450) (country 0) (kind 5) (shape 28) (html 281)  (map 4) (xy 20383 51083 29999) (dir 20387 51088) )
+;
+;(gennpc (index 451) (country 0) (kind 5) (shape 28) (html 281)  (map 4) (xy 35101 53683 29635) (dir 35106 53679) )
+;
+;(gennpc (index 452) (country 0) (kind 5) (shape 28) (html 281)  (map 4) (xy 3151 51811 31852) (dir 3149 51801) ) 
+;
+;(gennpc (index 453) (country 0) (kind 5) (shape 28) (html 281)  (map 4) (xy 3064 67245 31536) (dir 3074 67245) )
+;Cannon Position
+(gennpc (index 455) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 248738 261447 24244) (dir 248737 261429)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 456) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 249814 260518 24355) (dir 249814 260543)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 457) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 250305 258970 23944) (dir 250325 258968)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 458) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 250503 258494 24027) (dir 250528 258494)  (cid 1) (warrelation 2))
+;
+;(gennpc (index 459) (country 0 2) (kind 5) (shape 29) (html ) (map 0) (xy 249836 257607 23328) (dir 249836 257573)  (cid 1) (warrelation 2))
+;
+;(gennpc (index 460) (country 0 2) (kind 5) (shape 29) (html ) (map 0) (xy 249371 257850 23091) (dir 249370 257841)  (cid 1) (warrelation 2))
+;Cannon Position
+;(gennpc (index 461) (country 0 2) (kind 5) (shape 29) (html ) (map 0) (xy 248018 260228 24223) (dir 248040 260229)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 462) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 248770 259885 23705) (dir 248798 259884)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 463) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 249623 259876 23706) (dir 249623 259856)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 464) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 249629 259026 23704) (dir 249607 259027)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 465) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 248765 259037 23706) (dir 248766 259057)  (cid 1) (warrelation 2))
+;Weapon Artisan
+(gennpc (index 466) (country 0 2) (kind 0) (shape 3) (html 276) (map 0) (xy 257503 258559 16120) (dir 257486 258546))
+;Cannon Position
+;(gennpc (index 467) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 249449 257079 21965) (dir 249450 257088)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 468) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 251132 258768 22277) (dir 251091 258766)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 469) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 248550 262272 23143) (dir 248550 262226)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 470) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 249067 263306 24205) (dir 249039 263357)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 471) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 252874 262435 19687) (dir 252889 262448)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 472) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 253173 262932 17547) (dir 253138 262896)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 473) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 249525 263878 20919) (dir 249487 263855)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 474) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 248539 260590 24280) (dir 248536 260565)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 459) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 247921 260391 24219) (dir 247901 260389)  (cid 1) (warrelation 2))
+;Cannon Position
+(gennpc (index 460) (country 0 2) (kind 5) (shape 29) (html 274) (map 0) (xy 249834 258289 23607) (dir 249844 258279)  (cid 1) (warrelation 2))
+;Mix Master
+(gennpc (index 476) (country 0 2) (kind 5) (shape 36) (html 277) (map 0) (xy 256346 288883 27055) (dir 256364 288883))
+;
+(gennpc (index 477) (country 0 2) (kind 5) (shape 31) (html ) (map 0) (xy 256346 288898 27059) (dir 256377 288899))
+
+;lee,samboo general
+;(gennpc (index 504) (country 0) (kind 1) (shape 9) (html 278) (map 0) (xy 257215 259123 16090) (dir 257237 259147))
+;youngje grandpa
+;(gennpc (index 505) (country 0) (kind 5) (shape 39) (html 279)  (map 0) (xy 257069 257402 15968) (dir 257076 257480))
+;youngje grandpa
+;(gennpc (index 506) (country 0) (kind 5) (shape 39) (html 280)  (map 0) (xy 219313 220987 16016) (dir 219341 221014))
+;Flag
+;(gennpc (index 507) (country 0) (kind 5) (shape 40) (html ) (map 0) (xy 257213 257744 16110) (dir 256382 260303))
+;Flag
+;(gennpc (index 508) (country 0) (kind 5) (shape 43) (html ) (map 0) (xy 257197 257701 16074) (dir 256382 260303))
+;Flag
+;(gennpc (index 509) (country 0) (kind 5) (shape 44) (html ) (map 0) (xy 257171 257631 16029) (dir 256382 260303))
+;Flag
+;(gennpc (index 510) (country 0) (kind 5) (shape 41) (html ) (map 0) (xy 257148 257569 16060) (dir 256382 260303))
+;Flag
+;(gennpc (index 511) (country 0) (kind 5) (shape 42) (html ) (map 0) (xy 257125 257508 16051) (dir 256382 260303))
+;Flag
+;(gennpc (index 512) (country 0) (kind 5) (shape 44) (html ) (map 0) (xy 257123 257447 16023) (dir 256382 260303))
+;Flag
+;(gennpc (index 513) (country 0) (kind 5) (shape 44) (html ) (map 0) (xy 257243 257816 16149) (dir 256382 260303))
+;Flag
+;(gennpc (index 514) (country 0) (kind 5) (shape 40) (html ) (map 0) (xy 257031 257810 16150) (dir 256382 260303))
+;Flag
+;(gennpc (index 515) (country 0) (kind 5) (shape 43) (html ) (map 0) (xy 257024 257754 16146) (dir 256382 260303))
+;Flag
+;(gennpc (index 516) (country 0) (kind 5) (shape 44) (html ) (map 0) (xy 257020 257702 16105) (dir 256382 260303))
+;
+;(gennpc (index 517) (country 0) (kind 5) (shape 41) (html ) (map 0) (xy 257016 257640 16060) (dir 256382 260303))
+;
+;(gennpc (index 518) (country 0) (kind 5) (shape 42) (html ) (map 0) (xy 257016 257584 16057) (dir 256382 260303))
+;
+;(gennpc (index 519) (country 0) (kind 5) (shape 44) (html ) (map 0) (xy 257014 257501 16017) (dir 256382 260303))
+;
+;(gennpc (index 520) (country 0) (kind 5) (shape 44) (html ) (map 0) (xy 257035 257836 16153) (dir 256382 260303))
+;Rear Gate Keeper of B1
+(gennpc (index 521) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 35324 37559 29723) (dir 35357 37576) ) 
+;Front Gate Keeper of B2
+(gennpc (index 522) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 18050 54192 29989) (dir 18082 54160) )
+;Rear Gate Keeper of B2
+(gennpc (index 523) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 20228 50910 29647) (dir 20261 50937) ) 
+;Front Gate Keeper of B3
+(gennpc (index 524) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 37305 50474 29816) (dir 37288 50496) ) 
+;Rear Gate Keeper of B3
+(gennpc (index 525) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 34761 53803 29276) (dir 34777 53797) ) 
+;Front Gate Keeper of B4
+(gennpc (index 526) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 5012 52145 31374) (dir 5002 52145) ) 
+;Rear Gate Keeper of B4
+(gennpc (index 527) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 3185 52069 31586) (dir 3183 52042) ) 
+;Front Gate Keeper of B5
+(gennpc (index 528) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 3778 68978 32109) (dir 3783 68960) ) 
+;Rear Gate Keeper of B5
+(gennpc (index 529) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 2961 67300 31426) (dir 3026 67253) ) 
+;Front Gate Keeper of B6
+(gennpc (index 530) (country 2) (kind 5) (shape 45) (html 281)  (map 4) (xy 20120 68439 31792) (dir 20114 68425) ) 
+;Summer Event NPC
+;(gennpc (index 536) (country 0) (kind 3) (shape 39) (html 300039) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;Summer Event NPC
+;(gennpc (index 537) (country 0) (kind 3) (shape 39) (html 300039) (map 0) (xy 267394 242617 19630) (dir 267405 242619))
+;
+;(gennpc (index 538) (country 0) (kind 1) (shape 39) (html 300041) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;
+;(gennpc (index 539) (country 0) (kind 1) (shape 39) (html 300041) (map 0) (xy 267394 242617 19630) (dir 267405 242619))
+;
+;(gennpc (index 540) (country 0) (kind 1) (shape 39) (html 300044) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;
+;(gennpc (index 541) (country 0) (kind 1) (shape 39) (html 300044) (map 0) (xy 267394 242617 19630) (dir 267405 242619))
+;Hallowen Festival
+;(gennpc (index 542) (country 0 2) (kind 0) (shape 26) (html 300047) (map 0) (xy 257605 259189 16080) (dir 257569 259262))
+;Hallowen Festival
+;(gennpc (index 543) (country 0 2) (kind 0) (shape 25) (html 300047) (map 0) (xy 265193 262521 16246) (dir 265136 262482))
+;
+;(gennpc (index 544) (country 0 2) (kind 0) (shape 26) (html 300047) (map 0) (xy 265806 285332 22650) (dir 265728 285399))
+;Hallowen Festival
+;(gennpc (index 545) (country 0 2) (kind 0) (shape 25) (html 300047) (map 0) (xy 256501 289105 27073) (dir 256436 289056))
+;Hallowen Festival
+;(gennpc (index 546) (country 0 2) (kind 0) (shape 26) (html 300047) (map 0) (xy 267422 242205 19660) (dir 267493 242224))
+;Hallowen Festival
+;(gennpc (index 547) (country 0 2) (kind 0) (shape 25) (html 300047) (map 0) (xy 233432 295078 45310) (dir 233336 294994))
+;Chief Guard
+;(gennpc (index 548) (country 2) (kind 0) (shape 9) (html 300048) (map 0) (xy 257526 259511 16156) (dir 257432 259450))
+;Blue Doggebi
+(gennpc (index 531) (country 0 2) (kind 5)  (shape 46) (html 284)  (map 0) (xy 282495 248346 16351) (dir 282442 248383)) 
+;Blue Dragon Doggebi
+(gennpc (index 534) (country 0 2) (kind 3)  (shape 46) (quest 8008 4) (map 0) (xy 288839 351166 25713) (dir 288828 351112)) 
+;White Tiger Doggebi
+(gennpc (index 535) (country 0 2) (kind 3)  (shape 47) (quest 8009 4) (map 0) (xy 284793 350893 26053) (dir 284807 350928)) 
+;NPC of Pray For Snow
+;(gennpc (index 551) (country 0 2) (kind 1) (shape 7) (html 300055) (map 0) (xy 257193 259568 16123) (dir 257226 259519))
+;Specialist of King's Troop
+;(gennpc (index 554) (country 0 2) (kind 5) (shape 9) (html 305) (map 0) (xy 257301 258129 16150) (dir 257287 258149))
+;Sergeant of King's Troop
+;(gennpc (index 555) (country 0 2) (kind 5) (shape 9) (html 322) (map 0) (xy 257337 258135 16150) (dir 257342 258167))
+;Specialist of King's Troop
+;(gennpc (index 556) (country 0 2) (kind 5) (shape 9) (html 305) (map 0) (xy 268971 243277 19630) (dir 268954 243258))
+;Sergeant of King's Troop
+;(gennpc (index 557) (country 0 2) (kind 5) (shape 9) (html 322) (map 0) (xy 269000 243255 19630) (dir 268977 243224))
+;Specialist of King's Troop
+;(gennpc (index 558) (country 0 2) (kind 5) (shape 9) (html 305) (map 0) (xy 232775 291663 45412) (dir 232843 291735))
+;Sergeant of King's Troop
+;(gennpc (index 559) (country 0 2) (kind 5) (shape 9) (html 322) (map 0) (xy 232748 291681 45410) (dir 232836 294694))
+;Red Doggebi
+;(gennpc (index 560) (country 0 2) (kind 5)  (shape 47) (html 313) (openhtml 318) (map 0) (xy 282465 248286 16351) (dir 282447 248295)) 
+;
+(gennpc (index 561) (country 0 2) (kind 3) (shape 52) (quest 8015 4) (map 0) (xy 308591 284684 16090) (dir 308590 284745) )
+;
+(gennpc (index 562) (country 0 2) (kind 3) (shape 52) (quest 8015 4) (map 0) (xy 310271 284668 16090) (dir 310266 284718) )
+;Valentine's Day Event NPC
+;(gennpc (index 563) (country 0 2) (kind 1) (shape 39) (html 300069) (map 0) (xy 257703 259482 16090) (dir 257681 259438))
+;Gift Giveaway NPC
+;(gennpc (index 564) (country 0 2) (kind 1) (shape 3) (html 300071) (map 0) (xy 257726 259459 16090) (dir 257703 259409))
+;Valentine's Day Event NPC
+;(gennpc (index 565) (country 0 2) (kind 1) (shape 39) (html 300069) (map 0) (xy 267375 242561 19669) (dir 267391 242563))
+;Gift Giveaway NPC
+;(gennpc (index 566) (country 0 2) (kind 1) (shape 3) (html 300071) (map 0) (xy 267354 242594 19663) (dir 267383 242598))
+;Valentine's Day Event NPC
+;(gennpc (index 567) (country 0 2) (kind 1) (shape 39) (html 300069) (map 0) (xy 232779 295476 45306) (dir 232777 295459))
+;Gift Giveaway NPC
+;(gennpc (index 568) (country 0 2) (kind 1) (shape 3) (html 300071) (map 0) (xy 232812 295462 45302) (dir 232807 295447))
+;Olympic Guide
+;(gennpc (index 569) (country 0) (kind 1) (shape 19) (html 300072) (map 0) (xy 257120 259546 16143) (dir 257129 259534))
+;
+;(gennpc (index 570) (country 0) (kind 1) (shape 3) (html 300073) (map 0) (xy 257192 259587 16132) (dir 257196 259566))
+;
+;(gennpc (index 571) (country 0) (kind 1) (shape 19) (html 300072) (map 0) (xy 268000 242256 19630) (dir 268001 242279))
+;
+;(gennpc (index 572) (country 0) (kind 1) (shape 3) (html 300073) (map 0) (xy 267937 242269 19630) (dir 267932 242291))
+;
+;(gennpc (index 573) (country 0) (kind 1) (shape 19) (html 300072) (map 0) (xy 232101 295021 45305) (dir 232131 295039))
+;
+;(gennpc (index 574) (country 0) (kind 1) (shape 3) (html 300073) (map 0) (xy 232053 295045 45310) (dir 232073 295060))
+;General who collects the Doggebi’s certificate.
+(gennpc (index 575) (country 0 2) (kind 1) (shape 9) (html 323) (map 0) (xy 280953 248912 16390) (dir 281005 248888)) 
+;Duel Tournament Desk
+;(gennpc (index 576) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 214286 280784 37797) (dir 214298 280816))
+;Duel Tournament Desk
+(gennpc (index 577) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 214206 283359 37824) (dir 214527 280593))
+;Duel Tournament Desk
+;(gennpc (index 578) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 214230 285608 37777) (dir 214240 285640))
+;Duel Tournament Desk
+(gennpc (index 579) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 216594 280872 37630) (dir 216606 280904))
+;Duel Tournament Desk
+;(gennpc (index 580) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 216695 283359 37830) (dir 216707 283390))
+;Duel Tournament Desk
+;(gennpc (index 581) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 216684 285683 37830) (dir 216667 285682))
+;Duel Tournament Desk
+;(gennpc (index 582) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 219021 280783 37750) (dir 218984 280811))
+;Duel Tournament Desk
+;(gennpc (index 583) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 218949 283344 37738) (dir 218918 283371))
+;Duel Tournament Desk
+;(gennpc (index 584) (country 0 2) (kind 5) (shape 26) (html 1000009) (map 0) (xy 219100 285646 37823) (dir 219115 285677))
+;Duel Tournament Desk
+;(gennpc (index 585) (country 0 2) (kind 5) (shape 27) (html 1000009) (map 0) (xy 257685 259139 16080) (dir 257676 259171))
+;Duel Tournament Desk
+;(gennpc (index 586) (country 0 2) (kind 5) (shape 27) (html 1000009) (map 0) (xy 268023 242997 19630) (dir 268001 242979))
+;Duel Tournament Desk
+;(gennpc (index 587) (country 0 2) (kind 5) (shape 27) (html 1000009) (map 0) (xy 232068 294992 45310) (dir 232088 295009))
+;Son of the Sky Guard
+;(gennpc (index 588) (country 0 2) (kind 5) (shape 8) (html 330) (map 0) (xy 255845 257333 15929) (dir 255868 257363))
+;Dream Fish Merchant
+(gennpc (index 589) (country 0 2) (kind 5) (shape 3) (html 333) (map 0) (xy 257452 258840 16080) (dir 257352 258826)) 
+;Dream Fish Merchant
+;(gennpc (index 590) (country 0 2) (kind 5) (shape 3) (html 333) (map 0) (xy 264691 261827 15844) (dir 264720 261849)) 
+;Dream Fish Merchant
+;(gennpc (index 591) (country 0 2) (kind 5) (shape 3) (html 333) (map 0) (xy 233763 294695 45371) (dir 233738 294706)) 
+;Christmas Fairy
+;(gennpc (index 597) (country 0 2) (kind 5) (shape 51) (html 300074) (map 0) (xy 267726 242617 19630) (dir 267704 242602))
+;tree
+;(gennpc (index 592) (country 0 2) (kind 5) (shape 55) (html ) (map 0) (xy 267869 242655 19630) (dir 257242 259348))	    
+;Kite Artisan
+;(gennpc (index 599) (country 0 2) (kind 5) (shape 3) (html 300079) (map 0) (xy 257526 259511 16156) (dir 257525 259499))
+;Kite Artisan
+;(gennpc (index 600) (country 0 2) (kind 5) (shape 3) (html 300079) (map 0) (xy 267394 242617 19630) (dir 267405 242619))
+;Mission Announcer
+;(gennpc (index 601) (country 0 2) (kind 0) (shape 3) (html 300082) (map 0) (xy 257578 259147 16073) (dir 257542 259221))
+;Mission Announcer
+;(gennpc (index 602) (country 0 2) (kind 0) (shape 3) (html 300082) (map 0) (xy 265280 285281 22657) (dir 265344 285222))
+;Mission Announcer
+;(gennpc (index 603) (country 0 2) (kind 0) (shape 3) (html 300082) (map 0) (xy 268147 242539 19630) (dir 268068 242513))
+;Restoration expert
+;(gennpc (index 604) (country 0 2) (kind 5) (shape 3) (html 300083) (map 0) (xy 267617 242505 19630) (dir 267666 242515))
+;door
+(gennpc (index 605) (country 0 2) (kind 5) (shape 60) (html ) (map 0) (xy 267383 242421 19632) (dir 267403 242425))  
+;Gold Doggebi
+(gennpc (index 606) (country 0 2) (kind 5)  (shape 61) (html 350)  (map 0) (xy 282431 248226 16351) (dir 282371 248267)) 
+;Blue Doggebi
+(gennpc (index 607) (country 0 2) (kind 3)  (shape 46) (quest 8018 1) (map 0) (xy 335719 330967 26510) (dir 335719 330987)) 
+;Red Doggebi
+(gennpc (index 608) (country 0 2) (kind 3)  (shape 47) (quest 8018 1) (map 0) (xy 335552 340734 26509) (dir 335552 340717)) 
+;door
+(gennpc (index 609) (country 0 2) (kind 3) (shape 62) (html ) (map 0) (xy 335651 331093 26500) (dir 335647 331220) )
+;door
+(gennpc (index 610) (country 0 2) (kind 3) (shape 62) (html ) (map 0) (xy 335623 340611 26500) (dir 335651 330966) )
+;General Draft Officer
+(gennpc (index 614) (country 0 2) (kind 5)  (shape 9) (html 375) (map 0) (xy 256641 257554 16505) (dir 256593 257696))
+;Elite Draft Officer
+(gennpc (index 615) (country 0 2) (kind 5)  (shape 9) (html 376) (map 0) (xy 256617 257545 16505) (dir 256593 257696))
+;General Training Director
+(gennpc (index 616) (country 0 2) (kind 5)  (shape 9) (html 386) (map 0) (xy 256543 257550 16505) (dir 256593 257696))
+;Elite Training Director
+(gennpc (index 617) (country 0 2) (kind 5)  (shape 9) (html 386) (map 0) (xy 256516 257561 16505) (dir 256593 257696))
+;Training Supervisor
+(gennpc (index 618) (country 0 2) (kind 3) (shape 9) (quest 8019 1) (map 0) (xy 282894 217377 16170) (dir 282783 217266))
+;Training Supervisor
+(gennpc (index 619) (country 0 2) (kind 3) (shape 9) (quest 8019 1) (map 0) (xy 274195 208636 16170) (dir 274284 208726))
+;Blue dragon team door
+(gennpc (index 620) (country 0 2) (kind 3) (shape 63) (html ) (map 0) (xy 282576 217061 16173) (dir 282577 217062) )
+;White tiger team door
+(gennpc (index 621) (country 0 2) (kind 3) (shape 64) (html ) (map 0) (xy 274497 208944 16173) (dir 274496 208943) )									
+;gun-point
+(gennpc (index 622) (country 0 2) (kind 3) (shape 65) (html 381) (map 0) (xy 278472 209286 16329) (dir 278473 209287))
+;gun-point
+(gennpc (index 623) (country 0 2) (kind 3) (shape 65) (html 382) (map 0) (xy 274760 212815 16329) (dir 274761 212816))
+;gam-point
+(gennpc (index 624) (country 0 2) (kind 3) (shape 65) (html 383) (map 0) (xy 278701 216691 16329) (dir 275702 216692))
+;lee-point
+(gennpc (index 625) (country 0 2) (kind 3) (shape 65) (html 384) (map 0) (xy 282218 213037 16329) (dir 282219 213038))
+;guk-point
+(gennpc (index 626) (country 0 2) (kind 3) (shape 65) (html 385) (map 0) (xy 278494 212993 18166) (dir 278495 212994))
+
+;Element collecting official [Hwa Eun]
+;(gennpc (index 632) (country 0 2) (kind 5) (shape 5) (html 900671) (map 0) (xy 232110 294946 45310) (dir 232175 295021))
+;
+;(gennpc (index 633) (country 0 2) (kind 1) (shape 5) (html 900672) (map 0) (xy 257394 259289 16101) (dir 257399 259265))
+;
+;(gennpc (index 634) (country 0 2) (kind 5) (shape 5) (html 300090) (map 0) (xy 257394 259289 16101) (dir 257399 259265))
+;
+;(gennpc (index 635) (country 0 2) (kind 5) (shape 5) (html 300090) (map 0) (xy 267857 242255 19630) (dir 267846 242291))
+;Thief's Armor Merchant [Gun-Woo]
+(gennpc (index 636) (country 0  2) (kind 0) (shape 3) (html 506) (map 0) (xy 257000 258513 16144) (dir 257035 258485))
+;Thief's Armor Merchant [Eun-Woo]
+(gennpc (index 637) (country 0  2) (kind 0) (shape 3) (html 507) (map 0) (xy 264991 285218 22650) (dir 265004 285267))
+;Thief's Weapon Merchant [Seok-Won]
+(gennpc (index 638) (country 0  2) (kind 0) (shape 3) (html 508) (map 0) (xy 265323 285075 22650) (dir 265321 285136))
+;Thief's Armor Merchant [Chan-Dong]
+(gennpc (index 639) (country 0  2) (kind 0) (shape 3) (html 509) (map 0) (xy 269039 242865 19630) (dir 268998 242844))
+;Thief's Weapon Merchant [Yung-Jun]
+(gennpc (index 640) (country 0  2) (kind 0) (shape 3) (html 510) (map 0) (xy 269124 242978 19630) (dir 269105 242982))
+;Thief's Armor Merchant [Ho-Eun]
+(gennpc (index 641) (country 0  2) (kind 0) (shape 3) (html 511) (map 0) (xy 234011 294216 45380) (dir 234014 294240))
+;Thief's Weapon Merchant [Lee-Jung]
+(gennpc (index 642) (country 0  2) (kind 0) (shape 3) (html 512) (map 0) (xy 234044 295164 45359) (dir 234043 295136))
+;Thief Master [Chun-Su]
+(gennpc (index 643) (country 0  2) (kind 1) (shape 5) (html 513) (map 0) (xy 256538 257837 16505) (dir 256553 257821))
+;Hitman Master [Wan-Jea]
+(gennpc (index 644) (country 0  2) (kind 1) (shape 5) (html 514) (map 0) (xy 255617 289303 27070) (dir 255647 289335))
+;I.Swordman Master [Gyo-Jung]
+(gennpc (index 645) (country 0  2) (kind 1) (shape 5) (html 515) (map 0) (xy 255605 289335 27070) (dir 255647 289335))
+;Thief Master [Hyo-Yun]
+(gennpc (index 646) (country 0  2) (kind 1) (shape 5) (html 516) (map 0) (xy 268841 243428 19620) (dir 268825 243409))
+;Thief Guild member Master [Yu-Chun]
+(gennpc (index 647) (country 0  2) (kind 1) (shape 5) (html 517) (map 0) (xy 268887 243420 19628) (dir 268867 243395))
+;Hitman Master [Jung-Jea]
+(gennpc (index 648) (country 0  2) (kind 1) (shape 5) (html 518) (map 0) (xy 233051 291149 45420) (dir 233042 291167))
+;I.Swordman Master [Kang-Ma]
+(gennpc (index 649) (country 0  2) (kind 1) (shape 5) (html 519) (map 0) (xy 233038 291111 45420) (dir 233016 291121))
+;
+;(gennpc (index 650) (country 0  2) (kind 5) (shape 5) (html 300088) (map 0) (xy 257307 259309 16139 ) (dir 257304 259229 ))
+;
+;(gennpc (index 651) (country 0  2) (kind 5) (shape 5) (html 300088) (map 0) (xy 267859 242411 19630 ) (dir 267862 242382 ))
+;Company/Platoon manager [Kuk-Jung]
+;(gennpc (index 652) (country 0  2) (kind 31 ) (shape 5) (html 527) (map 21) (xy 117413 35506 27399 ) (dir 117414 35493 ))
+;Priest Tower [Il Ja]
+(gennpc (index 653) (country 0 2) (kind 3) (shape 7) (html 424) (quest 10000 1) (map 0) (xy 235968 279757 44690) (dir 235973 279730))
+;Managerial officer for Tower of Priest [Moon-yong]
+(gennpc (index 654) (country 0 2) (kind 5) (shape 5) (html 520) (map 0) (xy 232129 294916 45310) (dir 232194 294991))
+;
+(gennpc (index 656) (country 0 2) (kind 5) (shape 67) (html 1) (map 21) (xy 117338 35710 27399) (dir 117338 35506))
+;
+;(gennpc (index 657) (country 0 2) (kind 5) (shape 1) (html 1) (map 21) (xy 117307 36830 28986) (dir 117338 35506))
+
+;Honor Item Collector
+(gennpc (index 664) (country 2) (kind 5) (shape 3) (html 533) (map 0) (xy 257363 258110 16150) (dir 257410 258117))
+;Honor Item Collector
+(gennpc (index 665) (country 2) (kind 0) (shape 3) (html 533) (map 0) (xy 232703 291700 45416) (dir 232733 291795))
+;Jeong-yiguk
+(gennpc (index 667) (country 2) (kind 5) (shape 84) (html 528) (map 0) (xy 266164 285492 22650) (dir 266165 285449))
+;
+(gennpc (index 668) (country 2) (kind 5) (shape 85) (html ) (map 0) (xy 266186 285501 22650) (dir 266184 285484))
+;
+(gennpc (index 669) (country 2) (kind 5) (shape 86) (html )  (map ) (xy ) (dir ))
+(gennpc (index 670) (country 2) (kind 5) (shape 87) (html )  (map ) (xy ) (dir ))
+(gennpc (index 671) (country 2) (kind 5) (shape 88) (html )  (map ) (xy ) (dir ))
+(gennpc (index 672) (country 2) (kind 5) (shape 89) (html )  (map ) (xy ) (dir ))
+(gennpc (index 673) (country 2) (kind 5) (shape 90) (html )  (map ) (xy ) (dir ))
+(gennpc (index 674) (country 2) (kind 5) (shape 91) (html )  (map ) (xy ) (dir ))
+(gennpc (index 675) (country 2) (kind 5) (shape 92) (html )  (map ) (xy ) (dir ))
+(gennpc (index 676) (country 2) (kind 5) (shape 93) (html )  (map ) (xy ) (dir ))
+;(gennpc (index 677) (country 2) (kind 5) (shape 94) (html )  (map ) (xy ) (dir ))
+(gennpc (index 678) (country 2) (kind 5) (shape 95) (html )  (map ) (xy ) (dir ))
+(gennpc (index 679) (country 2) (kind 5) (shape 96) (html )  (map ) (xy ) (dir ))
+(gennpc (index 680) (country 2) (kind 5) (shape 97) (html )  (map ) (xy ) (dir ))
+(gennpc (index 681) (country 2) (kind 5) (shape 98) (html )  (map ) (xy ) (dir ))
+(gennpc (index 682) (country 2) (kind 5) (shape 99) (html )  (map ) (xy ) (dir ))
+(gennpc (index 683) (country 2) (kind 5) (shape 100) (html )  (map ) (xy ) (dir ))
+(gennpc (index 684) (country 2) (kind 5) (shape 101) (html )  (map ) (xy ) (dir ))
+(gennpc (index 685) (country 2) (kind 5) (shape 102) (html )  (map ) (xy ) (dir ))
+(gennpc (index 686) (country 2) (kind 5) (shape 103) (html )  (map ) (xy ) (dir ))
+(gennpc (index 687) (country 2) (kind 5) (shape 104) (html )  (map ) (xy ) (dir ))
+
+(gennpc (index 688) (country 2) (kind 5) (shape 114) (html )  (map ) (xy ) (dir ))
+;Welfare Bureau agent of Bedal
+;(gennpc (index 689) (country 2) (kind 5) (shape 5) (html 536) (map 0) (xy 257163 259576 16131) (dir 257163 259476))
+;Welfare Bureau agent of Bedal
+;(gennpc (index 690) (country 2) (kind 5) (shape 5) (html 536) (map 0) (xy 265809 285604 22640) (dir 265790 285600))
+;Welfare Bureau agent of Bedal
+;(gennpc (index 691) (country 2) (kind 5) (shape 5) (html 536) (map 0) (xy 267713 242191 19644) (dir 267727 242229))
+;Soo-Ryun
+(gennpc (index 1000) (country 0 2) (kind 3) (shape 70) (quest 0 20) (html ) (map 0) (xy 361661 187380 42381) (dir 361649 187379)) 
+;Yun-Hwa
+(gennpc (index 1001) (country 0 2) (kind 3) (shape 78) (quest 0 22) (html ) (map 0) (xy 359519 188621 41998) (dir 359522 188628)) 
+;Seo-Eun
+;(gennpc (index 1003) (country 0 2) (kind 5) (shape 80) (html 702 ) (map 0) (xy 360727 186619 41940) (dir 360731 186618))
+;Dae-Gil
+(gennpc (index 1004) (country 0 2) (kind 3) (shape 81) (quest 0 21) (html ) (map 0) (xy 359528 186386 42428) (dir 359528 186379)) 
+;Chang-Sun
+(gennpc (index 1005) (country 0 2) (kind 5)  (shape 82) (html 706 ) (map 0) (xy 358197 188893 42383) (dir 358191 188882)) 
+;Beom-Soo
+(gennpc (index 1006) (country 0 2) (kind 3) (shape 83) (quest 10009 1) (html ) (map 0) (xy 360887 188044 42254) (dir 360887 188039)) 
+;Lost Explorer
+(gennpc (index 1007) (country 0 2) (kind 3) (shape 73) (quest 0 23) (html ) (map 0) (xy 356641 218340 18660) (dir 356646 218341)) 
+;Merchant [Yoo-Ran]
+(gennpc (index 1029) (country 0 2) (kind 0) (shape 78)  (html 810) (map 0) (xy 360885 186824 42063) (dir 360891 186850)) 
+;Daily Quest [Noynir]
+(gennpc (index 1011) (country 0 2) (kind 0) (shape 77)  (html 405000) (map 0) (xy 360022 234002 29386) (dir 360019 233994))
+;Merchant [Yoo-Hwa]
+(gennpc (index 1020) (country 0 2) (kind 0) (shape 78)  (html 802) (map 0) (xy 359636 233629 28608) (dir 359628 233642)) 
+;Food Merchant [Jung-Hwa]
+(gennpc (index 1021) (country 0 2) (kind 0) (shape 79)  (html 803) (map 0) (xy 359620 233604 28594) (dir 359612 233625)) 
+;Chef [Melisia]
+(gennpc (index 1022) (country 0 2) (kind 1) (shape 76) (quest 0 23) (html 806) (map 0) (xy 359545 233598 28593) (dir 359535 233641)) 
+;Mission Broker [Young-Jin]
+(gennpc (index 1023) (country 0 2) (kind 0) (shape 81)  (html 804) (map 0) (xy 360128 234018 29445) (dir 360127 234006)) 
+;Storage Keeper [Gwon-Chul]
+(gennpc (index 1024) (country 0 2) (kind 5) (shape 82)  (html 805) (map 0) (xy 359681 233970 28836) (dir 359703 233957)) 
+;Repeatable Quest [Jade]
+(gennpc (index 1026) (country 0 2) (kind 1) (shape 74) (quest 0 23) (html 401000) (map 0) (xy 359987 234019 29343) (dir 359982 234008)) 
+;Potion Mixer [Ugen]
+(gennpc (index 1027) (country 0 2) (kind 1) (shape 75) (quest 0 23) (html 807) (map 0) (xy 360325 234056 29481) (dir 360317 234048)) 
+;Statue of Black Crow in Hondel
+(gennpc (index 1028) (country 0 2) (kind 1) (shape 10) (html 809) (map 0) (xy 359621 233760 28718) (dir 359618 233756)) 
+;PvP Item Merchant [Oh-Junse]
+;(gennpc (index 692) (country 2) (kind 0) (shape 3) (html 538) (map 0) (xy 267743 242238 19630) (dir 267727 242229))
+;
+;(gennpc (index 693) (country 2) (kind 0) (shape 3) (html 538) (map 0) (xy 267703 242238 19630) (dir 267727 242229))
+;PvP Item Merchant [Oh-Junse]
+(gennpc (index 693) (country 2) (kind 0) (shape 3) (html 538) (map 0) (xy 232715 291692 45413) (dir 232745 291787))
+;Messenger of Devah [Jin-Heun]
+(gennpc (index 694) (country 2) (kind 3) (shape 5) (quest 0 24) (html ) (map 0) (xy 266256 288108 20970) (dir 266248 288100))
+;Manager of teleporting to Dokdo [Guna]
+;(gennpc (index 695) (country 0  2) (kind 5) (shape 5) (html 300102) (map 0) (xy 257264 257212 15951 ) (dir 257266 257215 ))
+;Manager of teleporting to Dokdo [Guna]
+;(gennpc (index 696) (country 0  2) (kind 5) (shape 5) (html 300102) (map 0) (xy 264395 262093 16097 ) (dir 264401 262095 ))
+;Manager of teleporting to Dokdo [Guna]
+;(gennpc (index 697) (country 0  2) (kind 5) (shape 5) (html 300103) (map 31) (xy 219346 221032 16016 ) (dir 219348 221033 ))
+;Statue of Eagle in Cheonji-Yun
+(gennpc (index 1012) (country 0 2) (kind 1) (shape 10) (html 557) (map 0) (xy 360888 187186 42140) (dir 360876 187186) (cid 0) (warrelation 0))
+;Jeong-ilguk
+;(gennpc (index 698) (country 2) (kind 27 2) (shape 84) (html 635) (map 0) (xy 232080 294451 45310) (dir 232089 294444))
+;
+;(gennpc (index 699) (country 2) (kind 5) (shape 85) (html ) (map 0) (xy 232095 294476 45317) (dir 232103 294471))
+;Event NPC [Garam]
+;(gennpc (index 700) (country 2) (kind 5) (shape 3) (html 300109) (map 0) (xy 258225 258892 15990) (dir 258224 258900))
+;Event NPC [KeonKun]
+;(gennpc (index 701) (country 2) (kind 5) (shape 3) (html 300109) (map 0) (xy 267465 242583 19649) (dir 2674169 242585))
+;[Eun-Seon] Master out of office
+(gennpc (index 704) (country 2) (kind 5) (shape 5) (html 801) (map 0) (xy 231654 294758 45310) (dir 231654 294769)) 
+;Snowman
+;(gennpc (index 705) (country 2) (kind 1) (shape 119) (html ) (map 0) (xy 267455 242608 19650) (dir 267466 242613)) 
+;Santa Claus
+;(gennpc (index 706) (country 2) (kind 3) (shape 120) (quest 98 1) (html ) (map 0) (xy 267463 242629 19645) (dir 267464 242629)) 
+;Santa Claus
+;(gennpc (index 707) (country 2) (kind 3) (shape 120) (quest 98 1) (html ) (map 0) (xy 257190 259579 16129) (dir 257190 259578)) 
+;Snowman
+;(gennpc (index 708) (country 2) (kind 1) (shape 119) (html ) (map 0) (xy 257216 259586 16139) (dir 257217 259583)) 
+;Santa Claus
+;(gennpc (index 709) (country 2) (kind 3) (shape 120) (quest 98 1) (html ) (map 0) (xy 232196 294610 45310) (dir 232204 294609)) 
+;Snowman
+;(gennpc (index 710) (country 2) (kind 1) (shape 119) (html ) (map 0) (xy 232198 294584 45310) (dir 232207 294585)) 
+;Hyun-Seung
+;(gennpc (index 1013) (country 2) (kind 0) (shape 3) (html 641) (map 0) (xy 256251 289085 27060) (dir 256266 289088))
+;Event Dokdo Manager
+;(gennpc (index 711) (country 2) (kind 5) (shape 5) (html 300118) (map 0) (xy 256984 257446 15959) (dir 257005 257462))
+;Event Dokdo Manager
+;(gennpc (index 717) (country 2) (kind 5) (shape 5) (html 300121) (map 31) (xy 219346 221032 16016 ) (dir 219348 221033 ))
+;Auction Manager [Han-Dong]
+;(gennpc (index 702) (country 2) (kind 1) (shape 3) (html 699) (map 0) (xy 267990 242278 19630 ) (dir 267990 242278))
+;Auction Manager [Hong-Gi]
+;(gennpc (index 703) (country 2) (kind 1) (shape 3) (html 699) (map 0) (xy 232148 294877 45310 ) (dir 232148 294877))
+;Seohak
+;(gennpc (index 719) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 257190 259579 16129) (dir 257190 259578)) 
+;Seohak
+;(gennpc (index 720) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 264758 262038 16077) (dir 264777 262041)) 
+;Seohak
+;(gennpc (index 721) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 265753 285235 22650) (dir 265750 285237)) 
+;Seohak
+;(gennpc (index 722) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 256555 289127 27125) (dir 256548 289118)) 
+;Seohak
+;(gennpc (index 723) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 267465 242583 19649) (dir 2674169 242585)) 
+;Seohak
+;(gennpc (index 724) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 232147 294581 45310) (dir 232151 294581)) 
+;Item restorer [Yong-Choo]
+(gennpc (index 725) (country 2) (kind 0) (shape 3) (html 800) (map 0) (xy 268205 242416 19630) (dir 268184 242427))
+;Item restorer [Yong-Choo]
+(gennpc (index 726) (country 2) (kind 0) (shape 3) (html 800) (map 0) (xy 231839 295151 45310) (dir 231842 295173))
+;Manager of Triangular Battle
+(gennpc (index 718) (country 2) (kind 1) (shape 7) (html 300133) (map 0) (xy 257740 259154 16080) (dir 257740 259158)) 
+;altar
+( gennpc (index 729) (country 2) (kind 1) (shape 144) (quest 500 1) (map 31) (xy 217216 252820 16553) (dir 217209 252806) ) 
+;altar
+( gennpc (index 732) (country 2) (kind 1) (shape 145) (quest 500 1) (map 31) (xy 217216 252820 16553) (dir 217209 252806) ) 
+;altar
+( gennpc (index 730) (country 2) (kind 1) (shape 144) (quest 500 1) (map 31) (xy 219553 257648 21030) (dir 219549 257632) ) 
+;altar
+( gennpc (index 733) (country 2) (kind 1) (shape 147) (quest 500 1) (map 31) (xy 219553 257648 21030) (dir 219549 257632) ) 
+;altar
+( gennpc (index 731) (country 2) (kind 1) (shape 144) (quest 500 1) (map 31) (xy 222712 252652 18591) (dir 252644 18591) ) 
+;altar
+( gennpc (index 734) (country 2) (kind 0) (shape 146) (quest 500 1) (map 31) (xy 222712 252652 18591) (dir 252644 18591) ) 
+;Event Manager [Do-Chun]
+;(gennpc (index 736) (country 2) (kind 1) (shape 3)  (html 300139) (map 0) (xy 257409 259650 16110) (dir 257345 258655))
+;
+;(gennpc (index 736) (country 2) (kind 1) (shape 3)  (html 300140) (map 0) (xy 257409 259650 16110) (dir 257345 258655))
+;Clandestine [Sun-Hwa]
+(gennpc (index 737) (country 0  2) (kind 1) (shape 39)  (html 300141) (map 0) (xy 257279 259669 16136) (dir 257345 258655)) 
+;Special-Envoy Cho-Woo
+(gennpc (index 739) (country 0 2) (kind 1) (shape 36)  (html 300152) (map 0) (xy 359559 233861 28801) (dir 359703 233862))
+;Spirit master of iron
+(gennpc (index 740) (country 0 2) (kind 1) (shape 152)  (html 811) (map 0) (xy 389050 289290 22670) (dir 389050 289291))
+;Spirit master of wood
+(gennpc (index 741) (country 0 2) (kind 1) (shape 153)  (html 812) (map 0) (xy 389164 289302 22670) (dir 389164 289303))
+;Spirit master of water
+(gennpc (index 742) (country 0 2) (kind 1) (shape 154)  (html 813) (map 0) (xy 389318 289320 22670) (dir 389318 289321))
+;Mediator Eun-Hyang
+(gennpc (index 743) (country 0 2) (kind 5) (shape 80)  (html 300158) (map 0) (xy 359597 233891 28856) (dir 359703 233892))
+;Whethered Monument
+(gennpc (index 745) (country 0 2) (kind 1) (shape 155)	(html 300151) (map 0) (xy 356695 245519 29535) (dir 356694 245519))
+;Spirit master of iron
+(gennpc (index 744) (country 0 2) (kind 1) (shape 152)  (html 811) (map 0) (xy 388138 286059 22670) (dir 388137 286059))
+;Spirit master of wood
+(gennpc (index 746) (country 0 2) (kind 1) (shape 153)  (html 812) (map 0) (xy 388119 286142 22670)(dir 388118 286142))
+;Spirit master of water
+(gennpc (index 747) (country 0 2) (kind 1) (shape 154)  (html 813) (map 0) (xy 388106 286260 22670) (dir 388105 286260))
+;Spirit master of iron
+(gennpc (index 748) (country 0 2) (kind 1) (shape 152)  (html 811) (map 0) (xy 388087 282271 22670)  (dir 388088 282271))
+;Spirit master of wood
+(gennpc (index 749) (country 0 2) (kind 1) (shape 153)  (html 812) (map 0) (xy 388112 282154 22670)  (dir 388113 282154))
+;Spirit master of water
+(gennpc (index 750) (country 0 2) (kind 1) (shape 154)  (html 813) (map 0) (xy 388088 282042 22670)  (dir 388089 282042))
+;Spirit master of iron
+(gennpc (index 751) (country 0 2) (kind 1) (shape 152)  (html 811) (map 0) (xy 382165 282174 22670) (dir 382164 285603))
+;Spirit master of wood
+(gennpc (index 752) (country 0 2) (kind 1) (shape 153)  (html 812) (map 0) (xy 382165 282332 22670) (dir 382164 285603))
+;Spirit master of water
+(gennpc (index 753) (country 0 2) (kind 1) (shape 154)  (html 813) (map 0) (xy 382165 282456 22670) (dir 382164 285603))
+;Spirit master of iron
+(gennpc (index 754) (country 0 2) (kind 1) (shape 152)  (html 811) (map 0) (xy 381859 286239 22670) (dir 381860 286239))
+;Spirit master of wood
+(gennpc (index 755) (country 0 2) (kind 1) (shape 153)  (html 812) (map 0) (xy 381871 286150 22670) (dir 381872 286150))
+;Spirit master of water
+(gennpc (index 756) (country 0 2) (kind 1) (shape 154)  (html 813) (map 0) (xy 381878 286018 22670) (dir 381879 286018))
+;Spirit master of iron
+(gennpc (index 757) (country 0 2) (kind 1) (shape 152)  (html 811) (map 0) (xy 381496 291189 22670) (dir 381496 291188))
+;Spirit master of wood
+(gennpc (index 758) (country 0 2) (kind 1) (shape 153)  (html 812) (map 0) (xy 381372 291168 22670) (dir 381372 291167))
+;Spirit master of water
+(gennpc (index 759) (country 0 2) (kind 1) (shape 154)  (html 813) (map 0) (xy 381220 291152 22670) (dir 381220 291151))
+;[Event]Warlord
+;(gennpc (index 1031) (country 0  2) (kind 1) (shape 9 )  (html 300161) (map 0) (xy 339885 257522 17142) (dir -340602 -258053))
+;
+;(gennpc (index 569) (country 0  2) (kind 1) (shape 19) (html 300072) (map 0) (xy 257120 259546 16143) (dir 257129 259534))
+;Guide for Cave of Giant Bird
+(gennpc (index 760) (country 0  1  2) (kind 5) (shape 14) (html 816) (teleport 0 228260 318162) (map 0) (xy 236825 296230 45390) (dir 232787 294633))
+;Guide for Royal Tomb of Guhbalhan
+(gennpc (index 761) (country 0  1  2) (kind 5) (shape 14) (html 815) (teleport 0 246051 295643) (map 0) (xy 256746 288635 27086) (dir 232787 294633))
+;Gold Master[GeumChun]
+(gennpc (index 1032) (country 0  1  2) (kind 1) (shape 82) (html 817) (map 0) (xy 257597 257807 16087) (dir 257547 257839))
+;Gold Master[GeumChun]
+(gennpc (index 1033) (country 0  1  2) (kind 1) (shape 82) (html 818) (map 0) (xy 267701 243343 19630) (dir 267712 243350))
+;Gold Master[GeumChun]
+(gennpc (index 1034) (country 0  1  2) (kind 1) (shape 82) (html 819) (map 0) (xy 233233 295403 45320) (dir 233225 295392))
+;
+;(gennpc (index 542) (country 2) (kind 0) (shape 14) (html 300047) (map 0) (xy 257099 259563 16170) (dir 257104 259527))
+;
+;(gennpc (index 543) (country 2) (kind 0) (shape 14) (html 300047) (map 0) (xy 267617 242338 19630) (dir 267629 242341))
+;Hallowen Festival
+(gennpc (index 544) (country 2) (kind 0) (shape 14) (html 300047) (map 0) (xy 233432 295078 45310) (dir 233336 294994))
+;Mission Announcer [Ji-Myung]
+(gennpc (index 1035) (country 0  2) (kind 0) (shape 84 )  (html 814) (map 0) (xy 360438 187346 42106) (dir 360439 187346))
+;Repeat Quest[[Soon - Oak]
+(gennpc (index 1036) (country 0  2) (kind 1) (shape 4 )  (html 400100) (map 0) (xy 360835 187249 42140) (dir 360830 187249))
+;Daily Quest[Kyoung-Mi]
+(gennpc (index 1037) (country 0  2) (kind 0) (shape 79 )  (html 405100) (map 0) (xy 360768 186781 42027) (dir 360765 186781))
+;Red Santa Claus
+;(gennpc (index 1042) (country 2) (kind 0) (shape 120) (html 802000) (map 0) (xy 257677 259393 16090) (dir 257669 259376))
+;Green Santa Claus
+;(gennpc (index 1043) (country 2) (kind 0) (shape 156) (html 802111) (map 0) (xy 265538 285359 22640) (dir 265525 285370))
+;Santa Claus
+;(gennpc (index 1044) (country 2) (kind 0) (shape 157) (html 802311) (map 0) (xy 267848 242977 19630) (dir 267840 242957))
+;Christmas Tree
+;(gennpc (index 1045) (country 2) (kind 0) (shape 111) (html 802411) (map 0) (xy 257561 259440 16155) (dir 257669 259376))
+;Christmas Tree
+;(gennpc (index 1046) (country 2) (kind 0) (shape 111) (html 802411) (map 0) (xy 265602 285423 22640) (dir 265525 285370))
+;Christmas Tree
+;(gennpc (index 1047) (country 2) (kind 0) (shape 111) (html 802411) (map 0) (xy 267871 243108 19630) (dir 267857 243052))
+;
+;(gennpc (index 1048) (country 2) (kind 0) (shape 113) (map 0) (xy 233459 294692 45300) (dir 233441 294690))
+;
+;(gennpc (index 1049) (country 2) (kind 0) (shape 113) (map 0) (xy 361079 187021 42110) (dir 361079 187021))
+;Medical doctor [Haewoo]
+(gennpc (index 1059) (country 0 2) (kind 5) (shape 7) (html 839) (map 0) (xy 248251 259880 22810) (dir 248289 259884) (warrelation 1))
+;Training Field Manager
+(gennpc (index 1060) (country 0 2) (kind 5) (shape 9) (html 840) (map 0) (xy 247996 251856 18900) (dir 248066 251926))
+;Tower of D`evah gate of sealed
+(gennpc (index 1061) (country 0 2) (kind 1) (shape 170) (html 841) (map 0) (xy 363008 245052 27232) (dir 363008 244952))
+;Mine Keeper
+(gennpc (index 1062) (country 2) (kind 1) (shape 2) (html 842) (map 0) (xy 268119 284771 26970) (dir 268119 284671))
+;Mine Keeper
+(gennpc (index 1063) (country 2) (kind 1) (shape 2) (html 842) (map 0) (xy 262878 282506 27860) (dir 262937 282586))
+;Mine Keeper
+(gennpc (index 1064) (country 2) (kind 1) (shape 2) (html 844) (map 0) (xy 255495 291445 27620) (dir 255492 291544))
+;Mine Keeper
+(gennpc (index 1065) (country 2) (kind 1) (shape 2) (html 842) (map 0) (xy 263691 284707 29710) (dir 263691 284607))
+;Artisan Doggebi
+(gennpc (index 1066) (country 2) (kind 1) (shape 14) (html 843) (map 0) (xy 267158 283172 24998) (dir 267089 283244))
+;Artisan Doggebi
+(gennpc (index 1067) (country 2) (kind 1) (shape 14) (html 854) (map 0) (xy 257171 259094 16090) (dir 257245 259183 ))
+;
+;(gennpc (index 1067) (country 2) (kind 1) (shape 13) (html 300164) (map 0) (xy 257158 259575 16132) (dir 257182 259534))
+;Stone Handicraft artisan
+;(gennpc (index 1068) (country 2) (kind 1) (shape 39) (html 300165) (map 0) (xy 267179 283211 25016) (dir 267139 283220))
+;Red Santa Clause
+;(gennpc (index 1070) (country 2) (kind 1) (shape 120) (html 200027) (map 0) (xy 257874 258226 16114) (dir 257938 258239))
+;Red Santa Clause
+;(gennpc (index 1071) (country 2) (kind 3) (shape 120) (quest 8026 3) (html ) (map 0) (xy 266944 243039 19629) (dir 266948 243019))
+;Red Santa Clause
+;(gennpc (index 1072) (country 2) (kind 3) (shape 120) (quest 8026 3) (html ) (map 0) (xy 233418 294631 45300) (dir 233397 294639))
+;Black Santa Clause
+;(gennpc (index 1073) (country 2) (kind 3) (shape 159) (quest 8025 1) (html ) (map 0) (xy 265350 285866 22640) (dir 265414 285930))
+;Red Santa Clause
+;(gennpc (index 1074) (country 2) (kind 0) (shape 120) (html 300194) (map 0) (xy 258275 259436 16079) (dir 258238 259407))
+;Red Santa Clause
+;(gennpc (index 1075) (country 2) (kind 0) (shape 120) (html 300194) (map 0) (xy 267426 242734 19630) (dir 267477 242783))
+;Red Santa Clause
+;(gennpc (index 1076) (country 2) (kind 0) (shape 120) (html 300194) (map 0) (xy 234131 290590 45390) (dir 234149 290686))
+;Green Santa Clause
+;(gennpc (index 1077) (country 2) (kind 0) (shape 156) (html 300195) (map 0) (xy 256926 259187 16098) (dir 256997 259256))
+;Green Santa Clause
+;(gennpc (index 1078) (country 2) (kind 0) (shape 156) (html 300195) (map 0) (xy 268314 243970 19630) (dir 268359 244047))
+;Green Santa Clause
+;(gennpc (index 1079) (country 2) (kind 0) (shape 156) (html 300195) (map 0) (xy 231407 294249 45342) (dir 231396 294205))
+;Yellow Santa Clause
+;(gennpc (index 1080) (country 2) (kind 0) (shape 157) (html 300196) (map 0) (xy 257149 257573 16060) (dir 257100 257590))
+;Yellow Santa Clause
+;(gennpc (index 1081) (country 2) (kind 0) (shape 157) (html 300196) (map 0) (xy 267748 243737 19666) (dir 267804 243730))
+;Yellow Santa Clause
+;(gennpc (index 1082) (country 2) (kind 0) (shape 157) (html 300196) (map 0) (xy 233765 294635 45360) (dir 233735 294666))
+;Christmas Tree
+;(gennpc (index 1083) (country 2) (kind 0) (shape 111) (html 300193) (map 0) (xy 257561 259440 16155) (dir 257669 259376))
+;Christmas Tree
+;(gennpc (index 1084) (country 2) (kind 0) (shape 111) (html 300193) (map 0) (xy 265602 285423 22640) (dir 265525 285370))
+;Christmas Tree
+;(gennpc (index 1085) (country 2) (kind 0) (shape 111) (html 300193) (map 0) (xy 267871 243108 19630) (dir 267857 243052))
+;Christmas Tree
+;(gennpc (index 1086) (country 2) (kind 0) (shape 111) (html 300193)	(map 0) (xy 233459 294692 45300) (dir 233441 294690))
+;Christmas Tree
+;(gennpc (index 1087) (country 2) (kind 0) (shape 111) (html 300193)	(map 0) (xy 267864 243198 19630) (dir 361079 187021))
+;
+;(gennpc (index 1083) (country 0 2) (kind 0) (shape 113) (map 0) (xy 257561 259440 16155) (dir 257669 259376))
+;
+;(gennpc (index 1084) (country 0 2) (kind 0) (shape 113) (map 0) (xy 265602 285423 22640) (dir 265525 285370))
+;
+;(gennpc (index 1085) (country 0 2) (kind 0) (shape 113) (map 0) (xy 267871 243108 19630) (dir 267857 243052))
+;
+;(gennpc (index 1086) (country 0 2) (kind 0) (shape 113) (map 0) (xy 233459 294692 45300) (dir 233441 294690))
+;
+;(gennpc (index 1087) (country 0 2) (kind 0) (shape 113) (map 0) (xy 361079 187021 42110) (dir 361079 187021))
+;Committee of KALympic
+;(gennpc (index 1088) (country 2) (kind 0) (shape 119) (html 300072) (map 0) (xy 257360 259323 16137) (dir 257349 259330))
+;Committee of KALympic
+;(gennpc (index 1089) (country 2) (kind 0) (shape 119) (html 300072) (map 0) (xy 267881 242439 19630) (dir 267862 242448))
+;Committee of KALympic
+;(gennpc (index 1090) (country 2) (kind 0) (shape 119) (html 300072) (map 0) (xy 232830 294672 45300) (dir 232843 294674))
+;Committee of KALympic
+;(gennpc (index 1091) (country 2) (kind 0) (shape 119) (html 300072) (map 0) (xy 267120 283100 24981) (dir 267060 283135))
+;
+;(gennpc (index 1092) (country 2) (kind 1) (shape 68) (html 0) (map 0) (xy 267120 283100 24981) (dir 267060 283135))
+;Soccer ball Merchant
+;(gennpc (index 1094) (country 0 2) (kind 3) (shape 39) (quest 30014 0) (html 0) (map 0) (xy 257401 259363 16142) (dir 257416 259461))
+;DEADO Hye min
+(gennpc (index 1200) (country 2) (kind 3) (shape 7) (quest 0 27) (map 0) (xy 256460 257801 16505) (dir 256445 257700))
+;The Alchemist [Gerdam]
+(gennpc (index 1201) (country 2) (kind 1) (shape 36) (html 848) (map 0) (xy 267090 283006 24983) (dir 267035 282993))
+;Enterance of the 2nd Floor to the Tower of D'evah.
+(gennpc (index 1202) (country 2) (kind 1) (shape 155) (html 849) (map 0) (xy 73896 21461 21899) (dir 73855 21463))
+;Impregnable Wall
+(gennpc (index 1203) (country 2) (kind 5) (shape 28) (map 0) (xy 90274 20390 21095) (dir 90276 20640))
+;
+(gennpc (index 1204) (country 2) (kind 1) (shape 31) (html 850)(map 0) (xy 256426 257810 16505) (dir 256425 257782))
+;Royal Inspecter
+(gennpc (index 1205) (country 0 2) (kind 1) (shape 5) (html 10000) (map 0) (xy 258024 259614 16080) (dir 258024 259514) )
+;Royal Inspecter
+(gennpc (index 1206) (country 0 2) (kind 1) (shape 5) (html 10200) (map 0) (xy 265639 285091 22650) (dir 265600 285183) )
+;mission table
+(gennpc (index 1207) (country 0 2) (kind 1) (shape 15) (html 11800) (map 0) (xy 265612 285080 22650) (dir 265573 285172) )
+;Royal Inspecter
+(gennpc (index 1208) (country 0 2) (kind 1) (shape 5) (html 10600) (map 0) (xy 267485 242524 19650) (dir 267583 242543) )
+;mission table
+(gennpc (index 1209) (country 0 2) (kind 1) (shape 15) (html 12200) (map 0) (xy 267479 242553 19652) (dir 267577 242572) )
+;Royal Inspecter
+(gennpc (index 1210) (country 0 2) (kind 1) (shape 5) (html 11300) (map 0) (xy 256524 289183 27074) (dir 256429 289149) )
+;mission table
+(gennpc (index 1211) (country 0 2) (kind 1) (shape 15) (html 13400) (map 0) (xy 256534 289154 27104) (dir 256446 289105) )
+;Armor Merchant [Nang-Cheul]
+(gennpc (index 1212) (country 0  2) (kind 0) (shape 3) (html 1024) (map 0) (xy 265167 261561 16170) (dir 265266 261547) (cid 1))
+;Comeback supply agent of Bedal
+;(gennpc (index 1216) (country 0  2) (kind 1) (shape 6) (html 1030) (map 0) (xy 257418 259305 16105) (dir 257518 259303))
+;Comeback supply agent of Bedal
+;(gennpc (index 1217) (country 0  2) (kind 1) (shape 6) (html 1030) (map 0) (xy 267925 242450 19630) (dir 267981 242532))
+;Comeback supply agent of Bedal
+;(gennpc (index 1218) (country 0  2) (kind 1) (shape 6) (html 1030) (map 0) (xy 232805 294699 45300) (dir 232831 294795))
+;Welfare supply agent of Bedal
+;(gennpc (index 1219) (country 0  2) (kind 1) (shape 7) (html 1040) (map 0) (xy 257408 259319 16114) (dir 257485 259382))
+;Welfare supply agent of Bedal
+;(gennpc (index 1220) (country 0  2) (kind 1) (shape 7) (html 1040) (map 0) (xy 267906 242453 19630) (dir 267903 242552))
+;Welfare supply agent of Bedal
+;(gennpc (index 1221) (country 0  2) (kind 1) (shape 7) (html 1040) (map 0) (xy 232774 294681 45300) (dir 232678 294711))
+;John
+;(gennpc (index 1222) (country 0 2) (kind 0) (shape 75)	(html 80336)	(map 0) (xy 268064 243867 19620) (dir 267981 243818) )
+;Charles
+;(gennpc	(index 1223) (country 0 2) (kind 5) (shape 75)	(html 80337)	(map 0) (xy 268149 243764 19620)	(dir 268088 243672) )
+;Market Manager
+;(gennpc (index 1225) (country 0  2) (kind 1) (shape 79)(html 900778) (map 0) (xy 258040 259207 16024) (dir 258017 259304)) 
+;Market Manager
+;(gennpc (index 1226) (country 0  2) (kind 1) (shape 79)(html 900778) (map 0) (xy 266089 284152 22650) (dir 266020 284224)) 
+;[Fairy]
+;(gennpc (index 1227) (country 0 2)	(kind 5)	(shape 79)	(html 400026)	(map 0)	(xy 256827 259365 16175)	(dir 256906 259444))
+;[Event NPC Su-Jung]
+;(gennpc (index 1227) (country 0 2)	(kind 1)	(shape 51)	(html 100026)	(map 0)	(xy 256827 259365 16175)	(dir 256906 259444))
+;Black Symbol Manager
+(gennpc (index 1228) (country 0 2)	(kind 5)	(shape 164)	(html 400200)	(map 0)	(xy 256851 259336 16162)	(dir 256919 259408))
+;Enterance of the 3rd Floor to the Tower of D'evah
+(gennpc (index 1230) (country 2)(kind 1) (shape 155) (html 851) (map 0) (xy 90282 21463 21899) (dir 90282 21363))
+;Enterance of the 2nd Floor to the Tower of D'evah
+(gennpc (index 1231) (country 2)(kind 1) (shape 155) (html 853) (map 0) (xy 100862 20358 19950) (dir 100862 20258))
+;Soldier at Fort of Geum-Ohee Castle [Jae-Ga]
+(gennpc (index 109) (country 2) (kind 5) (shape 9) (html 1000000) (map 0) (xy 268851 243506 19620) (dir 267851 242506))
+
+;#####################################################################################################################
+;#################################### Kal-Sai NPC ####################################################################
+;#####################################################################################################################
+
+; Stone of Teleport Narooth
+(gennpc (index 3014) (country 2) (kind 1) (shape 33) (html 200025) (map 0) (xy 257539 259296 16089) (dir 257430 259183))
+
+; Stone of Teleport Cargo
+(gennpc (index 3015) (country 2) (kind 1) (shape 33) (html 200025) (map 0) (xy 265002 262384 16183) (dir 257430 259183))
+
+; Stone of Teleport Mine
+(gennpc (index 3016) (country 2) (kind 1) (shape 33) (html 200025) (map 0) (xy 265991 285092 22650) (dir 257430 259183))
+
+; Stone of Teleport Pub
+(gennpc (index 3017) (country 2) (kind 1) (shape 33) (html 200025) (map 0) (xy 255870 288982 27066) (dir 257430 259183))
+
+; Stone of Teleport Fort
+(gennpc (index 3018) (country 2) (kind 1) (shape 33) (html 200025) (map 0) (xy 267826 242783 19630) (dir 257430 259183))
+
+; Stone of Teleport COP
+(gennpc (index 3019) (country 2) (kind 1) (shape 33) (html 200025) (map 0) (xy 232898 294598 45300) (dir 257430 259183))
+
+; Friendly Doggebi (Buff npc)
+(gennpc (index 3020) (country 2) (kind 3) (shape 51) (quest 20034 1) (map 0) (xy 267799 242761 19630) (dir 267780 242785))
+
+; JobChanger [Fort]
+(gennpc (index 3000) (country 2) (kind 1) (shape 9) (html 200002) (map 0) (xy 267984 243061 19630) (dir 267969 243050))
+
+; Shaman Pet
+(gennpc (index 3022) (country 2) (kind 5) (shape 3) (html 200003) (map 0) (xy 267630 242228 19630) (dir 267630 242243))
+
+; GVG
+(gennpc (index 3023) (country 2) (kind 5) (shape 9) (html 200004) (map 0) (xy 267529 243240 19630) (dir 267508 243223))
+
+; BF
+(gennpc (index 3024) (country 2) (kind 5) (shape 9) (html 200005) (map 0) (xy 267555 243205 19630) (dir 267532 243187))
+
+; Protection Leader
+(gennpc (index 3026) (country 2) (kind 5) (shape 9) (html 200006) (map 0) (xy 267585 243167 19630) (dir 267562 243149))
+
+;Protecting Leader (Door)
+(gennpc (index 5555) (country 0 2) (kind 5) (shape 52) (map 30) (xy 308591 284684 16090) (dir 308590 284745))
+;Protecting Leader (Door)
+(gennpc (index 5556) (country 0 2) (kind 5) (shape 52) (map 30) (xy 310271 284668 16090) (dir 310266 284718))
+
+; Shop Reward
+(gennpc (index 3027) (country 2) (kind 5) (shape 75) (html 200008) (map 0) (xy 267908 242321 19630) (dir 267906 242339))
+; KalCasch Merchant
+(gennpc (index 3028) (country 2) (kind 5) (shape 76) (html 164) (map 0) (xy 267965 242323 19630) (dir 267965 242341))
+
+
+;--Emok Teleporter
+(gennpc (index 588) (country 2) (kind 3) (shape 8) (quest 20035 1) (map 0) (xy 268066 242958 19630) (dir 268039 242940))
+
+;Element collecting official [Hwa Eun]
+(gennpc (index 632) (country 2) (kind 5) (shape 5) (html 900671) (map 0) (xy 267433 242698 19633) (dir 267453 242703))
+;PvP Item Merchant [Oh-Junse]
+(gennpc (index 692) (country 2) (kind 0) (shape 3) (html 538) (map 0) (xy 232751 294678 45300) (dir 232713 294679));4? ??
+;(gennpc (index 693) (country 2) (kind 0) (shape 3) (html 538) (map 0) (xy 232720 291697 45415) (dir 232788 291769));9? ??
+;Seregants
+(gennpc (index 554) (country 2) (kind 5) (shape 9) (html 305) (map 0) (xy 232788 294770 45300) (dir 232810 294771))
+(gennpc (index 555) (country 2) (kind 5) (shape 9) (html 322) (map 0) (xy 232789 294786 45300) (dir 232811 294785))
+(gennpc (index 556) (country 2) (kind 5) (shape 9) (html 305) (map 0) (xy 268971 243277 19630) (dir 268954 243258))
+(gennpc (index 557) (country 2) (kind 5) (shape 9) (html 322) (map 0) (xy 269000 243255 19630) (dir 268977 243224))
+(gennpc (index 558) (country 2) (kind 5) (shape 9) (html 305) (map 0) (xy 232775 291663 45412) (dir 232843 291735))
+(gennpc (index 559) (country 2) (kind 5) (shape 9) (html 322) (map 0) (xy 232748 291681 45410) (dir 232836 294694))
+;Seohak
+(gennpc (index 719) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 257190 259579 16129) (dir 257190 259578)) ;???(0? ??)
+(gennpc (index 720) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 264758 262038 16077) (dir 264777 262041)) ;?? ???(1? ??)
+(gennpc (index 721) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 265753 285235 22650) (dir 265750 285237)) ;?? ??(2? ??)
+(gennpc (index 722) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 256555 289127 27125) (dir 256548 289118)) ;??? ??(3? ??)
+(gennpc (index 723) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 267465 242583 19649) (dir 2674169 242585)) ;???? ????(4? ??)
+(gennpc (index 724) (country 2) (kind 1) (shape 7) (html 767) (map 0) (xy 232147 294581 45310) (dir 232151 294581)) ;???? ??(9? ??)
+;Instance
+(gennpc (index 698) (country 2) (kind 1) (shape 84) (html 528) (map 0) (xy 267445 242665 19640) (dir 267463 242669))
+(gennpc (index 699) (country 2) (kind 5) (shape 85) (html ) (map 0) (xy 267457 242619 19649) (dir 267489 242624))
+
+;start npc
+(gennpc (index 1224) (country 0  2) (kind 3) (shape 163) (quest 9010 1) (map 0) (xy 257250 259292 16127) (dir 257251 259273))
+
+;Last Man Standing Tournament Registration
+(gennpc (index 3029) (country 2) (kind 1) (shape 26) (html 200010) (map 0) (xy 267552 242315 19630) (dir 267563 242336))
+
+; Duel Tournament Narooth
+(gennpc (index 3030) (country 2) (kind 1) (shape 27) (html 200011) (map 0) (xy 257703 259151 16080) (dir 257695 259171))
+; Duel Tournament Temp 
+(gennpc (index 3031) (country 2) (kind 1) (shape 27) (html 200011) (map 0) (xy 268027 243003 19630) (dir 268011 242988))
+; Duel Tournament Cop
+(gennpc (index 3032) (country 2) (kind 1) (shape 27) (html 200011) (map 0) (xy 233186 294527 45290) (dir 233194 294563))
+
+; TOP KEY QUEST
+(gennpc (index 3033) (country 2) (kind 1) (shape 5) (html 200019) (map 0) (xy 267208 242845 19630) (dir 267228 242833))
+; Tower of Priest Scenario Manager
+(gennpc (index 3034) (country 2) (kind 1) (shape 7) (html 200018) (map 0) (xy 267235 242909 19630) (dir 267254 242897))
+;f10 reg
+(gennpc (index 652) (country 2) (kind 1) (shape 5) (html 200017) (map 21) (xy 117413 35506 27399 ) (dir 117414 354933))
+
+; VOD QUEST
+(gennpc (index 3035) (country 2) (kind 1) (shape  7) (html 200012) (map 0) (xy 267900 243253 19996) (dir 267890 243226))
+
+; VOD Teleport Manager
+(gennpc (index 3036) (country 2) (kind 1) (shape 7) (html 200013) (map 0) (xy 360868 187211 42140) (dir 360868 187191))
+
+; ValleyofDevah Hondel Merchant
+(gennpc (index 3038) (country 2) (kind 1) (shape 3) (html 200014) (map 0) (xy 359688 233965 28840) (dir 359705 233957))
+
+; Dungeon 3 Teleport
+(gennpc (index 3039) (country 2) (kind 1) (shape 3) (html 200015) (map 0) (xy 53051 18142 30002) (dir 53062 18144))
+
+; Dungeon 4 Teleport
+(gennpc (index 3041) (country 2) (kind 1) (shape 3) (html 200016) (map 0) (xy 35389 34270 29699) (dir 35385 34304))
+
+; Donation Store
+(gennpc (index 3043) (country 2) (kind 1) (shape 61) (html 200027) (map 0) (xy 267763 243172 19630) (dir 267762 243133))
+
+; Mystery Skill 
+(gennpc (index 3056) (country 2) (kind 0) (shape 7) (html 801) (map 0) (xy 232840 294936 45300) (dir 232862 294918))
+
+;Mining System
+(gennpc (index 3057) (country 2) (kind 1) (shape 2) (html 200022) (map 0) (xy 232988 295021 45300) (dir 232996 294999))
+
+; Mining 2
+(gennpc (index 3062) (country 2) (kind 1) (shape 7) (html 200023) (map 0) (xy 233006 295026 45300) (dir 233013 295003))
+
+; Ying -Yang Mirrors
+(gennpc (index 3066) (country 2) (kind 1) (shape 3) (html 200020) (map 0) (xy 232967 295010 45300) (dir 232982 294972))
+
+; Demon Gong Manager
+(gennpc (index 3067) (country 2) (kind 1) (shape 3) (html 850) (map 0) (xy 267667 243119 19630) (dir 267672 243095))
+
+; Daily Quest Manager
+(gennpc (index 3068) (country 2) (kind 1) (shape 3) (html 200026) (map 0) (xy 233048 295038 45300) (dir 233058 295005))
+
+; Fishing Grounds Keeper cop
+(gennpc (index 340) (country 2) (kind 3) (shape 3) (quest 6001 1) (map 0) (xy 268206 242780 19777) (dir 268200 242770))
+
+; Position Stone
+(gennpc (index 658) (country 2) (kind 5) (shape 33) (html 200024) (map 11) (xy 70176 51360 24094) (dir 70176 51360))
+
+; Position Stone
+(gennpc (index 659) (country 2) (kind 5) (shape 33) (html 200024) (map 22) (xy 118153 51856 22589) (dir 118153 51856))
+
+; Position Stone
+(gennpc (index 660) (country 2) (kind 5) (shape 33) (html 200024) (map 24) (xy 150674 52056 23603) (dir 150803 51927))
+
+; Position Stone
+(gennpc (index 661) (country 2) (kind 5) (shape 33) (html 200024) (map 17) (xy 71161 37752 39462) (dir 71161 37752))
+
+; Position Stone
+(gennpc (index 662) (country 2) (kind 5) (shape 33) (html 200024) (map 15) (xy 87545 39745 39460) (dir 87545 39745))
+
+; Position Stone
+(gennpc (index 663) (country 2) (kind 5) (shape 33) (html 200024) (map 18) (xy 102665 39378 21436) (dir 102665 39378))
+
+; santa claus
+;(gennpc (index 3100) (country 2) (kind 3) (shape 120) (quest 510 1) (map 0) (xy 267895 243126 19630) (dir 267894 243106))
+
+;Forest Of Elements Quest
+(gennpc (index 627) (country 2) (kind 3) (shape 9) (quest 50000 1 ) (map 0) (xy 267369 242736 19630) (dir 267367 242757))
+;E-Mok Quest
+(gennpc (index 628) (country 2) (kind 3) (shape 9) (quest 50001 1 ) (map 0) (xy 267348 242730 19636) (dir 267340 242757))
+;Tower Of Priest Quest
+(gennpc (index 629) (country 2) (kind 3) (shape 9) (quest 50002 1 ) (map 0) (xy 267324 242725 19638) (dir 267319 242745))
+;VoD Quest
+(gennpc (index 630) (country 0 2) (kind 5) (shape 9) (html) (quest 50003 1) (map 0) (xy 360822 187210 42140) (dir 360828 187178))
+;Altar of ground
+;(gennpc (index 631) (country 0 2) (kind 5) (shape 9) (html) (quest 500 1) (map 0) (xy 231221 283546 38830) (dir 278495 212994))
+
+
+; High priest [Sur-An]
+(gennpc (index 3013) (country 2) (kind 1) (shape 9) (html 200028) (map 0) (xy 267997 243043 19630) (dir 267977 243024))
+;Assassin List
+(gennpc (index 222) (country 2) (kind 1) (shape 15) (html 400001) (map 0) (xy 233189 295048 45297) (dir 233183 295018))
+
+;E-mok Map Explorer
+(gennpc (index 3101)(country 2)(kind 1)(shape 74)(html 200043)(map 0)(xy 339835 257291 17022)(dir 339783 257253))
+
+;Shaman's Armor Merchant [Oh Dae-Kwang]
+(gennpc (index 1250) (country 2) (kind 5) (shape 3) (html 200060) (map 0) (xy 269113 243166 19620) (dir 269090 243155) (cid 1))
+
+;Shaman's Weapon Merchant [Gwak Dae-Ryu]
+(gennpc (index 1249) (country 2) (kind 5) (shape 3) (html 200061) (map 0) (xy 269106 243190 19621) (dir 269083 243169) (cid 1))
+
+;Buff Scroll Crafter
+(gennpc (index 1251) (country 2) (kind 5) (shape 3) (html 300036) (map 0) (xy 267686 243133 19630) (dir 267698 243120) (cid 1))
+
+;Fu-ji mestruaction
+(gennpc (index 1265) (country 2) (kind 5) (shape 3) (html 300038) (map 0) (xy 267708 243149 19630) (dir 267717 243138) (cid 1))
+
+;Pet Picker Crafter
+(gennpc (index 1266) (country 2) (kind 5) (shape 3) (html 300041) (map 0) (xy 267203 243078 19658) (dir 267214 243062) (cid 1))
+;Talisman Merchant
+(gennpc (index 1267) (country 2) (kind 5) (shape 3) (html 300042) (map 0) (xy 267242 243115 19658) (dir 267256 243100) (cid 1))
+
+;Jewel Exchange
+(gennpc (index 1268) (country 2) (kind 5) (shape 2) (html 300043) (map 0) (xy 267504 242396 19660) (dir 267513 242410) (cid 1))
+
+;Banker
+(gennpc (index 1269) (country 2) (kind 5) (shape 9) (html 300055) (map 0) (xy 268180 242518 19630) (dir 268155 242508) (cid 1))
+
+;??? ?? NPC
+(gennpc (index 689) (country 2) (kind 1) (shape 5) (html 536) (map 0) (xy 257163 259576 16131) (dir 257163 259476))
+(gennpc (index 690) (country 2) (kind 1) (shape 5) (html 536) (map 0) (xy 265809 285604 22640) (dir 265790 285600))
+(gennpc (index 691) (country 2) (kind 1) (shape 5) (html 536) (map 0) (xy 267713 242191 19644) (dir 267727 242229))

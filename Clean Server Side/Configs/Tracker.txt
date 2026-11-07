@@ -1,0 +1,4 @@
+[Tracker]
+Active = 1
+
+(Tracker (Type 'pc') (argument 'XEAXMASTE-PC') (file 'r3v.txt'))

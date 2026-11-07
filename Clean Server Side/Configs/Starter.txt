@@ -1,0 +1,13 @@
+(starter (Class 0)(Map 0)(X 257349)(Y 259128)(EXP 0)(HTML 0)(WelcomeMsg '$name entered the world of Kal.'))
+(starter (Class 1)(Map 0)(X 257349)(Y 259128)(EXP 0)(HTML 0)(WelcomeMsg '$name entered the world of Kal.'))
+(starter (Class 2)(Map 0)(X 257349)(Y 259128)(EXP 0)(HTML 0)(WelcomeMsg '$name entered the world of Kal.'))
+(starter (Class 3)(Map 0)(X 257349)(Y 259128)(EXP 0)(HTML 0)(WelcomeMsg '$name entered the world of Kal.'))
+(starter (Class 4)(Map 0)(X 257349)(Y 259128)(EXP 0)(HTML 0)(WelcomeMsg '$name entered the world of Kal.'))
+
+(starterItem (class 4)(index 1)(amount 1)(info 0)(prefix 0)(defense 0)(evasion 0)(attack 0)(magic 0)(toa 0)(upgrade 0)(mix 0)(bof 0)(dss 237))
+(starterItem (class 4)(index 2)(amount 1)(info 128)(prefix 0)(defense 0)(evasion 0)(attack 0)(magic 0)(toa 0)(upgrade 0)(mix 0)(bof 0)(dss 240))
+
+
+
+
+

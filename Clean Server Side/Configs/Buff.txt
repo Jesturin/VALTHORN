@@ -1,0 +1,6 @@
+(buff (index 3821)(grade 1)(remove 0)(level 70))
+(buff (index 3822)(grade 2)(remove 0)(level 100))
+(buff (index 3823)(grade 3)(remove 0)(level 100))
+(buff (index 3824)(grade 4)(remove 1)(level 100))
+(buff (quest 7087)(grade 1)(remove 0)(level 77))
+(buff (quest 5556)(grade 1)(remove 0)(level 77))

@@ -1,0 +1,32 @@
+*본 정보
+
+*재질(Material) 정보
+	(0 "03 - Default" (type MTL_TYPE_STANDARD) (texture "oj_lo_021_1.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(frame 2 count 1))
+
+
+*충돌 처리 정보
+	("Box01" Unknown - OK)
+	( min ( -14.373425 0.011608 -0.990883 ) max ( 14.517220 9.364412 0.906601 ) )
+
+*파일 헤더 정보
+	(anim_count = 0)
+	(anim_file_count = 0)
+	(bone_count = 0)
+	(bone_index_count = 0)
+	(cls_size = 280)
+	(string_size = 117)
+	(index_count = 516)
+	(keyframe_count = 0)
+	(material_count = 1)
+	(material_frame_count = 2)
+	(mesh_count = 1)
+	(bone file = 0)
+	(vertex_count_rigid = 208)
+	(vertex_count_blend1 = 0)
+	(vertex_count_blend2 = 0)
+	(vertex_count_blend3 = 0)
+	(vertex_count_blend4 = 0)
+
+*메쉬 정보
+	(0 "OJ_LO_021_4" "03 - Default" VT_RIGID FT_LIST (vertex 208) (index 516) (bone_index 0) (material_ref 0))

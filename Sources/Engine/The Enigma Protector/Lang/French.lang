@@ -1,0 +1,3394 @@
+﻿<!--
+
+Dear translator,
+
+If you would like to translate this language file, or apppend it with non translated strings, please scroll this xml file down. All non translated strings are usually located at the file end.
+
+How to know what string to protect?
+Each language string contains from "original" and "translated" strings, if translated string is empty - then it requires to be translated.
+
+How to send translated language file to developers?
+Please send it to support@enigmaprotector.com
+
+Regards
+  Vladimir Sukhov
+ 
+-->
+<?xml version="1.0" encoding="windows-1251"?>
+<messages>
+<!--
+SETTINGS
+-->
+	<message>
+		<original>SETTINGS</original>
+		<translated>RÉGLAGES</translated>
+	</message>
+	<message>
+		<original>Save current project?</original>
+		<translated>Enregistrer le projet actuel ?</translated>
+	</message>
+	<message>
+		<original>Modified</original>
+		<translated>Modifié</translated>
+	</message>
+	<message>
+		<original>Show help topic for:</original>
+		<translated>Afficher la rubrique d'aide pour :</translated>
+	</message>
+	<message>
+		<original>Default</original>
+		<translated>Défaut</translated>
+	</message>
+	<message>
+		<original>Protect</original>
+		<translated>Protéger</translated>
+	</message>
+<!--
+SETTINGS - Project details
+-->
+	<message>
+		<original>Project details</original>
+		<translated>Détails du projet</translated>
+	</message>
+	<message>
+		<original>Full name of project:</original>
+		<translated>Nom complet du projet :</translated>
+	</message>
+	<message>
+		<original>Project description:</original>
+		<translated>Description du projet :</translated>
+	</message>
+<!--
+SETTINGS - Input
+-->
+	<message>
+		<original>Input</original>
+		<translated>Fichier à protéger</translated>
+	</message>
+	<message>
+		<original>Select file to protect</original>
+		<translated>Choisir le fichier à protéger :</translated>
+	</message>
+	<message>
+		<original>Select file name of program module to protect</original>
+		<translated>Choisir le nom de fichier du module de programme à protéger</translated>
+	</message>
+	<message>
+		<original>Enter output protected file name</original>
+		<translated>Entrer le nom du fichier protégé résultant :</translated>
+	</message>
+	<message>
+		<original>Select file name for resulting program module</original>
+		<translated>Choisir le nom du fichier pour le module de programme résultant</translated>
+	</message>
+	<message>
+		<original>Output file name is same as input file</original>
+		<translated>Le nom du fichier résultant est le même que celui du fichier à protéger</translated>
+	</message>
+	<message>
+		<original>Do not create backup (.bak) files if input and output files are same</original>
+		<translated>Ne pas créer de fichiers de sauvegarde (.bak) si les fichiers à protéger et résultant sont identiques</translated>
+	</message>
+	<message>
+		<original>Product Information</original>
+		<translated>Information sur le produit</translated>
+	</message>
+	<message>
+		<original>Extract automatically from file resources</original>
+		<translated>Extraction automatique à partir des ressources du fichier</translated>
+	</message>
+	<message>
+		<original>Browse</original>
+		<translated>Parcourir</translated>
+	</message>
+	<message>
+		<original>Program modules (*.exe *.scr *.dll *.ocx)|*.EXE;*.SCR;*.DLL;*.OCX|All files (*.*)|*.*</original>
+		<translated>Modules du programme (*.exe *.scr *.dll *.ocx)|*.EXE;*.SCR;*.DLL;*.OCX|Tous les fichiers (*.*)|*.*</translated>
+	</message>
+<!--
+SETTINGS - Advance Input
+-->
+	<message>
+		<original>Advance Input</original>
+		<translated>Entrée avancée</translated>
+	</message>
+	<message>
+		<original>Select additional files to protect</original>
+		<translated>Choisir les fichiers supplémentaires à protéger</translated>
+	</message>
+	<message>
+		<original>Input File</original>
+		<translated>Fichier à protéger</translated>
+	</message>
+	<message>
+		<original>Output File</original>
+		<translated>Fichier résultant</translated>
+	</message>
+	<message>
+		<original>Protect additional files after main executable</original>
+		<translated>Protéger les fichiers supplémentaires après l'exécutable principal</translated>
+	</message>
+	<message>
+		<original>Add File(s)</original>
+		<translated>Ajouter fichier(s)</translated>
+	</message>
+	<message>
+		<original>Select file(s) to protect</original>
+		<translated>Choisir le(s) fichier(s) à protéger</translated>
+	</message>
+<!--
+REGISTRATION FEATURES
+-->
+	<message>
+		<original>REGISTRATION FEATURES</original>
+		<translated>CARACTÉRISTIQUES D'ENREGISTREMENT</translated>
+	</message>
+<!--
+REGISTRATION FEATURES - Common
+-->
+	<message>
+		<original>Common</original>
+		<translated>Commun</translated>
+	</message>
+	<message>
+		<original>UNICODE Registration Scheme</original>
+		<translated>Système d'enregistrement UNICODE</translated>
+	</message>
+	<message>
+		<original>Allow execution only if registered</original>
+		<translated>Autoriser l'exécution uniquement si enregistré</translated>
+	</message>
+	<message>
+		<original>Encrypt application with Encryption Constant (please take a look at the manual before using this option)</original>
+		<translated>Crypter l'application avec la constante de chiffrement (veuillez consulter le manuel avant d'utiliser cette option)</translated>
+	</message>
+	<message>
+		<original>Information for Custom Keys Generator</original>
+		<translated>Information pour le générateur de clés personnalisées</translated>
+	</message>
+	<message>
+		<original>Encryption Constant</original>
+		<translated>Constante de cryptage</translated>
+	</message>
+	<message>
+		<original>Private Key</original>
+		<translated>Clé privée</translated>
+	</message>
+	<message>
+		<original>Public Key</original>
+		<translated>Clé publique</translated>
+	</message>
+	<message>
+		<original>Registration keys type</original>
+		<translated>Type de clé d'enregistrement</translated>
+	</message>
+	<message>
+		<original>Registration key safety/length:</original>
+		<translated>Sécurité/longueur de la clé :</translated>
+	</message>
+	<message>
+		<original>Registration key output base:</original>
+		<translated>Base de sortie de la clé :</translated>
+	</message>
+	<message>
+		<original>Copy to clipboard</original>
+		<translated>Copier dans le presse-papier</translated>
+	</message>
+	<message>
+		<original>Example of the registration key:
+Mode: %d
+Base: %d
+Aproximate minimum size: %d symbols
+Registration key:
+%s</original>
+		<translated>Exemple de clé d'enregistrement :
+Mode : %d
+Base : %d
+Taille minimale approximative : symboles %d
+Clé d'enregistrement :
+%s</translated>
+	</message>
+<!--
+REGISTRATION FEATURES - Key Properties
+-->
+	<message>
+		<original>Key Properties</original>
+		<translated>Propriétés de la clé</translated>
+	</message>
+	<message>
+		<original>Allow only hardware locked keys</original>
+		<translated>N'autoriser que les clés verrouillées au niveau matériel</translated>
+	</message>
+	<message>
+		<original>Allow only keys with expiration date</original>
+		<translated>N'autoriser que les clés avec date d'expiration</translated>
+	</message>
+	<message>
+		<original>Allow only keys with Register After date</original>
+		<translated>N'autoriser que les clés avec Enregistrement après la date</translated>
+	</message>
+	<message>
+		<original>Allow only keys with Register Before date</original>
+		<translated>N'autoriser que les clés avec Enregistrement avant la date</translated>
+	</message>
+	<message>
+		<original>Allow only executions limited keys</original>
+		<translated>N'autoriser que les clés avec des limites d'exécutions</translated>
+	</message>
+	<message>
+		<original>Allow only days limited keys</original>
+		<translated>N'autoriser que des clés limitées dans le temps</translated>
+	</message>
+	<message>
+		<original>Allow only run-time limited keys</original>
+		<translated>N'autoriser que les clés au nombre d'exécutions limité</translated>
+	</message>
+	<message>
+		<original>Allow only global time limited keys</original>
+		<translated>N'autoriser que les clés limitées en temps global</translated>
+	</message>
+	<message>
+		<original>Allow only country locked keys</original>
+		<translated>N'autoriser que les clés verrouillées pour les pays</translated>
+	</message>
+<!--
+REGISTRATION FEATURES - Registration data storage
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Read only</original>
+		<translated>Lecture seule</translated>
+	</message>
+	<message>
+		<original>Hidden</original>
+		<translated>Caché</translated>
+	</message>
+	<message>
+		<original>System</original>
+		<translated>Système</translated>
+	</message>
+-->
+	<message>
+		<original>Registration data storage</original>
+		<translated>Stockage des données d'enregistrement</translated>
+	</message>
+	<message>
+		<original>Encrypt Registration Information</original>
+		<translated>Crypter les informations d'enregistrement</translated>
+	</message>
+	<message>
+		<original>Disable copying of the registration information to another PC (the registration information will be encrypted with the user's Hardware ID)</original>
+		<translated>Désactiver la copie des informations d'enregistrement sur un autre PC (les informations d'enregistrement seront cryptées avec l'ID de matériel de l'utilisateur).</translated>
+	</message>
+	<message>
+		<original>Select place where registration information will be stored:</original>
+		<translated>Sélectionnez l'emplacement où les informations d'enregistrement seront stockées :</translated>
+	</message>
+	<message>
+		<original>Use system registry</original>
+		<translated>Utiliser le registre du système</translated>
+	</message>
+	<message>
+		<original>Use file system</original>
+		<translated>Utiliser le système de fichiers</translated>
+	</message>
+	<message>
+		<original>Use both techniques</original>
+		<translated>Utiliser les deux techniques</translated>
+	</message>
+	<message>
+		<original>System Registry</original>
+		<translated>Registre du système</translated>
+	</message>
+	<message>
+		<original>Registry Root</original>
+		<translated>Racine du registre</translated>
+	</message>
+	<message>
+		<original>Relative path in registry (e.g.: SOFTWARE\YourCompany):</original>
+		<translated>Chemin relatif dans le registre (ex.: SOFTWARE\VotreSociété) :</translated>
+	</message>
+	<message>
+		<original>File System</original>
+		<translated>Système de fichiers</translated>
+	</message>
+	<message>
+		<original>Base folder in file system:</original>
+		<translated>Dossier de base dans le système de fichiers :</translated>
+	</message>
+	<message>
+		<original>Relative path in file system (e.g.: \YourCompany\key.dat):</original>
+		<translated>Chemin relatif dans le système de fichiers (ex.: \Votre Société\key.dat) :</translated>
+	</message>
+	<message>
+		<original>Set File Attributes</original>
+		<translated>Définir les attributs de fichier</translated>
+	</message>
+<!--
+REGISTRATION FEATURES - Hardware lock
+-->
+	<message>
+		<original>Hardware lock</original>
+		<translated>Verrouillage matériel</translated>
+	</message>
+	<message>
+		<original>Select devices that will be used in hardware locking:</original>
+		<translated>Sélectionnez les dispositifs qui seront utilisés pour le verrouillage matériel :</translated>
+	</message>
+	<message>
+		<original>Allow Changes</original>
+		<translated>Modifications</translated>
+	</message>
+	<message>
+		<original>System Volume Serial Number</original>
+		<translated>Numéro de série du volume système</translated>
+	</message>
+	<message>
+		<original>System Volume Name</original>
+		<translated>Nom du volume système</translated>
+	</message>
+	<message>
+		<original>Computer Name</original>
+		<translated>Nom de l'ordinateur</translated>
+	</message>
+	<message>
+		<original>CPU Type</original>
+		<translated>Type de CPU</translated>
+	</message>
+	<message>
+		<original>Motherboard</original>
+		<translated>Carte mère</translated>
+	</message>
+	<message>
+		<original>Windows Serial Key</original>
+		<translated>Clé de série de Windows</translated>
+	</message>
+	<message>
+		<original>Hard Disk Serial Number</original>
+		<translated>Numéro de série du disque dur</translated>
+	</message>
+	<message>
+		<original>Windows User Name</original>
+		<translated>Nom d'utilisateur Windows</translated>
+	</message>
+<!--
+REGISTRATION FEATURES - Encrypt with hardware id
+-->
+	<message>
+		<original>Encrypt with hardware id</original>
+		<translated>Crypter avec l'ID du matériel</translated>
+	</message>
+	<message>
+		<original>Encrypt application with particular Hardware ID</original>
+		<translated>Crypter l'application avec un ID de matériel particulier</translated>
+	</message>
+	<message>
+		<original>Enter Hardware ID to encrypt with</original>
+		<translated>Entrez l'ID du matériel à utiliser pour le cryptage</translated>
+	</message>
+<!--
+REGISTRATION FEATURES - Registration Dialog
+-->
+	<message>
+		<original>Registration Dialog</original>
+		<translated>Formulaire d'enregistrement</translated>
+	</message>
+	<message>
+		<original>Use custom registration dialog</original>
+		<translated>Utiliser un formulaire d'enregistrement personnalisé</translated>
+	</message>
+	<message>
+		<original>Show dialog properties</original>
+		<translated>Afficher les propriétés du formulaire</translated>
+	</message>
+	<message>
+		<original>Show if the trial has expired</original>
+		<translated>Montrer si la période d'essai a expiré</translated>
+	</message>
+	<message>
+		<original>Show if unregistered</original>
+		<translated>Montrer si non enregistré</translated>
+	</message>
+	<message>
+		<original>Dialog Messages</original>
+		<translated>Messages du formulaire</translated>
+	</message>
+	<message>
+		<original>Show message if key is valid</original>
+		<translated>Afficher le message si la clé est valide</translated>
+	</message>
+	<message>
+		<original>Show message if key is invalid</original>
+		<translated>Afficher le message si la clé est invalide</translated>
+	</message>
+	<message>
+		<original>Dialog Designer</original>
+		<translated>Concepteur de formulaire</translated>
+	</message>
+	<message>
+		<original>Design message</original>
+		<translated>Conception Msg</translated>
+	</message>
+	<message>
+		<original>Message Designer</original>
+		<translated>Concepteur de message</translated>
+	</message>
+	<message>
+		<original>Title of the message:</original>
+		<translated>Titre du message :</translated>
+	</message>
+	<message>
+		<original>Text of the message:</original>
+		<translated>Texte du message :</translated>
+	</message>
+	<message>
+		<original>Use hyperlink</original>
+		<translated>Utiliser hyperlien</translated>
+	</message>
+	<message>
+		<original>Text of the sentence with hyperlink</original>
+		<translated>Texte de la phrase avec hyperlien</translated>
+	</message>
+	<message>
+		<original>URL of hyperlink (for example: http://www.yoursite.com/)</original>
+		<translated>URL de l'hyperlien (par exemple : http://www.votresite.fr/)</translated>
+	</message>
+	<message>
+		<original>Preview</original>
+		<translated>Aperçu</translated>
+	</message>
+	<message>
+		<original>Advanced</original>
+		<translated>Avancé</translated>
+	</message>
+	<message>
+		<original>Advanced Options</original>
+		<translated>Options avancées</translated>
+	</message>
+	<message>
+		<original>Automatically close this message after seconds</original>
+		<translated>Fermer automatiquement ce message après (en secondes)</translated>
+	</message>
+	<message>
+		<original>Disable OK button for seconds</original>
+		<translated>Désactiver le bouton OK pendant (en secondes)</translated>
+	</message>
+	<message>
+		<original>Select Message Font</original>
+		<translated>Police du message</translated>
+	</message>
+	<message>
+		<original>Select Font</original>
+		<translated>Choisir la police</translated>
+	</message>
+	<message>
+		<original>Message Icon</original>
+		<translated>Icône du message</translated>
+	</message>
+	<message>
+		<original>Warn</original>
+		<translated>Attention</translated>
+	</message>
+	<message>
+		<original>Error</original>
+		<translated>Erreur</translated>
+	</message>
+	<message>
+		<original>None</original>
+		<translated>Aucune</translated>
+	</message>
+<!--
+REGISTRATION FEATURES - Key expiration reminder
+-->
+	<message>
+		<original>Key expiration reminder</original>
+		<translated>Rappel d'expiration de clé</translated>
+	</message>
+	<message>
+		<original>Show key expiration reminder</original>
+		<translated>Afficher le rappel d'expiration de clé</translated>
+	</message>
+	<message>
+		<original>Start to show reminder (days before expiration)</original>
+		<translated>Commencer à afficher le rappel (nombre de jours avant l'expiration)</translated>
+	</message>
+<!--
+CHECK-UP
+-->
+	<message>
+		<original>CHECK-UP</original>
+		<translated>VERIFICATIONS</translated>
+	</message>
+<!--
+CHECK-UP - Anti-debugger
+-->
+	<message>
+		<original>Anti-debugger</original>
+		<translated>Anti-débogueur</translated>
+	</message>
+	<message>
+		<original>Use anti-debugger check-up</original>
+		<translated>Utiliser la vérification de l'anti-débogueur</translated>
+	</message>
+	<message>
+		<original>Check debugger in runtime (causes silent application exit if debugger found)</original>
+		<translated>Vérifier le débogueur en cours d'exécution (provoque la sortie silencieuse de l'application si un débogueur est trouvé)</translated>
+	</message>
+	<message>
+		<original>Show message before termination</original>
+		<translated>Afficher un message avant la fin du processus</translated>
+	</message>
+<!--
+CHECK-UP - Control sum
+-->
+	<message>
+		<original>Control sum</original>
+		<translated>Somme de contrôle</translated>
+	</message>
+	<message>
+		<original>Use control sum check-up</original>
+		<translated>Utiliser la vérification de la somme de contrôle</translated>
+	</message>
+	<message>
+		<original>File integrity checking (anti-patching, digital signature supported)</original>
+		<translated>Vérification de l'intégrité du fichier (anti-correction, signature numérique supportées)</translated>
+	</message>
+	<message>
+		<original>Run-time integrity checking</original>
+		<translated>Utiliser le contrôle d'intégrité lors de l'exécution</translated>
+	</message>
+<!--
+CHECK-UP - Startup password
+-->
+	<message>
+		<original>Startup password</original>
+		<translated>Mot de passe au démarrage</translated>
+	</message>
+	<message>
+		<original>Use password check-up</original>
+		<translated>Utiliser la vérification du mot de passe</translated>
+	</message>
+	<message>
+		<original>Action</original>
+		<translated>Action</translated>
+	</message>
+	<message>
+		<original>Always ask for password</original>
+		<translated>Toujours demander un mot de passe</translated>
+	</message>
+	<message>
+		<original>Ask for password only first time</original>
+		<translated>Demander le mot de passe seulement la première fois</translated>
+	</message>
+	<message>
+		<original>Ask in days</original>
+		<translated>Demander tous les (en jours)</translated>
+	</message>
+	<message>
+		<original>Additional options</original>
+		<translated>Options supplémentaires</translated>
+	</message>
+	<message>
+		<original>Hide password symbols</original>
+		<translated>Cacher les symboles du mot de passe</translated>
+	</message>
+	<message>
+		<original>Allow to change password</original>
+		<translated>Autoriser la modification du mot de passe</translated>
+	</message>
+	<message>
+		<original>Passwords</original>
+		<translated>Mots de passe</translated>
+	</message>
+	<message>
+		<original>Password</original>
+		<translated>Mot de passe</translated>
+	</message>
+	<message>
+		<original>Commentary</original>
+		<translated>Commentaire</translated>
+	</message>
+	<message>
+		<original>Add</original>
+		<translated>Ajouter</translated>
+	</message>
+	<message>
+		<original>Edit</original>
+		<translated>Modifier</translated>
+	</message>
+	<message>
+		<original>Delete</original>
+		<translated>Supprimer</translated>
+	</message>
+	<message>
+		<original>Password designer</original>
+		<translated>Concepteur de mot de passe</translated>
+	</message>
+	<message>
+		<original>Password:</original>
+		<translated>Mot de passe :</translated>
+	</message>
+	<message>
+		<original>Commentary:</original>
+		<translated>Commentaire :</translated>
+	</message>
+	<message>
+		<original>Cancel</original>
+		<translated>Annuler</translated>
+	</message>
+<!--
+CHECK-UP - File name
+-->
+	<message>
+		<original>File name</original>
+		<translated>Nom du fichier</translated>
+	</message>
+	<message>
+		<original>Use file name check-up</original>
+		<translated>Utiliser la vérification du nom de fichier</translated>
+	</message>
+	<message>
+		<original>Original file name:</original>
+		<translated>Nom du fichier d'origine :</translated>
+	</message>
+	<message>
+		<original>Get actual</original>
+		<translated>Obtenir l'actuel</translated>
+	</message>
+<!--
+CHECK-UP - Disk drive
+-->
+	<message>
+		<original>Disk drive</original>
+		<translated>Type d'appareil</translated>
+	</message>
+	<message>
+		<original>Use disk drive type check-up</original>
+		<translated>Utiliser la vérification du type d'appareil</translated>
+	</message>
+	<message>
+		<original>Drive Type</original>
+		<translated>Type de lecteur</translated>
+	</message>
+	<message>
+		<original>Execution Permissions</original>
+		<translated>Permissions d'exécution</translated>
+	</message>
+	<message>
+		<original>Floppy disk (removable)</original>
+		<translated>Disquette (amovible)</translated>
+	</message>
+	<message>
+		<original>Hard Disk Drive</original>
+		<translated>Lecteur de disque dur</translated>
+	</message>
+	<message>
+		<original>Network drive</original>
+		<translated>Lecteur réseau</translated>
+	</message>
+	<message>
+		<original>CD-ROM drive</original>
+		<translated>Lecteur de CD-ROM</translated>
+	</message>
+	<message>
+		<original>RAM disk</original>
+		<translated>Disque RAM</translated>
+	</message>
+<!--
+CHECK-UP - Executed copies
+-->
+	<message>
+		<original>Executed copies</original>
+		<translated>Copies exécutées</translated>
+	</message>
+	<message>
+		<original>Use limitation of count of executed copies</original>
+		<translated>Utiliser la limitation du nombre de copies exécutées</translated>
+	</message>
+	<message>
+		<original>Allow copies:</original>
+		<translated>Copie(s) autorisée(s) :</translated>
+	</message>
+	<message>
+		<original>Terminate execution</original>
+		<translated>Terminer l'exécution</translated>
+	</message>
+	<message>
+		<original>Show message if copies count is exceeded</original>
+		<translated>Afficher un message si le nombre de copies est dépassé</translated>
+	</message>
+<!--
+CHECK-UP - User language
+-->
+	<message>
+		<original>User language</original>
+		<translated>Langue de l'utilisateur</translated>
+	</message>
+	<message>
+		<original>Lock execution to user language</original>
+		<translated>Verrouiller l'exécution à la langue de l'utilisateur</translated>
+	</message>
+	<message>
+		<original>Select countries to allow execution only</original>
+		<translated>Choisir les pays pour lesquels l'exécution est autorisée</translated>
+	</message>
+	<message>
+		<original>Select all</original>
+		<translated>Choisir tous</translated>
+	</message>
+	<message>
+		<original>Unselect all</original>
+		<translated>Désélectionner tous</translated>
+	</message>
+	<message>
+		<original>Invert selection</original>
+		<translated>Inverser la sélection</translated>
+	</message>
+<!--
+CHECK-UP - External Files
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Virtual File Edit Dialog</original>
+		<translated>Dialogue d'édition de fichier virtuel</translated>
+	</message>
+	<message>
+		<original>File Path</original>
+		<translated>Chemin du fichier</translated>
+	</message>
+	<message>
+		<original>Virtual Path</original>
+		<translated>Chemin virtuel</translated>
+	</message>
+	<message>
+		<original>Check File Properties</original>
+		<translated>Vérifier les propriétés du fichier</translated>
+	</message>
+	<message>
+		<original>Attributes</original>
+		<translated>Attributs</translated>
+	</message>
+	<message>
+		<original>Checksum</original>
+		<translated>Somme de contrôle</translated>
+	</message>
+	<message>
+		<original>DateTime</original>
+		<translated>DateHeure</translated>
+	</message>
+	<message>
+		<original>Size</original>
+		<translated>Taille</translated>
+	</message>
+	<message>
+		<original>Select Folder</original>
+		<translated>Choisir un dossier</translated>
+	</message>
+	<message>
+		<original>Add Folder</original>
+		<translated>Ajouter un dossier</translated>
+	</message>
+	<message>
+		<original>Add Absolute Drive</original>
+		<translated>Ajouter un lecteur absolu</translated>
+	</message>
+-->
+	<message>
+		<original>External Files</original>
+		<translated>Fichiers externes</translated>
+	</message>
+	<message>
+		<original>Use checkup of external files</original>
+		<translated>Utiliser la vérification des fichiers externes</translated>
+	</message>
+	<message>
+		<original>Drag files and folders to the tree</original>
+		<translated>Faites glisser les fichiers et dossiers vers l'arborescence</translated>
+	</message>
+	<message>
+		<original>Add...</original>
+		<translated>Ajouter...</translated>
+	</message>
+	<message>
+		<original>Add Folder Recursive</original>
+		<translated>Ajouter un dossier récursif</translated>
+	</message>
+	<message>
+		<original>New Folder</original>
+		<translated>Nouveau dossier</translated>
+	</message>
+	<message>
+		<original>New Root Folder</original>
+		<translated>Nouveau dossier racine</translated>
+	</message>
+	<message>
+		<original>All Files (*.*)|*.*</original>
+		<translated>Tous les fichiers (*.*)|*.*</translated>
+	</message>
+<!--
+CHECK-UP - Executed Processes
+-->
+	<message>
+		<original>Executed Processes</original>
+		<translated>Processus exécutés</translated>
+	</message>
+	<message>
+		<original>Use checkup of executed processes</original>
+		<translated>Utiliser la vérification des processus exécutés</translated>
+	</message>
+	<message>
+		<original>Add from Local</original>
+		<translated>Ajouter depuis local</translated>
+	</message>
+	<message>
+		<original>Check Executed Processes every</original>
+		<translated>Vérifier les processus exécutés toutes les</translated>
+	</message>
+	<message>
+		<original>Terminate if hidden process found (experimental)</original>
+		<translated>Terminer si un processus caché a été trouvé (expérimental)</translated>
+	</message>
+	<message>
+		<original>second(s)</original>
+		<translated>seconde(s)</translated>
+	</message>
+	<message>
+		<original>Add/Edit Process</original>
+		<translated>Ajouter/Modifier le processus</translated>
+	</message>
+	<message>
+		<original>Deny Process, protected file will exit if the process is found</original>
+		<translated>Refuser le processus, le fichier protégé quittera si le processus est trouvé</translated>
+	</message>
+	<message>
+		<original>Require Process, protected file will be working if the process is found</original>
+		<translated>Processus requis, le fichier protégé fonctionnera si le processus est trouvé</translated>
+	</message>
+	<message>
+		<original>Check Policy</original>
+		<translated>Vérifier la stratégie</translated>
+	</message>
+	<message>
+		<original>by File Name</original>
+		<translated>par Nom de fichier</translated>
+	</message>
+	<message>
+		<original>by Window Text</original>
+		<translated>par Texte de la fenêtre</translated>
+	</message>
+	<message>
+		<original>by Window Class</original>
+		<translated>par Classe de fenêtre</translated>
+	</message>
+	<message>
+		<original>AND</original>
+		<translated>ET</translated>
+	</message>
+	<message>
+		<original>Select Process</original>
+		<translated>Choisir un processus</translated>
+	</message>
+<!--
+CHECK-UP - Loaded Drivers
+-->
+	<message>
+		<original>Loaded Drivers</original>
+		<translated>Pilotes chargés</translated>
+	</message>
+	<message>
+		<original>Use checkup of loaded drivers</original>
+		<translated>Utiliser la vérification des pilotes chargés</translated>
+	</message>
+	<message>
+		<original>Driver Name</original>
+		<translated>Nom du pilote</translated>
+	</message>
+<!--
+CHECK-UP - Installed Services
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Deny</original>
+		<translated>Rufusé</translated>
+	</message>
+	<message>
+		<original>Require</original>
+		<translated>Exigé</translated>
+	</message>
+-->
+	<message>
+		<original>Installed Services</original>
+		<translated>Services installés</translated>
+	</message>
+	<message>
+		<original>Use checkup of installed services</original>
+		<translated>Utiliser la vérification des services installés</translated>
+	</message>
+	<message>
+		<original>Display Name</original>
+		<translated>Afficher le nom</translated>
+	</message>
+	<message>
+		<original>Add Service(s)</original>
+		<translated>Ajouter service(s)</translated>
+	</message>
+	<message>
+		<original>Select Service</original>
+		<translated>Choisir un service</translated>
+	</message>
+	<message>
+		<original>Check Service by Name</original>
+		<translated>Vérifier les services par nom</translated>
+	</message>
+	<message>
+		<original>Check Service by Display Name</original>
+		<translated>Vérifier les services par nom affiché</translated>
+	</message>
+	<message>
+		<original>Require the Service, Stop Execution if it is Not Found</original>
+		<translated>Exiger le service, arrêter l'exécution s'il n'est pas trouvé</translated>
+	</message>
+	<message>
+		<original>Deny the Service, Stop Execution if it is Found</original>
+		<translated>Refuser le service, arrêter l'exécution s'il est trouvé</translated>
+	</message>
+<!--
+CHECK-UP - Windows Version
+-->
+	<message>
+		<original>Windows Version</original>
+		<translated>Version de Windows</translated>
+	</message>
+	<message>
+		<original>Use checkup of Windows version</original>
+		<translated>Utiliser la vérification de la version de Windows</translated>
+	</message>
+	<message>
+		<original>Select Windows version to deny execution of protected module on.</original>
+		<translated>Choisir les versions de Windows pour lesquelles l'exécution du module protégé sera refusé.</translated>
+	</message>
+<!--
+CHECK-UP - Virtualization Tools
+-->
+	<message>
+		<original>Virtualization Tools</original>
+		<translated>Outils de virtualisation</translated>
+	</message>
+	<message>
+		<original>Use checkup of Virtualization Tools</original>
+		<translated>Utiliser la vérification des outils de virtualisation</translated>
+	</message>
+<!--
+CHECK-UP - Privilèges
+-->
+	<message>
+		<original>Privileges</original>
+		<translated>Privilèges</translated>
+	</message>
+	<message>
+		<original>Administrator privileges</original>
+		<translated>Privilèges d'administrateur</translated>
+	</message>
+	<message>
+		<original>Use checkup of administrator privileges</original>
+		<translated>Utiliser la vérification des privilèges administrateur</translated>
+	</message>
+<!--
+PROTECTION FEATURES
+-->
+	<message>
+		<original>PROTECTION FEATURES</original>
+		<translated>CARACTÉRISTIQUES DE PROTECTION</translated>
+	</message>
+<!--
+PROTECTION FEATURES - File analyzer deception
+-->
+	<message>
+		<original>File analyzer deception</original>
+		<translated>Tromper les analyseurs de fichiers</translated>
+	</message>
+	<message>
+		<original>Name of the protection code section:</original>
+		<translated>Nom de la section du code de protection :</translated>
+	</message>
+	<message>
+		<original>Keep original file size</original>
+		<translated>Conserver la taille du fichier d'origine</translated>
+	</message>
+<!--
+PROTECTION FEATURES - Import protection
+-->
+	<message>
+		<original>Import protection</original>
+		<translated>Protection à l'importation</translated>
+	</message>
+	<message>
+		<original>Advance force import protection</original>
+		<translated>Protection avancée contre l'importation forcée</translated>
+	</message>
+	<message>
+		<original>Redirect WinAPI functions</original>
+		<translated>Rediriger les fonctions WinAPI</translated>
+	</message>
+	<message>
+		<original>Emulate WinAPI functions</original>
+		<translated>Emuler les fonctions WinAPI</translated>
+	</message>
+<!--
+PROTECTION FEATURES - Inline Patching
+-->
+	<message>
+		<original>Inline Patching</original>
+		<translated>Correction en ligne</translated>
+	</message>
+	<message>
+		<original>Use Inline Patching Protection</original>
+		<translated>Utiliser la correction de protection en ligne</translated>
+	</message>
+	<message>
+		<original>Number of protection threads</original>
+		<translated>Nombre de fils de protection</translated>
+	</message>
+	<message>
+		<original>Inline checkup delay</original>
+		<translated>Délais de vérification en ligne</translated>
+	</message>
+<!--
+PROTECTION FEATURES - Protected strings
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Edit Protected String Data</original>
+		<translated>Modifier les données de chaîne de caractères protégées</translated>
+	</message>
+	<message>
+		<original>Unique String Identifiers</original>
+		<translated>Identificateurs de chaîne de caractères uniques</translated>
+	</message>
+	<message>
+		<original>Key</original>
+		<translated>Clé</translated>
+	</message>
+	<message>
+		<original>String Data</original>
+		<translated>Données de chaîne</translated>
+	</message>
+	<message>
+		<original>Enter the data of the string</original>
+		<translated>Entrez les données de la chaîne de caractères</translated>
+	</message>
+	<message>
+		<original>Comment (for information purpose only)</original>
+		<translated>Commentaire (à titre d'information seulement)</translated>
+	</message>
+	<message>
+		<original>Ansi String</original>
+		<translated>Chaîne Ansi</translated>
+	</message>
+	<message>
+		<original>Wide String</original>
+		<translated>Chaîne Large</translated>
+	</message>
+	<message>
+		<original>Binary Data</original>
+		<translated>Données binaires</translated>
+	</message>
+	<message>
+		<original>Load From File</original>
+		<translated>Charger depuis le fichier</translated>
+	</message>
+	<message>
+		<original>Change Font</original>
+		<translated>Changer la police</translated>
+	</message>
+-->
+	<message>
+		<original>Protected strings</original>
+		<translated>Chaînes protégées</translated>
+	</message>
+	<message>
+		<original>ID</original>
+		<translated>ID</translated>
+	</message>
+	<message>
+		<original>Key</original>
+		<translated>Clé</translated>
+	</message>
+	<message>
+		<original>String Data</original>
+		<translated>Données de chaîne</translated>
+	</message>
+	<message>
+		<original>Comment</original>
+		<translated>Commentaire</translated>
+	</message>
+<!--
+PROTECTION FEATURES - Resources Protection
+-->
+	<message>
+		<original>Resources Protection</original>
+		<translated>Protection des ressources</translated>
+	</message>
+	<message>
+		<original>Skip protection of the selected types of resources (note, it is recommended to keep default values for this option in case you are not sure how it affects the protected application)</original>
+		<translated>Sauter la protection des types de ressources sélectionnées (notez qu'il est recommandé de conserver les valeurs par défaut de cette option au cas où vous n'êtes pas sûr de la façon dont elles affectent l'application protégée)</translated>
+	</message>
+<!--
+VIRTUAL BOX
+-->
+	<message>
+		<original>VIRTUAL BOX</original>
+		<translated>BOÎTE VIRTUELLE</translated>
+	</message>
+<!--
+VIRTUAL BOX - Files
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Properties</original>
+		<translated>Propriétés</translated>
+	</message>
+	<message>
+		<original>Virtualization Method</original>
+		<translated>Méthode de virtualisation</translated>
+	</message>
+	<message>
+		<original>Never Write to Disk</original>
+		<translated>Ne jamais écrire sur le disque</translated>
+	</message>
+	<message>
+		<original>Always Write to Disk</original>
+		<translated>Toujours écrire sur le disque</translated>
+	</message>
+	<message>
+		<original>Write to Disk if not Exists</original>
+		<translated>Écrire sur le disque s'il n'existe pas</translated>
+	</message>
+	<message>
+		<original>Register as ActiveX (COM) component</original>
+		<translated>Enregistrer comme composant ActiveX (COM)</translated>
+	</message>
+	<message>
+		<original>Install and setup ActiveX (COM) component</original>
+		<translated>Installation et configuration du composant ActiveX (COM)</translated>
+	</message>
+	<message>
+		<original>Overwrite File Time/Date</original>
+		<translated>Écraser l'heure/date du fichier</translated>
+	</message>
+	<message>
+		<original>Overwrite File Attributes</original>
+		<translated>Écraser les attributs de fichier</translated>
+	</message>
+	<message>
+		<original>Pass Command Line</original>
+		<translated>Passer une ligne de commande</translated>
+	</message>
+	<message>
+		<original>Hide from File Open/Save dialogs</original>
+		<translated>Masquer depuis les dialogues Fichier Ouvrir/Enregistrer</translated>
+	</message>
+	<message>
+		<original>Inherited (from global option)</original>
+		<translated>Hérité (depuis l'option globale)</translated>
+	</message>
+	<message>
+		<original>Hide</original>
+		<translated>Cacher</translated>
+	</message>
+	<message>
+		<original>Show</original>
+		<translated>Afficher</translated>
+	</message>
+	<message>
+		<original>Browse...</original>
+		<translated>Parcourir...</translated>
+	</message>
+-->
+	<message>
+		<original>Files</original>
+		<translated>Fichiers</translated>
+	</message>
+	<message>
+		<original>Enable Files Virtualization</original>
+		<translated>Activer la virtualisation des fichiers</translated>
+	</message>
+	<message>
+		<original>Delete extracted files on exit</original>
+		<translated>Supprimer les fichiers extraits en quittant</translated>
+	</message>
+	<message>
+		<original>Compress files</original>
+		<translated>Compresser les fichiers</translated>
+	</message>
+	<message>
+		<original>Drag files and folders to the Virtual Box Files tree</original>
+		<translated>Faites glisser les fichiers et dossiers vers l'arborescence des fichiers de la Boîte Virtuelle</translated>
+	</message>
+<!--
+VIRTUAL BOX - Registry
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Name</original>
+		<translated>Nom</translated>
+	</message>
+	<message>
+		<original>Data</original>
+		<translated>Données</translated>
+	</message>
+-->
+	<message>
+		<original>Registry</original>
+		<translated>Registre</translated>
+	</message>
+	<message>
+		<original>Enable Registry Virtualization</original>
+		<translated>Activer la virtualisation du registre</translated>
+	</message>
+<!--
+VIRTUAL BOX - Packaging
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Edit File Name/Mask</original>
+		<translated></translated>
+	</message>
+	<message>
+		<original>File Name for External Package (eg: package.dat, pckg*.dat, %SYSTEM FOLDER%\pckg.dat)</original>
+		<translated></translated>
+	</message>
+	<message>
+		<original>Add Path Variable</original>
+		<translated></translated>
+	</message>
+	<message>
+		<original>Yes</original>
+		<translated>Oui</translated>
+	</message>
+	<message>
+		<original>No</original>
+		<translated>Non</translated>
+	</message>
+	<message>
+		<original>Cancel</original>
+		<translated>Annuler</translated>
+	</message>
+-->
+	<message>
+		<original>Packaging</original>
+		<translated>Conditionnement</translated>
+	</message>
+	<message>
+		<original>Allow Bundling of External Packages</original>
+		<translated>Autoriser le regroupement de paquets externes</translated>
+	</message>
+	<message>
+		<original>Package Builder</original>
+		<translated>Constructeur de paquets</translated>
+	</message>
+	<message>
+		<original>Check Packages Integrity</original>
+		<translated>Vérifier l'intégrité des paquets</translated>
+	</message>
+	<message>
+		<original>File Name/Mask</original>
+		<translated>Nom du fichier/masque</translated>
+	</message>
+	<message>
+		<original>Define allowed file names (masks) for external packages</original>
+		<translated>Définir les noms de fichiers autorisés (masques) pour les paquets externes</translated>
+	</message>
+	<message>
+		<original>New Package</original>
+		<translated>Nouveau paquet</translated>
+	</message>
+	<message>
+		<original>Open Template...</original>
+		<translated>Ouvrir un modèle...</translated>
+	</message>
+	<message>
+		<original>Save Template</original>
+		<translated>Enregistrer le modèle</translated>
+	</message>
+	<message>
+		<original>Save Template As...</original>
+		<translated>Enregistrer le modèle sous...</translated>
+	</message>
+	<message>
+		<original>Save Package...</original>
+		<translated>Enregistrer le paquet...</translated>
+	</message>
+	<message>
+		<original>Close</original>
+		<translated>Fermer</translated>
+	</message>
+	<message>
+		<original>Remove</original>
+		<translated>Enlever</translated>
+	</message>
+	<message>
+		<original>Save Package</original>
+		<translated>Enregistrer le paquet</translated>
+	</message>
+	<message>
+		<original>Do you want to save changes to package template?</original>
+		<translated>Souhaitez-vous enregistrer les modifications apportées au modèle de package ?</translated>
+	</message>
+	<message>
+		<original>Select File Name to Save Package</original>
+		<translated>Sélectionner le nom du fichier pour enregistrer le paquet</translated>
+	</message>
+	<message>
+		<original>Any File (*.*)|*.*</original>
+		<translated>Tout fichier (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>New</original>
+		<translated>Nouveau</translated>
+	</message>
+<!--
+VIRTUAL BOX - Options
+-->
+	<message>
+		<original>Map executable files using temporary file</original>
+		<translated>Mapper les fichiers exécutables à l'aide d'un fichier temporaire</translated>
+	</message>
+	<message>
+		<original>Share virtual system to child processes</original>
+		<translated>Partager le système virtuel avec les processus enfants</translated>
+	</message>
+	<message>
+		<original>Allow running of virtual executable files</original>
+		<translated>Autoriser l'exécution de fichiers exécutables virtuels</translated>
+	</message>
+	<message>
+		<original>Hide files and folders from File Open/Save dialogs</original>
+		<translated>Masquer les fichiers et les dossiers des boîtes de dialogue Ouvrir/Enregistrer les fichiers</translated>
+	</message>
+<!--
+VIRTUAL MACHINE
+-->
+	<message>
+		<original>VIRTUAL MACHINE</original>
+		<translated>MACHINE VIRTUELLE</translated>
+	</message>
+<!--
+VIRTUAL MACHINE - Settings
+-->
+	<message>
+		<original>Virtual Machine Type</original>
+		<translated>Type de machine virtuelle</translated>
+	</message>
+	<message>
+		<original>Classic</original>
+		<translated>Classique</translated>
+	</message>
+	<message>
+		<original>Modern RISC (recommended)</original>
+		<translated>RISC moderne (recommandé)</translated>
+	</message>
+	<message>
+		<original>RISC virtual Machine - Properties</original>
+		<translated>Machine virtuelle RISC - Propriétés</translated>
+	</message>
+	<message>
+		<original>Trashgen</original>
+		<translated>Corbeille</translated>
+	</message>
+	<message>
+		<original>Obfuscation</original>
+		<translated>Obscurcissement</translated>
+	</message>
+	<message>
+		<original>Duplicates</original>
+		<translated>Dupliqués</translated>
+	</message>
+	<message>
+		<original>Encryption</original>
+		<translated>Cryptage</translated>
+	</message>
+<!--
+VIRTUAL MACHINE - File entry point
+-->
+	<message>
+		<original>File entry point</original>
+		<translated>Point d'entrée du fichier</translated>
+	</message>
+	<message>
+		<original>Enable virtualization of file entry point</original>
+		<translated>Activer la virtualisation du point d'entrée du fichier</translated>
+	</message>
+<!--
+VIRTUAL MACHINE - Functions selecting
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>MAP file is not found! Please compile your project with MAP file option.</original>
+		<translated>Le fichier MAP n'a pas été trouvé ! Veuillez compiler votre projet avec l'option de fichier MAP.</translated>
+	</message>
+	<message>
+		<original>More info:</original>
+		<translated>Plus d'info :</translated>
+	</message>
+	<message>
+		<original>How to create a map file?</original>
+		<translated>Comment créer un fichier map ?</translated>
+	</message>
+-->
+	<message>
+		<original>Functions selecting</original>
+		<translated>Sélection des fonctions</translated>
+	</message>
+	<message>
+		<original>Add Function(s)</original>
+		<translated>Ajouter fonction (s)</translated>
+	</message>
+	<message>
+		<original>Function Name</original>
+		<translated>Nom de la fonction</translated>
+	</message>
+	<message>
+		<original>Virtualization</original>
+		<translated>Virtualisation</translated>
+	</message>
+	<message>
+		<original>Virtualization:</original>
+		<translated>Virtualisation :</translated>
+	</message>
+	<message>
+		<original>Virtual Machine Functions Selecting</original>
+		<translated>Sélection des fonctions de la machine virtuelle</translated>
+	</message>
+	<message>
+		<original>Filter</original>
+		<translated>Filtre</translated>
+	</message>
+	<message>
+		<original>Enter function name or address:</original>
+		<translated>Entrez nom/adresse de la fonction :</translated>
+	</message>
+	<message>
+		<original>Apply</original>
+		<translated>Appliquer</translated>
+	</message>
+	<message>
+		<original>Address</original>
+		<translated>Adresse</translated>
+	</message>
+	<message>
+		<original>RISC Virtual Machine</original>
+		<translated>Machine virtuelle RISC</translated>
+	</message>
+	<message>
+		<original>Classic Virtual Machine</original>
+		<translated>Machine virtuelle classique</translated>
+	</message>
+<!--
+MISCELLANEOUS
+-->
+	<message>
+		<original>MISCELLANEOUS</original>
+		<translated>DIVERS</translated>
+	</message>
+<!--
+MISCELLANEOUS - Splash screen
+-->
+	<message>
+		<original>Splash screen</original>
+		<translated>Écran d'accueil</translated>
+	</message>
+	<message>
+		<original>Use splash screen</original>
+		<translated>Utiliser un écran d'accueil</translated>
+	</message>
+	<message>
+		<original>Select picture file for splash screen:</original>
+		<translated>Choisir le fichier image pour l'écran d'accueil :</translated>
+	</message>
+	<message>
+		<original>Select picture file for splash screen</original>
+		<translated>Choisir le fichier image pour l'écran d'accueil</translated>
+	</message>
+	<message>
+		<original>All supported files|*.BMP;*.JPG;*.JPE;*.JPEG;*.PNG|Bitmap files (*.bmp)|*.BMP|Jpeg files (*.jpg;*.jpe;*.jpeg)|*.JPG;*.JPE;*.JPEG|Png files (*.png)|*.PNG</original>
+		<translated>Tous les fichiers supportés|*.BMP;*.JPG;*.JPE;*.JPEG;*.PNG|Fichiers bitmap (*.bmp)|*.BMP|Fichiers Jpeg (*.jpg;*.jpe;*.jpeg)|*.JPG;*.JPE;*.JPEG|Fichiers Png (*.png)|*.PNG</translated>
+	</message>
+	<message>
+		<original>Show at Program Start</original>
+		<translated>Afficher au démarrage du programme</translated>
+	</message>
+	<message>
+		<original>Show on the top of all windows</original>
+		<translated>Afficher au dessus de toutes les fenêtres</translated>
+	</message>
+	<message>
+		<original>Stop execution when splash screen is showing</original>
+		<translated>Arrêter l'exécution lorsque l'écran d'accueil s'affiche</translated>
+	</message>
+	<message>
+		<original>Close Options</original>
+		<translated>Options de fermeture</translated>
+	</message>
+	<message>
+		<original>Close on mouse click</original>
+		<translated>Fermer lors d'un clic de souris</translated>
+	</message>
+	<message>
+		<original>Time to Show (milliseconds, set to zero for infinite show)</original>
+		<translated>Temps d'affichage (millisecondes, mettre à zéro pour un affichage infini)</translated>
+	</message>
+<!--
+MISCELLANEOUS - Watermark
+-->
+	<message>
+		<original>Watermark</original>
+		<translated>Filigrane</translated>
+	</message>
+	<message>
+		<original>Use Watermark</original>
+		<translated>Utiliser filigrane</translated>
+	</message>
+	<message>
+		<original>Text</original>
+		<translated>Texte</translated>
+	</message>
+	<message>
+		<original>File</original>
+		<translated>Fichier</translated>
+	</message>
+	<message>
+		<original>Add Watermark</original>
+		<translated>Ajouter un filigrane</translated>
+	</message>
+	<message>
+		<original>Name</original>
+		<translated>Nom</translated>
+	</message>
+	<message>
+		<original>PUBLIC</original>
+		<translated>PUBLIQUE</translated>
+	</message>
+	<message>
+		<original>PRIVATE</original>
+		<translated>PRIVÉ</translated>
+	</message>
+<!--
+MISCELLANEOUS - Plugins
+-->
+	<message>
+		<original>Plugins</original>
+		<translated>Plugins</translated>
+	</message>
+	<message>
+		<original>Click on the plugin to view it's description</original>
+		<translated>Cliquez sur le plugin pour voir sa description</translated>
+	</message>
+	<message>
+		<original>Use</original>
+		<translated>Utiliser</translated>
+	</message>
+	<message>
+		<original>About</original>
+		<translated>A propos de</translated>
+	</message>
+<!--
+MISCELLANEOUS - Custom VERSION Resource
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Locale ID:</original>
+		<translated>ID locale :</translated>
+	</message>
+	<message>
+		<original>CompanyName</original>
+		<translated>NomDeSociété</translated>
+	</message>
+	<message>
+		<original>FileDescription</original>
+		<translated>DescriptionDuFichier</translated>
+	</message>
+	<message>
+		<original>FileVersion</original>
+		<translated>VersionDuFichier</translated>
+	</message>
+	<message>
+		<original>InternalName</original>
+		<translated>NomInterne</translated>
+	</message>
+	<message>
+		<original>LegalCopyright</original>
+		<translated>DroitDAuteurLégal</translated>
+	</message>
+	<message>
+		<original>LegalTrademark</original>
+		<translated>MarqueDeCommerceLégale</translated>
+	</message>
+	<message>
+		<original>OriginalFilename</original>
+		<translated>NomDeFichierOriginal</translated>
+	</message>
+	<message>
+		<original>ProductName</original>
+		<translated>NomDuProduit</translated>
+	</message>
+	<message>
+		<original>ProductVersion</original>
+		<translated>VersionDuProduit</translated>
+	</message>
+	<message>
+		<original>Comments</original>
+		<translated>Commentaires</translated>
+	</message>
+-->
+	<message>
+		<original>Custom VERSION Resource</original>
+		<translated>Ressource VERSION personnalisée</translated>
+	</message>
+	<message>
+		<original>Add Custom VERSION Resource</original>
+		<translated>Ajouter une ressource VERSION personnalisée</translated>
+	</message>
+	<message>
+		<original>Module Version Number</original>
+		<translated>Numéro de version du module</translated>
+	</message>
+	<message>
+		<original>Major Version</original>
+		<translated>Version majeure</translated>
+	</message>
+	<message>
+		<original>Minor Version</original>
+		<translated>Version mineure</translated>
+	</message>
+	<message>
+		<original>Release</original>
+		<translated>Révision</translated>
+	</message>
+	<message>
+		<original>Build</original>
+		<translated>Compilation</translated>
+	</message>
+	<message>
+		<original>Module Attributes</original>
+		<translated>Attributs du module</translated>
+	</message>
+	<message>
+		<original>Debug Build</original>
+		<translated>Compil. déboguée</translated>
+	</message>
+	<message>
+		<original>Pre-release</original>
+		<translated>Pré-version</translated>
+	</message>
+	<message>
+		<original>Special Build</original>
+		<translated>Compilation spéciale</translated>
+	</message>
+	<message>
+		<original>Private Build</original>
+		<translated>Compilation privée</translated>
+	</message>
+	<message>
+		<original>DLL</original>
+		<translated>DLL</translated>
+	</message>
+	<message>
+		<original>Language</original>
+		<translated>Langue</translated>
+	</message>
+	<message>
+		<original>Value</original>
+		<translated>Valeur</translated>
+	</message>
+<!--
+MISCELLANEOUS - Custom MANIFEST Resource
+-->
+	<message>
+		<original>Custom MANIFEST Resource</original>
+		<translated>Ressource MANIFEST personnalisée</translated>
+	</message>
+	<message>
+		<original>Add Custom MANIFEST Resource</original>
+		<translated>Ajouter une ressource MANIFEST personnalisée</translated>
+	</message>
+	<message>
+		<original>MANIFEST type</original>
+		<translated>Type de MANIFEST</translated>
+	</message>
+	<message>
+		<original>Select Type of MANIFEST Resource Template:</original>
+		<translated>Sélectionnez le type de modèle de ressource MANIFEST :</translated>
+	</message>
+	<message>
+		<original>External MANIFEST File:</original>
+		<translated>Fichier MANIFEST externe :</translated>
+	</message>
+	<message>
+		<original>Resource Data:</original>
+		<translated>Données ressource :</translated>
+	</message>
+	<message>
+		<original>Select MANIFEST File</original>
+		<translated>Choisir le fichier MANIFEST</translated>
+	</message>
+	<message>
+		<original>MANIFEST Files (*.manifest)|*.manifest|All Files (*.*)|*.*</original>
+		<translated>Fichiers MANIFEST (*.manifest)|*.manifest|Tous les fichiers (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Get MANIFEST from External File</original>
+		<translated>Obtenir un MANIFEST à partir d'un fichier externe</translated>
+	</message>
+<!--
+MISCELLANEOUS - Command Line
+-->
+	<message>
+		<original>Command Line</original>
+		<translated>Ligne de commande</translated>
+	</message>
+	<message>
+		<original>Override command line parameters</original>
+		<translated>Remplacer les paramètres de ligne de commande</translated>
+	</message>
+	<message>
+		<original>Overwrite parameters</original>
+		<translated>Remplacer les paramètres</translated>
+	</message>
+	<message>
+		<original>Append parameters</original>
+		<translated>Ajouter des paramètres</translated>
+	</message>
+	<message>
+		<original>Enter command line parameters</original>
+		<translated>Entrer les paramètres de la ligne de commande</translated>
+	</message>
+<!--
+MISCELLANEOUS - Environment Variables
+-->
+	<message>
+		<original>Environment Variables</original>
+		<translated>Variables d'environnement</translated>
+	</message>
+<!--
+MISCELLANEOUS - Other
+-->
+	<message>
+		<original>Other</original>
+		<translated>Autres</translated>
+	</message>
+	<message>
+		<original>Suppress graphical module</original>
+		<translated>Supprimer le module graphique</translated>
+	</message>
+	<message>
+		<original>Do not check if the file is compressed</original>
+		<translated>Ne pas vérifier si le fichier est compressé</translated>
+	</message>
+	<message>
+		<original>Do not search markers in protecting file</original>
+		<translated>Ne pas rechercher les marqueurs dans le fichier protégé</translated>
+	</message>
+	<message>
+		<original>Below options relate to a very specific files, problems and compatibility issues. Please never use it until you get instructions from support team</original>
+		<translated>Les options ci-dessous concernent des fichiers très spécifiques, des problèmes spécifiques et des problèmes de compatibilité. Ne l'utilisez jamais tant que vous n'avez pas reçu des instructions de l'équipe d'assistance</translated>
+	</message>
+	<message>
+		<original>Remove Overlay From Protected File</original>
+		<translated>Supprimer le recouvrement d'un fichier protégé</translated>
+	</message>
+	<message>
+		<original>Keep Original Import Directory</original>
+		<translated>Conserver le répertoire d'importation original</translated>
+	</message>
+	<message>
+		<original>Do not Compress and Encrypt the Code</original>
+		<translated>Ne pas compresser et crypter le code</translated>
+	</message>
+	<message>
+		<original>Delete Debug Directory from File Header</original>
+		<translated>Supprimer le répertoire de débogage depuis l'en-tête du fichier</translated>
+	</message>
+	<message>
+		<original>Hardware ID</original>
+		<translated>ID du matériel</translated>
+	</message>
+	<message>
+		<original>Compatibility Level 1</original>
+		<translated>Compatibilité Niveau 1</translated>
+	</message>
+	<message>
+		<original>Compatibility Level 2</original>
+		<translated>Compatibilité Niveau 2</translated>
+	</message>
+	<message>
+		<original>Compatibility Level 3</original>
+		<translated>Compatibilité Niveau 3</translated>
+	</message>
+	<message>
+		<original>Compatibility Level 4</original>
+		<translated>Compatibilité Niveau 4</translated>
+	</message>
+	<message>
+		<original>Compatibility Level 5</original>
+		<translated>Compatibilité Niveau 5</translated>
+	</message>
+	<message>
+		<original>Compatibility Level 6</original>
+		<translated>Compatibilité Niveau 6</translated>
+	</message>
+	<message>
+		<original>Compatibility Level 7</original>
+		<translated>Compatibilité Niveau 7</translated>
+	</message>
+	<message>
+		<original>Hook Entire Process to Check for Enigma API Calls</original>
+		<translated>Connecter l'ensemble du processus pour vérifier les appels API d'Enigma</translated>
+	</message>
+	<message>
+		<original>Custom Memory Manager (avoid freezing under Windows XP with Virtual Box)</original>
+		<translated>Gestionnaire de mémoire personnalisé (éviter le gel sous XP avec la boîte virtuelle)</translated>
+	</message>
+	<message>
+		<original>Taggant</original>
+		<translated>Étiquette</translated>
+	</message>
+	<message>
+		<original>Add Timestamp</original>
+		<translated>Ajouter un horodatage</translated>
+	</message>
+	<message>
+		<original>Server Url:</original>
+		<translated>Url serveur :</translated>
+	</message>
+<!--
+TRIAL CONTROL
+-->
+	<message>
+		<original>TRIAL CONTROL</original>
+		<translated>CONTRÔLE DE LA VERSION D'ESSAI</translated>
+	</message>
+<!--
+TRIAL CONTROL - Common
+-->
+	<message>
+		<original>Reset trial in new version</original>
+		<translated>Réinitialiser la période d'essai dans la nouvelle version</translated>
+	</message>
+	<message>
+		<original>Trial expiration action</original>
+		<translated>Action lors de l'expiration de la période d'essai</translated>
+	</message>
+	<message>
+		<original>Open file if the trial has expired</original>
+		<translated>Ouvrir le fichier si la période d'essai a expiré</translated>
+	</message>
+	<message>
+		<original>File name:</original>
+		<translated>Nom de fichier :</translated>
+	</message>
+<!--
+TRIAL CONTROL - Trial Data Storing
+-->
+	<message>
+		<original>Trial Data Storing</original>
+		<translated>Stockage des données de la version d'essai</translated>
+	</message>
+	<message>
+		<original>Use custom defined places where trial information will be stored</original>
+		<translated>Utiliser un lieu personnalisé où seront stockées les informations sur la version d'essai</translated>
+	</message>
+	<message>
+		<original>Place</original>
+		<translated>Lieu</translated>
+	</message>
+	<message>
+		<original>Path</original>
+		<translated>Chemin</translated>
+	</message>
+	<message>
+		<original>Edit Trial Storage Parameter</original>
+		<translated>Modifier les paramètres de stockage de la version d'essai</translated>
+	</message>
+	<message>
+		<original>Data Encryption</original>
+		<translated>Cryptage des données</translated>
+	</message>
+	<message>
+		<original>Enter or Generate the key for data encryption</original>
+		<translated>Entrer/générer la clé de cryptage des données</translated>
+	</message>
+	<message>
+		<original>Generate</original>
+		<translated>Générer</translated>
+	</message>
+	<message>
+		<original>Trial Storage System</original>
+		<translated>Système de stockage de la version d'essai</translated>
+	</message>
+	<message>
+		<original>Select the system where trial information will be stored</original>
+		<translated>Sélectionnez le système dans lequel les informations sur la version d'essai seront stockées</translated>
+	</message>
+	<message>
+		<original>Registry Properties</original>
+		<translated>Propriétés du registre</translated>
+	</message>
+	<message>
+		<original>Base Registry Path</original>
+		<translated>Chemin de base</translated>
+	</message>
+	<message>
+		<original>Relative Registry Path (eg: SOFTWATE\MyPorgram)</original>
+		<translated>Chemin relatif du registre (ex : SOFTWARE\MonProg)</translated>
+	</message>
+	<message>
+		<original>Value Name</original>
+		<translated>Valeur Nom</translated>
+	</message>
+	<message>
+		<original>Value Type</original>
+		<translated>Valeur Type</translated>
+	</message>
+	<message>
+		<original>File Properties</original>
+		<translated>Propriétés du fichier</translated>
+	</message>
+	<message>
+		<original>Base File Path</original>
+		<translated>Chemin de base</translated>
+	</message>
+	<message>
+		<original>Relative File Path (eg: Data\Folder)</original>
+		<translated>Chemin d'accès relatif aux fichiers (ex : Data\Dossier)</translated>
+	</message>
+	<message>
+		<original>File Attributes</original>
+		<translated>Attributs de fichiers</translated>
+	</message>
+<!--
+TRIAL CONTROL - Lock trial to user language
+-->
+	<message>
+		<original>Lock trial to user language</original>
+		<translated>Limiter la période d'essai à la langue de l'utilisateur</translated>
+	</message>
+	<message>
+		<original>Select countries to allow trial settings only</original>
+		<translated>Sélectionnez les pays pour autoriser uniquement les paramètres d'évaluation</translated>
+	</message>
+	<message>
+		<original>Select all</original>
+		<translated>Sélectionner tous</translated>
+	</message>
+	<message>
+		<original>Deselect all</original>
+		<translated>Désélectionner tous</translated>
+	</message>
+	<message>
+		<original>Invert all</original>
+		<translated>Inverser tous</translated>
+	</message>
+<!--
+TRIAL CONTROL - Limitation by executions count
+-->
+	<message>
+		<original>Limitation by executions count</original>
+		<translated>Limitation par le nombre d'exécutions</translated>
+	</message>
+	<message>
+		<original>Use limitation by executions count</original>
+		<translated>Utiliser la limitation par le nombre d'exécutions</translated>
+	</message>
+	<message>
+		<original>Maximal count of executions:</original>
+		<translated>Nombre maximal d'exécutions :</translated>
+	</message>
+	<message>
+		<original>Action when expired</original>
+		<translated>Action à l'expiration</translated>
+	</message>
+	<message>
+		<original>Terminate execution after (seconds)</original>
+		<translated>Terminer l'exécution après (secondes)</translated>
+	</message>
+<!--
+TRIAL CONTROL - Limitation by days count
+-->
+	<message>
+		<original>Limitation by days count</original>
+		<translated>Limitation par le nombre de jours</translated>
+	</message>
+	<message>
+		<original>Use limitation by days count</original>
+		<translated>Utiliser la limitation par le nombre de jours</translated>
+	</message>
+	<message>
+		<original>Maximal count of days:</original>
+		<translated>Nombre maximal de jours :</translated>
+	</message>
+<!--
+TRIAL CONTROL - Limitation by expiration date
+-->
+	<message>
+		<original>Limitation by expiration date</original>
+		<translated>Limitation par date d'expiration</translated>
+	</message>
+	<message>
+		<original>Use limitation by expiration date</original>
+		<translated>Utiliser la limitation par date d'expiration</translated>
+	</message>
+	<message>
+		<original>Expiration date:</original>
+		<translated>Date d'expiration :</translated>
+	</message>
+<!--
+TRIAL CONTROL - Limitation from date till date
+-->
+	<message>
+		<original>Limitation from date till date</original>
+		<translated>Limitation sur une période</translated>
+	</message>
+	<message>
+		<original>Use limitation from date till date</original>
+		<translated>Utiliser la limitation sur une période</translated>
+	</message>
+	<message>
+		<original>Start trial date:</original>
+		<translated>Début de la période d'essai :</translated>
+	</message>
+	<message>
+		<original>End trial date:</original>
+		<translated>Fin de la période d'essai :</translated>
+	</message>
+<!--
+TRIAL CONTROL - Limitation of execution time
+-->
+	<message>
+		<original>Limitation of execution time</original>
+		<translated>Limitation du temps d'exécution</translated>
+	</message>
+	<message>
+		<original>Use limitation of execution time</original>
+		<translated>Utiliser la limitation du temps d'exécution</translated>
+	</message>
+	<message>
+		<original>Number of minutes:</original>
+		<translated>Nombre de minutes :</translated>
+	</message>
+	<message>
+		<original>Terminate on expiration</original>
+		<translated>Terminer lors de l'expiration</translated>
+	</message>
+<!--
+TRIAL CONTROL - Reminder
+-->
+	<message>
+		<original>Reminder</original>
+		<translated>Fenêtre de rappel d'expiration</translated>
+	</message>
+	<message>
+		<original>Use reminder</original>
+		<translated>Utiliser le rappel d'expiration</translated>
+	</message>
+	<message>
+		<original>Seconds between shows:</original>
+		<translated>Secondes entre les affichages :</translated>
+	</message>
+<!--
+TRIAL CONTROL - Time control
+-->
+	<message>
+		<original>Time control</original>
+		<translated>Contrôle de l'horloge</translated>
+	</message>
+	<message>
+		<original>Check clock reversing</original>
+		<translated>Vérifier l'inversion de l'horloge</translated>
+	</message>
+	<message>
+		<original>Do not check clock reversing if registered</original>
+		<translated>Ne pas vérifier l'inversion de l'horloge si enregistré</translated>
+	</message>
+	<message>
+		<original>Use protection date to check users clock (be sure your computer has valid date/time while protecting)</original>
+		<translated>Utilisez la date de protection pour vérifier l'horloge des utilisateurs (assurez-vous que votre ordinateur a une date/heure valide lors de la protection)</translated>
+	</message>
+	<message>
+		<original>Action when clock reversed</original>
+		<translated>Action en cas d'inversion de l'horloge</translated>
+	</message>
+	<message>
+		<original>Terminate if clock reversed</original>
+		<translated>Terminer si l'horloge a été inversée</translated>
+	</message>
+<!--
+MENU
+-->
+	<message>
+		<original>&amp;File</original>
+		<translated>Fichier</translated>
+	</message>
+	<message>
+		<original>&amp;New project</original>
+		<translated>Nouveau projet</translated>
+	</message>
+	<message>
+		<original>&amp;Open project...</original>
+		<translated>Ouvrir projet...</translated>
+	</message>
+	<message>
+		<original>&amp;ReOpen</original>
+		<translated>Réouvrir</translated>
+	</message>
+	<message>
+		<original>&amp;Save project</original>
+		<translated>Enregistrer projet</translated>
+	</message>
+	<message>
+		<original>Save project &amp;As...</original>
+		<translated>Enregistrer projet sous...</translated>
+	</message>
+	<message>
+		<original>&amp;Close project</original>
+		<translated>Fermer projet</translated>
+	</message>
+	<message>
+		<original>Import Project...</original>
+		<translated>Importer projet...</translated>
+	</message>
+	<message>
+		<original>&amp;Protect</original>
+		<translated>Protéger</translated>
+	</message>
+	<message>
+		<original>E&amp;xit</original>
+		<translated>Quitter</translated>
+	</message>
+	<message>
+		<original>&amp;Tools</original>
+		<translated>Outils</translated>
+	</message>
+	<message>
+		<original>Key generator</original>
+		<translated>Générateur de clés</translated>
+	</message>
+	<message>
+		<original>Hardware ID Checker</original>
+		<translated>Contrôle l'ID du matériel</translated>
+	</message>
+	<message>
+		<original>License Manager</original>
+		<translated>Gestionnaire de licences</translated>
+	</message>
+	<message>
+		<original>Mailer</original>
+		<translated>Messagerie</translated>
+	</message>
+	<message>
+		<original>Watermark Viewer</original>
+		<translated>Visionneuse de filigrane</translated>
+	</message>
+	<message>
+		<original>Export Key generator</original>
+		<translated>Générateur de clés d'exportation</translated>
+	</message>
+	<message>
+		<original>Debug</original>
+		<translated>Déboguer</translated>
+	</message>
+	<message>
+		<original>Reset all local information</original>
+		<translated>Réinitialiser toutes les informations locales</translated>
+	</message>
+	<message>
+		<original>Reset local trial information</original>
+		<translated>Réinitialiser les informations sur la version d'essai locale</translated>
+	</message>
+	<message>
+		<original>Reset local registration information</original>
+		<translated>Réinitialiser les informations d'enregistrement local</translated>
+	</message>
+	<message>
+		<original>Reset local special information</original>
+		<translated>Réinitialiser les informations locales spéciales</translated>
+	</message>
+	<message>
+		<original>All local information was reseted successfully.</original>
+		<translated>Toutes les informations locales ont été réinitialisées avec succès.</translated>
+	</message>
+	<message>
+		<original>Local trial information was not found.</original>
+		<translated>L'information loacale sur la version d'essai n'a pas été trouvée.</translated>
+	</message>
+	<message>
+		<original>&amp;Language</original>
+		<translated>Langage</translated>
+	</message>
+	<message>
+		<original>&amp;Help</original>
+		<translated>Aide</translated>
+	</message>
+	<message>
+		<original>Contents</original>
+		<translated>Sommaire</translated>
+	</message>
+	<message>
+		<original>Unregister...</original>
+		<translated>Désenregistrer</translated>
+	</message>
+	<message>
+		<original>On-line registration</original>
+		<translated>Enregistrement en ligne</translated>
+	</message>
+	<message>
+		<original>About...</original>
+		<translated>A propos de...</translated>
+	</message>
+<!--
+ABOUT dialog
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Licence type:</original>
+		<translated>Type de licence :</translated>
+	</message>
+-->
+	<message>
+		<original>Web site: </original>
+		<translated>Site Web : </translated>
+	</message>
+	<message>
+		<original>E-mail: </original>
+		<translated>Courriel : </translated>
+	</message>
+	<message>
+		<original>This copy is registered to:</original>
+		<translated>Cette copie est enregistrée au nom de :</translated>
+	</message>
+<!--
+MESSAGES
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Confirm</original>
+		<translated>Confirmer</translated>
+	</message>
+	<message>
+		<original>Warning</original>
+		<translated>Attention</translated>
+	</message>
+-->
+	<message>
+		<original>Language was changed. Please restart application.</original>
+		<translated>La langue a été changée. Veuillez redémarrer l'application.</translated>
+	</message>
+	<message>
+		<original>restart of the application is needed</original>
+		<translated>le redémarrage de l'application est nécessaire</translated>
+	</message>
+	<message>
+		<original>Do you really want to unregister Enigma Protector?
+This action will delete license information from you computer.</original>
+		<translated>Voulez-vous vraiment désenregistrer Enigma Protector ?
+Cette action supprimera les informations de licence de votre ordinateur.</translated>
+	</message>
+	<message>
+		<original>Local registration information was not found.</original>
+		<translated>L'information sur l'enregistrement local n'a pas été trouvée</translated>
+	</message>
+	<message>
+		<original>Local special information was not found.</original>
+		<translated>Aucune information spéciale locale n'a été trouvée</translated>
+	</message>
+	<message>
+		<original>Settings mismatch</original>
+		<translated>Incompatibilité des réglages</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Hardware ID, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Hardware ID only. We recommend you to enter Hardware ID or uncheck option REGISTRATION FEATURES - Key Properties - Allow only hardware locked keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans ID de matériel, mais les paramètres du projet nécessitent des clés d'enregistrement avec ID de matériel uniquement. Nous vous recommandons d'entrer l'ID du matériel ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Expiration Date, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Expiration Date only. We recommend you to enter Expiration Date or uncheck option REGISTRATION FEATURES - Key Properties - Allow only time limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans date d'expiration, mais les paramètres du projet nécessitent des clés d'enregistrement avec date d'expiration uniquement. Nous vous recommandons d'entrer la date d'expiration ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Register After Date, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Register After Date only. We recommend you to enter Register After Date or uncheck option REGISTRATION FEATURES - Key Properties - Allow only keys with Register After date. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans date d'enregistrement après, mais les paramètres du projet nécessitent des clés d'enregistrement avec une date d'enregistrement après uniquement. Nous vous recommandons d'entrer la date d'enregistrement ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Register Before Date, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Register Before Date only. We recommend you to enter Register Before Date or uncheck option REGISTRATION FEATURES - Key Properties - Allow only keys with Register Before date. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans date d'enregistrement avant, mais les paramètres du projet nécessitent des clés d'enregistrement avec date d'enregistrement avant. Nous vous recommandons d'entrer la date d'enregistrement ou de décocher l'option correspondate. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Executions limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Executions limit only. We recommend you to enter Executions or uncheck option REGISTRATION FEATURES - Key Properties - Allow only executions limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans limite d'exécutions, mais les paramètres du projet nécessitent des clés d'enregistrement avec limite d'exécutions seulement. Nous vous recommandons d'entrer la limite d'exécutions ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Days limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Days limit only. We recommend you to enter Days or uncheck option REGISTRATION FEATURES - Key Properties - Allow only days limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans limite de jours, mais les paramètres du projet nécessitent des clés d'enregistrement avec limite de jours seulement. Nous vous recommandons d'entrer le nombre de jours ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Runtime limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Runtime limit only. We recommend you to enter Runtime or uncheck option REGISTRATION FEATURES - Key Properties - Allow only runtime limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans limite de temps d'exécution, mais les paramètres du projet nécessitent des clés d'enregistrement avec limite de temps d'exécution uniquement. Nous vous recommandons de saisir l'option limite de temps ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Global time limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Global time limit only. We recommend you to enter Global time or uncheck option REGISTRATION FEATURES - Key Properties - Allow only global time limited keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans limite de temps globale, mais les paramètres du projet nécessitent des clés d'enregistrement avec limite de temps globale seulement. Nous vous recommandons d'entrer le temps global ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+	<message>
+		<original>You are trying to generate registration key without Country lock limit, but project settings, entered in REGISTRATION FEATURES - Key Properties panel, require registration keys with Country Lock only. We recommend you to enter Country lock or uncheck option REGISTRATION FEATURES - Key Properties - Allow only country locked keys. The registration key will be known as invalid by protected software!</original>
+		<translated>Vous essayez de générer une clé d'enregistrement sans limite de verrouillage du pays, mais les paramètres du projet nécessitent des clés d'enregistrement avec verrouillage du pays uniquement. Nous vous recommandons d'entrer le verrouillage du pays ou de décocher l'option correspondante. La clé d'enregistrement sera considérée comme non valide par le logiciel protégé !</translated>
+	</message>
+<!--
+OTHER DIALOGS
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Select filename for save</original>
+		<translated>Choisir le nom du fichier pour l'enregistrement</translated>
+	</message>
+	<message>
+		<original>Enigma project (*.enigma)|*.enigma|All files (*.*)|*.*</original>
+		<translated>Projet Enigma (*.enigma)|*.enigma|Tous les fichiers (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Import Project</original>
+		<translated>Importer projet</translated>
+	</message>
+	<message>
+		<original>Select Enigma Protector project file</original>
+		<translated>Choisir le fichier de projet Enigma Protector</translated>
+	</message>
+	<message>
+		<original>Select settings you would like to import</original>
+		<translated>Choisir les paramètres que vous souhaitez importer</translated>
+	</message>
+	<message>
+		<original>Select All</original>
+		<translated>Sélectionner tous</translated>
+	</message>
+	<message>
+		<original>Clear All</original>
+		<translated>Effacer tout</translated>
+	</message>
+	<message>
+		<original>Import</original>
+		<translated>Importer</translated>
+	</message>
+-->
+	<message>
+		<original>Select Project File</original>
+		<translated>Sélectionner le fichier de projet</translated>
+	</message>
+<!--
+TOOLS - Key generator
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Enigma Protector - Keys Generator (ANSI)</original>
+		<translated>Enigma Protector - Générateur de clés (ANSI)</translated>
+	</message>
+	<message>
+		<original>Enter User Information!</original>
+		<translated>Entrez l'information sur l'utilisateur !</translated>
+	</message>
+-->
+	<message>
+		<original>Keys Generator</original>
+		<translated>Générateur de clés</translated>
+	</message>
+	<message>
+		<original>Registration name</original>
+		<translated>Nom d'enregistrement</translated>
+	</message>
+	<message>
+		<original>Expiration Date</original>
+		<translated>Expire le</translated>
+	</message>
+	<message>
+		<original>Register After</original>
+		<translated>Enreg. après</translated>
+	</message>
+	<message>
+		<original>Register Before</original>
+		<translated>Enreg. avant</translated>
+	</message>
+	<message>
+		<original>Country Lock</original>
+		<translated>Verrou pays</translated>
+	</message>
+	<message>
+		<original>Executions</original>
+		<translated>Exécutions</translated>
+	</message>
+	<message>
+		<original>Days</original>
+		<translated>Jours</translated>
+	</message>
+	<message>
+		<original>Run Time</original>
+		<translated>Exécution</translated>
+	</message>
+	<message>
+		<original>Global Time</original>
+		<translated>Global</translated>
+	</message>
+	<message>
+		<original>Check Hardware ID</original>
+		<translated>Vérifier l'ID du matériel</translated>
+	</message>
+	<message>
+		<original>Please enter Hardware ID!</original>
+		<translated>Veuillez entrer l'ID du matériel</translated>
+	</message>
+	<message>
+		<original>Select sections for decryption</original>
+		<translated>Sélectionner les sections pour le décryptage</translated>
+	</message>
+	<message>
+		<original>Registration key</original>
+		<translated>Clé d'enregistrement</translated>
+	</message>
+	<message>
+		<original>Add hyphens</original>
+		<translated>Ajouter des tirets</translated>
+	</message>
+	<message>
+		<original>Verify</original>
+		<translated>Vérifier</translated>
+	</message>
+	<message>
+		<original>Paste from clipboard</original>
+		<translated>Coller depuis le presse-papier</translated>
+	</message>
+	<message>
+		<original>Add to log</original>
+		<translated>Ajouter au journal</translated>
+	</message>
+	<message>
+		<original>Save to file</original>
+		<translated>Enregistrer dans le fichier</translated>
+	</message>
+	<message>
+		<original>License Log</original>
+		<translated>Journal des licences</translated>
+	</message>
+	<message>
+		<original>Enable capturing of generated licenses</original>
+		<translated>Activer la capture des licences générées</translated>
+	</message>
+	<message>
+		<original>Stolen</original>
+		<translated>Volée</translated>
+	</message>
+<!--
+TOOLS - Hardware ID Checker
+-->
+	<message>
+		<original>Enter First Hardware ID</original>
+		<translated>Entrer l'ID du premier matériel</translated>
+	</message>
+	<message>
+		<original>Enter Second Hardware ID to Compare</original>
+		<translated>Entrez l'ID du deuxième matériel pour comparer</translated>
+	</message>
+	<message>
+		<original>Hardware Lock parameter</original>
+		<translated>Paramètre de verrouillage du matériel</translated>
+	</message>
+	<message>
+		<original>First Hardware ID value</original>
+		<translated>Première valeur de l'ID du matériel</translated>
+	</message>
+	<message>
+		<original>Second hardware ID value</original>
+		<translated>Deuxième valeur de l'ID du matériel</translated>
+	</message>
+<!--
+TOOLS - Enigma License Manager
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>Do you want to delete selected license?</original>
+		<translated>Voulez-vous supprimer la licence sélectionnée ?</translated>
+	</message>
+	<message>
+		<original>Registration info is empty.</original>
+		<translated>Les informations d'enregistrement sont vides.</translated>
+	</message>
+	<message>
+		<original>Registration key is invalid.</original>
+		<translated>La clé d'enregistrement n'est pas valide.</translated>
+	</message>
+	<message>
+		<original>Registration key buffer is empty.</original>
+		<translated>La mémoire tampon des clés d'enregistrement est vide.</translated>
+	</message>
+-->
+	<message>
+		<original>Enigma License Manager</original>
+		<translated>Gestionnaire de licence Enigma</translated>
+	</message>
+	<message>
+		<original>&amp;Manager</original>
+		<translated>Gestionnaire</translated>
+	</message>
+	<message>
+		<original>Import Database...</original>
+		<translated>Importer la base de données...</translated>
+	</message>
+	<message>
+		<original>Keys Generator Properties...</original>
+		<translated>Propriétés du générateur de clés...</translated>
+	</message>
+	<message>
+		<original>&amp;Customer</original>
+		<translated>Utilisateur</translated>
+	</message>
+	<message>
+		<original>Exit</original>
+		<translated>Quitter</translated>
+	</message>
+	<message>
+		<original>New</original>
+		<translated>Nouveau</translated>
+	</message>
+	<message>
+		<original>New Customer</original>
+		<translated>Nouvel utilisateur</translated>
+	</message>
+	<message>
+		<original>Edit Customer</original>
+		<translated>Modifier l'utilisateur</translated>
+	</message>
+	<message>
+		<original>Delete Customer</original>
+		<translated>Supprimer l'utilisateur</translated>
+	</message>
+	<message>
+		<original>Company:</original>
+		<translated>Société :</translated>
+	</message>
+	<message>
+		<original>First name:</original>
+		<translated>Prénom :</translated>
+	</message>
+	<message>
+		<original>Last name:</original>
+		<translated>Nom de famille :</translated>
+	</message>
+	<message>
+		<original>Country:</original>
+		<translated>Pays :</translated>
+	</message>
+	<message>
+		<original>Language:</original>
+		<translated>Langue :</translated>
+	</message>
+	<message>
+		<original>Street address:</original>
+		<translated>Adresse postale :</translated>
+	</message>
+	<message>
+		<original>State/Province:</original>
+		<translated>État/Province :</translated>
+	</message>
+	<message>
+		<original>Zip or postal code:</original>
+		<translated>Code postal / ZIP :</translated>
+	</message>
+	<message>
+		<original>City:</original>
+		<translated>Ville :</translated>
+	</message>
+	<message>
+		<original>Phone:</original>
+		<translated>Téléphone :</translated>
+	</message>
+	<message>
+		<original>Fax:</original>
+		<translated>Fax :</translated>
+	</message>
+	<message>
+		<original>E-mail:</original>
+		<translated>Courriel :</translated>
+	</message>
+	<message>
+		<original>Customers list:</original>
+		<translated>Liste des utilisateurs:</translated>
+	</message>
+	<message>
+		<original>First name</original>
+		<translated>Prénom</translated>
+	</message>
+	<message>
+		<original>Last name</original>
+		<translated>Nom de famille</translated>
+	</message>
+	<message>
+		<original>E-mail</original>
+		<translated>Courriel</translated>
+	</message>
+	<message>
+		<original>Company</original>
+		<translated>Société</translated>
+	</message>
+	<message>
+		<original>Country</original>
+		<translated>Pays</translated>
+	</message>
+	<message>
+		<original>Street address</original>
+		<translated>Adresse postale</translated>
+	</message>
+	<message>
+		<original>State</original>
+		<translated>État</translated>
+	</message>
+	<message>
+		<original>ZIP / Postal code</original>
+		<translated>Code postal / ZIP</translated>
+	</message>
+	<message>
+		<original>City</original>
+		<translated>Ville</translated>
+	</message>
+	<message>
+		<original>Phone</original>
+		<translated>Téléphone</translated>
+	</message>
+	<message>
+		<original>Fax</original>
+		<translated>Fax</translated>
+	</message>
+	<message>
+		<original>Additional Parameters</original>
+		<translated>Paramètres supplémentaires</translated>
+	</message>
+	<message>
+		<original>Customer Licenses</original>
+		<translated>Licences utilisateurs</translated>
+	</message>
+	<message>
+		<original>Subscribed</original>
+		<translated>Souscriptions</translated>
+	</message>
+	<message>
+		<original>Created Date</original>
+		<translated>Date de création</translated>
+	</message>
+	<message>
+		<original>Reference #</original>
+		<translated>Référence</translated>
+	</message>
+	<message>
+		<original>Number of Licenses</original>
+		<translated>Nombre de licences</translated>
+	</message>
+	<message>
+		<original>Price</original>
+		<translated>Prix</translated>
+	</message>
+	<message>
+		<original>Specify additional parameters</original>
+		<translated>Spécifier des paramètres supplémentaires</translated>
+	</message>
+	<message>
+		<original>Enter values of the additional parameters</original>
+		<translated>Saisir les valeurs des paramètres supplémentaires</translated>
+	</message>
+	<message>
+		<original>Parameter</original>
+		<translated>Paramètre</translated>
+	</message>
+	<message>
+		<original>Edit License</original>
+		<translated>Modifier la licence</translated>
+	</message>
+	<message>
+		<original>Registration name:</original>
+		<translated>Nom d'enregistrement :</translated>
+	</message>
+	<message>
+		<original>Additional License Properties</original>
+		<translated>Propriétés supplémentaires de la licence</translated>
+	</message>
+	<message>
+		<original>Number of licenses:</original>
+		<translated>Nombre de licences :</translated>
+	</message>
+	<message>
+		<original>License Price:</original>
+		<translated>Prix de la licence :</translated>
+	</message>
+	<message>
+		<original>Reference number:</original>
+		<translated>N° de référence :</translated>
+	</message>
+	<message>
+		<original>Stolen License</original>
+		<translated>Licence volée</translated>
+	</message>
+	<message>
+		<original>Subscription (Uses by Enigma Mailer)</original>
+		<translated>Abonnement (Utilisé par Enigma Mailer)</translated>
+	</message>
+	<message>
+		<original>Subscribed License</original>
+		<translated>Licences souscrites</translated>
+	</message>
+	<message>
+		<original>Expire Subscription</original>
+		<translated>L'abonnement expire le</translated>
+	</message>
+	<message>
+		<original>Generate Email</original>
+		<translated>Générer un courriel</translated>
+	</message>
+	<message>
+		<original>Comment:</original>
+		<translated>Commentaire :</translated>
+	</message>
+	<message>
+		<original>Hardware ID:</original>
+		<translated>ID du matériel :</translated>
+	</message>
+	<message>
+		<original>Valid hardware id!</original>
+		<translated>ID matériel valide !</translated>
+	</message>
+	<message>
+		<original>Invalid hardware id!</original>
+		<translated>ID matériel invalide !</translated>
+	</message>
+	<message>
+		<original>Do you want to delete selected customer?</original>
+		<translated>Voulez-vous supprimer l'utilisateur sélectionné ?</translated>
+	</message>
+	<message>
+		<original>Keys Generator Settings</original>
+		<translated>Paramètres du générateur de clés</translated>
+	</message>
+	<message>
+		<original>Use Key Expiration (by default)</original>
+		<translated>Utiliser l'expiration des clés (par défaut)</translated>
+	</message>
+	<message>
+		<original>Fixed Value</original>
+		<translated>Valeur fixée</translated>
+	</message>
+	<message>
+		<original>Custom Value</original>
+		<translated>Valeur personnalisée</translated>
+	</message>
+	<message>
+		<original>Monthes</original>
+		<translated>Mois</translated>
+	</message>
+	<message>
+		<original>Register After Date</original>
+		<translated>Enregistrer après la date</translated>
+	</message>
+	<message>
+		<original>Use Register After (by default)</original>
+		<translated>Utiliser Enregistrer après (par défaut)</translated>
+	</message>
+	<message>
+		<original>Register Before Date</original>
+		<translated>Enregistrer avant la date</translated>
+	</message>
+	<message>
+		<original>Use Register Before (by default)</original>
+		<translated>Utiliser Enregistrer avant (par défaut)</translated>
+	</message>
+	<message>
+		<original>Executions Limit</original>
+		<translated>Limite d'exécutions</translated>
+	</message>
+	<message>
+		<original>Use Executions Limit (by default)</original>
+		<translated>Utiliser limite d'exécutions (par défaut)</translated>
+	</message>
+	<message>
+		<original>Executions count</original>
+		<translated>Nombre d'exécutions</translated>
+	</message>
+	<message>
+		<original>Days Limit</original>
+		<translated>Limite jours</translated>
+	</message>
+	<message>
+		<original>Use days Limit (by default)</original>
+		<translated>Utiliser limite jours (par défaut)</translated>
+	</message>
+	<message>
+		<original>Days count</original>
+		<translated>Nombre de jours</translated>
+	</message>
+	<message>
+		<original>Run-time Limit</original>
+		<translated>Limite d'exécutions</translated>
+	</message>
+	<message>
+		<original>Use Run-time Limit (by default)</original>
+		<translated>Utiliser limite d'exécution (par defaut)</translated>
+	</message>
+	<message>
+		<original>Global Time limit</original>
+		<translated>Limite de temps global</translated>
+	</message>
+	<message>
+		<original>Use Global Time Limit (by default)</original>
+		<translated>Utiliser la limite de temps global (par défaut)</translated>
+	</message>
+	<message>
+		<original>Use Country Lock (by default)</original>
+		<translated>Utiliser le verrou pays (par défaut)</translated>
+	</message>
+	<message>
+		<original>Crypted Section</original>
+		<translated>Section cryptée</translated>
+	</message>
+	<message>
+		<original>Select Crypted Sections (by default)</original>
+		<translated>Sélectionner les sections crytées (par défaut)</translated>
+	</message>
+	<message>
+		<original>Stolen Keys</original>
+		<translated>Clés volées</translated>
+	</message>
+	<message>
+		<original>Automatically make expired keys as stolen</original>
+		<translated>Rendre automatiquement les clés périmées comme volées</translated>
+	</message>
+	<message>
+		<original>Subscription</original>
+		<translated>Abonnement</translated>
+	</message>
+	<message>
+		<original>License is subscribed (by default)</original>
+		<translated>La licence est souscrite (par défaut)</translated>
+	</message>
+	<message>
+		<original>License Expiration</original>
+		<translated>Expiration de licence</translated>
+	</message>
+	<message>
+		<original>License has expiration</original>
+		<translated>La licence est expirée</translated>
+	</message>
+	<message>
+		<original>Single template selected in Mailer</original>
+		<translated>Modèle unique sélectionné dans Mailer</translated>
+	</message>
+	<message>
+		<original>All templates in the folder</original>
+		<translated>Tous les modèles du dossier</translated>
+	</message>
+	<message>
+		<original>Select a folder to search files in:</original>
+		<translated>Sélectionnez un dossier dans lequel rechercher des fichiers :</translated>
+	</message>
+	<message>
+		<original>Selected template files</original>
+		<translated>Fichiers modèles sélectionnés</translated>
+	</message>
+	<message>
+		<original>Customer Parameters</original>
+		<translated>Paramètres utilisateurs</translated>
+	</message>
+	<message>
+		<original>Specify the list of additional parameters for customer records</original>
+		<translated>Liste des paramètres supplémentaires pour les enregistrements utilisateur</translated>
+	</message>
+	<message>
+		<original>Short Name</original>
+		<translated>Nom court</translated>
+	</message>
+	<message>
+		<original>Add Parameter</original>
+		<translated>Ajouter paramètre</translated>
+	</message>
+	<message>
+		<original>License Parameters</original>
+		<translated>Paramètres licence</translated>
+	</message>
+	<message>
+		<original>Specify the list of additional parameters for license records</original>
+		<translated>Liste des paramètres supplémentaires pour les enregistrements licence</translated>
+	</message>
+<!--
+TOOLS - Enigma Mailer
+-->
+	<message>
+		<original>Enigma Mailer</original>
+		<translated>Messagerie Enigma</translated>
+	</message>
+	<message>
+		<original>Customers</original>
+		<translated>Utilisateurs</translated>
+	</message>
+	<message>
+		<original>Template</original>
+		<translated>Modèle</translated>
+	</message>
+	<message>
+		<original>Mails</original>
+		<translated>Courriers</translated>
+	</message>
+	<message>
+		<original>Send</original>
+		<translated>Envoyer</translated>
+	</message>
+	<message>
+		<original>EMail Address</original>
+		<translated>Adresse électronique</translated>
+	</message>
+	<message>
+		<original>"FROM" Address (this email address must satisfy User Name and Password shown below)</original>
+		<translated>"DE" Adresse (cette adresse électronique doit correspondre au nom d'utilisateur et au mot de passe indiqués ci-dessous)</translated>
+	</message>
+	<message>
+		<original>Account Information (for authentication on the server)</original>
+		<translated>Informations sur le compte (pour l'authentification sur le serveur)</translated>
+	</message>
+	<message>
+		<original>User Name:</original>
+		<translated>Nom d'utilisateur :</translated>
+	</message>
+	<message>
+		<original>Mail Server</original>
+		<translated>Serveur de messagerie</translated>
+	</message>
+	<message>
+		<original>SMTP Server:</original>
+		<translated>Serveur SMTP :</translated>
+	</message>
+	<message>
+		<original>Port Number:</original>
+		<translated>Numéro de port:</translated>
+	</message>
+	<message>
+		<original>Send Delay</original>
+		<translated>Délai d'envoi</translated>
+	</message>
+	<message>
+		<original>Delay of email sending if server error occurs:</original>
+		<translated>Délais d'envoi de courriel en cas d'erreur du serveur:</translated>
+	</message>
+	<message>
+		<original>Use SSL (for SSL connection it is recommended to use port number 465)</original>
+		<translated>Utiliser SSL (pour la connexion SSL, numéro de port recommandé : 465)</translated>
+	</message>
+	<message>
+		<original>This value uses when the server responses any exception (for example if the message quota has exceeded). Attempt to submit emials will be renewed after following number of minutes.</original>
+		<translated>Cette valeur est utilisée lorsque le serveur répond à une erreur (par exemple si le quota de messages a été dépassé). La tentative de soumettre des courriels sera renouvelée après le nombre de minutes suivant.</translated>
+	</message>
+	<message>
+		<original>Load Pattern From File:</original>
+		<translated>Charger le motif à partir du fichier :</translated>
+	</message>
+	<message>
+		<original>"FROM" field:</original>
+		<translated>Champ "DE" :</translated>
+	</message>
+	<message>
+		<original>"TO" field:</original>
+		<translated>Champ "A" :</translated>
+	</message>
+	<message>
+		<original>"SUBJECT" field:</original>
+		<translated>Champ "OBJET" :</translated>
+	</message>
+	<message>
+		<original>"BODY" field:</original>
+		<translated>Champ "CORPS" :</translated>
+	</message>
+	<message>
+		<original>Generate Emails</original>
+		<translated>Générer des courriels</translated>
+	</message>
+	<message>
+		<original>"CC" field (email address):</original>
+		<translated>Champ "CC" (adresse électronique) - Copie visible :</translated>
+	</message>
+	<message>
+		<original>"BCC" field (email address):</original>
+		<translated>Champ "BCC" (adresse électronique) - Copie cachée :</translated>
+	</message>
+	<message>
+		<original>Open</original>
+		<translated>Ouvrir</translated>
+	</message>
+	<message>
+		<original>Save As</original>
+		<translated>Enregistrer sous</translated>
+	</message>
+	<message>
+		<original>Outbox (%d)</original>
+		<translated>Boîte d'envoi (%d)</translated>
+	</message>
+	<message>
+		<original>Sent Mail (%d)</original>
+		<translated>Courrier envoyé (%d)</translated>
+	</message>
+	<message>
+		<original>Trash (%d)</original>
+		<translated>Corbeille (%d)</translated>
+	</message>
+	<message>
+		<original>To</original>
+		<translated>Pour</translated>
+	</message>
+	<message>
+		<original>Subject</original>
+		<translated>Objet</translated>
+	</message>
+	<message>
+		<original>Created</original>
+		<translated>Créé</translated>
+	</message>
+	<message>
+		<original>Sent</original>
+		<translated>Envoyé</translated>
+	</message>
+	<message>
+		<original>Size</original>
+		<translated>Taille</translated>
+	</message>
+	<message>
+		<original>From:</original>
+		<translated>De :</translated>
+	</message>
+	<message>
+		<original>To:</original>
+		<translated>A :</translated>
+	</message>
+	<message>
+		<original>Subject:</original>
+		<translated>Objet :</translated>
+	</message>
+	<message>
+		<original>Save template to file...</original>
+		<translated>Enregistrer le modèle dans un fichier...</translated>
+	</message>
+	<message>
+		<original>XML Files (*.xml)|*.xml|All Files (*.*)|*.*</original>
+		<translated>Fichiers XML (*.xml)|*.xml|Tous les fichiers (*.*)|*.*</translated>
+	</message>
+	<message>
+		<original>Open file with a template...</original>
+		<translated>Ouvrir un fichier avec un modèle...</translated>
+	</message>
+<!--
+TOOLS - Watermark Viewer
+-->
+	<message>
+		<original>Enigma Watermark Viewer</original>
+		<translated>Visionneuse de Filigrane Enigma</translated>
+	</message>
+	<message>
+		<original>Select Enigma protected file to view it's watermark</original>
+		<translated>Sélectionnez un fichier protégé par Enigma pour voir son filigrane</translated>
+	</message>
+	<message>
+		<original>Watermark is not found!</original>
+		<translated>Le filigrane n'a pas été trouvé !</translated>
+	</message>
+<!--
+TOOLS - Export Key generator
+-->
+<!-- Not included in v6.3
+	<message>
+		<original>&lt; &amp;Back</original>
+		<translated></translated>
+	</message>
+	<message>
+		<original>Allow Changing of Hyphens Value</original>
+		<translated>Autoriser la modification de la valeur des traits d'union</translated>
+	</message>
+	<message>
+		<original>Select Sections Checked by Default</original>
+		<translated>Sélectionner les sections vérifiées par défaut</translated>
+	</message>
+-->
+	<message>
+		<original>Export Keys Generator</original>
+		<translated>Générateur de clés d'exportation</translated>
+	</message>
+	<message>
+		<original>Default value of key hyphens</original>
+		<translated>Valeur par défaut des touches de trait d'union</translated>
+	</message>
+	<message>
+		<original>Keys Generator Window Text</original>
+		<translated>Texte de la fenêtre du générateur de clés</translated>
+	</message>
+	<message>
+		<original>&amp;Next &gt;</original>
+		<translated>Suivant</translated>
+	</message>
+	<message>
+		<original>Key with Hyphens</original>
+		<translated>Clé avec trait d'union</translated>
+	</message>
+	<message>
+		<original>Default value of Hardware ID</original>
+		<translated>Valeur par défaut de l'ID du matériel</translated>
+	</message>
+	<message>
+		<original>Key with Hardware ID</original>
+		<translated>Clé avec ID du matériel</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Hardware ID state</original>
+		<translated>Autoriser le changement de l'état de l'ID du matériel</translated>
+	</message>
+	<message>
+		<original>Default values of key sections</original>
+		<translated>Valeurs par défaut des sections clés</translated>
+	</message>
+	<message>
+		<original>Clear All</original>
+		<translated>Nettoyer tous</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Sections Value</original>
+		<translated>Autoriser le changement de la valeur des sections</translated>
+	</message>
+	<message>
+		<original>Default value of key Expiration date</original>
+		<translated>Valeur par défaut de la clé Date d'expiration</translated>
+	</message>
+	<message>
+		<original>Key with Expiration Date</original>
+		<translated>Clé avec date d'expiration</translated>
+	</message>
+	<message>
+		<original>Fixed Date</original>
+		<translated>Date fixée</translated>
+	</message>
+	<message>
+		<original>Custom Date</original>
+		<translated>Date personnalisée</translated>
+	</message>
+	<message>
+		<original>Today +</original>
+		<translated>Ce jour +</translated>
+	</message>
+	<message>
+		<original>Months</original>
+		<translated>Mois</translated>
+	</message>
+	<message>
+		<original>Years</original>
+		<translated>Années</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Expiration Date</original>
+		<translated>Autoriser le changement de date d'expiration</translated>
+	</message>
+	<message>
+		<original>Date Limitation</original>
+		<translated>Limitation de date</translated>
+	</message>
+	<message>
+		<original>Minimum Date</original>
+		<translated>Date minimale</translated>
+	</message>
+	<message>
+		<original>Maximum Date</original>
+		<translated>Date maximale</translated>
+	</message>
+	<message>
+		<original>Default value of Register After date</original>
+		<translated>Valeur par défaut pour Enregistrer après la date</translated>
+	</message>
+	<message>
+		<original>Key with Register After Date</original>
+		<translated>Clé avec Enregistrer après la date</translated>
+	</message>
+	<message>
+		<original>Default Value</original>
+		<translated>Valeur par défaut</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Register After Date</original>
+		<translated>Autoriser le changement de Enregistrer après la date</translated>
+	</message>
+	<message>
+		<original>Default value of Register Before date</original>
+		<translated>Valeur par défaut pour Enregistrer avant la date</translated>
+	</message>
+	<message>
+		<original>Key with Register Before Date</original>
+		<translated>Clé avec Enregistrer avant la date</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Register Before Date</original>
+		<translated>Autoriser le changement de Enregistrer avant la date</translated>
+	</message>
+	<message>
+		<original>Default value of Executions limit</original>
+		<translated>Valeur par défaut de la limite du nombre d'exécutions</translated>
+	</message>
+	<message>
+		<original>Key with Executions Limit</original>
+		<translated>Clé avec limite du nombre d'exécution</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Executions</original>
+		<translated>Autoriser le changement du nombre d'exécutions</translated>
+	</message>
+	<message>
+		<original>Executions Number</original>
+		<translated>Nombre d'exécutions</translated>
+	</message>
+	<message>
+		<original>Default value of Days limit</original>
+		<translated>Valeur par défaut de la limite de jours</translated>
+	</message>
+	<message>
+		<original>Key with Days Limit</original>
+		<translated>Clé avec la limite de jours</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Days</original>
+		<translated>Autoriser le changement de jours</translated>
+	</message>
+	<message>
+		<original>Days Number</original>
+		<translated>Nombre de jours</translated>
+	</message>
+	<message>
+		<original>Default value of Run-time limit</original>
+		<translated>Valeur par défaut de la limite d'exécutions</translated>
+	</message>
+	<message>
+		<original>Key with Run-time Limit</original>
+		<translated>Clé avec la limite d'exécutions</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Run-time</original>
+		<translated>Autoriser le changement d'exécutions</translated>
+	</message>
+	<message>
+		<original>Run-time Minutes</original>
+		<translated>Minutes d'exécution</translated>
+	</message>
+	<message>
+		<original>Default value of Global Time limit</original>
+		<translated>Valeur par défaut de la limite globale</translated>
+	</message>
+	<message>
+		<original>Key with Global Time limit</original>
+		<translated>Clé avec la limite de temps global</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Global Time</original>
+		<translated>Autoriser le changement du temps global</translated>
+	</message>
+	<message>
+		<original>Global Time minutes</original>
+		<translated>Minutes temps global</translated>
+	</message>
+	<message>
+		<original>Default value of Country Lock</original>
+		<translated>Valeur par défaut du verrouillage des pays</translated>
+	</message>
+	<message>
+		<original>Key with Country Lock</original>
+		<translated>Clé avec le verrouillage des pays</translated>
+	</message>
+	<message>
+		<original>Allow Changing of Country Lock</original>
+		<translated>Autoriser le changement du verrouillage des pays</translated>
+	</message>
+	<message>
+		<original>&amp;Finish</original>
+		<translated>Terminer</translated>
+	</message>
+	<message>
+		<original>Save key generator</original>
+		<translated>Sauvegarder le générateur de clés</translated>
+	</message>
+	<message>
+		<original>Executable Files (*.exe)|*.exe</original>
+		<translated>Fichier exécutable (*.exe)|*.exe</translated>
+	</message>
+<!--
+TOOLS - Form Designer
+-->
+<!-- Not included in v6.3
+-->
+	<message>
+		<original>Form Designer</original>
+		<translated>Concepteur de formulaires</translated>
+	</message>
+	<message>
+		<original>Components</original>
+		<translated>Composants</translated>
+	</message>
+	<message>
+		<original>Load from File...</original>
+		<translated>Charger depuis le fichier...</translated>
+	</message>
+	<message>
+		<original>Save to File...</original>
+		<translated>Enregistrer dans le fichier...</translated>
+	</message>
+	<message>
+		<original>&amp;Edit</original>
+		<translated>Modifier</translated>
+	</message>
+	<message>
+		<original>Cu&amp;t</original>
+		<translated>Couper</translated>
+	</message>
+	<message>
+		<original>&amp;Copy</original>
+		<translated>Copier</translated>
+	</message>
+	<message>
+		<original>&amp;Paste</original>
+		<translated>Coller</translated>
+	</message>
+	<message>
+		<original>&amp;Delete</original>
+		<translated>Supprimer</translated>
+	</message>
+	<message>
+		<original>Select &amp;All</original>
+		<translated>Sélectionnez tous</translated>
+	</message>
+	<message>
+		<original>Bring to &amp;Front</original>
+		<translated>Amener à l'avant</translated>
+	</message>
+	<message>
+		<original>Send to &amp;Back</original>
+		<translated>Envoyer à l'arrière</translated>
+	</message>
+	<message>
+		<original>Align to &amp;Grid</original>
+		<translated>Aligner sur la grille</translated>
+	</message>
+	<message>
+		<original>&amp;View</original>
+		<translated>Afficher</translated>
+	</message>
+	<message>
+		<original>Object Inspector</original>
+		<translated>Inspecteur d'objets</translated>
+	</message>
+	<message>
+		<original>Designed Form</original>
+		<translated>Formulaire conçu</translated>
+	</message>
+	<message>
+		<original>Enigma Protector form (*.enigmaform)|*.enigmaform|Any file (*.*)|*.*</original>
+		<translated>Formulaire Enigma Protector (*.enigmaform)|*.enigmaform|Tous les fichiers (*.*)|*.*</translated>
+	</message>
+</messages>

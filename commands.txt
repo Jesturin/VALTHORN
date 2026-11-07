@@ -1,0 +1,102 @@
+﻿=======Command list FOR XEAxMaste Addons==========
+
+/duel
+/channelon (x times)
+/channeloff (x times)
+/channel number (1 to 9)
+/arena Number (1 to 8)
+/fights
+/cokleft
+/cokwinner
+/dice
+/skinoff
+/skinon
+/geonon
+/geonoff
+/absorbon
+/absorboff
+/ugog
+/topguild
+/eggevent
+/lms
+/damage
+/kill Range
+/fake Number (For fake players)
+/capture
+/hell
+/raid
+/naro
+/cargo
+/fort
+/mine
+/bird
+/cop
+/warinfo
+/ugog
+/areainfo playerName
+/ip playerName
+/shouts
+/honor amount
+/reward amount
+/exp amount
+/coordinates
+/xy
+/frame
+/lotto
+/lottery
+/jail Time playerName
+/unjail playerName
+/mute Time playerName
+/unmute playerName
+/hunting
+/happyhour
+/wcwinner
+/showguilds
+/cokgroup Number
+/cokgroups
+/guildselection
+/reloadgvg
+/showprotect
+/protectselection
+/reloadprotect
+/protectleader
+/cwdeclare
+/endcwdeclare
+/cwstart %d
+/donate -a Amount -n playerName
+/summon -i index -a amount
+/speed number
+/geons amount
+/surrender
+/suicide
+/addsnow number (1 2 or 3)
+/snow number (1 2 or 3)
+/dueltournament
+/selection
+/f10
+/destructing
+/battlefield
+/boxnotice Msg
+/ignorelist
+/unignore playerName
+/ignore playerName
+/bet playerName
+/cleanload
+/reload
+/list
+/fakereload
+/online
+/moveto playerName
+/servertime
+/uptime
+/newnotice Type Message
+/hardblock playerName
+/block playerName
+/unblock playerName
+/hide
+/portuser
+/kick
+/buff Type Time Value
+/buff Type time
+/buff Type
+/cancelbuff Type

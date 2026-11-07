@@ -1,0 +1,6 @@
+(TimedQuest (index 9108 38)(maxrepeat 1)(time 21600))
+(TimedQuest (index 9218 38)(maxrepeat 1)(time 21600))
+(TimedQuest (index 9218 39)(maxrepeat 1)(time 21600))
+(TimedQuest (index 9218 40)(maxrepeat 1)(time 21600))
+(TimedQuest (index 9218 41)(maxrepeat 1)(time 21600))
+(TimedQuest (index 9218 42)(maxrepeat 1)(time 21600))

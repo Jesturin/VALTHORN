@@ -1,0 +1,23 @@
+[Quest]
+Index = 9511
+
+[Map]
+Index = 29
+
+[NPCRed]
+Index = 1246
+
+[NPCBlue]
+Index = 1247
+
+[Reward]
+Index = 3360
+Amount = 20
+HonorPoints = 2000
+RewardPoints = 4000
+
+;Protecting Leader (Door)
+(gennpc (index 1246) (country 0 2) (kind 6) (shape 52) (map 29) (xy 308591 284684 16090) (dir 308590 284745))
+
+;Protecting Leader (Door)
+(gennpc (index 1247) (country 0 2) (kind 6) (shape 52) (map 29) (xy 310271 284668 16090) (dir 310266 284718))

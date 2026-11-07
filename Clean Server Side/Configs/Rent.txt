@@ -1,0 +1,8 @@
+(rentarmor (quest 4650)(index 3417)(prefix 0)(defense 0)(evasion 0)(bof 0)(dss 0)(coin 0)(time 604800))
+(rentarmor (quest 4662)(index 3417)(prefix 0)(defense 0)(evasion 0)(bof 0)(dss 0)(coin 0)(time 302400))
+(rentweapon (quest 4652)(index 790)(prefix 207)(attack 16)(magic 0)(toa 6)(upgrade 16)(mix 1310720)(dss 237)(coin 0)(time 1209600))
+(rentweapon (quest 4654)(index 791)(prefix 207)(attack 16)(magic 0)(toa 6)(upgrade 16)(mix 1310720)(dss 237)(coin 0)(time 1209600))
+(rentweapon (quest 4656)(index 792)(prefix 207)(attack 16)(magic 0)(toa 6)(upgrade 16)(mix 1310720)(dss 237)(coin 0)(time 1209600))
+(rentweapon (quest 4658)(index 793)(prefix 207)(attack 16)(magic 16)(toa 6)(upgrade 16)(mix 1310720)(dss 237)(coin 0)(time 1209600))
+(rentweapon (quest 4660)(index 1439)(prefix 207)(attack 16)(magic 0)(toa 6)(upgrade 16)(mix 1310720)(dss 237)(coin 0)(time 1209600))
+

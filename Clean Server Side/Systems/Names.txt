@@ -1,0 +1,3 @@
+[SystemNames]
+Battlefield = Battlefield
+LastManStanding = Last Man Standing

@@ -1,0 +1,21 @@
+;index => Item Index
+;buff => buff index (can be used any)
+;effect => effect of the buff
+;time => buff time in seconds
+;SBKey => Macro.dat SkillBuff Key
+;SBName => Macro.dat Skillbuff message
+
+;========EXAMPLES===========
+(;buffitem (index 8100)(buff 1511)(effect 15)(time 7200)(SBKey 8100)(SBName 8100)) => EXP Stone 15% for 2 Hours.
+(;buffitem (index 8101)(buff 1510)(effect 2)(time 7200)(SBKey 8100)(SBName 8100)) => Fishing Stone increase speed to 2 Minutes for 2 Hours.
+(;buffitem (index 8102)(buff 2129)(effect 50)(time 7200)(SBKey 8100)(SBName 8100)) => Wealth Stone increase 50% droprate for 2 Hours.
+(;buffitem (index 8103)(buff 2124)(effect 15)(time 7200)(SBKey 8100)(SBName 8100)) => Egg Stone 15% for 2 Hours.
+(;buffitem (index 8104)(buff 2125)(effect 15)(time 7200)(SBKey 8100)(SBName 8100)) => PVE Damage Increase by 15% for 2 hours.
+;=======ENDEXAMPLES=========
+
+(buffitem (index 8100)(buff 178)(effect 15)(time 7200)(SBKey 8100)(SBName 8100))
+(buffitem (index 8101)(buff 178)(effect 15)(time 5400)(SBKey 8101)(SBName 8101))
+(buffitem (index 8102)(buff 120)(effect 0)(time 7200)(SBKey 8102)(SBName 3691))
+(buffitem (index 8103)(buff 2124)(effect 15)(time 7200)(SBKey 8103)(SBName 8103))
+(buffitem (index 8104)(buff 2125)(effect 25)(time 7200)(SBKey 8104)(SBName 8104))
+(buffitem (index 8105)(buff 178)(effect 15)(time 604800)(SBKey 8101)(SBName 8101))

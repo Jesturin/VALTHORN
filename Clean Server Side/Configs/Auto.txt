@@ -1,0 +1,2 @@
+(AutoNotice (minutes 15)(msg 'You can get 2 Golden Exp daily by voting for us on Top Of MMOs and on Top kal'))
+(AutoNotice (minutes 20)(msg ' The Market Event running through the week Today with 40% Extra Bonus Donations, Hurry up and donate through the userpanel'))

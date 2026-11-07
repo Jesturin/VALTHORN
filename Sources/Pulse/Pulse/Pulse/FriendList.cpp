@@ -1,0 +1,5 @@
+#include "StdAfx.h"
+#include "FriendList.h"
+#include "Interface.h"
+#include "Server.h"
+#include "Tools.h"

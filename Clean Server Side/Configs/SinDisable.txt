@@ -1,0 +1,4 @@
+(DisableSin (Map 10))
+(DisableSin (File 29_32))
+
+(EnablePKDrop (File 29_32))

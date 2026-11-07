@@ -1,0 +1,41 @@
+
+(Bone (offset 100))
+
+(Material	(count 1) (frame 1) (offset 100)
+	(0 "05 - Default" (texture "9-fish02.dds" "") (mapoption 0x7) (power 0) (szoption "")))
+
+(Mesh (offset 118)
+	(0 "05 - Default" RIGID   STRIP   (vertex 56) (index 172) (bone_index 0) (material_ref 0) (original_ref 0)
+		(light_map "")
+		(GeomObject "Plane01")))
+
+(Animation (offset 2269)
+	(keyframe count 3)
+	(last 1.999 sec)
+	(strOption "")
+	(Option
+		(0.000 sec    0.0 frame)
+		(0.999 sec    30.0 frame)
+		(1.999 sec    60.0 frame)))
+
+(Header
+	(version 11)
+	(bone count 0)
+	(bone file 1)
+	(material count 1)
+	(mesh count 1)
+	(vertex count 56)
+	(index count 172)
+	(anim file count 1)
+	(keyframe count 3)
+	(string size 78))
+
+(size
+	(header 100)
+	(bone 100, 0)
+	(material 100, 18)
+	(mesh 118, 2151)
+	(anim 2269, 24)
+	(collision 2293, 3880)
+	(string 6173, 78)
+	(total 6251))

@@ -1,0 +1,30 @@
+
+(Material	(count 1) (frame 1) (offset 164)
+	(0 "0asd" (texture "sip_00.dds" "") (mapoption 0x0) (power 0) (szoption "")))
+
+(Mesh (offset 182)
+	(0 "0asd" RIGID   STRIP   (vertex 116) (index 167) (bone_index 0) (material_ref 0) (original_ref 0)
+		(light_map "")
+		(GeomObject "Box03")))
+
+(Header
+	(version 12)
+	(bone count 0)
+	(bone file 0)
+	(material count 1)
+	(mesh count 1)
+	(vertex count 116)
+	(index count 167)
+	(anim file count 0)
+	(keyframe count 0)
+	(string size 63))
+
+(size
+	(header 164)
+	(bone 164, 0)
+	(material 164, 18)
+	(mesh 182, 4061)
+	(anim 4243, 0)
+	(collision 4243, 1420)
+	(string 5663, 63)
+	(total 5726))

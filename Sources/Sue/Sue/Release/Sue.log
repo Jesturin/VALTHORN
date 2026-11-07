@@ -1,0 +1,20 @@
+﻿  StdAfx.cpp
+  Core.cpp
+  Exports.cpp
+  Hooks.cpp
+  Interface.cpp
+  Process.cpp
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Sue\Process.cpp(109,22): warning C4302: 'type cast': truncation from 'char *' to 'WORD'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Sue\Process.cpp(109,34): warning C4302: 'type cast': truncation from 'char *' to 'WORD'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Sue\Process.cpp(145,33): warning C4302: 'type cast': truncation from 'char *' to 'unsigned short'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Sue\Process.cpp(145,55): warning C4302: 'type cast': truncation from 'void *' to 'unsigned short'
+  Tools.cpp
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Sue\Tools.cpp(75,15): warning C4302: 'type cast': truncation from 'void *' to 'BYTE'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Sue\Tools.cpp(78,15): warning C4302: 'type cast': truncation from 'void *' to 'BYTE'
+     Creating library B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Release\Sue.lib and object B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Release\Sue.exp
+  Generating code
+  209 of 213 functions (98.1%) were compiled, the rest were copied from previous compilation.
+    8 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Sue.vcxproj -> B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Sue\Release\Sue.dll

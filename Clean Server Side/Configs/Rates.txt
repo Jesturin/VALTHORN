@@ -1,0 +1,14 @@
+[Insanity]
+Rate = 4
+[Thunder]
+Rate = 7
+[Violent]
+Rate = 9
+[Storm]
+Rate = 15
+[Ancient]
+Rate = 30
+[Perforation]
+Rate = 100
+[Gun]
+Rate = 100

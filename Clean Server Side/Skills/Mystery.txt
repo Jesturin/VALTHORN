@@ -1,0 +1,5 @@
+[Quest]
+Index = 9504
+
+[ResetItem]
+Index = 1990

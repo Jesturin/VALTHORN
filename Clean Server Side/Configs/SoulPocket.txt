@@ -1,0 +1,10 @@
+;type: 1 => jewels 2 => reward pts
+;amount => amount of jewels/reward pts to spend to refill
+;refill => amount of EA refill
+;max => max soul pocket refill amount
+;damage => damage effect of your soul pocket item (in %)
+
+;example for index 9979
+(soulpocket (index 9979)(type 1)(amount 500)(refill 150)(max 9000))
+(soulpocket (index 9979)(type 2)(amount 1500)(refill 150)(max 9000))
+(soulEffect (index 9979)(damage 5))

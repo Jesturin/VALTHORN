@@ -1,0 +1,29 @@
+*본 정보
+
+*재질(Material) 정보
+	(0 "Material #729245" (type MTL_TYPE_STANDARD) (texture "M50101280.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(1 "Material #0" (type MTL_TYPE_STANDARD) (texture "M50101370.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(frame 2 count 2))
+
+*파일 헤더 정보
+	(anim_count = 0)
+	(anim_file_count = 0)
+	(bone_count = 0)
+	(bone_index_count = 0)
+	(cls_size = 0)
+	(string_size = 217)
+	(index_count = 3588)
+	(keyframe_count = 0)
+	(material_count = 2)
+	(material_frame_count = 2)
+	(mesh_count = 2)
+	(bone file = 0)
+	(vertex_count_rigid = 1073)
+	(vertex_count_blend1 = 0)
+	(vertex_count_blend2 = 0)
+	(vertex_count_blend3 = 0)
+	(vertex_count_blend4 = 0)
+
+*메쉬 정보
+	(0 "OJ_MI_148_2" "Material #0" VT_RIGID FT_LIST (vertex 824) (index 3186) (bone_index 0) (material_ref 1))
+	(1 "DrawCall_0000" "Material #729245" VT_RIGID FT_LIST (vertex 249) (index 402) (bone_index 0) (material_ref 0))

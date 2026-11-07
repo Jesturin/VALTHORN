@@ -1,0 +1,73 @@
+[Quest]
+Index = 4099
+
+[Start]
+Time = 22:00:00
+
+[Map]
+Index = 14
+
+[Limit]
+Level = 65
+
+[Requirement]
+Item = 4320
+Amount = 100
+
+[Round1]
+Monster = 949
+Index = 2365
+Amount = 1
+
+[Round2]
+Monster = 954
+Index = 3057
+Amount = 2
+
+[Round3]
+Monster = 1897
+Index = 3056
+Amount = 1
+
+[Round4]
+Monster = 362
+MiniMonster = 436
+MiniAmount = 50
+Index = 2365
+Amount = 2
+
+[Round5]
+Monster = 1302
+MiniMonster = 598
+MiniAmount = 100
+Index = 3360
+Amount = 5
+
+[Round6]
+Monster = 1305
+MiniMonster = 596
+MiniAmount = 100
+Index = 3360
+Amount = 5
+
+[Round7]
+Monster = 1694
+Index = 3360
+Amount = 5
+
+[Round8]
+Monster = 1582
+Index = 3660
+Amount = 5
+
+;//Round 9 and Round 10 are the same (Final phase) - At round 10, rewards amount double
+[Round9]
+Monster = 1429
+MiniMonster = 603
+MiniAmount = 200
+Index = 8771
+Amount = 10
+
+[PerRound]
+HonorPoint = 5
+RewardPoint = 50

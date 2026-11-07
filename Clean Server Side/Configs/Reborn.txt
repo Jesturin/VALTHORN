@@ -1,0 +1,18 @@
+[Reborn]
+Active = 1
+
+[Quest]
+Index = 1908
+
+[GzMsg]
+MinReborn = 1
+
+(Reborn (Num 1)(NameTag 'A')(NamePad 1)(MinLvl 111)(ResetLvl 90)(RewardID 1))
+(Reborn (Num 2)(NameTag 'B')(NamePad 2)(MinLvl 115)(ResetLvl 90)(RewardID 2))
+(Reborn (Num 3)(NameTag 'C')(NamePad 3)(MinLvl 121)(ResetLvl 90)(RewardID 3))
+(Reborn (Num 4)(NameTag 'D')(NamePad 4)(MinLvl 124)(ResetLvl 90)(RewardID 4))
+(Reborn (Num 5)(NameTag 'E')(NamePad 5)(MinLvl 125)(ResetLvl 90)(RewardID 5))
+(Reborn (Num 6)(NameTag 'F')(NamePad 6)(MinLvl 128)(ResetLvl 90)(RewardID 6))
+(Reborn (Num 7)(NameTag 'G')(NamePad 7)(MinLvl 131)(ResetLvl 90)(RewardID 7))
+(Reborn (Num 8)(NameTag 'H')(NamePad 8)(MinLvl 142)(ResetLvl 90)(RewardID 8))
+(Reborn (Num 9)(NameTag 'I')(NamePad 9)(MinLvl 150)(ResetLvl 90)(RewardID 9))

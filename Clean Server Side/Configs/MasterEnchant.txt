@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<MASTER_ENCHANT>
+	<RATE no="1">
+		<SUCCESS_RATE count="1" rate="500"/>
+		<SUCCESS_RATE count="2" rate="600"/>
+		<SUCCESS_RATE count="3" rate="700"/>
+		<SUCCESS_RATE count="4" rate="800"/>
+		<SUCCESS_RATE count="5" rate="900"/>
+		<SUCCESS_RATE count="6" rate="1000"/>
+	</RATE>
+	<INFO no="1">
+		<IN index="2676"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="665"/>
+	</INFO>
+	<INFO no="2">
+		<IN index="2677"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="666"/>
+	</INFO>
+	<INFO no="3">
+		<IN index="2678"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="667"/>
+	</INFO>
+	<INFO no="4">
+		<IN index="2679"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1675"/>
+	</INFO>
+	<INFO no="5">
+		<IN index="2680"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1676"/>
+	</INFO>
+	<INFO no="6">
+		<IN index="2681"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1431"/>
+	</INFO>
+	<INFO no="7">
+		<IN index="2682"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="668"/>
+	</INFO>
+	<INFO no="8">
+		<IN index="2683"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="794"/>
+    </INFO>
+	<INFO no="9">
+		<IN index="2684"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="795"/>
+    </INFO>
+	<INFO no="10">
+		<IN index="2685"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="796"/>
+    </INFO>
+	<INFO no="11">
+		<IN index="2686"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="797"/>
+	</INFO>
+	<INFO no="12">
+		<IN index="2687"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1440"/>
+	</INFO>
+	<INFO no="13">
+		<IN index="2688"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1695"/>
+	</INFO>
+	<INFO no="14">
+		<IN index="2689"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1696"/>
+	</INFO>
+	<INFO no="15">
+		<IN index="2690"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1697"/>
+	</INFO>
+	<INFO no="16">
+		<IN index="2691"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1705"/>
+	</INFO>
+	<INFO no="17">
+		<IN index="2692"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1706"/>
+	</INFO>
+	<INFO no="18">
+		<IN index="2693"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1699"/>
+	</INFO>
+	<INFO no="19">
+		<IN index="2694"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1700"/>
+	</INFO>
+	<INFO no="20">
+		<IN index="2695"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1701"/>
+	</INFO>
+	<INFO no="21">
+		<IN index="2696"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1702"/>
+	</INFO>
+	<INFO no="22">
+		<IN index="2697"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1823"/>
+	</INFO>
+	<INFO no="23">
+   		    <IN index="2698"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1824"/>
+	</INFO>
+	<INFO no="24">
+		<IN index="2699"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1704"/>
+	</INFO>
+	<INFO no="25">
+		<IN index="2700"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1914"/>
+	</INFO>
+	<INFO no="26">
+		<IN index="2701"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1915"/>
+	</INFO>
+	<INFO no="27">
+		<IN index="2702"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1916"/>
+	</INFO>
+	<INFO no="28">
+		<IN index="2703"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1918"/>
+	</INFO>
+	<INFO no="29">
+		<IN index="2704"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1919"/>
+	</INFO>
+	<INFO no="30">
+		<IN index="2705"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1920"/>
+	</INFO>
+	<INFO no="31">
+		<IN index="2706"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1921"/>
+	</INFO>
+	<INFO no="32">
+		<IN index="2707"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1922"/>
+	</INFO>
+	<INFO no="33">
+		<IN index="2708"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1923"/>
+	</INFO>
+	<INFO no="34">
+		<IN index="2709"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1925"/>
+	</INFO>
+	<INFO no="35">
+		<IN index="2710"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1926"/>
+	</INFO>
+	<INFO no="36">
+		<IN index="2711"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1927"/>
+	</INFO>
+	<INFO no="37">
+		<IN index="2712"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1519"/>
+	</INFO>
+	<INFO no="38">
+		<IN index="2713"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1520"/>
+	</INFO>
+	<INFO no="39">
+		<IN index="2714"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1521"/>
+	</INFO>
+	<INFO no="40">
+		<IN index="2715"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1522"/>
+	</INFO>
+	<INFO no="41">
+		<IN index="2716"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1523"/>
+	</INFO>
+	<INFO no="42">
+		<IN index="2717"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1524"/>
+	</INFO>
+	<INFO no="43">
+		<IN index="2718"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1525"/>
+	</INFO>
+	<INFO no="44">
+		<IN index="2719"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1526"/>
+	</INFO>
+	<INFO no="45">
+		<IN index="2720"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1527"/>
+	</INFO>
+	<INFO no="46">
+		<IN index="2721"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1528"/>
+	</INFO>
+	<INFO no="47">
+		<IN index="2722"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1529"/>
+	</INFO>
+	<INFO no="48">
+		<IN index="2723"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1530"/>
+	</INFO>
+	<INFO no="49">
+		<IN index="2724"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1531"/>
+	</INFO>
+	<INFO no="50">
+		<IN index="2725"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1532"/>
+	</INFO>
+	<INFO no="51">
+		<IN index="2726"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1533"/>
+	</INFO>
+	<INFO no="52">
+		<IN index="2727"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1590"/>
+	</INFO>
+	<INFO no="53">
+		<IN index="2728"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1591"/>
+	</INFO>
+	<INFO no="54">
+		<IN index="2729"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1592"/>
+	</INFO>
+	<INFO no="55">
+		<IN index="2730"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1593"/>
+	</INFO>
+	<INFO no="56">
+		<IN index="2731"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1594"/>
+	</INFO>
+	<INFO no="57">
+		<IN index="2732"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1632"/>
+	</INFO>
+	<INFO no="58">
+		<IN index="2733"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1631"/>
+	</INFO>
+	<INFO no="59">
+		<IN index="2734"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1479"/>
+	</INFO>
+	<INFO no="60">
+		<IN index="2735"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1480"/>
+	</INFO>
+	<INFO no="61">
+		<IN index="2736"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1481"/>
+	</INFO>
+	<INFO no="62">
+		<IN index="2737"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1634"/>
+	</INFO>
+	<INFO no="63">
+		<IN index="2738"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1633"/>
+	</INFO>
+	<INFO no="64">
+		<IN index="2739"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1636"/>
+	</INFO>
+	<INFO no="65">
+		<IN index="2740"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1635"/>
+	</INFO>
+	<INFO no="66">
+		<IN index="2741"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1484"/>
+	</INFO>
+	<INFO no="67">
+		<IN index="2742"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1485"/>
+	</INFO>
+	<INFO no="68">
+		<IN index="2743"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1486"/>
+	</INFO>
+	<INFO no="69">
+		<IN index="2744"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1638"/>
+	</INFO>
+	<INFO no="70">
+		<IN index="2745"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1637"/>
+	</INFO>
+	<INFO no="71">
+		<IN index="2746"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1639"/>
+	</INFO>
+	<INFO no="72">
+		<IN index="2747"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1640"/>
+	</INFO>
+	<INFO no="73">
+		<IN index="2748"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1489"/>
+	</INFO>
+	<INFO no="74">
+		<IN index="2749"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1490"/>
+	</INFO>
+	<INFO no="75">
+		<IN index="2750"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1491"/>
+	</INFO>
+	<INFO no="76">
+		<IN index="2751"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1641"/>
+	</INFO>
+	<INFO no="77">
+		<IN index="2752"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1642"/>
+	</INFO>
+	<INFO no="78">
+		<IN index="2753"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1765"/>
+	</INFO>
+	<INFO no="79">
+		<IN index="2754"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1764"/>
+	</INFO>
+	<INFO no="80">
+		<IN index="2755"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1766"/>
+	</INFO>
+	<INFO no="81">
+		<IN index="2756"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1767"/>
+	</INFO>
+	<INFO no="82">
+		<IN index="2757"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1768"/>
+	</INFO>
+	<INFO no="83">
+		<IN index="2758"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1769"/>
+	</INFO>
+	<INFO no="84">
+		<IN index="2759"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1770"/>
+	</INFO>
+	<INFO no="85">
+		<IN index="2760"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1880"/>
+	</INFO>
+	<INFO no="86">
+		<IN index="2761"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1879"/>
+	</INFO>
+	<INFO no="87">
+		<IN index="2762"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1881"/>
+	</INFO>
+	<INFO no="88">
+		<IN index="2763"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1882"/>
+	</INFO>
+	<INFO no="89">
+		<IN index="2764"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1883"/>
+	</INFO>
+	<INFO no="90">
+		<IN index="2765"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1886"/>
+	</INFO>
+	<INFO no="91">
+		<IN index="2766"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1885"/>
+	</INFO>
+	<INFO no="92">
+		<IN index="2767"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1889"/>
+	</INFO>
+	<INFO no="93">
+		<IN index="2768"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1888"/>
+	</INFO>
+	<INFO no="94">
+		<IN index="2769"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1890"/>
+	</INFO>
+	<INFO no="95">
+		<IN index="2770"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1891"/>
+	</INFO>
+	<INFO no="96">
+		<IN index="2771"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1892"/>
+	</INFO>
+	<INFO no="97">
+		<IN index="2772"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1895"/>
+	</INFO>
+	<INFO no="98">
+		<IN index="2773"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1894"/>
+	</INFO>
+	<INFO no="99">
+		<IN index="2774"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1897"/>
+	</INFO>
+	<INFO no="100">
+		<IN index="2775"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1898"/>
+	</INFO>
+	<INFO no="101">
+		<IN index="2776"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1899"/>
+	</INFO>
+	<INFO no="102">
+		<IN index="2777"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1900"/>
+	</INFO>
+	<INFO no="103">
+		<IN index="2778"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1901"/>
+	</INFO>
+	<INFO no="104">
+		<IN index="2779"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1903"/>
+	</INFO>
+	<INFO no="105">
+		<IN index="2780"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1904"/>
+	</INFO>
+	<INFO no="106">
+		<IN index="2781"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1906"/>
+	</INFO>
+	<INFO no="107">
+		<IN index="2782"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1907"/>
+	</INFO>
+	<INFO no="108">
+		<IN index="2783"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1908"/>
+	</INFO>
+	<INFO no="109">
+		<IN index="2784"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1909"/>
+	</INFO>
+	<INFO no="110">
+		<IN index="2785"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1910"/>
+	</INFO>
+	<INFO no="111">
+		<IN index="2786"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1912"/>
+	</INFO>
+	<INFO no="112">
+		<IN index="2787"/>
+		<MATERIAL index="3167" rateIndex="1"/>
+		<OUT index="1913"/>
+	</INFO>
+	
+			
+    <INFO no="113">		<IN index="3217"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3170"/>	</INFO>
+    <INFO no="114">		<IN index="3218"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3171"/>	</INFO>
+    <INFO no="115">		<IN index="3219"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3172"/>	</INFO>
+    <INFO no="116">		<IN index="3220"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3173"/>	</INFO>
+    <INFO no="117">		<IN index="3221"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3174"/>	</INFO>
+    <INFO no="118">		<IN index="3222"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3175"/>	</INFO>
+    <INFO no="119">		<IN index="3223"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3176"/>	</INFO>
+    <INFO no="120">		<IN index="3224"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3177"/>	</INFO>
+    <INFO no="121">		<IN index="3225"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3178"/>	</INFO>
+    <INFO no="122">		<IN index="3226"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3179"/>	</INFO>
+    <INFO no="123">		<IN index="3227"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3180"/>	</INFO>
+    <INFO no="124">		<IN index="3228"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3181"/>	</INFO>
+    <INFO no="125">		<IN index="3229"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3182"/>	</INFO>
+    <INFO no="126">		<IN index="3230"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3183"/>	</INFO>
+    <INFO no="127">		<IN index="3231"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3184"/>	</INFO>
+    <INFO no="128">		<IN index="3232"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3185"/>	</INFO>
+    <INFO no="129">		<IN index="3233"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3186"/>	</INFO>
+    <INFO no="130">		<IN index="3234"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3187"/>	</INFO>
+    <INFO no="131">		<IN index="3235"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3188"/>	</INFO>
+    <INFO no="132">		<IN index="3236"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3189"/>	</INFO>
+    <INFO no="133">		<IN index="3237"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3190"/>	</INFO>
+    <INFO no="134">		<IN index="3238"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3191"/>	</INFO>
+    <INFO no="135">		<IN index="3239"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3192"/>	</INFO>
+    <INFO no="136">		<IN index="3240"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3193"/>	</INFO>
+    <INFO no="137">		<IN index="3241"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3194"/>	</INFO>
+    <INFO no="138">		<IN index="3242"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3195"/>	</INFO>
+    <INFO no="139">		<IN index="3243"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3196"/>	</INFO>
+    <INFO no="140">		<IN index="3244"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3197"/>	</INFO>
+    <INFO no="141">		<IN index="3245"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3026"/>	</INFO>
+    <INFO no="142">		<IN index="3246"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3027"/>	</INFO>
+    <INFO no="143">		<IN index="3247"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3028"/>	</INFO>
+    <INFO no="144">		<IN index="3248"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3029"/>	</INFO>
+    <INFO no="145">		<IN index="3249"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3030"/>	</INFO>
+    <INFO no="146">		<IN index="3250"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3031"/>	</INFO>
+    <INFO no="147">		<IN index="3251"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3032"/>	</INFO>
+    <INFO no="148">		<IN index="3252"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3033"/>	</INFO>
+    <INFO no="149">		<IN index="3253"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3034"/>	</INFO>
+    <INFO no="150">		<IN index="3254"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3035"/>	</INFO>
+    <INFO no="151">		<IN index="3255"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3036"/>	</INFO>
+    <INFO no="152">		<IN index="3256"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3037"/>	</INFO>
+    <INFO no="153">		<IN index="3257"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3038"/>	</INFO>
+    <INFO no="154">		<IN index="3258"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3039"/>	</INFO>
+    <INFO no="155">		<IN index="3259"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3119"/>	</INFO>
+    <INFO no="156">		<IN index="3260"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3120"/>	</INFO>
+    <INFO no="157">		<IN index="3261"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3121"/>	</INFO>
+    <INFO no="158">		<IN index="3262"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3122"/>	</INFO>
+    <INFO no="159">		<IN index="3263"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3123"/>	</INFO>
+    <INFO no="160">		<IN index="3264"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3124"/>	</INFO>
+    <INFO no="161">		<IN index="3265"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3125"/>	</INFO>
+    <INFO no="162">		<IN index="3266"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3126"/>	</INFO>
+    <INFO no="163">		<IN index="3267"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3127"/>	</INFO>
+    <INFO no="164">		<IN index="3268"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3128"/>	</INFO>
+    <INFO no="165">		<IN index="3269"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3129"/>	</INFO>
+    <INFO no="166">		<IN index="3270"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3130"/>	</INFO>
+    <INFO no="167">		<IN index="3271"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3131"/>	</INFO>
+    <INFO no="168">		<IN index="3272"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3132"/>	</INFO>
+    <INFO no="169">		<IN index="3273"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3133"/>	</INFO>
+    <INFO no="170">		<IN index="3274"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3134"/>	</INFO>
+    <INFO no="171">		<IN index="3275"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3135"/>	</INFO>
+    <INFO no="172">		<IN index="3276"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3136"/>	</INFO>
+    <INFO no="173">		<IN index="3277"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3137"/>	</INFO>
+    <INFO no="174">		<IN index="3278"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3138"/>	</INFO>
+    <INFO no="175">		<IN index="3279"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3139"/>	</INFO>
+    <INFO no="176">		<IN index="3280"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3140"/>	</INFO>
+    <INFO no="177">		<IN index="3281"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3141"/>	</INFO>
+    <INFO no="178">		<IN index="3282"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3142"/>	</INFO>
+    <INFO no="179">		<IN index="3283"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3143"/>	</INFO>
+    <INFO no="180">		<IN index="3284"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3144"/>	</INFO>
+    <INFO no="181">		<IN index="3285"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3145"/>	</INFO>
+    <INFO no="182">		<IN index="3286"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3146"/>	</INFO>
+    <INFO no="183">		<IN index="3287"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3147"/>	</INFO>
+    <INFO no="184">		<IN index="3288"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3148"/>	</INFO>
+    <INFO no="185">		<IN index="3289"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3149"/>	</INFO>
+    <INFO no="186">		<IN index="3290"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3150"/>	</INFO>
+    <INFO no="187">		<IN index="3291"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3151"/>	</INFO>
+    <INFO no="188">		<IN index="3292"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3152"/>	</INFO>
+    <INFO no="189">		<IN index="3293"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="3153"/>	</INFO>
+
+    <INFO no="190">		<IN index="7270"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7233"/>	</INFO>
+    <INFO no="191">		<IN index="7271"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7234"/>	</INFO>
+    <INFO no="192">		<IN index="7272"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7239"/>	</INFO>
+    <INFO no="193">		<IN index="7273"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7240"/>	</INFO>
+    <INFO no="194">		<IN index="7274"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7243"/>	</INFO>
+    <INFO no="195">		<IN index="7275"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7244"/>	</INFO>
+    <INFO no="196">		<IN index="7276"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7247"/>	</INFO>
+    <INFO no="197">		<IN index="7277"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7248"/>	</INFO>
+    <INFO no="198">		<IN index="7278"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7251"/>	</INFO>
+    <INFO no="199">		<IN index="7279"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7252"/>	</INFO>
+    <INFO no="200">		<IN index="7391"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7323"/>	</INFO>
+    <INFO no="201">		<IN index="7394"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7362"/>	</INFO>
+    <INFO no="202">		<IN index="7393"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7349"/>	</INFO>
+    <INFO no="203">		<IN index="7390"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7310"/>	</INFO>
+    <INFO no="204">		<IN index="7392"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7336"/>	</INFO>
+    <INFO no="205">		<IN index="7386"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7322"/>	</INFO>
+    <INFO no="206">		<IN index="7389"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7361"/>	</INFO>
+    <INFO no="207">		<IN index="7388"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7348"/>	</INFO>
+    <INFO no="208">		<IN index="7385"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7309"/>	</INFO>
+    <INFO no="209">		<IN index="7387"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7335"/>	</INFO>
+    <INFO no="210">		<IN index="7396"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7324"/>	</INFO>
+    <INFO no="211">		<IN index="7395"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7311"/>	</INFO>
+    <INFO no="212">		<IN index="7399"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7363"/>	</INFO>
+    <INFO no="213">		<IN index="7398"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7350"/>	</INFO>
+    <INFO no="214">		<IN index="7397"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7337"/>	</INFO>
+    <INFO no="215">		<IN index="7381"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7321"/>	</INFO>
+    <INFO no="216">		<IN index="7384"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7360"/>	</INFO>
+    <INFO no="217">		<IN index="7383"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7347"/>	</INFO>
+    <INFO no="218">		<IN index="7380"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7308"/>	</INFO>
+    <INFO no="219">		<IN index="7382"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7334"/>	</INFO>
+    <INFO no="220">		<IN index="7401"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7325"/>	</INFO>
+    <INFO no="221">		<IN index="7400"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7312"/>	</INFO>
+    <INFO no="222">		<IN index="7404"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7364"/>	</INFO>
+    <INFO no="223">		<IN index="7403"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7351"/>	</INFO>
+    <INFO no="224">		<IN index="7402"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7338"/>	</INFO>
+	
+	    <INFO no="225">		<IN index="7280"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7235"/>	</INFO>
+	    <INFO no="226">		<IN index="7281"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7236"/>	</INFO>
+	    <INFO no="227">		<IN index="7282"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7241"/>	</INFO>
+	    <INFO no="228">		<IN index="7283"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7242"/>	</INFO>
+	    <INFO no="229">		<IN index="7284"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7245"/>	</INFO>
+	    <INFO no="230">		<IN index="7285"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7246"/>	</INFO>
+	    <INFO no="231">		<IN index="7286"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7249"/>	</INFO>
+	    <INFO no="232">		<IN index="7287"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7250"/>	</INFO>
+	    <INFO no="233">		<IN index="7288"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7253"/>	</INFO>
+	    <INFO no="234">		<IN index="7289"/>		<MATERIAL index="3167" rateIndex="1"/>		<OUT index="7254"/>	</INFO>
+	
+	
+	
+	
+</MASTER_ENCHANT>

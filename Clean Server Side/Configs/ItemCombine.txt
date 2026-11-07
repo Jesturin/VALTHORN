@@ -1,0 +1,2 @@
+;System to combine inventory slots for same item
+(Combine (Quest 1234 5)(Item 48)(Bound 1))

@@ -1,0 +1,70 @@
+Params:
+MagAtk
+CleanAtk
+PhyAtk
+DeathBlow
+CleanPhyAtk
+Int
+Str
+Hth
+Agi
+Level
+SkillGrade
+Wis
+OTP
+SkillLoading
+Eva
+TargetDefense
+TargetEva
+
+
+;;Knight
+(EditSkill (class 0)(action 42)(damage '(CleanAtk*10)+(PhyAtk*50)+(Str*50)*(SkillGrade*2900)+(Level*4)')(pvpreduce 50)(maxpvedamage 200000)(maxpvpdamage 35000)(AOE 3))
+
+;mage
+;SD
+(EditSkill (class 1)(action 40)(damage '(MagAtk/15)+(Wis)*(SkillGrade*3)+(Wis*35)')(pvpreduce 35)(maxpvedamage 350000)(maxpvpdamage 25000)(AOE 3))
+;Splashy
+(EditSkill (class 1)(action 24)(damage '(MagAtk*3)+(Level*2)+(Int*10)')(pvpreduce 35)(maxpvedamage 350000)(maxpvpdamage 25000)(AOE 3))
+;Lightning Summons
+(EditSkill (class 1)(action 31)(damage '(MagAtk*3)+(Level*2)+(Int*10)')(pvpreduce 35)(maxpvedamage 350000)(maxpvpdamage 25000)(AOE 0))
+;IR
+(EditSkill (class 1)(action 44)(damage '(MagAtk)+(Level*25)+(Int*10)')(pvpreduce 35)(maxpvedamage 350000)(maxpvpdamage 25000)(AOE 3))
+;Thunder Storm
+(EditSkill (class 1)(action 43)(damage '(MagAtk*5)+(Level*20)+(Int*10)')(pvpreduce 35)(maxpvedamage 350000)(maxpvpdamage 25000)(AOE 3))
+;Ice Storm 
+(EditSkill (class 1)(action 45)(damage '(MagAtk*5)+(Level*20)+(Int*10)')(pvpreduce 35)(maxpvedamage 350000)(maxpvpdamage 25000)(AOE 3))
+;Fire Storm 
+(EditSkill (class 1)(action 48)(damage '(MagAtk*5)+(Level*20)+(Int*10)')(pvpreduce 35)(maxpvedamage 350000)(maxpvpdamage 25000)(AOE 3))
+;archer
+ditSkill (class 2)(action 18)(damage '(CleanAtk*2)+(PhyAtk/10)+(Agi*4)+(SkillGrade*900)+(Level*4)')(pvpreduce 500)(maxpvedamage 100000)(maxpvpdamage 8000)(AOE 0))
+
+
+;Shaman
+(EditSkill (class 4)(action 13)(damage '(CleanAtk*1)+(MagAtk/5)+(Int*10)+(Wis/1)+(SkillGrade*30)+(Level*10)')(pvpreduce 35)(maxpvedamage 30000)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 14)(damage '(CleanAtk*1)+(MagAtk/5)+(Int*10)+(Wis/1)+(SkillGrade*30)+(Level*10)')(pvpreduce 35)(maxpvedamage 35000)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 18)(damage '(CleanAtk*1)+(MagAtk/5)+(Int*10)+(Wis/1)+(SkillGrade*30)+(Level*10)')(pvpreduce 35)(maxpvedamage 35000)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 19)(damage '(CleanAtk*1)+(MagAtk/15)+(Int*9)+(Wis/9)+(SkillGrade*30)+(Level*3)')(pvpreduce 35)(maxpvedamage 35000)(maxpvpdamage 2500)(AOE 0))
+;(;Hurricane)
+(EditSkill (class 4)(action 21)(damage '(CleanAtk*4)+(MagAtk/10)+(Int*2)+(Wis*2)+(SkillGrade*150)+(Level*4)')(pvpreduce 100)(maxpvedamage 40000)(maxpvpdamage 35000)(AOE 3))
+;(;Pain of Soul)
+(EditSkill (class 4)(action 22)(damage '(CleanAtk*1)+(MagAtk/2)+(Int*7)+(Wis/7)+(SkillGrade*65)+(Level*2)')(pvpreduce 100)(maxpvedamage 8000)(maxpvpdamage 4500)(AOE 3))
+(EditSkill (class 4)(action 26)(damage '(CleanAtk*2)+(MagAtk/14)+(Int*4)+(Wis/4)+(SkillGrade*40)+(Level*1)')(pvpreduce 35)(maxpvedamage 5000)(maxpvpdamage 2500)(AOE 0))
+;(;Drain Blood)
+(EditSkill (class 4)(action 28)(damage '(CleanAtk*7)+(MagAtk*7)+(Int*4)+(Wis/4)+(SkillGrade*750)+(Level*2)')(pvpreduce 35)(maxpvedamage 56000)(maxpvpdamage 2500)(AOE 3))
+(EditSkill (class 4)(action 44)(damage '(CleanAtk*1)+(MagAtk*3)+(Int*3)+(Wis/2)+(SkillGrade*90)+(Level*3)')(pvpreduce 35)(maxpvedamage 30000)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 46)(damage '(CleanAtk*7)+(MagAtk*6)+(Int*1)+(Wis/1)+(SkillGrade*1150)+(Level*30)')(pvpreduce 35)(maxpvedamage 30000)(maxpvpdamage 2500)(AOE 0))
+;(;Exploding Spirit)
+(EditSkill (class 4)(action 47)(damage '(CleanAtk*40)+(MagAtk*40)+(Int*1)+(Wis*1)+(SkillGrade*1500)+(Level*40)')(pvpreduce 35)(maxpvedamage 200000)(maxpvpdamage 8500)(AOE 3))
+(EditSkill (class 4)(action 90)(damage '(CleanAtk*40)+(MagAtk*45)+(Int*10)+(Wis*10)+(SkillGrade*3000)+(Level*80)')(pvpreduce 35)(maxpvedamage 300000)(maxpvpdamage 8000)(AOE 3))
+(EditSkill (class 4)(action 92)(damage '(CleanAtk*40)+(MagAtk*40)+(Int*10)+(Wis*10)+(SkillGrade*3000)+(Level*80)')(pvpreduce 35)(maxpvedamage 300000)(maxpvpdamage 7000)(AOE 0))
+(EditSkill (class 4)(action 54)(damage '(CleanAtk*2)+(MagAtk*2)+(Int*7)+(Wis/7)+(SkillGrade*250)+(Level*2)')(pvpreduce 35)(maxpvedamage 100000)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 38)(damage '(CleanAtk*15)+(MagAtk*15)+(Int*1)+(Wis/1)+(SkillGrade*1500)+(Level*20)')(pvpreduce 35)(maxpvedamage 100000)(maxpvpdamage 2800)(AOE 3))
+(EditSkill (class 4)(action 39)(damage '(CleanAtk*15)+(MagAtk*15)+(Int*1)+(Wis/1)+(SkillGrade*4000)+(Level*20)')(pvpreduce 35)(maxpvedamage 100000)(maxpvpdamage 6000)(AOE 3))
+(EditSkill (class 4)(action 52)(damage '(CleanAtk*3)+(MagAtk*4)+(Int*1)+(Wis/1)+(SkillGrade*400)+(Level*45)')(pvpreduce 35)(maxpvedamage 100000)(maxpvpdamage 6000)(AOE 0))
+(EditSkill (class 4)(action 91)(damage '(CleanAtk*4)+(MagAtk*11)+(Int*1)+(Wis/1)+(SkillGrade*55000)+(Level*50)')(pvpreduce 35)(maxpvedamage 100000)(maxpvpdamage 8000)(AOE 0))
+(EditSkill (class 4)(action 37)(damage '(SkillGrade*10)')(pvpreduce 35)(maxpvedamage 0)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 36)(damage '(SkillGrade*100)')(pvpreduce 35)(maxpvedamage 0)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 50)(damage '(SkillGrade*400)')(pvpreduce 35)(maxpvedamage 0)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 51)(damage '(SkillGrade*25)')(pvpreduce 35)(maxpvedamage 0)(maxpvpdamage 2500)(AOE 0))
+(EditSkill (class 4)(action 93)(damage '(SkillGrade*30)')(pvpreduce 35)(maxpvedamage 0)(maxpvpdamage 2500)(AOE 0))

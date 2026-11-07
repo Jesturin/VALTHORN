@@ -1,0 +1,404 @@
+// Type - Shop
+// 1 - Evo Coin Shop
+// 2 - Geon Shop
+// 3 - Reward Point Shop
+// 4 - Jewel Shop
+
+//Priority 0  - HOT&NEW TAB
+//Priority 1  - NORMAL ITEM
+//Priority 2  - HOT Popular Item
+//Priority 3  - NEW
+//Priority 4  - ..........
+//Priority 5  - LIMITED EDITION
+//Priority 6  - EVENT Limited Time Only
+//Priority 7  - SALE 10%
+//Priority 8  - SALE 20%
+//Priority 9  - SALE 30%
+//Priority 10 - SALE 40%
+//Priority 11 - SALE 50%
+//Priority 12 - SALE 10% Ending Soon
+//Priority 13 - SALE 20% Ending Soon
+//Priority 14 - SALE 30% Ending Soon
+//Priority 15 - SALE 40% Ending Soon
+//Priority 16 - SALE 50% Ending Soon
+//Priority 17 - SALE ENDS
+//Priority 18 - SOLD OUT
+//Priority 19 - COMING SOON
+
+
+[ItemShopIndex]
+GoldKC = 3400;
+SilverKC = 31;
+Jewel = 3360;
+
+///////////////////////////////////////////////////
+///////////////// EVO COIN SHOP ///////////////////
+///////////////////////////////////////////////////
+(itemshop (billcode 1001)(priority 0)(type 1)(price 1)(discount 0)(itemindex 3360)(amount 1))			//Jewel (10)
+(itemshop (billcode 1002)(priority 0)(type 1)(price 10)(discount 0)(itemindex 3360)(amount 10))			//Jewel (10)
+(itemshop (billcode 1003)(priority 2)(type 1)(price 100)(discount 0)(itemindex 3360)(amount 100))		//Jewel (100)
+(itemshop (billcode 1004)(priority 7)(type 1)(price 300)(discount 10)(itemindex 3360)(amount 300))		//Jewel (300)
+(itemshop (billcode 1005)(priority 8)(type 1)(price 500)(discount 20)(itemindex 3360)(amount 500))		//Jewel (500)
+(itemshop (billcode 1006)(priority 9)(type 1)(price 1000)(discount 30)(itemindex 3360)(amount 1000))	//Jewel (1000)
+(itemshop (billcode 1007)(priority 10)(type 1)(price 2000)(discount 40)(itemindex 3360)(amount 2000))	//Jewel (2000)
+
+///////////////////////////////////////////////////
+/////////////////// JEWEL SHOP ////////////////////
+///////////////////////////////////////////////////
+
+///////////////////
+///// General /////
+///////////////////
+(itemshop (billcode 4101)(priority 1)(type 4)(price 200)(discount 0)(itemindex 688)(amount 1))			//Donation Buff Scroll [Permanent]
+(itemshop (billcode 4102)(priority 3)(type 4)(price 200)(discount 0)(itemindex 2200)(amount 1))			//Call of Dragon's Blessing
+(itemshop (billcode 4103)(priority 1)(type 4)(price 100)(discount 0)(itemindex 3405)(amount 100))		//Daily Quest Token
+(itemshop (billcode 4104)(priority 1)(type 4)(price 30)(discount 0)(itemindex 2131)(amount 1))			//Premium Stone of Experience
+(itemshop (billcode 4105)(priority 1)(type 4)(price 20)(discount 0)(itemindex 2133)(amount 1))			//Premium Stone of Wealth
+
+(itemshop (billcode 4106)(priority 1)(type 4)(price 10)(discount 0)(itemindex 751)(amount 1))			//Novice Trigram Pack
+(itemshop (billcode 4107)(priority 1)(type 4)(price 25)(discount 0)(itemindex 752)(amount 1))			//Apprentice Trigram Pack
+(itemshop (billcode 4108)(priority 1)(type 4)(price 50)(discount 0)(itemindex 753)(amount 1))			//Senior Trigram Pack
+(itemshop (billcode 4109)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3024)(amount 10))			//Water of Eight Trigrams
+
+(itemshop (billcode 4110)(priority 1)(type 4)(price 50)(discount 0)(itemindex 401)(amount 1))			//Devil Mask Pack
+(itemshop (billcode 4111)(priority 1)(type 4)(price 40)(discount 0)(itemindex 402)(amount 1))			//Second Jobchange Pack
+(itemshop (billcode 4112)(priority 1)(type 4)(price 100)(discount 0)(itemindex 754)(amount 1))			//Third Jobchange Pack
+(itemshop (billcode 4113)(priority 1)(type 4)(price 20)(discount 0)(itemindex 755)(amount 1))			//Piece of Unknown World Pack
+(itemshop (billcode 4114)(priority 1)(type 4)(price 100)(discount 0)(itemindex 756)(amount 1))			//Essence of Masters Pack
+(itemshop (billcode 4115)(priority 1)(type 4)(price 20)(discount 0)(itemindex 757)(amount 1))			//Essence of Undead Pack
+
+//(itemshop (billcode 4116)(priority 1)(type 4)(price 25)(discount 0)(itemindex 2135)(amount 1))			//Premium Stone of Fishery
+//(itemshop (billcode 4117)(priority 3)(type 4)(price 10)(discount 0)(itemindex 2050)(amount 3))		//Dragon Certificate [Boss Area]
+//(itemshop (billcode 4118)(priority 1)(type 4)(price 50)(discount 0)(itemindex 1181)(amount 1))		//Lock
+//(itemshop (billcode 4119)(priority 1)(type 4)(price 100)(discount 0)(itemindex 1182)(amount 1))		//Key
+//(itemshop (billcode 4120)(priority 1)(type 4)(price 20)(discount 0)(itemindex 2119)(amount 3))		//Premium Royal Tomb Certificate
+//(itemshop (billcode 4121)(priority 1)(type 4)(price 20)(discount 0)(itemindex 2120)(amount 3))		//Premium Catacombs Certificate
+//(itemshop (billcode 4122)(priority 1)(type 4)(price 20)(discount 0)(itemindex 2121)(amount 3))		//Premium Lizard Island Certificate
+//(itemshop (billcode 4123)(priority 1)(type 4)(price 25)(discount 0)(itemindex 2122)(amount 3))		//Premium E-Mok Island Certificate
+//(itemshop (billcode 4124)(priority 1)(type 4)(price 25)(discount 0)(itemindex 2123)(amount 3))		//Premium Burning Crypt Certificate
+//(itemshop (billcode 4125)(priority 1)(type 4)(price 30)(discount 0)(itemindex 2124)(amount 3))		//Premium Forsaken Crypt Certificate
+
+///////////////////
+///// Enchant /////
+///////////////////
+(itemshop (billcode 4201)(priority 2)(type 4)(price 50)(discount 50)(itemindex 2365)(amount 10))		//Dragon Spirit Scroll
+(itemshop (billcode 4202)(priority 2)(type 4)(price 50)(discount 50)(itemindex 3056)(amount 10))		//Qigong Talisman
+(itemshop (billcode 4203)(priority 2)(type 4)(price 5)(discount 50)(itemindex 3057)(amount 1))			//Perforation Shot
+(itemshop (billcode 4204)(priority 1)(type 4)(price 25)(discount 0)(itemindex 347)(amount 1))			//Physical Attack Talisman [14/14/4]
+(itemshop (billcode 4205)(priority 1)(type 4)(price 50)(discount 0)(itemindex 348)(amount 1))			//Physical Attack Talisman [16/16/6]
+(itemshop (billcode 4206)(priority 1)(type 4)(price 25)(discount 0)(itemindex 357)(amount 1))			//Magical Attack Talisman [14/14]
+(itemshop (billcode 4207)(priority 1)(type 4)(price 50)(discount 0)(itemindex 358)(amount 1))			//Magical Attack Talisman [16/16]
+(itemshop (billcode 4208)(priority 1)(type 4)(price 10)(discount 0)(itemindex 3250)(amount 1))			//Imperial Talisman [15%]
+(itemshop (billcode 4209)(priority 1)(type 4)(price 5)(discount 0)(itemindex 3255)(amount 1))			//Bead of Fire [15%]
+(itemshop (billcode 4210)(priority 1)(type 4)(price 50)(discount 50)(itemindex 3251)(amount 1))			//Imperial Talisman [100%]
+(itemshop (billcode 4211)(priority 1)(type 4)(price 25)(discount 50)(itemindex 3256)(amount 1))			//Bead of Fire [100%]
+(itemshop (billcode 4212)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3280)(amount 1))			//Stone of Mystery [100%]
+(itemshop (billcode 4213)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3281)(amount 1))			//Stone of Demons Blood [100%]
+(itemshop (billcode 4214)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3278)(amount 1))			//Stone of Strength [100%]
+
+///////////////////
+///// Kalcash /////
+///////////////////
+(itemshop (billcode 4301)(priority 1)(type 4)(price 25)(discount 0)(itemindex 2800)(amount 1))			//Inventory Expansion Token
+(itemshop (billcode 4302)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2198)(amount 1))			//Evolved Dragons Blessing [15 Days]
+(itemshop (billcode 4303)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2001)(amount 1))			//Stone of Experience for Ancient Animal [15 Days]
+(itemshop (billcode 4304)(priority 1)(type 4)(price 50)(discount 0)(itemindex 470)(amount 1))			//Stone of Experience [7 Days]
+(itemshop (billcode 4305)(priority 1)(type 4)(price 100)(discount 0)(itemindex 471)(amount 1))			//Stone of Experience [15 Days]
+(itemshop (billcode 4306)(priority 1)(type 4)(price 150)(discount 0)(itemindex 472)(amount 1))			//Stone of Experience [30 Days]
+(itemshop (billcode 4307)(priority 1)(type 4)(price 25)(discount 0)(itemindex 474)(amount 1))			//Stone of Wealth [7 Days]
+(itemshop (billcode 4308)(priority 1)(type 4)(price 50)(discount 0)(itemindex 475)(amount 1))			//Stone of Wealth [15 Days]
+(itemshop (billcode 4309)(priority 1)(type 4)(price 75)(discount 0)(itemindex 476)(amount 1))			//Stone of Wealth [30 Days]
+(itemshop (billcode 4310)(priority 1)(type 4)(price 25)(discount 0)(itemindex 478)(amount 1))			//Stone of Fishery [7 Days]
+(itemshop (billcode 4311)(priority 1)(type 4)(price 50)(discount 0)(itemindex 479)(amount 1))			//Stone of Fishery [15 Days]
+(itemshop (billcode 4312)(priority 1)(type 4)(price 75)(discount 0)(itemindex 480)(amount 1))			//Stone of Fishery [30 Days]
+(itemshop (billcode 4313)(priority 1)(type 4)(price 5)(discount 0)(itemindex 399)(amount 1))			//Kalcash Scroll Pack
+(itemshop (billcode 4314)(priority 1)(type 4)(price 5)(discount 0)(itemindex 400)(amount 1))			//Kalcash Potion Pack
+(itemshop (billcode 4315)(priority 1)(type 4)(price 10)(discount 0)(itemindex 532)(amount 5))			//Scroll of High Perfect Defence [x 10]
+(itemshop (billcode 4316)(priority 1)(type 4)(price 10)(discount 0)(itemindex 540)(amount 5))			//Scroll of High HP Absorption [x 10]
+(itemshop (billcode 4317)(priority 1)(type 4)(price 10)(discount 0)(itemindex 481)(amount 20))			//Polishing Stone [x 20]
+(itemshop (billcode 4318)(priority 1)(type 4)(price 10)(discount 0)(itemindex 515)(amount 20))			//Horn of Spirit [x 20]
+(itemshop (billcode 4319)(priority 1)(type 4)(price 10)(discount 0)(itemindex 482)(amount 20))			//High-Grade Scroll of Rebirth [x 20]
+(itemshop (billcode 4320)(priority 1)(type 4)(price 10)(discount 0)(itemindex 509)(amount 5))			//Saving Scroll of Location [x 5]
+(itemshop (billcode 4321)(priority 1)(type 4)(price 10)(discount 0)(itemindex 511)(amount 50))			//Moving Scroll of Location [x 50]
+(itemshop (billcode 4322)(priority 1)(type 4)(price 50)(discount 0)(itemindex 361)(amount 1))			//Stone of Birth
+(itemshop (billcode 4323)(priority 1)(type 4)(price 10)(discount 0)(itemindex 362)(amount 1))			//Stone of Chance
+(itemshop (billcode 4324)(priority 1)(type 4)(price 50)(discount 0)(itemindex 1990)(amount 1))			//Stone of Chance for Mystery Skill
+(itemshop (billcode 4325)(priority 1)(type 4)(price 20)(discount 0)(itemindex 637)(amount 1))			//Lucky Stone [1 Day]
+(itemshop (billcode 4326)(priority 1)(type 4)(price 50)(discount 0)(itemindex 639)(amount 1))			//Name List [Character]
+(itemshop (billcode 4327)(priority 1)(type 4)(price 50)(discount 0)(itemindex 640)(amount 1))			//Name List [Guild]
+(itemshop (billcode 4328)(priority 3)(type 4)(price 25)(discount 0)(itemindex 650)(amount 1))			//Reset Name List [Character]
+(itemshop (billcode 4329)(priority 3)(type 4)(price 10)(discount 0)(itemindex 513)(amount 5))			//Premium Horn
+(itemshop (billcode 4330)(priority 3)(type 4)(price 10)(discount 0)(itemindex 1472)(amount 3))			//Recall scroll [For Individual]
+
+////////////////
+///// Pets /////
+////////////////
+(itemshop (billcode 4401)(priority 1)(type 4)(price 25)(discount 20)(itemindex 275)(amount 1))			//Common Pet Stone
+(itemshop (billcode 4402)(priority 1)(type 4)(price 50)(discount 20)(itemindex 276)(amount 1))			//Rare Pet Stone
+(itemshop (billcode 4403)(priority 1)(type 4)(price 100)(discount 20)(itemindex 277)(amount 1))			//Legendary Pet Stone
+(itemshop (billcode 4404)(priority 1)(type 4)(price 150)(discount 20)(itemindex 278)(amount 1))			//Epic Pet Stone
+(itemshop (billcode 4405)(priority 2)(type 4)(price 25)(discount 20)(itemindex 279)(amount 1))			//Donation Pet Shard
+
+(itemshop (billcode 4406)(priority 1)(type 4)(price 50)(discount 0)(itemindex 972)(amount 1))			//7700 - Demon Vulgar Pet
+(itemshop (billcode 4407)(priority 1)(type 4)(price 50)(discount 0)(itemindex 973)(amount 1))			//7701 - Demon Carcass Scavenger Pet
+(itemshop (billcode 4408)(priority 1)(type 4)(price 50)(discount 0)(itemindex 974)(amount 1))			//7702 - Demon Water Dragon Pet
+(itemshop (billcode 4409)(priority 1)(type 4)(price 50)(discount 0)(itemindex 975)(amount 1))			//7703 - Devil Soldier Pet
+(itemshop (billcode 4410)(priority 1)(type 4)(price 50)(discount 0)(itemindex 976)(amount 1))			//7704 - Giant Doggebi Pet
+(itemshop (billcode 4411)(priority 1)(type 4)(price 50)(discount 0)(itemindex 977)(amount 1))			//7705 - Assassin who killed Yong-Chun Pet
+(itemshop (billcode 4412)(priority 1)(type 4)(price 50)(discount 0)(itemindex 978)(amount 1))			//7706 - Chief of Angry Doggebi Troop Pet
+(itemshop (billcode 4413)(priority 1)(type 4)(price 50)(discount 0)(itemindex 979)(amount 1))			//7707 - Chief of the Traitors Hangout Yoong-Gi Pet
+(itemshop (billcode 4414)(priority 1)(type 4)(price 50)(discount 0)(itemindex 980)(amount 1))			//7719 - Devil Troop of Desire Pet
+(itemshop (billcode 4415)(priority 1)(type 4)(price 50)(discount 0)(itemindex 981)(amount 1))			//7720 - Devil Troop of Pain Pet
+(itemshop (billcode 4416)(priority 1)(type 4)(price 50)(discount 0)(itemindex 982)(amount 1))			//7721 - Maid of Honor of the Royal Tomb Pet
+(itemshop (billcode 4417)(priority 1)(type 4)(price 50)(discount 0)(itemindex 983)(amount 1))			//7722 - High Class Doggebi with Mask of Black Crow Pet
+
+(itemshop (billcode 4418)(priority 1)(type 4)(price 75)(discount 0)(itemindex 984)(amount 1))			//5298 - The Angel of Death
+(itemshop (billcode 4419)(priority 1)(type 4)(price 75)(discount 0)(itemindex 985)(amount 1))			//4029 - Knight Guard
+(itemshop (billcode 4420)(priority 1)(type 4)(price 75)(discount 0)(itemindex 986)(amount 1))			//4030 - Dark Knight Guard
+(itemshop (billcode 4421)(priority 1)(type 4)(price 75)(discount 0)(itemindex 989)(amount 1))			//4336 - Papa Dog
+(itemshop (billcode 4422)(priority 1)(type 4)(price 75)(discount 0)(itemindex 990)(amount 1))			//9961 - Mama Cat
+
+//(itemshop (billcode 4423)(priority 1)(type 4)(price 75)(discount 0)(itemindex 3305)(amount 1))		//Pumpkin
+//(itemshop (billcode 4424)(priority 1)(type 4)(price 75)(discount 0)(itemindex 3306)(amount 1))		//Jack-o-lantern
+//(itemshop (billcode 4425)(priority 1)(type 4)(price 0)(discount 0)(itemindex 6045)(amount 1))			//Bear Balloon
+//(itemshop (billcode 4426)(priority 1)(type 4)(price 0)(discount 0)(itemindex 6046)(amount 1))			//Happy Balloon
+//(itemshop (billcode 4427)(priority 1)(type 4)(price 0)(discount 0)(itemindex 6047)(amount 1))			//Cat Balloon
+//(itemshop (billcode 4428)(priority 1)(type 4)(price 0)(discount 0)(itemindex 6048)(amount 1))			//Love Balloon
+//(itemshop (billcode 4429)(priority 1)(type 4)(price 0)(discount 0)(itemindex 6049)(amount 1))			//Happy Bear Balloon
+//(itemshop (billcode 4430)(priority 1)(type 4)(price 0)(discount 0)(itemindex 6050)(amount 1))			//Cat love Balloons
+//(itemshop (billcode 4431)(priority 2)(type 4)(price 0)(discount 0)(itemindex 6051)(amount 1))			//Love you Balloons
+
+//////////////////
+///// Mounts /////
+//////////////////
+(itemshop (billcode 4501)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3205)(amount 1))			//Horse [7 Days]
+(itemshop (billcode 4502)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3206)(amount 1))			//White Tiger [7 Days]
+(itemshop (billcode 4503)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3207)(amount 1))			//Wolf [7 Days]
+(itemshop (billcode 4504)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3208)(amount 1))			//Bear [7 Days]
+(itemshop (billcode 4505)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3209)(amount 1))			//White Bunny [7 Days]
+(itemshop (billcode 4506)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3210)(amount 1))			//Raptor [7 Days]
+(itemshop (billcode 4507)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3211)(amount 1))			//Black Horse [7 Days]
+(itemshop (billcode 4508)(priority 1)(type 4)(price 50)(discount 0)(itemindex 3212)(amount 1))			//Skeleten Raptor [7 Days]
+
+//(itemshop (billcode 4509)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3213)(amount 1))			//Dire Wolf [7 Days]
+//(itemshop (billcode 4510)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3214)(amount 1))			//Dire Bear [7 Days]
+//(itemshop (billcode 4511)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3215)(amount 1))			//White Angora [7 Days]
+//(itemshop (billcode 4512)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3216)(amount 1))			//Black Angora [7 Days]
+//(itemshop (billcode 4513)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3217)(amount 1))			//White Horse [7 Days]
+//(itemshop (billcode 4514)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3218)(amount 1))			//Fierce Tiger [7 Days]
+//(itemshop (billcode 4515)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3219)(amount 1))			//Battle Raptor [7 Days]
+//(itemshop (billcode 4516)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3220)(amount 1))			//Battle Skeleten Raptor [7 Days]
+//(itemshop (billcode 4517)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3221)(amount 1))			//Halloween Bunny [7 Days]
+//(itemshop (billcode 4518)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3222)(amount 1))			//General Turtle [7 Days]
+//(itemshop (billcode 4519)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3223)(amount 1))			//Dragon King Turtle [7 Days]
+//(itemshop (billcode 4520)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3224)(amount 1))			//Sled Turtle [7 Days]
+//(itemshop (billcode 4521)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3225)(amount 1))			//Grim Reaper Turtle [7 Days]
+//(itemshop (billcode 4522)(priority 1)(type 4)(price 60)(discount 0)(itemindex 3228)(amount 1))			//Gray Bunny [7 Days]
+
+////////////////////
+///// Costumes /////
+////////////////////
+
+//(itemshop (billcode 4601)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2252)(amount 1))		//Pumpkin Mask [7 Days]
+//(itemshop (billcode 4602)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2253)(amount 1))		//Ghost Mask [7 Days]
+
+(itemshop (billcode 4603)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2254)(amount 1))		//Beach Floral Shirt Costume [Knight] [7 Days]
+(itemshop (billcode 4604)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2255)(amount 1))		//Blue Swimsuit Costume [Archer] [7 Days]
+(itemshop (billcode 4605)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2256)(amount 1))		//Grey Bikini Costume [Mage] [7 Days]
+(itemshop (billcode 4606)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2257)(amount 1))		//Pink Swimsuit Costume [Thief] [7 Days]
+
+(itemshop (billcode 4607)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2258)(amount 1))		//White Hoodie & Shorts Costume [Knight] [7 Days]
+(itemshop (billcode 4608)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2259)(amount 1))		//Purple Swimsuit Costume [Archer] [7 Days]
+(itemshop (billcode 4609)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2260)(amount 1))		//Red Bikini Costume [Mage] [7 Days]
+(itemshop (billcode 4610)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2261)(amount 1))		//Brown Swimsuit Costume [Thief] [7 Days]
+
+(itemshop (billcode 4611)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2262)(amount 1))		//Brown Hoodie & Shorts Costume [Knight] [7 Days]
+(itemshop (billcode 4612)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2263)(amount 1))		//Green Swimsuit Costume [Archer] [7 Days]
+(itemshop (billcode 4613)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2264)(amount 1))		//Purple Bikini Costume [Mage] [7 Days]
+(itemshop (billcode 4614)(priority 1)(type 4)(price 100)(discount 0)(itemindex 2265)(amount 1))		//Blue Swimsuit Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4615)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2266)(amount 1))		//Blue Formal Costume [Knight] [7 Days]
+//(itemshop (billcode 4616)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2267)(amount 1))		//Blue Formal Costume [Archer] [7 Days]
+//(itemshop (billcode 4617)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2268)(amount 1))		//Blue Formal Costume [Mage] [7 Days]
+//(itemshop (billcode 4618)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2269)(amount 1))		//Blue Formal Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4619)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2270)(amount 1))		//Black Formal Costume [Knight] [7 Days]
+//(itemshop (billcode 4620)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2271)(amount 1))		//Black Formal Costume [Archer] [7 Days]
+//(itemshop (billcode 4621)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2272)(amount 1))		//Black Formal Costume [Mage] [7 Days]
+//(itemshop (billcode 4622)(priority 1)(type 4)(price 120)(discount 0)(itemindex 2273)(amount 1))		//Black Formal Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4623)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2274)(amount 1))		//Green Mask Costume [Knight] [7 Days]
+//(itemshop (billcode 4624)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2275)(amount 1))		//Green Mask Costume [Archer] [7 Days]
+//(itemshop (billcode 4625)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2276)(amount 1))		//Green Mask Costume [Mage] [7 Days]
+//(itemshop (billcode 4626)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2277)(amount 1))		//Green Mask Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4627)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2278)(amount 1))		//Black Mask Costume [Knight] [7 Days]
+//(itemshop (billcode 4628)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2279)(amount 1))		//Black Mask Costume [Archer] [7 Days]
+//(itemshop (billcode 4629)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2280)(amount 1))		//Black Mask Costume [Mage] [7 Days]
+//(itemshop (billcode 4630)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2281)(amount 1))		//Black Mask Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4631)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2282)(amount 1))		//Hanbok Costume [Knight] [7 Days]
+//(itemshop (billcode 4632)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2283)(amount 1))		//Hanbok Costume [Archer] [7 Days]
+//(itemshop (billcode 4633)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2284)(amount 1))		//Hanbok Costume [Mage] [7 Days]
+//(itemshop (billcode 4634)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2285)(amount 1))		//Hanbok Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4635)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2286)(amount 1))		//Mong-Nyong Costume [Knight] [7 Days]
+//(itemshop (billcode 4636)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2287)(amount 1))		//Choon-Hyang Costume [Archer] [7 Days]
+//(itemshop (billcode 4637)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2288)(amount 1))		//Choon-Hyang Costume [Mage] [7 Days]
+//(itemshop (billcode 4638)(priority 1)(type 4)(price 150)(discount 0)(itemindex 2289)(amount 1))		//Choon-Hyang Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4639)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2290)(amount 1))		//Christmas Costume [Knight] [7 Days]
+//(itemshop (billcode 4640)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2291)(amount 1))		//Christmas Costume [Archer] [7 Days]
+//(itemshop (billcode 4641)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2292)(amount 1))		//Christmas Costume [Mage] [7 Days]
+//(itemshop (billcode 4642)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2293)(amount 1))		//Christmas Costume [Thief] [7 Days]
+
+//(itemshop (billcode 4643)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2294)(amount 1))		//Beach Floral Shirt Costume Event [Knight] [7 Days]
+//(itemshop (billcode 4644)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2295)(amount 1))		//Blue Swimsuit Costume Event [Archer] [7 Days]
+//(itemshop (billcode 4645)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2296)(amount 1))		//Grey Bikini Costume Event [Mage] [7 Days]
+//(itemshop (billcode 4646)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2297)(amount 1))		//Pink Swimsuit Costume Event [Thief] [7 Days]
+
+//(itemshop (billcode 4647)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2298)(amount 1))		//Hanbok Costume Event [Knight] [7 Days]
+//(itemshop (billcode 4648)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2299)(amount 1))		//Hanbok Costume Event [Archer] [7 Days]
+//(itemshop (billcode 4649)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2300)(amount 1))		//Hanbok Costume Event [Mage] [7 Days]
+//(itemshop (billcode 4650)(priority 1)(type 4)(price 300)(discount 0)(itemindex 2301)(amount 1))		//Hanbok Costume Event [Thief] [7 Days]
+
+///////////////////////////////////////////////////
+/////////////////// GEON SHOP /////////////////////
+///////////////////////////////////////////////////
+
+//////////////////////
+///// Buff Items /////
+//////////////////////
+(itemshop (billcode 2101)(priority 2)(type 2)(price 500000)(discount 0)(itemindex 1772)(amount 1))		//Weekend Package
+(itemshop (billcode 2102)(priority 1)(type 2)(price 250000)(discount 0)(itemindex 469)(amount 1))		//Stone of Experience [1 Day]
+(itemshop (billcode 2103)(priority 1)(type 2)(price 100000)(discount 0)(itemindex 473)(amount 1))		//Stone of Wealth [1 Day]
+(itemshop (billcode 2104)(priority 1)(type 2)(price 150000)(discount 0)(itemindex 477)(amount 1))		//Stone of Fishery [1 Day]
+(itemshop (billcode 2105)(priority 2)(type 2)(price 50000)(discount 0)(itemindex 273)(amount 1))		//Physical Frenzy Potion
+(itemshop (billcode 2106)(priority 2)(type 2)(price 50000)(discount 0)(itemindex 274)(amount 1))		//Magical Frenzy Potion
+
+/////////////////////////////
+///// Scrolls & Potions /////
+/////////////////////////////
+(itemshop (billcode 2201)(priority 2)(type 2)(price 100000)(discount 0)(itemindex 399)(amount 1))		//Kalcash Scroll Pack
+(itemshop (billcode 2202)(priority 2)(type 2)(price 100000)(discount 0)(itemindex 400)(amount 1))		//Kalcash Potion Pack
+(itemshop (billcode 2203)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 524)(amount 1))		//Scroll of Power Improvement
+(itemshop (billcode 2204)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 525)(amount 1))		//Scroll of Damage Reduction
+(itemshop (billcode 2205)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 527)(amount 1))		//Scroll of High Explosive Blow Improvement
+(itemshop (billcode 2206)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 528)(amount 1))		//Scroll of Accuracy Improvement
+(itemshop (billcode 2207)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 529)(amount 1))		//Scroll of Evasion Improvement
+(itemshop (billcode 2208)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 533)(amount 1))		//Lucky Potion of Bulls Strength
+(itemshop (billcode 2209)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 534)(amount 1))		//Lucky Potion of Bears Endurance
+(itemshop (billcode 2210)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 535)(amount 1))		//Lucky Potion of Foxs Cunning
+(itemshop (billcode 2211)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 536)(amount 1))		//Lucky Potion of Owls Wisdom
+(itemshop (billcode 2212)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 537)(amount 1))		//Lucky Potion of Cats Grace
+(itemshop (billcode 2213)(priority 1)(type 2)(price 150000)(discount 0)(itemindex 530)(amount 1))		//Scroll of Normal Perfect Defence
+(itemshop (billcode 2214)(priority 1)(type 2)(price 250000)(discount 0)(itemindex 531)(amount 1))		//Scroll of Medium Perfect Defence
+(itemshop (billcode 2215)(priority 1)(type 2)(price 150000)(discount 0)(itemindex 538)(amount 1))		//Scroll of Normal HP Absorption
+(itemshop (billcode 2216)(priority 1)(type 2)(price 250000)(discount 0)(itemindex 539)(amount 1))		//Scroll of Medium HP Absorption
+//(itemshop (billcode 2217)(priority 1)(type 2)(price 25000)(discount 0)(itemindex 2372)(amount 1))		//Scroll of Evolved Owls Wisdom
+
+//////////////////
+///// Others /////
+//////////////////
+(itemshop (billcode 2301)(priority 2)(type 2)(price 1000000)(discount 0)(itemindex 515)(amount 10))		//Horn of Spirit (10)
+(itemshop (billcode 2302)(priority 2)(type 2)(price 1000000)(discount 0)(itemindex 482)(amount 5))		//High-Grade Scroll of Rebirth (5)
+(itemshop (billcode 2303)(priority 2)(type 2)(price 1200000)(discount 0)(itemindex 1774)(amount 1))		//Scroll of Location Package (1,10)
+(itemshop (billcode 2304)(priority 1)(type 2)(price 1000000)(discount 0)(itemindex 509)(amount 1))		//Saving Scroll of Location
+(itemshop (billcode 2305)(priority 1)(type 2)(price 500000)(discount 0)(itemindex 511)(amount 20))		//Moving Scroll of Location (20)
+(itemshop (billcode 2306)(priority 1)(type 2)(price 100000)(discount 0)(itemindex 481)(amount 10))		//Polishing Stone (10)
+(itemshop (billcode 2307)(priority 1)(type 2)(price 9900)(discount 0)(itemindex 2524)(amount 1))		//Pickaxe
+(itemshop (billcode 2308)(priority 1)(type 2)(price 16830)(discount 0)(itemindex 2525)(amount 1))		//Blue Dragon Pickaxe
+(itemshop (billcode 2309)(priority 1)(type 2)(price 28611)(discount 0)(itemindex 2526)(amount 1))		//White Tiger Pickaxe
+(itemshop (billcode 2310)(priority 1)(type 2)(price 48639)(discount 0)(itemindex 2527)(amount 1))		//Red Bird Pickaxe
+(itemshop (billcode 2311)(priority 1)(type 2)(price 82686)(discount 0)(itemindex 2528)(amount 1))		//Black Tortoise Pickaxe
+(itemshop (billcode 2312)(priority 1)(type 2)(price 140566)(discount 0)(itemindex 2529)(amount 1))		//Mysterious Pickaxe
+
+///////////////////////////////////////////////////
+/////////////// REWARD POINT SHOP /////////////////
+///////////////////////////////////////////////////
+
+///// Weapons Rent /////
+(itemshop (billcode 3001)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3002)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3003)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3004)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3005)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3006)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3007)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3008)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3009)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3010)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3011)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3012)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+
+///// Armor Sets Rent /////
+(itemshop (billcode 3201)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3202)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3203)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3204)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3205)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3206)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3207)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3208)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+
+///// Knight Rent /////
+(itemshop (billcode 3301)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3302)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3303)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3304)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3305)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3306)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3307)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3308)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3309)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3310)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3311)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3312)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+
+///// Archer Rent /////
+(itemshop (billcode 3401)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3402)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3403)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3404)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3405)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3406)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3407)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3408)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3409)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3410)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+
+///// Magician Rent /////
+(itemshop (billcode 3501)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3502)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3503)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3504)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3505)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3506)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3507)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3508)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3509)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3510)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+
+///// Thief Rent /////
+(itemshop (billcode 3601)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3602)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3603)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3604)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3605)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3606)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3607)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3608)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3609)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3610)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+
+///// Recall Scrolls /////
+(itemshop (billcode 3701)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3702)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3703)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3704)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3705)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+
+///// Boxes /////
+(itemshop (billcode 3801)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3802)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))
+(itemshop (billcode 3803)(priority 1)(type 3)(price 1)(discount 0)(itemindex 1)(amount 1))

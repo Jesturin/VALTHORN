@@ -1,0 +1,4 @@
+[AntiKs]
+Enable = true
+
+(disable (index 859))

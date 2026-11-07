@@ -1,0 +1,17 @@
+[Original]
+Easiest = 2055
+Easy = 10830
+Normal = 482
+Hard = 2365
+Hardest = 2079
+
+[Bonus]
+Easiest = 10832
+Easy =  3921
+Normal = 2076
+Hard = 3056
+Hardest = 515
+
+(FishItem (index 31)(amount 125)(chance 25))
+(FishItem (index 8771)(amount 125)(chance 23))
+(FishItem (index 515)(amount 105)(chance 83))

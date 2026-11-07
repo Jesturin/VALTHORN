@@ -1,0 +1,24 @@
+[Quest]
+Index = 9501
+
+[ReplyQuest]
+Index = 9502
+
+[Daily]
+Limit = 5
+
+[EventItem]
+Index = 4320
+
+[Item]
+Amount = 1500
+
+[Duration]
+Seconds = 1800
+
+[Delay]
+Seconds = 7200
+
+
+
+

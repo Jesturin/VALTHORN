@@ -1,0 +1,4 @@
+( initmap ( index 1 ) ( kind 1 ) ( xy 6 4 ) ( size 2 2 ) ( mapname "Map\tomb_01" ) )
+( initmap ( index 1 ) ( kind 1 ) ( xy 6 5 ) ( size 2 2 ) ( mapname "Map\tomb_01" ) )
+( initmap ( index 1 ) ( kind 1 ) ( xy 7 4 ) ( size 2 2 ) ( mapname "Map\tomb_01" ) )
+( initmap ( index 1 ) ( kind 1 ) ( xy 7 5 ) ( size 2 2 ) ( mapname "Map\tomb_01" ) )

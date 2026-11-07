@@ -1,0 +1,48 @@
+[Quest]
+Index = 9506
+
+[Limit]
+Level = 70
+
+[Time]
+Time = 1800
+
+[Map]
+Index = 27
+Range = 40
+
+[BlueStone]
+X = 276460
+Y = 315762
+
+[RedStone]
+X = 275535
+Y = 314195
+
+[RedRectSafeZone]
+X1 = 8639
+Y1 = 9864
+X2 = 8649
+Y2 = 9851
+
+[BlueRectSafeZone]
+X1 = 8578
+Y1 = 9855
+X2 = 8569
+Y2 = 9864
+
+[RedTeleport]
+X = 276723
+Y = 315467
+Z = 16125
+
+[BlueTeleport]
+X = 274280
+Y = 315539
+Z = 16070
+
+//Configs/Rewards.txt ID
+[Reward]
+WinnerRewardID = 3	
+LoserRewardID = 4
+DrawRewardID = 4

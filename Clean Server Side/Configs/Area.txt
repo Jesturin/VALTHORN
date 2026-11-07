@@ -1,0 +1,10 @@
+;limit in map area
+(Area (map 13)(level 1)(item 0))
+
+;limit in filename
+(Area (file 028_030)(level 71)(item 0))
+(Area (file 033_034)(level 10)(item 0))
+(Area (file 008_002)(level 84)(item 9496))
+(Area (file 030_033)(level 75)(item 0))
+
+(Area (Rect 12177 9056 12151 9047)(Level 90-100))

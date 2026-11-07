@@ -1,0 +1,30 @@
+
+(Material	(count 1) (frame 1) (offset 164)
+	(0 "01 - Default" (texture "b_032.dds" "") (mapoption 0x1) (power 0) (szoption "")))
+
+(Mesh (offset 182)
+	(0 "01 - Default" RIGID   STRIP   (vertex 441) (index 1651) (bone_index 0) (material_ref 0) (original_ref 0)
+		(light_map "")
+		(GeomObject "Plane01")))
+
+(Header
+	(version 12)
+	(bone count 0)
+	(bone file 0)
+	(material count 1)
+	(mesh count 1)
+	(vertex count 441)
+	(index count 1651)
+	(anim file count 0)
+	(keyframe count 0)
+	(string size 70))
+
+(size
+	(header 164)
+	(bone 164, 0)
+	(material 164, 18)
+	(mesh 182, 17429)
+	(anim 17611, 0)
+	(collision 17611, 31462)
+	(string 49073, 70)
+	(total 49143))

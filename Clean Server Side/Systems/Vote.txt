@@ -1,0 +1,10 @@
+[Quest]
+Index = 9078
+
+[Topofmmos]
+ApiKey = 2f737a-54baa1-762de5-859b4e-1ae3bd
+ID = 23
+
+[Reward]
+Index = 11192
+Amount = 2

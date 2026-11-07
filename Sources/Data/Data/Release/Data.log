@@ -1,0 +1,20 @@
+﻿  Data.cpp
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Login.h(176,23): warning C4302: 'type cast': truncation from 'char *' to 'WORD'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Login.h(176,35): warning C4302: 'type cast': truncation from 'char *' to 'WORD'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Login.h(212,34): warning C4302: 'type cast': truncation from 'char *' to 'unsigned short'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Login.h(212,56): warning C4302: 'type cast': truncation from 'void *' to 'unsigned short'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Login.h(580,18): warning C4302: 'type cast': truncation from 'char *' to 'WORD'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Login.h(580,30): warning C4302: 'type cast': truncation from 'void *' to 'WORD'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Packet.h(1010,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Packet.h(1017,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Interface.cpp
+  Memory.cpp
+  Tools.cpp
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Tools.cpp(498,15): warning C4302: 'type cast': truncation from 'void *' to 'BYTE'
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Data\Tools.cpp(502,15): warning C4302: 'type cast': truncation from 'void *' to 'BYTE'
+     Creating library B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Release\Data.lib and object B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Release\Data.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1405 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Data.vcxproj -> B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Data\Release\Data.dll

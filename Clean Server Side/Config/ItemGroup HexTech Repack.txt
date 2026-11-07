@@ -1,0 +1,384 @@
+;##############################
+;####### Low Mob Money ########
+;##############################
+
+(group (index 1) (money (650 66))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 1) (group (1000 1)))
+
+(group (index 2) (money (650 76))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 2) (group (1000 2)))
+
+(group (index 3) (money (650 96))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 3) (group (1000 3)))
+
+(group (index 4) (money (650 101))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 4) (group (1000 4)))
+
+;##############################
+;##### Middle Mob Money #######
+;##############################
+
+(group (index 5) (money (650 125))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 5) (group (1000 5)))
+
+(group (index 6) (money (650 149))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 6) (group (1000 6)))
+
+(group (index 7) (money (650 167))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 7) (group (1000 7)))
+
+(group (index 8) (money (650 192))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 8) (group (1000 8)))
+
+;##############################
+;###### High Mob Money ########
+;##############################
+
+(group (index 9) (money (650 234))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 9) (group (1000 9)))
+
+(group (index 10) (money (650 299))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 10) (group (1000 10)))
+
+(group (index 11) (money (650 917))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 11) (group (1000 11)))
+
+(group (index 12) (money (650 378))(item (655 7776 0)(660 7777 0)))
+(itemgroup (index 12) (group (1000 12)))
+
+;##############################
+;##### FoE Money + Quest ######
+;##############################
+(group (index 13) (money (650 533)) (item (655 7776 0)(660 7777 0)(720 9000 0) (750 9000 0)))
+(itemgroup (index 13) (group (1000 13)))
+;##############################
+;#### E-Mok Money + Quest #####
+;##############################
+(group (index 14) (money (650 1533)) (item (655 7776 0)(660 7777 0)(720 9001 0) (750 9001 0)))
+(itemgroup (index 14) (group (1000 14)))
+;##############################
+;##### ToP Money + Quest ######
+;##############################
+(group (index 15) (money (650 733)) (item (655 7776 0)(660 7777 0)(720 9002 0) (750 9002 0)))
+(itemgroup (index 15) (group (1000 15)))
+
+;##############################
+;###### Talisman Drop #########
+;##############################
+;Normal ToW's (20% ea)
+(group (index 16) (item (40 277 0) (60 285 0) (80 293 0) (100 301 0) (120 309 0)))
+;Legendary(7% & King's 3%)
+(group (index 17) (item (40 523 0) (60 332 0) (80 331 0) (100 330 0) (120 329 0) (140 328 0) (160 327 0)))
+;Normal ToP's (20% ea)
+(group (index 18) (item (40 322 0) (60 323 0) (80 324 0) (100 325 0) (120 326 0)))
+;Boff,Imp,Dss,Pre,Qigong
+(group (index 19) (item (40 8005 0) (60 8007 0) (80 2365 0)))
+;Normal % ItemGroup Talisman
+(itemgroup (index 16) (group (14 16) (20 17) (26 18) (32 19)))
+
+;----------------------------------- Impfs earth,fire,water,iron,wood-------------------------------------
+(group (index 20) (item (1000 1499 0)))
+(group (index 21) (item (1000 1500 0)))
+(group (index 22) (item (1000 1501 0)))
+(group (index 23) (item (1000 1502 0)))
+(group (index 24) (item (1000 1503 0)))
+
+;----------------------------------- Impfs earth,fire,water,iron,wood -------------------------------------
+(itemgroup (index 20) (group (100 20)))
+(itemgroup (index 21) (group (100 21)))
+(itemgroup (index 22) (group (100 22)))
+(itemgroup (index 23) (group (100 23)))
+(itemgroup (index 24) (group (100 24)))
+
+;----------------------------------- Perfect Elements-------------------------------------
+(group (index 25) (item (1000 1461 0)))
+(group (index 26) (item (1000 1462 0)))
+(group (index 27) (item (1000 1463 0)))
+(group (index 28) (item (1000 1464 0)))
+(group (index 29) (item (1000 1465 0)))
+
+;----------------------------------- Perfect earth,fire,water,iron,wood -------------------------------------
+(itemgroup (index 25) (group (700 25)))
+(itemgroup (index 26) (group (700 26)))
+(itemgroup (index 27) (group (700 27)))
+(itemgroup (index 28) (group (700 28)))
+(itemgroup (index 29) (group (700 29)))
+
+;Imperfect Elements
+(itemgroup (index 30) (group (20 20) (40 21) (60 22) (80 23) (85 24)))
+
+;Pouw,essence of undead
+(group (index 31) (item (150 1617 0)))
+(group (index 32) (item (350 1621 0)))
+
+(itemgroup (index 31) (group (200 31) (400 32)))
+
+;Trigram 
+
+;G30
+(group (index 35) (item (10 2986 0) (20 2987 0) (30 2988 0) (40 2989 0) (50 2990 0) (60 2991 0) (70 2992 0) (80 2993 0)))
+
+(itemgroup (index 35) (group (25 35)))
+
+
+;G50
+(group (index 36) (item (5 2994 0) (10 2995 0) (15 2996 0) (20 2997 0) (25 2998 0) (30 2999 0) (35 3000 0) (40 3001 0)))
+
+(itemgroup (index 36) (group (30 36)))
+
+;G75
+(group (index 37) (item (5 3002 0) (7 3003 0) (9 3004 0) (11 3005 0) (13 3006 0) (15 3007 0) (20 3008 0) (25 3009 0)))
+
+;(itemgroup (index 37) (group (20 37)))
+
+;-----------------------
+;AMORS/WEAPONS SECTION
+;----------------------
+;-------------------- [Armor] Groups --------------------
+;Grade 32+10
+(group (index 40) (item (40 49 20) (80 50 20) (120 51 20) (160 52 20) (200 53 20)))
+(group (index 41) (item (40 54 20) (80 55 20) (120 56 20) (160 57 20) (200 58 20)))
+(group (index 42) (item (40 85 40) (80 86 40) (120 87 40) (160 88 40) (200 89 40)))
+(group (index 300) (item (40 7303 40) (80 7316 40) (120 7329 40) (160 7330 40) (200 7355 40)))
+
+;Grade 42
+(group (index 43) (item (40 117 0) (80 118 0) (120 119 0) (160 120 0) (200 121 0)))
+(group (index 44) (item (40 122 0) (80 123 0) (120 124 0) (160 125 0) (200 126 0)))
+(group (index 45) (item (40 127 0) (80 128 0) (120 129 0) (160 130 0) (200 131 0)))
+(group (index 46) (item (40 1570 0) (80 1571 0) (120 1572 0) (160 1573 0) (200 1574 0)))
+(group (index 301) (item (40 7304 0) (80 7317 0) (120 1572 0) (160 1573 0) (200 7342 0)))
+
+
+;Grade 46
+(group (index 47) (item (40 251 0) (80 252 0) (120 253 0) (160 254 0) (200 255 0)))
+(group (index 48) (item (40 256 0) (80 257 0) (120 258 0) (160 259 0) (200 260 0)))
+(group (index 49) (item (40 261 0) (80 262 0) (120 263 0) (160 264 0) (200 265 0)))
+(group (index 50) (item (40 1575 0) (80 1576 0) (120 1577 0) (160 1578 0) (200 1579 0)))
+(group (index 302) (item (40 7305 0) (80 7318 0) (120 7331 0) (160 7344 0) (200 7357 0)))
+
+;Grade 50
+(group (index 51) (item (40 372 0) (80 373 0) (120 374 0) (160 375 0) (200 376 0)))
+(group (index 52) (item (40 377 0) (80 378 0) (120 379 0) (160 380 0) (200 381 0)))
+(group (index 53) (item (40 382 0) (80 383 0) (120 384 0) (160 385 0) (200 386 0)))
+(group (index 54) (item (40 1580 0) (80 1581 0) (120 1582 0) (160 1583 0) (200 1584 0)))
+(group (index 303) (item (40 7306 0) (80 7319 0) (120 7332 0) (160 7345 0) (200 7358 0)))
+
+;Grade 55
+(group (index 55) (item (30 621 0) (60 622 0) (90 623 0) (120 624 0) (150 625 0)))
+(group (index 56) (item (30 626 0) (60 627 0) (90 628 0) (120 629 0) (150 630 0)))
+(group (index 57) (item (30 631 0) (60 632 0) (90 633 0) (120 634 0) (150 635 0)))
+(group (index 58) (item (30 1585 0) (60 1586 0) (90 1587 0) (120 1588 0) (150 1589 0)))
+(group (index 304) (item (30 7307 0) (60 7320 0) (90 7333 0) (120 7346 0) (150 7359 0)))
+
+
+;-------------------- [Weapon] Groups --------------------
+;Grade 40
+(group (index 59) (item (22 100 0) (44 101 0) (66 102 0) (88 106 0) (110 107 0) (132 108 0) (154 112 0) (176 113 0) (198 114 0) (220 30 0) (242 1414 0) (264 1415 0) (286 7208 0) (308 7209 0) (320 7210 0)))
+
+;Grade 45
+(group (index 60) (item (40 103 0) (80 104 0) (120 109 0) (160 110 0) (200 115 0) (240 116 0) (280 429 0) (320 1416 0) (360 1417 0)))
+
+;Grade 48
+(group (index 61) (item (36 572 0) (72 573 0) (108 574 0) (144 578 0) (180 579 0) (216 580 0) (252 581 0) (288 582 0) (324 583 0) (360 430 0) (396 1418 0) (432 1419 0) (380 7211 0) (400 7212 0) (430 7213 0) (450 7214 0)))
+
+;Grade 50
+(group (index 62) (item (32 242 0) (64 243 0) (96 244 0) (128 440 0) (160 441 0) (192 442 0) (224 245 0) (256 246 0) (288 2447 0) (320 248 0) (352 249 0) (384 250 0) (416 431 0) (448 1420 0) (480 1421 0) (512 1422 0) (554 7215 0) (579 7216 0) (603 7217 0) (629 7218 0)))
+
+;Grade 53
+(group (index 63) (item (28 457 0) (56 458 0) (84 459 0) (112 460 0) (140 461 0) (168 462 0) (196 463 0) (224 464 0) (252 465 0) (280 466 0) (308 467 0) (336 468 0) (364 1423 0) (392 1424 0) (420 1425 0) (471 7219 0) (501 7220 0) (543 7221 0) (589 7222 0)))
+
+;Grade 56
+(group (index 64) (item (24 560 0) (48 561 0) (72 562 0) (96 563 0) (100 564 0) (124 565 0) (148 566 0) (172 567 0) (196 568 0) (220 569 0) (244 570 0) (268 571 0) (292 1426 0) (316 1427 0) (340 1428 0) (384 7223 0) (421 7224 0) (465 7225 0) (498 7226 0)))
+
+;Grade 59
+(group (index 65) (item (10 584 0) (20 585 0) (30 586 0) (40 587 0) (50 588 0) (60 589 0) (70 590 0) (80 591 0) (90 592 0) (100 593 0) (110 594 0) (120 595 0) (130 1429 0) (140 1430 0)(150 7227 0) (160 7228 0) (170 7229 0) (180 7230 0)))
+
+;Grade 62
+;(group (index 66) (item (1 665 0) (2 666 0) (3 667 0) (4 668 0) (5 1431 0)))
+
+;Grade 65
+;(group (index 67) (item (30 669 0) (60 670 0) (90 671 0) (120 672 0) (150 1432 0)))
+
+;Grade 70
+;(group (index 68) (item (30 1695 0) (60 1696 0) (90 1697 0) (120 1698 0) (150 1699 0)))
+
+
+;-------------------- [Armor & Weapon] Itemgroups --------------------
+;Armor [15% - Grade 42] & Weapon [10% - Grade 40]
+(itemgroup (index 40) (group (15 43) (30 44) (45 45) (60 46) (75 59) (90 301)))
+
+;Armor [6% - Grade 46] & Weapon [6% - Grade 45], [5.5% - Grade 48]
+(itemgroup (index 41) (group (12 47) (16 48) (20 49) (24 50) (30 60) (35 61) (45 302)))
+
+;Armor [15% - Grade 50] & Weapon [15% - Grade 50], [15% - Grade 53]
+(itemgroup (index 42) (group (9 51) (12 52) (18 53) (24 54) (30 62) (35 63) (45 303)))
+
+;Armor [10% - Grade 55] & Weapon [10% - Grade 56], [10% - Grade 59]
+(itemgroup (index 43) (group (1 55) (3 56) (5 57) (7 58) (9 63) (11 64) (13 65) (15 304)))
+
+;Armor [30% - Grade 55] & Weapon [30% - Grade 59]
+(itemgroup (index 44) (group (1 186) (2 55) (3 56) (4 57) (5 58) (6 65) (7 303)))
+
+;----------------------------------- Essences of Fire, Water, Wood, Iron, Earth -------------------------------------
+(group (index 111) (item (831 1612 0) (841 1612 0) (851 1612 0) (861 1612 0)))
+(group (index 112) (item (831 1613 0) (841 1613 0) (851 1613 0) (861 1613 0)))
+(group (index 113) (item (831 1614 0) (841 1614 0) (851 1614 0) (861 1614 0)))
+(group (index 114) (item (831 1615 0) (841 1615 0) (851 1615 0) (861 1615 0)))
+(group (index 115) (item (831 1616 0) (841 1616 0) (851 1616 0) (861 1616 0)))
+
+;----------------------------------- Essences of Fire, Water, Wood, Iron, Earth -------------------------------------
+
+(itemgroup (index 111) (group (1000 111)))
+(itemgroup (index 112) (group (1000 112)))
+(itemgroup (index 113) (group (1000 113)))
+(itemgroup (index 114) (group (1000 114)))
+(itemgroup (index 115) (group (1000 115)))
+
+;Wooden Box
+
+(group (index 120) (item (100 48 0) (200 1318 0) (300 48 0) (400 1318 0)))
+(itemgroup (index 120) (group (1000 120)))
+
+(group (index 121) (item (100 48 0) (200 1318 0) (300 48 0) (400 1318 0)))
+(itemgroup (index 121) (group (1000 121)))
+
+(group (index 122) (item (100 48 0) (200 1318 0) (300 1318 0) (400 48 0)))
+(itemgroup (index 122) (group (1000 122)))
+
+(group (index 123) (item (100 48 0) (200 1318 0) (300 48 0) (400 1318 0)))
+(itemgroup (index 123) (group (1000 123)))
+
+(group (index 124) (item (100 48 0) (200 1318 0) (300 1318 0) (400 48 0)))
+(itemgroup (index 124) (group (1000 124)))
+
+;============================================================================================================
+;=============================GRADE 60 ARMORS SIDE/MAIN/FULL - LOW/MID/HIGH==================================
+;============================================================================================================
+;[GRADE 60 SIDE PARTS]
+(group (index 200) (item (10 1125 0) (20 1126 0) (30 1127 0)))
+(group (index 201) (item (10 1130 0) (20 1131 0) (30 1132 0)))
+(group (index 202) (item (10 1135 0) (20 1136 0) (30 1137 0)))
+(group (index 203) (item (10 1591 0) (20 1592 0) (30 1593 0)))
+(group (index 204) (item (10 7308 0) (20 7347 0) (30 7360 0)))
+;Armor G60 Side Parts [Low Rate]
+;(itemgroup (index 200) (group (3 200) (6 201) (9 202) (12 203) (15 204) (18 187)))
+;Armor G60 Side Parts [Medium Rate]
+;(itemgroup (index 201) (group (3 200) (6 201) (9 202) (12 203) (15 204) (18 187)))
+;Armor G60 Side Parts [High Rate]
+;(itemgroup (index 202) (group (3 200) (6 201) (9 202) (12 203) (15 204) (18 187)))
+;[GRADE 60 ARMOR MAIN PARTS]
+(group (index 205) (item (10 1124 0) (20 1128 0)))
+(group (index 206) (item (10 1129 0) (20 1133 0)))
+(group (index 207) (item (10 1134 0) (20 1138 0)))
+(group (index 208) (item (10 1590 0) (20 1594 0)))
+(group (index 209) (item (10 7321 0) (20 7334 0)))
+;Armor G60 Main Parts [Low Rate]
+;(itemgroup (index 203) (group (3 205) (6 206) (9 207) (12 208) (15 209) (18 187)))
+;Armor G60 Main Parts [Medium Rate]
+;(itemgroup (index 204) (group (3 205) (6 206) (9 207) (12 208) (15 209) (18 187)))
+;Armor G60 Main Parts [High Rate]
+;(itemgroup (index 205) (group (3 205) (6 206) (9 207) (12 208) (15 209) (18 187)))
+;[GRADE 60 ARMOR FULL]
+(group (index 210) (item (10 1124 0) (20 1125 0) (30 1126 0) (40 1127 0) (50 1128 0)))
+(group (index 211) (item (10 1129 0) (20 1130 0) (30 1131 0) (40 1132 0) (50 1133 0)))
+(group (index 212) (item (10 1134 0) (20 01135 0) (30 1136 0) (40 1137 0) (50 1138 0)))
+(group (index 213) (item (10 1590 0) (20 1591 0) (30 1592 0) (40 1593 0) (50 1594 0)))
+(group (index 214) (item (10 7308 0) (20 7347 0) (30 7360 0) (40 7321 0) (50 7334 0)))
+;Armor [4% - Grade 60] & Weapon [4% - Grade 62] & Weapon [2% - Grade 65]  [LOW RATE]
+;(itemgroup (index 206) (group (2 210) (4 211) (6 212) (8 213) (10 214) (12 187) (14 196) (16 188)))
+;Armor [4% - Grade 60] & Weapon [4% - Grade 62] & Weapon [2% - Grade 65]  [MIDDLE RATE]
+;(itemgroup (index 207) (group (2 210) (4 211) (6 212) (8 213) (10 214) (12 187) (14 196) (16 188)))
+;Armor [4% - Grade 60] & Weapon [4% - Grade 62] & Weapon [2% - Grade 65]  [HIGH RATE]
+;(itemgroup (index 208) (group (2 210) (4 211) (6 212) (8 213) (10 214) (12 187) (14 196) (16 188)))
+
+;============================================================================================================
+;=============================GRADE 65 ARMORS SIDE/MAIN/FULL - LOW/MID/HIGH==================================
+;============================================================================================================
+;Grade 65 Side vod
+(group (index 250) (item (10 1484 0) (20 1485 0) (30 1486 0)))
+(group (index 251) (item (10 1489 0) (20 1490 0) (30 1491 0)))
+(group (index 252) (item (10 1479 0) (20 1480 0) (30 1481 0)))
+(group (index 253) (item (10 1766 0) (20 1767 0) (30 1768 0)))
+(group (index 254) (item (10 7309 0) (20 7348 0) (30 7361 0)))
+;Armor G65 Side Parts [Low Rate]
+;(itemgroup (index 250) (group (5 250) (10 251) (15 252) (20 253) (25 254) (30 188)))
+;Armor G65 Side Parts [Medium Rate]
+;(itemgroup (index 251) (group (5 250) (10 251) (15 252) (20 253) (25 254) (30 188)))
+;Armor G65 Side Parts [High Rate]
+;(itemgroup (index 252) (group (5 250) (10 251) (15 252) (20 253) (25 254) (30 188)))
+;[GRADE 65 ARMOR MAIN PARTS]
+(group (index 255) (item (20 1478 0) (40 1487 0)))
+(group (index 256) (item (20 1488 0) (40 1490 0)))
+(group (index 257) (item (20 1480 0) (40 1482 0)))
+(group (index 258) (item (20 1765 0) (40 1769 0)))
+(group (index 259) (item (20 7322 0) (40 7335 0)))
+;Armor G65 Main Parts [Low Rate]
+;(itemgroup (index 253) (group (5 255) (10 256) (15 257) (20 258) (25 259) (30 189)))
+;Armor G65 Main Parts [Medium Rate]
+;(itemgroup (index 254) (group (5 255) (10 256) (15 257) (20 258) (25 259) (30 189)))
+;Armor G65 Main Parts [High Rate]
+;(itemgroup (index 255) (group (5 255) (10 256) (15 257) (20 258) (25 259) (30 189)))
+;[GRADE 65 ARMOR FULL PARTS]
+(group (index 260) (item (10 1483 0) (20 1484 0) (30 1485 0) (40 1486 0) (50 1487 0)))
+(group (index 261) (item (10 1488 0) (20 1489 0) (30 1490 0) (40 1491 0) (50 1492 0)))
+(group (index 262) (item (10 1478 0) (20 1479 0) (30 1480 0) (40 1481 0) (50 1482 0)))
+(group (index 263) (item (10 1764 0) (20 1766 0) (30 1767 0) (40 1768 0) (50 1770 0)))
+(group (index 264) (item (10 7309 0) (20 7348 0) (30 7361 0) (40 7322 0) (50 7335 0)))
+;Armor G65 FULL Parts + G65/G70 WEAPONS [LOW RATE]
+;(itemgroup (index 256) (group (10 260) (20 261) (30 262) (40 263) (50 264) (60 188) (70 196) (80 189)))
+;Armor G65 FULL Parts + G65/G70 WEAPONS [MIDDLE RATE]
+;(itemgroup (index 257) (group (10 260) (20 261) (30 262) (40 263) (50 264) (60 188) (70 196) (80 189)))
+;Armor G65 FULL Parts + G65/G70 WEAPONS  [HIGH RATE]
+;(itemgroup (index 258) (group (10 260) (20 261) (30 262) (40 263) (50 264) (60 188) (70 196) (80 189)))
+
+;##############################
+;##### VoD Money + Quest ######
+;##############################
+(group (index 1000) (money (650 1234)) (item (720 9002 0) (750 9002 0)))
+(itemgroup (index 1000) (group (1000 1000)))
+
+
+;##############################
+;####### Mission Table ########
+;##############################
+(group (index 500) (item (1000 352 0)))
+(itemgroup (index 500) (group (200 500)))
+
+(group (index 501) (item (1000 346 0)))
+(itemgroup (index 501) (group (200 501)))
+
+(group (index 502) (item (1000 347 0)))
+(itemgroup (index 502) (group (200 502)))
+
+(group (index 503) (item (1000 348 0)))
+(itemgroup (index 503) (group (200 503)))
+
+(group (index 504) (item (1000 349 0)))
+(itemgroup (index 504) (group (200 504)))
+
+(group (index 505) (item (1000 350 0)))
+(itemgroup (index 505) (group (200 505)))
+
+(group (index 506) (item (1000 1369 0)))
+(itemgroup (index 506) (group (200 506)))
+
+(group (index 507) (item (1000 1373 0)))
+(itemgroup (index 507) (group (200 507)))
+
+(group (index 508) (item (1000 1374 0)))
+(itemgroup (index 508) (group (200 508)))
+
+(group (index 509) (item (1000 1375 0)))
+(itemgroup (index 509) (group (200 509)))
+
+(group (index 510) (item (1000 1376 0)))
+(itemgroup (index 510) (group (200 510)))
+
+(group (index 511) (item (1000 1377 0)))
+(itemgroup (index 511) (group (200 511)))
+
+(group (index 512) (item (1000 1378 0)))
+(itemgroup (index 512) (group (200 512)))
+
+(group (index 513) (item (1000 1379 0)))
+(itemgroup (index 513) (group (200 513)))

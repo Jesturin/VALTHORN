@@ -1,0 +1,458 @@
+(skillSpam (delay 0.5))
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;K N I G H T     S K I L L S
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;Lightning Slash
+(skill (class 0)(action 3)(delay 0)(cooldown 500))
+;Mockery
+(skill (class 0)(action 4)(delay 0)(cooldown 58000))
+;Transcendental Blow
+(skill (class 0)(action 5)(delay 0)(cooldown 3000))
+;Upward Slash
+(skill (class 0)(action 7)(delay 0)(cooldown 500))
+;Provocation
+(skill (class 0)(action 8)(delay 0)(cooldown 4700))
+;Flashing Slash
+(skill (class 0)(action 9)(delay 0)(cooldown 3000))
+;Increasing Concentration
+(skill (class 0)(action 10)(delay 0)(cooldown 88000))
+;Widening Wound
+(skill (class 0)(action 13)(delay 0)(cooldown 500))
+;Protect
+(skill (class 0)(action 14)(delay 0)(cooldown 1400))
+;Shield Attack
+(skill (class 0)(action 15)(delay 0)(cooldown 9000))
+;Powerful Upward Slash
+(skill (class 0)(action 16)(delay 0)(cooldown 4200))
+;Brutal Attack
+(skill (class 0)(action 17)(delay 0)(cooldown 400))
+;Force of Defense
+(skill (class 0)(action 18)(delay 0)(cooldown 28000))
+;Call of Defense
+(skill (class 0)(action 19)(delay 0)(cooldown 8000))
+;Rush
+(skill (class 0)(action 21)(delay 0)(cooldown 10000))
+;Shield Offense
+(skill (class 0)(action 22)(delay 0)(cooldown 48000))
+;Call of Recovery
+(skill (class 0)(action 23)(delay 0)(cooldown 8000))
+;Berserk
+(skill (class 0)(action 24)(delay 0)(cooldown 175000))
+;Half Swing
+(skill (class 0)(action 25)(delay 0)(cooldown 4000))
+;Sacrifice
+(skill (class 0)(action 26)(delay 0)(cooldown 38000))
+;Call of Lightning Defense
+(skill (class 0)(action 27)(delay 0)(cooldown 8000))
+;Call of Ice Defense
+(skill (class 0)(action 28)(delay 0)(cooldown 8000))
+;Call of Fire Defense
+(skill (class 0)(action 29)(delay 0)(cooldown 8000))
+;Call of On Target Point
+(skill (class 0)(action 31)(delay 0)(cooldown 8000))
+;Call of Physical Attack
+(skill (class 0)(action 32)(delay 0)(cooldown 8000))
+;Survival Instinct
+(skill (class 0)(action 33)(delay 1300)(cooldown 590000))
+;Elastic Shield
+(skill (class 0)(action 34)(delay 0)(cooldown 590000))
+;Revival
+(skill (class 0)(action 35)(delay 3300)(cooldown 38000))
+;Spin Slash
+(skill (class 0)(action 38)(delay 0)(cooldown 13000))
+;Perfect defense
+(skill (class 0)(action 40)(delay 700)(cooldown 118000))
+;Powerful Widening Wound
+(skill (class 0)(action 41)(delay 700)(cooldown 900))
+;Provocation of Blow
+(skill (class 0)(action 42)(delay 0)(cooldown 47000))
+;Sword Dance
+(skill (class 0)(action 43)(delay 0)(cooldown 87000))
+;Shout of Defense
+(skill (class 0)(action 90)(delay 0)(cooldown 98000))
+;The Boom of Earth
+(skill (class 0)(action 91)(delay 0)(cooldown 179000))
+;Shout of Fighting Spirit
+(skill (class 0)(action 92)(delay 0)(cooldown 179000))
+;The Wave of Earth
+(skill (class 0)(action 93)(delay 0)(cooldown 179000))
+
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;M A G I C I A N     S K I L L S
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;Fire Magic
+(skill (class 1)(action 2)(delay 700)(cooldown 400))
+;Ice Magic
+(skill (class 1)(action 3)(delay 500)(cooldown 400))
+;Lightning Magic
+(skill (class 1)(action 4)(delay 500)(cooldown 400))
+;Long-range Protection
+(skill (class 1)(action 5)(delay 500)(cooldown 4200))
+;Heal
+(skill (class 1)(action 8)(delay 0)(cooldown 3700))
+;Shock Wave
+(skill (class 1)(action 9)(delay 0)(cooldown 800))
+;Cure
+(skill (class 1)(action 10)(delay 1700)(cooldown 400))
+;Meditation
+(skill (class 1)(action 15)(delay 0)(cooldown 25000))
+;Revival
+(skill (class 1)(action 16)(delay 3100)(cooldown 4000))
+;Defensive incantation 1
+(skill (class 1)(action 17)(delay 2100)(cooldown 0))
+;Defensive incantation 2
+(skill (class 1)(action 18)(delay 2100)(cooldown 0))
+;Defensive incantation 3
+(skill (class 1)(action 19)(delay 2100)(cooldown 0))
+;Defensive incantation 4
+(skill (class 1)(action 20)(delay 2100)(cooldown 0))
+;Defensive incantation 5
+(skill (class 1)(action 21)(delay 2100)(cooldown 0))
+;Cure 2
+(skill (class 1)(action 22)(delay 1400)(cooldown 400))
+;Lightning Blow
+(skill (class 1)(action 23)(delay 600)(cooldown 300))
+;Splashy Ice
+(skill (class 1)(action 24)(delay 800)(cooldown 300))
+;Fire Blow
+(skill (class 1)(action 25)(delay 2000)(cooldown 300))
+;Speed Up
+(skill (class 1)(action 26)(delay 2200)(cooldown 300))
+;Frost
+(skill (class 1)(action 27)(delay 1900)(cooldown 300))
+;Group Cure
+(skill (class 1)(action 28)(delay 1100)(cooldown 300))
+;Restore
+(skill (class 1)(action 29)(delay 0)(cooldown 87000))
+;Lightning Summons
+(skill (class 1)(action 31)(delay 700)(cooldown 300))
+;Hail
+(skill (class 1)(action 32)(delay 900)(cooldown 300))
+;Flame Bomb
+(skill (class 1)(action 33)(delay 1300)(cooldown 300))
+;Summons
+(skill (class 1)(action 34)(delay 1700)(cooldown 4000))
+;Cure 3
+(skill (class 1)(action 35)(delay 1400)(cooldown 300))
+;Hypnotism
+(skill (class 1)(action 36)(delay 1800)(cooldown 9000))
+;Cold Binding
+(skill (class 1)(action 37)(delay 1100)(cooldown 500))
+;Refining Weapon
+(skill (class 1)(action 38)(delay 1400)(cooldown 4000))
+;Defense Improvement
+(skill (class 1)(action 39)(delay 1900)(cooldown 4000))
+;Soul Destruction
+(skill (class 1)(action 40)(delay 600)(cooldown 300))
+;Chain Lightning
+(skill (class 1)(action 41)(delay 2100)(cooldown 0))
+;Thunder
+(skill (class 1)(action 42)(delay 900)(cooldown 300))
+;Thunder Storm
+(skill (class 1)(action 43)(delay 900)(cooldown 115000))
+;Ice Restriction
+(skill (class 1)(action 44)(delay 700)(cooldown 200))
+;Ice Storm
+(skill (class 1)(action 45)(delay 1400)(cooldown 115000))
+;Explosion
+(skill (class 1)(action 46)(delay 1300)(cooldown 300))
+;Explosive Burst
+(skill (class 1)(action 47)(delay 1600)(cooldown 1500))
+;Fire Storm
+(skill (class 1)(action 48)(delay 1400)(cooldown 115000))
+;Blessing of Strength
+(skill (class 1)(action 49)(delay 1500)(cooldown 4000))
+;Blessing of Health
+(skill (class 1)(action 50)(delay 1500)(cooldown 4000))
+;Blessing of Agility
+(skill (class 1)(action 51)(delay 1500)(cooldown 4000))
+;Blessing of Intelligence
+(skill (class 1)(action 52)(delay 1500)(cooldown 4000))
+;Increase of Critical Hit
+(skill (class 1)(action 53)(delay 1500)(cooldown 4000))
+;Purification
+(skill (class 1)(action 54)(delay 1900)(cooldown 4000))
+;Perfect Cure
+(skill (class 1)(action 55)(delay 0)(cooldown 85000))
+;Group Cure 2
+(skill (class 1)(action 57)(delay 800)(cooldown 300))
+;Perfect Group Cure 2
+(skill (class 1)(action 58)(delay 0)(cooldown 890000))
+;Perfect Healing
+(skill (class 1)(action 59)(delay 0)(cooldown 20000))
+;Amnesia
+(skill (class 1)(action 61)(delay 1400)(cooldown 4000))
+;[Defensive incantation 6]
+(skill (class 1)(action 63)(delay 1500)(cooldown 0))
+;magic Intensification
+(skill (class 1)(action 64)(delay 0)(cooldown 118000))
+;Flame Injection
+(skill (class 1)(action 65)(delay 0)(cooldown 118000))
+;Icicle
+(skill (class 1)(action 66)(delay 0)(cooldown 118000))
+;Lightning Arrow
+(skill (class 1)(action 67)(delay 0)(cooldown 118000))
+;Blessing
+(skill (class 1)(action 69)(delay 0)(cooldown 119000))
+;Therapeutic touch
+(skill (class 1)(action 72)(delay 0)(cooldown 54000))
+;Fireball
+(skill (class 1)(action 73)(delay 0)(cooldown 90000))
+;Thunderbolt
+(skill (class 1)(action 75)(delay 0)(cooldown 90000))
+;Counter Damage
+(skill (class 1)(action 76)(delay 0)(cooldown 200000))
+;Punishment
+(skill (class 1)(action 90)(delay 0)(cooldown 179000))
+;Incapacitation
+(skill (class 1)(action 91)(delay 0)(cooldown 179000))
+;Releasing the Energy
+(skill (class 1)(action 92)(delay 0)(cooldown 179000))
+;Bombing
+(skill (class 1)(action 93)(delay 0)(cooldown 87000))
+
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;A R C H E R     S K I L L S
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;Staggering Blow
+(skill (class 2)(action 3)(delay 1500)(cooldown 0))
+;Passive Attack
+(skill (class 2)(action 4)(delay 0)(cooldown 600))
+;Flamy Arrow
+(skill (class 2)(action 6)(delay 600)(cooldown 0))
+;Chance Capture
+(skill (class 2)(action 7)(delay 0)(cooldown 58000))
+;Heart Breaker
+(skill (class 2)(action 9)(delay 2500)(cooldown 0))
+;Muscle Solidation
+(skill (class 2)(action 10)(delay 0)(cooldown 87000))
+;Poison Arrow
+(skill (class 2)(action 13)(delay 300)(cooldown 18000))
+;Blow-up Arrow
+(skill (class 2)(action 14)(delay 600)(cooldown 0))
+;Arrow of Silence
+(skill (class 2)(action 15)(delay 1600)(cooldown 13000))
+;Focus Shot
+(skill (class 2)(action 16)(delay 1500)(cooldown 700))
+;Life Absorption
+(skill (class 2)(action 18)(delay 0)(cooldown 5500))
+;Pain
+(skill (class 2)(action 19)(delay 1200)(cooldown 27000))
+;Mysterious Arrow
+(skill (class 2)(action 21)(delay 0)(cooldown 4500))
+;Speed of Attack Reducer
+(skill (class 2)(action 22)(delay 0)(cooldown 28000))
+;Sight Interruption
+(skill (class 2)(action 23)(delay 700)(cooldown 4500))
+;Lightning Resistance
+(skill (class 2)(action 24)(delay 0)(cooldown 56000))
+;Ice Resistance
+(skill (class 2)(action 25)(delay 0)(cooldown 56000))
+;Fire Resistance
+(skill (class 2)(action 26)(delay 0)(cooldown 56000))
+;Powerful Arrow of Silence
+(skill (class 2)(action 27)(delay 1500)(cooldown 37000))
+;Curse Resistance
+(skill (class 2)(action 28)(delay 0)(cooldown 56000))
+;Non-Attribution Resistance
+(skill (class 2)(action 29)(delay 0)(cooldown 56000))
+;Emergency Escape
+(skill (class 2)(action 31)(delay 0)(cooldown 890000))
+;Decrease of Target Range
+(skill (class 2)(action 33)(delay 0)(cooldown 27000))
+;MP Vaporization
+(skill (class 2)(action 34)(delay 2000)(cooldown 27000))
+;Curse of Critical Hit
+(skill (class 2)(action 35)(delay 0)(cooldown 56000))
+;Curse of Strength
+(skill (class 2)(action 36)(delay 0)(cooldown 56000))
+;Curse of Health
+(skill (class 2)(action 37)(delay 0)(cooldown 56000))
+;Curse of Agility
+(skill (class 2)(action 38)(delay 0)(cooldown 56000))
+;Curse of Intellegence
+(skill (class 2)(action 39)(delay 0)(cooldown 56000))
+;Curse of Wisdom
+(skill (class 2)(action 40)(delay 0)(cooldown 56000))
+;Curse of Defense
+(skill (class 2)(action 41)(delay 0)(cooldown 56000))
+;Poison Cloud
+(skill (class 2)(action 42)(delay 1400)(cooldown 89000)
+;Loss of Confidence
+(skill (class 2)(action 43)(delay 0)(cooldown 27000))
+;Sight Blockade
+(skill (class 2)(action 44)(delay 1400)(cooldown 27000))
+;Buff Remover
+(skill (class 2)(action 45)(delay 1800)(cooldown 13000))
+;sharpness
+(skill (class 2)(action 46)(delay 0)(cooldown 590000))
+;Arrow Rain
+(skill (class 2)(action 47)(delay 1200)(cooldown 118000))
+;Arrow Explosion
+(skill (class 2)(action 49)(delay 1200)(cooldown 118000))
+;Virulent Arrow
+(skill (class 2)(action 50)(delay 1100)(cooldown 118000))
+;Combative Spirit
+(skill (class 2)(action 51)(delay 800)(cooldown 89000)
+;One Hit Strike
+(skill (class 2)(action 90)(delay 0)(cooldown 179000))
+;Massive Fire
+(skill (class 2)(action 91)(delay 0)(cooldown 179000))
+;Arrows of the Master
+(skill (class 2)(action 92)(delay 0)(cooldown 179000))
+;Spirit of the Arrows
+(skill (class 2)(action 93)(delay 0)(cooldown 179000))
+
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;T H I E F     S K I L L S
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;Hiding
+(skill (class 3)(action 6)(delay 0)(cooldown 55000))
+;Assault
+(skill (class 3)(action 7)(delay 0)(cooldown 25000))
+;Stun
+(skill (class 3)(action 8)(delay 0)(cooldown 8000))
+;Confusion
+(skill (class 3)(action 9)(delay 0)(cooldown 290000))
+;Strangle
+(skill (class 3)(action 10)(delay 0)(cooldown 17000))
+;Dual Shadow
+(skill (class 3)(action 12)(delay 0)(cooldown 17500))
+;Fatal Wound
+(skill (class 3)(action 14)(delay 0)(cooldown 27000))
+;Ankle Amputate
+(skill (class 3)(action 15)(delay 0)(cooldown 17000))
+;Vital Strike
+(skill (class 3)(action 16)(delay 0)(cooldown 27000))
+;Rupture
+(skill (class 3)(action 17)(delay 0)(cooldown 110000))
+;Final Blow
+(skill (class 3)(action 18)(delay 0)(cooldown 585000))
+;Suicidal Blow
+(skill (class 3)(action 21)(delay 0)(cooldown 585000))
+;Dance of Killing
+(skill (class 3)(action 13)(delay 0)(cooldown 35000))
+;Spin Attack
+(skill (class 3)(action 19)(delay 0)(cooldown 17000))
+;Counter attack
+(skill (class 3)(action 20)(delay 0)(cooldown 55000))
+;Armor Breaker
+(skill (class 3)(action 22)(delay 0)(cooldown 26000))
+;Twin Blade Strike
+(skill (class 3)(action 23)(delay 0)(cooldown 585000))
+;Counter offensive
+(skill (class 3)(action 63)(delay 0)(cooldown 80000))
+;Lightning Slash
+(skill (class 3)(action 28)(delay 0)(cooldown 118000))
+;Shadow Slash
+(skill (class 3)(action 32)(delay 0)(cooldown 119000))
+;Wrath of Heaven
+(skill (class 3)(action 33)(delay 0)(cooldown 118000))
+;Spin Blade
+(skill (class 3)(action 36)(delay 0)(cooldown 118000))
+;Critical Strike
+(skill (class 3)(action 90)(delay 0)(cooldown 118000))
+;Strike of God
+(skill (class 3)(action 91)(delay 0)(cooldown 118000))
+;Critical Diffusion
+(skill (class 3)(action 92)(delay 0)(cooldown 87000))
+;Destroying Armor
+(skill (class 3)(action 93)(delay 0)(cooldown 118000))
+
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;S H A M A N     S K I L L S
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;Ghost Knife
+(skill (class 4)(action 13)(delay 1500)(cooldown 700))
+;Ghost Flash
+(skill (class 4)(action 14)(delay 1500)(cooldown 1700))
+;Soul Shield
+(skill (class 4)(action 15)(delay 1500)(cooldown 28000))
+;Wave
+(skill (class 4)(action 18)(delay 1500)(cooldown 1700))
+;Ghost Window
+(skill (class 4)(action 19)(delay 1500)(cooldown 900))
+;Mud Room
+(skill (class 4)(action 20)(delay 1500)(cooldown 28000))
+;Executive Director
+(skill (class 4)(action 21)(delay 1900)(cooldown 1700))
+;The Soul's Penance
+(skill (class 4)(action 22)(delay 1700)(cooldown 1700))
+;Entangling
+(skill (class 4)(action 25)(delay 1500)(cooldown 48000))
+;Spear Of Pain
+(skill (class 4)(action 26)(delay 1500)(cooldown 18000))
+;Summoning Soul
+(skill (class 4)(action 27)(delay 1500)(cooldown 98000))
+;Drain Blood
+(skill (class 4)(action 28)(delay 1500)(cooldown 88000))
+;Mental Breakdown
+(skill (class 4)(action 29)(delay 1500)(cooldown 88000))
+;JigukKing
+(skill (class 4)(action 36)(delay 1500)(cooldown 149000))
+;JeungjangKing
+(skill (class 4)(action 37)(delay 1500)(cooldown 149000))
+;Amplification Of Blood
+(skill (class 4)(action 38)(delay 1000)(cooldown 18000))
+;Wave Of Emperor
+(skill (class 4)(action 39)(delay 1000)(cooldown 78000))
+;Collapse
+(skill (class 4)(action 44)(delay 1500)(cooldown 88000))
+;Ruler
+(skill (class 4)(action 45)(delay 1500)(cooldown 149000))
+;Six Souls
+(skill (class 4)(action 46)(delay 1500)(cooldown 88000))
+;Exploding Spirit
+(skill (class 4)(action 47)(delay 1500)(cooldown 88000))
+;JigukKing of Taein
+(skill (class 4)(action 50)(delay 1500)(cooldown 129000))
+;JeungjangKing of Taein
+(skill (class 4)(action 51)(delay 1500)(cooldown 129000))
+;Soul Blow
+(skill (class 4)(action 52)(delay 1000)(cooldown 78000))
+;Magical Explosion
+(skill (class 4)(action 54)(delay 1500)(cooldown 88000))
+;Spirit Wave
+(skill (class 4)(action 90)(delay 300)(cooldown 179000))
+;4th Rising King
+(skill (class 4)(action 91)(delay 300)(cooldown 179000))
+;Doggebi
+(skill (class 4)(action 92)(delay 300)(cooldown 179000))
+;4th Gangshin
+(skill (class 4)(action 93)(delay 300)(cooldown 179000))
+
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;T R A N S F O R M A T I O N     S K I L L S
+;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+;Lightning Wave
+(eggskill (action 101)(delay 500)(cooldown 300))
+;Icy Storm
+(eggskill (action 102)(delay 800)(cooldown 75000))
+;Phoenix
+(eggskill (action 103)(delay 0)(cooldown 1790000))
+;Hard Hit
+(eggskill (action 104)(delay 500)(cooldown 300))
+;Destruction
+(eggskill (action 105)(delay 800)(cooldown 13000))
+;Rage
+(eggskill (action 106)(delay 0)(cooldown 1790000))
+;Earth Thorn
+(eggskill (action 107)(delay 500)(cooldown 300))
+;Shadow Canine
+(eggskill (action 108)(delay 300)(cooldown 57000))
+;Adamant
+(eggskill (action 109)(delay 0)(cooldown 1790000))
+;High Class Hiding
+(eggskill (action 110)(delay 800)(cooldown 56000))
+;ZilPoong
+(eggskill (action 111)(delay 0)(cooldown 56000))
+;ShinRhoe
+(eggskill (action 112)(delay 500)(cooldown 1750000))
+;Revolve Attack
+(eggskill (action 113)(delay 0)(cooldown 290000))
+;Whirlwind Feather
+(eggskill (action 114)(delay 400)(cooldown 290000))
+;Blood Suction
+(eggskill (action 115)(delay 800)(cooldown 290000))
+;Thunderbolt
+(eggskill (action 116)(delay 1500)(cooldown 790000))

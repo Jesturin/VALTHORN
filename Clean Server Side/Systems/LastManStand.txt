@@ -1,0 +1,18 @@
+[Quest]
+Index = 7090
+
+[Map]
+Index = 30
+
+[Teleport]
+X = 215482
+Y = 290213
+
+[Limit]
+Level = 70
+
+[Reward]
+Index = 6321
+Amount = 30
+HonorPoints = 2500
+RewardPoints = 4500

@@ -1,0 +1,5 @@
+(Reward (ID 1) (battleIndexes 47,48) (battleAmounts 10,12) (battleHonorPt 10) (battleRewardPt 50) (winnerIndexes 47,48) (winnerAmounts 100,150) (winnerHonorPt 100) (winnerRewardPt 500))
+
+
+(PartyVsParty (Quest 9615 4) (PVPArena 1) (PartySize 2) (Level 80-100) (RewardID 1) (Day 'Daily') (RegistrationTime '10:21:10'-'10:22:22') (StartTime '10:22:25') (commands '/reg2v2,/endreg2v2,/start2v2'))
+(PartyVsParty (Quest 9615 5) (PVPArena 3) (PartySize 4) (Level 50-59) (RewardID 2) (Day 'Wednesday') (RegistrationTime '10:36:10'-'10:36:22') (StartTime '10:36:25') (commands '/a3reg2v2,/a3endreg2v2,/a3start2v2'))

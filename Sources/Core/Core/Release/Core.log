@@ -1,0 +1,11 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Core.cpp
+B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Core\Core\TargetFind.h(24,39): warning C4302: 'type cast': truncation from 'const char *' to 'char'
+     Creating library B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Core\Release\Core.lib and object B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Core\Release\Core.exp
+  Generating code
+  Finished generating code
+LINK : warning LNK4286: symbol '___iob_func' defined in '* CIL library *(* CIL module *)' is imported by 'libcurl_a.lib(url.obj)'
+LINK : warning LNK4286: symbol '___iob_func' defined in '* CIL library *(* CIL module *)' is imported by 'libcurl_a.lib(cookie.obj)'
+LINK : warning LNK4286: symbol '___iob_func' defined in '* CIL library *(* CIL module *)' is imported by 'libcurl_a.lib(mprintf.obj)'
+LINK : warning LNK4286: symbol '___iob_func' defined in '* CIL library *(* CIL module *)' is imported by 'libcurl_a.lib(formdata.obj)'
+  Core.vcxproj -> B:\KalOnline Hacks\XEAxMaste TheHyperNetwork\XEAxMaste - TheHyperNetwork Sources\Core\Release\Core.dll

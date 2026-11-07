@@ -1,0 +1,36 @@
+[Quest]
+Index = 9538
+
+[Map]
+Index = 15
+
+[HighExp]
+Multiply = 1
+
+;Lvl 1 to 69
+[First]
+Amount = 32000000
+
+;Lvl 70 to Lvl 74
+[Second]
+Amount = 200000000
+
+;Lvl 75 to 79
+[Third]
+Amount = 1400000000
+
+;Lvl 80 to 84
+[Forth]
+Amount = 4240000000
+
+;Lvl 85 to 89
+[Fifth]
+Amount = 47240000000
+
+;Lvl 90 to 94
+[Sixth]
+Amount = 19600000000
+
+;Lvl 95 to 100
+[Seventh]
+Amount = 10500000000

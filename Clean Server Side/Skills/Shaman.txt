@@ -1,0 +1,53 @@
+[GhostKnife]
+PVPReduce = 80;
+
+[GhostFlash]
+PVPReduce = 80;
+
+[Wave]
+PVPReduce = 80;
+
+[GhostWindow]
+PVPReduce = 80;
+
+[ExecutiveDirector]
+PVPReduce = 80;
+
+[TheSoulsPenance]
+PVPReduce = 80;
+
+[AmplificationOfBlood]
+PVPReduce = 80;
+
+[WaveOfEmperor]
+PVPReduce = 80;
+
+[SpearOfPain]
+PVPReduce = 80;
+
+[SoulBlow]
+PVPReduce = 80;
+
+[DrainBlood]
+PVPReduce = 80;
+
+[MentalBreakdown]
+PVPReduce = 80;
+
+[Collapse]
+PVPReduce = 80;
+
+[SixSouls]
+PVPReduce = 80;
+
+[ExplodingSpirit]
+PVPReduce = 80;
+
+[SpiritWave]
+PVPReduce = 80;
+
+[Doggebi]
+PVPReduce = 80;
+
+[4thRisingKing]
+PVPReduce = 80;

@@ -1,0 +1,6 @@
+[Restriction]
+Active = 0
+
+(DisableCommand (PID 561) (Commands '/restriction,/r3vload,/addwarehouse,/snow,/block,/unblock,/hwidunblock,/event,/queen,/nest,/lord,/gposition,/adddef,/addotp,/addatk,/addevasion,/egggrade,/rage,/rageadd,/addresist,/addcp,/addmp,/addhp'))
+
+(DisableSystems (PID 561) (Trade 0) (Shop 0) (Storage 0) (Mail 0) (Party 0) (Duel 0) (Attack 1) (Skill 0) (Drop 1) (Pick 1))

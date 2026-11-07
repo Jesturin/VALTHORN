@@ -1,0 +1,58 @@
+;higher control into pvp damage (Rate 10 = 10% more dmg)
+(PVP (Class 0)(Specialty 23)(TargetClass 1)(TargetSpecialty 43)(Rate 10))
+(PVP (Class 1)(Specialty 43)(TargetClass 1)(TargetSpecialty 23)(Rate -15))
+
+[KnightVsKnight]
+Value = 0
+[KnightVsArcher]
+Value = 0
+[KnightVsMage]
+Value = 0
+[KnightVsThief]
+Value = 0
+[KnightVsShaman]
+Value = 0
+
+[ArcherVsKnight]
+Value = 0
+[ArcherVsArcher]
+Value = 0
+[ArcherVsMage]
+Value = 0
+[ArcherVsThief]
+Value = 0
+[ArcherVsShaman]
+Value = 0
+
+[MageVsKnight]
+Value = 0
+[MageVsArcher]
+Value = 0
+[MageVsMage]
+Value = 0
+[MageVsThief]
+Value = 0
+[MageVsShaman]
+Value = 0
+
+[ThiefVsKnight]
+Value = 0
+[ThiefVsArcher]
+Value = 0
+[ThiefVsMage]
+Value = 0
+[ThiefVsThief]
+Value = 0
+[ThiefVsShaman]
+Value = 0
+
+[ShamanVsKnight]
+Value = 0
+[ShamanVsArcher]
+Value = 0
+[ShamanVsMage]
+Value = 0
+[ShamanVsThief]
+Value = 0
+[ShamanVsShaman]
+Value = 0

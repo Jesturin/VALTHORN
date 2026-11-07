@@ -1,0 +1,33 @@
+(system (Type 'F10')(Day 'Every')(Time '18:00:00'))
+(system (Type 'EXP')(Day 'Every')(Time '22:05:30')(End '22:06:00'))
+
+(system (Type 'CaptureTheFlag')(Day 'Wednesday')(Time '17:00:00'))
+
+(system (Type 'ProtectingLeader')(Day 'Monday')(Time '21:00:00'))
+(system (Type 'ProtectingLeader')(Day 'Wednesday')(Time '21:00:00'))
+(system (Type 'ProtectingLeader')(Day 'Friday')(Time '21:00:00'))
+
+(system (Type 'DestructingKeys')(Day 'Tuesday')(Time '21:00:00'))
+(system (Type 'DestructingKeys')(Day 'Thursday')(Time '21:00:00'))
+(system (Type 'DestructingKeys')(Day 'Saturday')(Time '21:00:00'))
+
+(system (Type 'Battlefield')(Day 'Monday')(Time '20:00:00'))
+(system (Type 'Battlefield')(Day 'Tuesday')(Time '20:00:00'))
+(system (Type 'Battlefield')(Day 'Wednesday')(Time '20:00:00'))
+(system (Type 'Battlefield')(Day 'Thursday')(Time '20:00:00'))
+(system (Type 'Battlefield')(Day 'Friday')(Time '20:00:00'))
+(system (Type 'Battlefield')(Day 'Saturday')(Time '20:00:00'))
+
+(system (Type 'Hunting')(Day 'Every')(Time '20:30:00'))
+(system (Type 'Emok')(Day 'Every')(Time '19:00:00'))
+(system (Type 'DuelTournament')(Day 'Every')(Time '16:00:00'))
+(system (Type 'LastManStanding')(Day 'Every')(Time '19:00:00'))
+(system (Type 'Lottery')(Day 'Every')(Time '12:00:00'))
+(system (Type 'Lottery')(Day 'Every')(Time '00:00:05'))
+(system (Type 'Lotto')(Day 'Every')(Time '19:30:00'))
+(system (Type 'Raid')(Day 'Every')(Time '19:30:00'))
+(system (Type 'HappyHour')(Day 'Every')(Time '18:00:00')(End '19:00:00'))
+(system (Type 'EXP')(Day 'Every')(Time '16:30:00')(End '16:45:00'))
+(system (Type 'EGG')(Day 'Every')(Time '17:30:00')(End '17:45:00'))
+(system (Type 'Damage')(Day 'Every')(Time '17:30:00')(End '17:45:00'))
+(system (Type 'Immortal')(Day 'Every')(Time '20:30:00')(End '20:45:00'))

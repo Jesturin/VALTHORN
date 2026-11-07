@@ -1,0 +1,101 @@
+[TastyItems]
+PermanentIndex = 6723
+OneTimeUseIndex = 6724
+Level = 1
+
+[Scrolls]
+PermanentIndex = 6720
+OneTimeUseIndex = 6721
+
+//Configs/Rewards.txt ids
+(ItemReward (Index 12148)(RewardID 1))
+
+;========Script.pk sxxxxxx.dat npc opening============
+(ItemWindow (Index 11552)(HTML 949)(Remove 0))
+
+
+;========Quest Section=========
+;Lottery (Int-Like with itemrand in quest.txt)
+(ItemQuest (Index 15000)(Quest 15000 1))
+;
+(ItemQuest (Index 417)(Quest 7000 1))
+;
+(ItemQuest (Index 15002)(Quest 15002))
+;
+(ItemQuest (Index 15003)(Quest 15003))
+;
+(ItemQuest (Index 15004)(Quest 15004))
+;
+(ItemQuest (Index 15005)(Quest 15005))
+;
+(ItemQuest (Index 15006)(Quest 15006))
+;
+(ItemQuest (Index 15007)(Quest 15007))
+;
+(ItemQuest (Index 15008)(Quest 15008))
+;
+(ItemQuest (Index 15009)(Quest 15009))
+;
+(ItemQuest (Index 15010)(Quest 15010))
+;
+(ItemQuest (Index 15011)(Quest 15011))
+;
+(ItemQuest (Index 15012)(Quest 15012))
+;
+(ItemQuest (Index 15013)(Quest 15013))
+;
+(ItemQuest (Index 15014)(Quest 15014))
+;
+(ItemQuest (Index 15015)(Quest 15015))
+;
+(ItemQuest (Index 15016)(Quest 15016))
+;
+(ItemQuest (Index 15017)(Quest 15017))
+;
+(ItemQuest (Index 15018)(Quest 15018))
+;
+(ItemQuest (Index 15019)(Quest 15019))
+;
+(ItemQuest (Index 15020)(Quest 15020))
+;
+(ItemQuest (Index 15021)(Quest 15021))
+;
+(ItemQuest (Index 15022)(Quest 15022))
+;
+(ItemQuest (Index 15023)(Quest 15023))
+;
+(ItemQuest (Index 15024)(Quest 15024))
+;
+(ItemQuest (Index 15025)(Quest 15025))
+;
+(ItemQuest (Index 15026)(Quest 15026))
+;
+(ItemQuest (Index 15027)(Quest 15027))
+;
+(ItemQuest (Index 9505)(Quest 15028))
+;
+(ItemQuest (Index 11553)(Quest 4649))
+;
+(ItemQuest (Index 11565)(Quest 4661))
+;
+(ItemQuest (Index 11600)(Quest 11600))
+;
+(ItemQuest (Index 11735)(Quest 11735))
+;===============Item Disable in MAP FILE=========
+(ItemDisable (Index 1)(File 32_30))
+(ItemDisable (Index 503)(File 30_31))
+(ItemDisable (Index 504)(File 30_31))
+(ItemDisable (Index 505)(File 30_31))
+(ItemDisable (Index 506)(File 30_31))
+(ItemDisable (Index 507)(File 30_31))
+(ItemDisable (Index 508)(File 30_31))
+(ItemDisable (Index 1620)(File 33_38))
+(ItemDisable (Index 1620)(File 26_35))
+;=============Item Disable in Map Area (Map 255 = Disable everywhere)============
+(ItemDisable (Index 1036)(Map 27))
+(ItemDisable (Index 1037)(Map 27))
+(ItemDisable (Index 1038)(Map 27))
+(ItemDisable (Index 1681)(Map 27))
+(ItemDisable (Index 1620)(Map 26))
+(ItemDisable (Index 1620)(Map 27))
+(ItemDisable (Index 1620)(Map 30))

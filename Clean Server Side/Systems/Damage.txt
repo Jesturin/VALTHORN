@@ -1,0 +1,4 @@
+[Damage]
+Percentage = 30
+SBName = 6150
+SBKey = 650

@@ -1,0 +1,17 @@
+[WordFilter]
+Active = 1
+
+(text 'Devah')
+(text 'devah')
+(text 'Kishu')
+(text 'Xan kal')
+(text 'Xankal')
+(text 'Astro')
+(text 'Discord')
+(text 'Kalish')
+(text 'Kishu')
+(text 'kalheaven')
+(text 'KalHeaven')
+(text 'Kalheaven')
+(text 'Hiddenkal')
+(text 'bla bla bla')

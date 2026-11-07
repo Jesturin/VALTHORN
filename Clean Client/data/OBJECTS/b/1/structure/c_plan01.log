@@ -1,0 +1,30 @@
+
+(Material	(count 1) (frame 1) (offset 164)
+	(0 "17 - Default" (texture "h_bottom01.dds" "") (mapoption 0x0) (power 0) (szoption "")))
+
+(Mesh (offset 182)
+	(0 "17 - Default" RIGID   STRIP   (vertex 464) (index 695) (bone_index 0) (material_ref 0) (original_ref 0)
+		(light_map "")
+		(GeomObject "C_Box466" "Box465" "Box511" "Box513" "Box515" "Box517" "Box519" "Box528" "Box530" "Box531" "Box532" "Box533" "Box534" "Box535" "Box539" "Box540" "Box541" "Box542" "Box543" "Box544" "Box545" "Box546" "Box547")))
+
+(Header
+	(version 12)
+	(bone count 0)
+	(bone file 0)
+	(material count 1)
+	(mesh count 1)
+	(vertex count 464)
+	(index count 695)
+	(anim file count 0)
+	(keyframe count 0)
+	(string size 77))
+
+(size
+	(header 164)
+	(bone 164, 0)
+	(material 164, 18)
+	(mesh 182, 16253)
+	(anim 16435, 0)
+	(collision 16435, 5296)
+	(string 21731, 77)
+	(total 21808))

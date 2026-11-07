@@ -1,0 +1,46 @@
+/bossexp to start it with command
+"BossEXP" in eventtimer
+
+[System]
+Name = Boss EXP System 
+Time = 3600
+PrepareTime = 60
+FinalMessage = Thank you for saving the world
+
+[Limit]
+Active = 0
+
+[Map]
+Index = 24
+Range = 100
+
+[Quest]
+Index = 9309
+
+[Mob]
+Index = 10
+SpawnX = 317709
+SpawnY = 218435
+
+[Player]
+SpawnX = 317709
+SpawnY = 218435
+
+//Rewards Part
+
+//chance to pick a player to receive random reward (10 = 10 players)
+[PickPlayer]
+Chance = 5
+(BossItem (index 1)(amount 1)(chance 50)) //random reward with 5% chance
+(BossItem (index 2)(amount 1)(chance 100)) //random reward with 5% chance
+(BossItem (index 3)(amount 1)(chance 150)) //random reward with 5% chance
+(BossItem (index 4)(amount 1)(chance 200)) //random reward with 5% chance
+(BossItem (index 5)(amount 1)(chance 250)) //random reward with 5% chance
+
+(BossMsg (TimeLeft 3580)(MiniMob 0)(Amount 0)(X 0)(Y 0)(Message 'I will be spawning soon...'))
+(BossMsg (TimeLeft 3560)(MiniMob 0)(Amount 0)(X 0)(Y 0)(Message 'Few more seconds...'))
+//minimobs
+(BossMsg (TimeLeft 3470)(MiniMob 1)(Amount 15)(X 317709)(Y 218435)(Message 'My mini bosses will put you to the test'))
+
+(BossEXP (Level 60)(EXP 4000)(Multiply 1)(Gap 0)(RewardID 16))
+(BossEXP (Level 61)(EXP 1000)(Multiply 1)(Gap 0)(RewardID 17))

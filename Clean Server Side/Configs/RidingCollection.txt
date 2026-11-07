@@ -1,0 +1,58 @@
+;//stats:
+// 1- str
+// 2- hth
+// 3- wis
+// 4- int
+// 5- agi
+// 6- hp/mp
+
+<RIDINGCOLLECTIONS>
+	<RIDING_COLLECTION type="1" stat="1" rate="20" title="4710"/>
+	<RIDING_COLLECTION type="2" stat="2" rate="20" title="4711"/>
+	<RIDING_COLLECTION type="3" stat="3" rate="20" title="4712"/>
+	<RIDING_COLLECTION type="4" stat="4" rate="20" title="4713"/>
+	<RIDING_COLLECTION type="5" stat="5" rate="20" title="4714"/>
+	<RIDING_COLLECTION type="6" stat="6" rate="300" title="4715"/>
+    <RIDING_COLLECTION type="7" stat="5" rate="20" title="4716"/>
+	<RIDING_COLLECTION type="8" stat="2" rate="20" title="4717"/>
+</RIDINGCOLLECTIONS>
+
+<RIDINGTABLE>
+	<TYPE type="1">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+	</TYPE>
+	<TYPE type="2">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+	</TYPE>
+	<TYPE type="3">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+	</TYPE>	
+	<TYPE type="4">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+	</TYPE>	
+	<TYPE type="5">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+	</TYPE>	
+	<TYPE type="6">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+	</TYPE>	
+	<TYPE type="7">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+        	<INDEX index="0"/>
+	</TYPE>	
+	<TYPE type="8">
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+		<INDEX index="0"/>
+        	<INDEX index="0"/>
+	</TYPE>	
+</RIDINGTABLE>

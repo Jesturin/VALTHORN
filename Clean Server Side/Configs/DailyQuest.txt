@@ -1,0 +1,69 @@
+(dailyquest (quest 100)(level 35)(party 2)(monster 206)(amount 30)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 6203)(honor 10)(reward 100))
+
+(dailyquest (quest 101)(level 36)(party 2)(monster 208)(amount 30)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 6875)(honor 10)(reward 100))
+
+(dailyquest (quest 102)(level 37)(party 2)(monster 209)(amount 30)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 8682)(honor 10)(reward 100))
+
+(dailyquest (quest 103)(level 38)(party 2)(monster 210)(amount 30)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 10353)(honor 10)(reward 100))
+
+(dailyquest (quest 104)(level 39)(party 2)(monster 211)(amount 30)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 12821)(honor 10)(reward 100))
+
+(dailyquest (quest 105)(level 50)(party 2)(monster 233)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 162045)(honor 10)(reward 100))
+
+(dailyquest (quest 106)(level 51)(party 2)(monster 236)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 188560)(honor 10)(reward 100))
+
+(dailyquest (quest 107)(level 52)(party 2)(monster 239)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 109195)(honor 10)(reward 100))
+
+(dailyquest (quest 108)(level 53)(party 2)(monster 242)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 141090)(honor 10)(reward 100))
+
+(dailyquest (quest 109)(level 54)(party 2)(monster 247)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 165370)(honor 10)(reward 100))
+
+(dailyquest (quest 110)(level 55)(party 2)(monster 251)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 202510)(honor 10)(reward 100))
+
+(dailyquest (quest 111)(level 56)(party 2)(monster 248)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 223080)(honor 10)(reward 100))
+
+(dailyquest (quest 112)(level 57)(party 2)(monster 254)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 247760)(honor 10)(reward 100))
+
+(dailyquest (quest 113)(level 58)(party 2)(monster 263)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 357385)(honor 10)(reward 100))
+
+(dailyquest (quest 114)(level 59)(party 2)(monster 268)(amount 80)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532)(amount 3,250,250,1,1)(exp 412940)(honor 10)(reward 100))
+
+(dailyquest (quest 115)(level 60)(party 2)(monsterGroup 434-461-462-463-464)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,271,272,2215)(amount 2,1,1,1)(exp 386620)(honor 10)(reward 100))
+
+(dailyquest (quest 116)(level 61)(party 2)(monsterGroup 440-473-474-475-476)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 236005)(honor 10)(reward 100))
+
+(dailyquest (quest 117)(level 62)(party 2)(monsterGroup 442-477-478-479-480)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 283275)(honor 10)(reward 100))
+
+(dailyquest (quest 118)(level 63)(party 2)(monsterGroup 438-469-470-471-472)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 439995)(honor 10)(reward 100))
+
+(dailyquest (quest 119)(level 64)(party 2)(monsterGroup 436-465-466-467-468)(amount 50)(maxrepeat 1)(timelimit 86400)(item 482,271,272)(amount 2,1,1)(exp 608060)(honor 10)(reward 100))
+
+(dailyquest (quest 120)(level 65)(party 2)(monsterGroup 435-481-482-483)(amount 20)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532,6721,11011)(amount 2,500,500,1,1,1,10)(exp 630560)(honor 10)(reward 100))
+
+(dailyquest (quest 121)(level 66)(party 2)(monsterGroup 441-493-494-495)(amount 20)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532,6721,11011)(amount 2,500,500,1,1,1,10)(exp 636760)(honor 10)(reward 100))
+
+(dailyquest (quest 122)(level 67)(party 2)(monsterGroup 443-497-498-499)(amount 20)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532,6721,11011)(amount 2,500,500,1,1,1,10)(exp 664200)(honor 10)(reward 100))
+
+(dailyquest (quest 123)(level 68)(party 2)(monsterGroup 439-489-490-491)(amount 20)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532,6721,11011)(amount 2,500,500,1,1,1,10)(exp 817110)(honor 10)(reward 100))
+
+(dailyquest (quest 124)(level 69)(party 2)(monsterGroup 437-485-486-487)(amount 20)(maxrepeat 1)(timelimit 86400)(item 482,2055,1319,540,532,6721,11011)(amount 2,500,500,1,1,1,10)(exp 10100623)(honor 10)(reward 100))
+
+(dailyquest (quest 125)(level 70)(party 2)(monster 538)(amount 100)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 264172)(honor 20)(reward 200))
+
+(dailyquest (quest 126)(level 71)(party 2)(monster 544)(amount 100)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 2378121)(honor 20)(reward 200))
+
+(dailyquest (quest 127)(level 72)(party 2)(monster 550)(amount 100)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 3170577)(honor 20)(reward 200))
+
+(dailyquest (quest 128)(level 73)(party 2)(monster 553)(amount 150)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 3804451)(honor 20)(reward 200))
+
+(dailyquest (quest 129)(level 74)(party 2)(monster 562)(amount 150)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 4566210)(honor 20)(reward 200))
+
+(dailyquest (quest 130)(level 75)(party 2)(monster 1522)(amount 150)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 5479472)(honor 20)(reward 200))
+
+(dailyquest (quest 131)(level 76)(party 2)(monster 516,519)(amount 100,100)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 7396449)(honor 20)(reward 200))
+
+(dailyquest (quest 132)(level 77)(party 2)(monster 517,520)(amount 100,100)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 8877052)(honor 20)(reward 200))
+
+(dailyquest (quest 133)(level 78)(party 2)(monster 523,526)(amount 100,100)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 12172854)(honor 20)(reward 200))
+
+(dailyquest (quest 134)(level 79)(party 2)(monster 518,524)(amount 100,100)(maxrepeat 1)(timelimit 86400)(item 482,2055,3700,2365,11011)(amount 5,500,2,2,10)(exp 17044486)(honor 20)(reward 200))

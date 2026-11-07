@@ -1,0 +1,2 @@
+========MISSION LETTERS (Config.pk taskquest)=========
+(taskquest (index 1741)(require 1713,31)(amount 30,52)(item 31,8771)(amount 100,1000)(honor 150)(reward 300)(HTML 100))

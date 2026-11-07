@@ -1,0 +1,69 @@
+;//wearable 1 = Count down gets activated from the time item is first equipped
+;//wearable 0 = Count down gets activated once item is in inventory
+;//rental = to extend duration of renting item (must add the item in RentalEquipment.dat in config.pk too and add (limitDate 1296000)(replace it with ur time) in inititem.dat line in config.pk )
+;//price = price in jewels for rental extension (must be the same as the one in config.pk)
+
+(timeditem (index 5032)(time 10)(wearable 1))
+(rental (index 5032)(extendtime 1296000)(price 10))
+
+(timeditem (index 3412)(time 20)(wearable 1))
+(rental (index 3412)(extendtime 130)(price 10))
+
+(timeditem (index 3413)(time 604800)(wearable 0))
+(timeditem (index 3414)(time 604800)(wearable 0))
+(timeditem (index 3415)(time 604800)(wearable 0))
+(timeditem (index 3416)(time 604800)(wearable 0))
+(timeditem (index 3417)(time 604800)(wearable 0))
+(timeditem (index 3418)(time 604800)(wearable 0))
+(timeditem (index 3419)(time 604800)(wearable 0))
+(timeditem (index 4149)(time 604800)(wearable 0))
+(timeditem (index 4150)(time 604800)(wearable 0))
+(timeditem (index 4151)(time 604800)(wearable 0))
+(timeditem (index 4152)(time 604800)(wearable 0))
+(timeditem (index 4153)(time 604800)(wearable 0))
+(timeditem (index 4156)(time 604800)(wearable 0))
+(timeditem (index 4157)(time 604800)(wearable 0))
+(timeditem (index 4158)(time 604800)(wearable 0))
+(timeditem (index 4159)(time 604800)(wearable 0))
+(timeditem (index 4160)(time 604800)(wearable 0))
+(timeditem (index 6021)(time 604800)(wearable 0))
+(timeditem (index 6022)(time 604800)(wearable 0))
+(timeditem (index 6023)(time 604800)(wearable 0))
+(timeditem (index 6024)(time 604800)(wearable 0))
+
+(timeditem (index 2946)(time 604800)(wearable 0))
+(timeditem (index 2947)(time 604800)(wearable 0))
+(timeditem (index 2948)(time 604800)(wearable 0))
+
+(timeditem (index 9999)(time 70)(wearable 0))
+
+(timeditem (index 6035)(time 604800)(wearable 1))
+(timeditem (index 6036)(time 604800)(wearable 1))
+(timeditem (index 6037)(time 604800)(wearable 1))
+(timeditem (index 6038)(time 604800)(wearable 1))
+(timeditem (index 6079)(time 604800)(wearable 1))
+
+(timeditem (index 12593)(time 604800)(wearable 0))
+(timeditem (index 12594)(time 604800)(wearable 0))
+(timeditem (index 12595)(time 604800)(wearable 0))
+(timeditem (index 12596)(time 604800)(wearable 0))
+(timeditem (index 12597)(time 604800)(wearable 0))
+(timeditem (index 1009)(time 604800)(wearable 0))
+(timeditem (index 1010)(time 604800)(wearable 0))
+(timeditem (index 1011)(time 10)(wearable 0))
+(timeditem (index 1012)(time 604800)(wearable 0))
+(timeditem (index 1013)(time 604800)(wearable 0))
+(timeditem (index 1014)(time 604800)(wearable 0))
+(timeditem (index 1015)(time 604800)(wearable 0))
+(timeditem (index 1016)(time 604800)(wearable 0))
+(timeditem (index 1017)(time 604800)(wearable 0))
+(timeditem (index 6053)(time 10)(wearable 0))
+
+(timeditem (index 3018)(time 1296000)(wearable 0))
+(timeditem (index 3019)(time 1296000)(wearable 0))
+(timeditem (index 3020)(time 1296000)(wearable 0))
+
+(timeditem (index 13002)(time 1800)(wearable 0))
+
+(timeditem (index 7882)(time 10)(wearable 0))
+

@@ -1,0 +1,36 @@
+*본 정보
+
+*재질(Material) 정보
+	(0 "1" (type MTL_TYPE_STANDARD) (texture "OJ_MI_046_01.dds" "") (mapoption 0x1) (power 0) (szoption ""))
+	(1 "BD_UN_T02_6" (type MTL_TYPE_STANDARD) (texture "BD_UN_T02_6.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(2 "oj_lo_0821" (type MTL_TYPE_STANDARD) (texture "OJ_LO_082_01.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(frame 2 count 3))
+
+
+*충돌 처리 정보
+	("Box01" Unknown - OK)
+	( min ( -45.172443 -1.259562 -2.241390 ) max ( 45.981899 53.393757 1.935360 ) )
+
+*파일 헤더 정보
+	(anim_count = 0)
+	(anim_file_count = 0)
+	(bone_count = 0)
+	(bone_index_count = 0)
+	(cls_size = 544)
+	(string_size = 166)
+	(index_count = 2538)
+	(keyframe_count = 0)
+	(material_count = 3)
+	(material_frame_count = 2)
+	(mesh_count = 3)
+	(bone file = 0)
+	(vertex_count_rigid = 727)
+	(vertex_count_blend1 = 0)
+	(vertex_count_blend2 = 0)
+	(vertex_count_blend3 = 0)
+	(vertex_count_blend4 = 0)
+
+*메쉬 정보
+	(0 "Object05" "1" VT_RIGID FT_LIST (vertex 442) (index 1326) (bone_index 0) (material_ref 0))
+	(1 "Object07" "BD_UN_T02_6" VT_RIGID FT_LIST (vertex 33) (index 102) (bone_index 0) (material_ref 1))
+	(2 "Object08" "oj_lo_0821" VT_RIGID FT_LIST (vertex 252) (index 1110) (bone_index 0) (material_ref 2))

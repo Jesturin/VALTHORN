@@ -1,0 +1,26 @@
+[Quest]
+Index = 21
+
+[Teleport]
+X = 339673
+Y = 257165
+
+[Certificate]
+Index = 
+
+[Map]
+Index = 20
+
+;Dragon Certificate[Basic] - 30 minutes
+(EmokCert (Index 2099)(Time 1800)(EXP 10))
+;Dragon Certificate[Advance] - 30 minutes
+(EmokCert (Index 2100)(Time 1800)(EXP 20))
+;Dragon Certificate[Premium] - 30 minutes
+(EmokCert (Index 2101)(Time 1800)(EXP 30))
+
+;Dragon Certificate[Basic] - 60 minutes
+(EmokCert (Index 2048)(Time 3600)(EXP 10))
+;Dragon Certificate[Advance] - 60 minutes
+(EmokCert (Index 2049)(Time 3600)(EXP 20))
+;Dragon Certificate[Premium] - 60 minutes
+(EmokCert (Index 2050)(Time 3600)(EXP 30))

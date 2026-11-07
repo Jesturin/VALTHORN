@@ -1,0 +1,38 @@
+
+(Material	(count 3) (frame 1) (offset 164)
+	(0 "Material #27" (texture "sip_02.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(1 "06 - Default" (texture "sip_05.dds" "") (mapoption 0x0) (power 0) (szoption ""))
+	(2 "07 - Default" (texture "sip_03.dds" "") (mapoption 0x0) (power 0) (szoption "")))
+
+(Mesh (offset 218)
+	(0 "06 - Default" RIGID   STRIP   (vertex 64) (index 167) (bone_index 0) (material_ref 1) (original_ref 1)
+		(light_map "")
+		(GeomObject "Object06" "Object34" "Object55" "Object57"))
+	(1 "07 - Default" RIGID   STRIP   (vertex 48) (index 109) (bone_index 0) (material_ref 2) (original_ref 2)
+		(light_map "")
+		(GeomObject "Object07" "Object35" "Object53" "Object56"))
+	(2 "Material #27" RIGID   STRIP   (vertex 32) (index 45) (bone_index 0) (material_ref 0) (original_ref 0)
+		(light_map "")
+		(GeomObject "wall04" "wall12" "wall13" "wall14")))
+
+(Header
+	(version 12)
+	(bone count 0)
+	(bone file 0)
+	(material count 3)
+	(mesh count 3)
+	(vertex count 144)
+	(index count 321)
+	(anim file count 0)
+	(keyframe count 0)
+	(string size 119))
+
+(size
+	(header 164)
+	(bone 164, 0)
+	(material 164, 54)
+	(mesh 218, 5295)
+	(anim 5513, 0)
+	(collision 5513, 3472)
+	(string 8985, 119)
+	(total 9104))

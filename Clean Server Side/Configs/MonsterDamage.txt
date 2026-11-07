@@ -1,0 +1,3 @@
+;ignore aggro for a mob by gen pob/pww etc (Uses pure damage only)
+(ignoreAggro (index 859))
+(ignoreAggro (index 792))

@@ -1,0 +1,84 @@
+[Server]
+Name = Shangrilla Online
+GzMsgLvl = 80
+
+[Protection]
+MaxDamage = 300000
+MaxPhyAtk = 6000
+MaxMagAtk = 6000
+
+[EggExp]
+ByTime = 170
+ByKill = 218
+
+[Assassin]
+Drop = disable
+
+[Player]
+Drop = enable
+
+[DonationCoin]
+Index = 8771
+
+[2ndPwd]
+Active = false
+
+[Limit]
+Level = 105
+FishingPerPC = 10
+ShopPerPC = 10
+Auction = 3
+
+[Jewel]
+Index = 3360
+
+[Namepad]
+Price = 6
+Days = 7
+
+[Thief]
+Active = true
+
+[Shaman]
+Active = true
+
+[PVPMaxDamage]
+Damage = 6500
+
+[ShopReward]
+Active = true
+Time = 1800
+Index = 6322
+Amount = 2
+
+[ExpEvent]
+Active = False
+Start = 16:00:00
+End = 17:00:00
+
+[CastleWar]
+Enable = true
+Day = 0
+StartHour = 19
+EndHour = 20
+
+[Debugger]
+Logins = 1
+Packets = 0
+Chats = 0
+Commands = 1
+Skills = 0
+Quests = 0
+
+[MaxEXP]
+Active = 1
+EXP = 21474832400
+
+[HWIDBlock]
+ExtraBlock = 1
+
+[PacketCheck]
+Active = 0
+
+[SpeedHack]
+Value = 400

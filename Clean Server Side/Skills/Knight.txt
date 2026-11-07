@@ -1,0 +1,28 @@
+[PowerfulWideningWound]
+PVPReduce = 20
+Multiply = 7
+GradeDamageIncreaseMin = 15
+GradeDamageIncreaseMax = 25
+
+[ManaCirculation]
+Increase = 8
+
+[ProvocationOfBlow]
+PVPReduce=10;
+Multiply=42;
+GradeDamageIncreaseMin=1000;
+GradeDamageIncreaseMax=4600;
+
+[SpinSlash]
+PVPReduce=5;
+Multiply=19;
+GradeDamageIncreaseMin=800;
+GradeDamageIncreaseMax=2000;
+DeathBlowDamageIncreaseMin=100;
+DeathBlowDamageIncreaseMax=300;
+
+[SwordDance]
+PVPReduce=8;
+Multiply=12;
+GradeDamageIncreaseMin=5;
+GradeDamageIncreaseMax=10;

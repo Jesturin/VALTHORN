@@ -1,0 +1,12 @@
+[EXP]
+Level2 = 2400000
+Level3 = 7800000
+Level4 = 16000000
+
+[MaxMembers]
+Level1 = 12
+Level2 = 26
+Level3 = 40
+Level4 = 54
+TempMember = 10
+Alliance = 8

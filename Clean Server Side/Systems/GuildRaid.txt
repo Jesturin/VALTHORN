@@ -1,0 +1,20 @@
+[DonateQuest]
+Index = 903
+Flag = 1
+
+[StartQuest]
+Index = 903
+Flag = 2
+
+[ReplyQuest]
+Index = 903
+Flag = 3
+
+[DonateItem]
+Index = 31
+
+(GuildRaid (Level 1)(Time 1000)(MinPlayers 1)(AmountRequired 1000)(MobIndex 1)(RewardID 1))
+(GuildRaid (Level 2)(Time 1800)(MinPlayers 3)(AmountRequired 2000)(MobIndex 2)(RewardID 2))
+(GuildRaid (Level 3)(Time 2700)(MinPlayers 1)(AmountRequired 3000)(MobIndex 3)(RewardID 3))
+(GuildRaid (Level 4)(Time 3000)(MinPlayers 1)(AmountRequired 4000)(MobIndex 4)(RewardID 4))
+(GuildRaid (Level 5)(Time 3600)(MinPlayers 10)(AmountRequired 5000)(MobIndex 5)(RewardID 1))

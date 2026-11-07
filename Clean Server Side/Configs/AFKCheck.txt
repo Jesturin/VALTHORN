@@ -1,0 +1,13 @@
+;Range: => how far does the afkCheck goes to check for movement
+;(afkCheck (rect %d %d %d %d)(minutes %d)) => checks if player is standing in the rect zone without movement for x minutes
+;(macroCheck (file %d_%d)) => asks player in a specific area for random keyboard every 1 to 15 minutes key pressing to see if player is auto attacking or not
+
+[Macro]
+MinTime = 180
+MaxTime = 900
+Cooldown = 30
+
+(AFKCheck (Rect 8073 8213 8090 8292)(Time 60))
+
+(macroCheck (file 31_32))
+(macroCheck (file 31_31))

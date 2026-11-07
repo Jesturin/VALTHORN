@@ -1,0 +1,5 @@
+(ugog (map 6_4)(minZ 19800)(maxZ 20500))
+(ugog (map 0_0)(minZ 19720)(maxZ 20600))
+(ugog (map 6_2)(minZ 29900)(maxZ 30400))
+(ugog (map 33_38)(minZ 16920)(maxZ 17810))
+(ugog (map 26_35)(minZ 45190)(maxZ 45720))

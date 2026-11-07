@@ -1,0 +1,238 @@
+(itemexchange (index 372) (material (2427 1)) (item 2934) )	;금강 비늘갑주
+(itemexchange (index 373) (material (2427 1)) (item 2935) )	;금강 비늘갑주 투구
+(itemexchange (index 374) (material (2427 1)) (item 2936) )	;금강 비늘갑주 장갑
+(itemexchange (index 375) (material (2427 1)) (item 2937) )	;금강 비늘갑주 신발
+(itemexchange (index 376) (material (2427 1)) (item 2938) )	;금강 비늘갑주용 하의
+
+(itemexchange (index 377) (material (2427 1)) (item 2934) )	;금강갑주
+(itemexchange (index 378) (material (2427 1)) (item 2935) )	;금강갑주 투구
+(itemexchange (index 379) (material (2427 1)) (item 2936) )	;금강갑주 장갑
+(itemexchange (index 380) (material (2427 1)) (item 2937) )	;금강갑주 신발
+(itemexchange (index 381) (material (2427 1)) (item 2938) )	;금강갑주용 치마
+
+(itemexchange (index 382) (material (2427 1)) (item 2934) )	;백포 대창의
+(itemexchange (index 383) (material (2427 1)) (item 2935) )	;백포 대창의용 머리장식
+(itemexchange (index 384) (material (2427 1)) (item 2936) )	;백포 대창의 장갑
+(itemexchange (index 385) (material (2427 1)) (item 2937) )	;백포 대창의 신발
+(itemexchange (index 386) (material (2427 1)) (item 2938) )	;백포 대창의용 하의
+
+(itemexchange (index 1580) (material (2427 1)) (item 2934) )	;금강 도적 도복
+(itemexchange (index 1581) (material (2427 1)) (item 2935) )	;금강 도적 두건
+(itemexchange (index 1582) (material (2427 1)) (item 2936) )	;금강 도적 장갑
+(itemexchange (index 1583) (material (2427 1)) (item 2937) )	;금강 도적 신발
+(itemexchange (index 1584) (material (2427 1)) (item 2938) )	;금강 도적 도복하의
+
+(itemexchange (index 621) (material (2427 2)) (item 2939) )	;도깨비 철판갑주
+(itemexchange (index 622) (material (2427 2)) (item 2940) )	;도깨비 철판갑주 투구
+(itemexchange (index 623) (material (2427 2)) (item 2941) )	;도깨비 철판갑주 장갑
+(itemexchange (index 624) (material (2427 2)) (item 2942) )	;도깨비 철판갑주 신발
+(itemexchange (index 625) (material (2427 2)) (item 2943) )	;도깨비 철판갑주용 하의
+
+(itemexchange (index 626) (material (2427 2)) (item 2939) )	;도깨비 갑주
+(itemexchange (index 627) (material (2427 2)) (item 2940) )	;도깨비 갑주 투구
+(itemexchange (index 628) (material (2427 2)) (item 2941) )	;도깨비 갑주 장갑
+(itemexchange (index 629) (material (2427 2)) (item 2942) )	;도깨비 갑주 신발
+(itemexchange (index 630) (material (2427 2)) (item 2943) )	;도깨비 갑주용 치마
+
+(itemexchange (index 631) (material (2427 2)) (item 2939) )	;도깨비 대창의
+(itemexchange (index 632) (material (2427 2)) (item 2940) )	;도깨비 대창의용 머리장식
+(itemexchange (index 633) (material (2427 2)) (item 2941) )	;도깨비 대창의 장갑
+(itemexchange (index 634) (material (2427 2)) (item 2942) )	;도깨비 대창의 신발
+(itemexchange (index 635) (material (2427 2)) (item 2943) )	;도깨비 대창의용 하의
+
+(itemexchange (index 1585) (material (2427 2)) (item 2939) )	;도깨비 도적 도복
+(itemexchange (index 1586) (material (2427 2)) (item 2940) )	;도깨비 도적 두건
+(itemexchange (index 1587) (material (2427 2)) (item 2941) )	;도깨비 도적 장갑
+(itemexchange (index 1588) (material (2427 2)) (item 2942) )	;도깨비 도적 신발
+(itemexchange (index 1589) (material (2427 2)) (item 2943) )	;도깨비 도적 도복하의
+
+(itemexchange (index 457) (material (2427 1)) (item 2944) )	;금강 보검
+(itemexchange (index 458) (material (2427 1)) (item 2944) )	;고통의 금강검
+(itemexchange (index 459) (material (2427 1)) (item 2944) )	;환영 금강 보검
+
+(itemexchange (index 460) (material (2427 1)) (item 2944) )	;금강 대도
+(itemexchange (index 461) (material (2427 1)) (item 2944) )	;고통의 금강대도
+(itemexchange (index 462) (material (2427 1)) (item 2944) )	;환영 금강 대도
+
+(itemexchange (index 463) (material (2427 1)) (item 2944) )	;금강 맥궁
+(itemexchange (index 464) (material (2427 1)) (item 2944) )	;고통의 금강 맥궁
+(itemexchange (index 465) (material (2427 1)) (item 2944) )	;환영 금강 맥궁
+
+(itemexchange (index 466) (material (2427 1)) (item 2944) )	;금강 지팡이
+(itemexchange (index 467) (material (2427 1)) (item 2944) )	;고통의 금강 지팡이
+(itemexchange (index 468) (material (2427 1)) (item 2944) )	;환영 금강 지팡이
+
+(itemexchange (index 1423) (material (2427 1)) (item 2944) )	;금강 단검
+(itemexchange (index 1424) (material (2427 1)) (item 2944) )	;고통의 금강 단검
+(itemexchange (index 1425) (material (2427 1)) (item 2944) )	;환영 금강 단검
+
+(itemexchange (index 584) (material (2427 5)) (item 2945) )	;도깨비 보검
+(itemexchange (index 585) (material (2427 5)) (item 2945) )	;상급 도깨비의 보검
+(itemexchange (index 586) (material (2427 5)) (item 2945) )	;도깨비 어르신의 보검
+
+(itemexchange (index 587) (material (2427 5)) (item 2945) )	;도깨비 대도
+(itemexchange (index 588) (material (2427 5)) (item 2945) )	;상급 도깨비의 대도
+(itemexchange (index 589) (material (2427 5)) (item 2945) )	;도깨비 어르신의 대도
+
+(itemexchange (index 590) (material (2427 5)) (item 2945) )	;도깨비 맥궁
+(itemexchange (index 591) (material (2427 5)) (item 2945) )	;상급 도깨비의 맥궁
+(itemexchange (index 592) (material (2427 5)) (item 2945) )	;도깨비 어르신의 맥궁
+
+(itemexchange (index 593) (material (2427 5)) (item 2945) )	;도깨비 지팡이
+(itemexchange (index 594) (material (2427 5)) (item 2945) )	;상급 도깨비의 지팡이
+(itemexchange (index 595) (material (2427 5)) (item 2945) )	;도깨비의 어르신의 지팡이
+
+(itemexchange (index 1429) (material (2427 5)) (item 2945) )	;도깨비의 단검
+(itemexchange (index 1430) (material (2427 5)) (item 2945) )	;상급 도깨비의 단검
+
+(itemexchange (index 857) (material (2427 5)) (item 2945) )	;상급 도깨비의 보검(어르신 루팅)
+(itemexchange (index 860) (material (2427 5)) (item 2945) )	;상급 도깨비의 대도(어르신 루팅)
+(itemexchange (index 863) (material (2427 5)) (item 2945) )	;상급 도깨비의 맥궁(어르신 루팅)
+(itemexchange (index 866) (material (2427 5)) (item 2945) )	;상급 도깨비의 지팡이(어르신 루팅)
+
+(itemexchange (index 1219) (material (2427 5)) (item 2945) )	;상급 도깨비의 보검(보스이무기 루팅)
+(itemexchange (index 1222) (material (2427 5)) (item 2945) )	;상급 도깨비의 대도(보스이무기 루팅)
+(itemexchange (index 1225) (material (2427 5)) (item 2945) )	;상급 도깨비의 맥궁(보스이무기 루팅)
+(itemexchange (index 1228) (material (2427 5)) (item 2945) )	;상급 도깨비의 지팡이(보스이무기 루팅)
+
+(itemexchange (index 1504) (material (2427 2)) (item 2939) )	;도깨비 철판갑주(정령의 숲)
+(itemexchange (index 1505) (material (2427 2)) (item 2940) )	;도깨비 철판갑주 투구(정령의 숲)
+(itemexchange (index 1506) (material (2427 2)) (item 2941) )	;도깨비 철판갑주 장갑(정령의 숲)
+(itemexchange (index 1507) (material (2427 2)) (item 2942) )	;도깨비 철판갑주 신발(정령의 숲)
+(itemexchange (index 1508) (material (2427 2)) (item 2943) )	;도깨비 철판갑주용 하의(정령의 숲)
+
+(itemexchange (index 1509) (material (2427 2)) (item 2939) )	;도깨비 갑주(정령의 숲)
+(itemexchange (index 1510) (material (2427 2)) (item 2940) )	;도깨비 갑주 투구(정령의 숲)
+(itemexchange (index 1511) (material (2427 2)) (item 2941) )	;도깨비 갑주 장갑(정령의 숲)
+(itemexchange (index 1512) (material (2427 2)) (item 2942) )	;도깨비 갑주 신발(정령의 숲)
+(itemexchange (index 1513) (material (2427 2)) (item 2943) )	;도깨비 갑주용 치마(정령의 숲)
+
+(itemexchange (index 1514) (material (2427 2)) (item 2939) )	;도깨비 대창의(정령의 숲)
+(itemexchange (index 1515) (material (2427 2)) (item 2940) )	;도깨비 대창의용 머리장식(정령의 숲)
+(itemexchange (index 1516) (material (2427 2)) (item 2941) )	;도깨비 대창의 장갑(정령의 숲)
+(itemexchange (index 1517) (material (2427 2)) (item 2942) )	;도깨비 대창의 신발(정령의 숲)
+(itemexchange (index 1518) (material (2427 2)) (item 2943) )	;도깨비 대창의용 하의(정령의 숲)
+;무당
+(itemexchange (Index 7319) (material (2427 1)) (item 2934) )	;백포 대융복
+(itemexchange (Index 7306) (material (2427 1)) (item 2935) )	;백포 대융복용 머리장식
+(itemexchange (Index 7345) (material (2427 1)) (item 2936) )	;백포 대융복 장갑
+(itemexchange (Index 7358) (material (2427 1)) (item 2937) )	;백포 대융복 신발
+(itemexchange (Index 7332) (material (2427 1)) (item 2938) )	;백포 대융복용 하의
+                     
+(itemexchange (Index 7320) (material (2427 2)) (item 2939) )	;도깨비 대융복
+(itemexchange (Index 7307) (material (2427 2)) (item 2940) )	;도깨비 대융복용 머리장식
+(itemexchange (Index 7346) (material (2427 2)) (item 2941) )	;도깨비 대융복 장갑
+(itemexchange (Index 7359) (material (2427 2)) (item 2942) )	;도깨비 대융복 신발
+(itemexchange (Index 7333) (material (2427 2)) (item 2943) )	;도깨비 대융복용 하의
+                     
+(itemexchange (Index 7219) (material (2427 1)) (item 2944) )	;금강 태극선
+(itemexchange (Index 7220) (material (2427 1)) (item 2944) )	;고통의 금강 태극선
+(itemexchange (Index 7221) (material (2427 1)) (item 2944) )	;환영 금강 태극선
+                     
+(itemexchange (Index 7227) (material (2427 5)) (item 2945) )	;도깨비 태극선
+(itemexchange (Index 7228) (material (2427 5)) (item 2945) )	;상급 도깨비의 태극선
+(itemexchange (Index 7229) (material (2427 5)) (item 2945) )	;도깨비 어르신의 태극선
+
+;??? ??
+;?? + ?? = [?]??
+(InitPetSwap	(index 1)	(Material1 1747 1 ) (Material2 1749 1 ) (item 2550 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 2)	(Material1 1747 1 ) (Material2 1751 1 ) (item 2551 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 3)	(Material1 1747 1 ) (Material2 1753 1 ) (item 2552 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 4)	(Material1 1749 1 ) (Material2 1747 1 ) (item 2553 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 5)	(Material1 1749 1 ) (Material2 1751 1 ) (item 2554 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 6)	(Material1 1749 1 ) (Material2 1753 1 ) (item 2555 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 7)	(Material1 1751 1 ) (Material2 1747 1 ) (item 2556 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 8)	(Material1 1751 1 ) (Material2 1749 1 ) (item 2557 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 9)	(Material1 1751 1 ) (Material2 1753 1 ) (item 2558 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 10)	(Material1 1753 1 ) (Material2 1747 1 ) (item 2559 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 11)	(Material1 1753 1 ) (Material2 1749 1 ) (item 2560 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 12)	(Material1 1753 1 ) (Material2 1751 1 ) (item 2561 100000))
+
+;??? PvP
+;?? + ?? = [?]??
+(InitPetSwap	(index 13)	(Material1 1748 1 ) (Material2 1750 1 ) (item 2562 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 14)	(Material1 1748 1 ) (Material2 1752 1 ) (item 2563 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 15)	(Material1 1748 1 ) (Material2 1754 1 ) (item 2564 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 16)	(Material1 1750 1 ) (Material2 1748 1 ) (item 2565 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 17)	(Material1 1750 1 ) (Material2 1752 1 ) (item 2566 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 18)	(Material1 1750 1 ) (Material2 1754 1 ) (item 2567 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 19)	(Material1 1752 1 ) (Material2 1748 1 ) (item 2568 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 20)	(Material1 1752 1 ) (Material2 1750 1 ) (item 2569 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 21)	(Material1 1752 1 ) (Material2 1754 1 ) (item 2570 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 22)	(Material1 1754 1 ) (Material2 1748 1 ) (item 2571 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 23)	(Material1 1754 1 ) (Material2 1750 1 ) (item 2572 100000))
+;?? + ?? = [?]??                                                   
+(InitPetSwap	(index 24)	(Material1 1754 1 ) (Material2 1752 1 ) (item 2573 100000))
+
+;?? ??
+;?? + ?? = [?]??
+(InitPetSwap	(index 25)	(Material1 1755 1 )(Material1 1870 1 ) (Material2 1757 1 )(Material2 1872 1 ) (item 2574 50000)	(item 2598 25000)	(item 2622 24000)	(item 2646 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 26)	(Material1 1755 1 )(Material1 1870 1 ) (Material2 1759 1 )(Material2 1874 1 ) (item 2575 50000)	(item 2599 25000)	(item 2623 24000)	(item 2646 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 27)	(Material1 1755 1 )(Material1 1870 1 ) (Material2 1761 1 )(Material2 1876 1 ) (item 2576 50000)	(item 2600 25000)	(item 2624 24000)	(item 2646 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 28)	(Material1 1757 1 )(Material1 1872 1 ) (Material2 1755 1 )(Material2 1870 1 ) (item 2577 50000)	(item 2601 25000)	(item 2625 24000)	(item 2647 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 29)	(Material1 1757 1 )(Material1 1872 1 ) (Material2 1759 1 )(Material2 1874 1 ) (item 2578 50000)	(item 2602 25000)	(item 2626 24000)	(item 2647 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 30)	(Material1 1757 1 )(Material1 1872 1 ) (Material2 1761 1 )(Material2 1876 1 ) (item 2579 50000)	(item 2603 25000)	(item 2627 24000)	(item 2647 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 31)	(Material1 1759 1 )(Material1 1874 1 ) (Material2 1755 1 )(Material2 1870 1 ) (item 2580 50000)	(item 2604 25000)	(item 2628 24000)	(item 2648 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 32)	(Material1 1759 1 )(Material1 1874 1 ) (Material2 1757 1 )(Material2 1872 1 ) (item 2581 50000)	(item 2605 25000)	(item 2629 24000)	(item 2648 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 33)	(Material1 1759 1 )(Material1 1874 1 ) (Material2 1761 1 )(Material2 1876 1 ) (item 2582 50000)	(item 2606 25000)	(item 2630 24000)	(item 2648 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 34)	(Material1 1761 1 )(Material1 1876 1 ) (Material2 1755 1 )(Material2 1870 1 ) (item 2583 50000)	(item 2607 25000)	(item 2631 24000)	(item 2649 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 35)	(Material1 1761 1 )(Material1 1876 1 ) (Material2 1757 1 )(Material2 1872 1 ) (item 2584 50000)	(item 2608 25000)	(item 2632 24000)	(item 2649 1000))
+;?? + ?? = [?]??                                                                                	        	 	                      	  
+(InitPetSwap	(index 36)	(Material1 1761 1 )(Material1 1876 1 ) (Material2 1759 1 )(Material2 1874 1 ) (item 2585 50000)	(item 2609 25000)	(item 2633 24000)	(item 2649 1000))
+																							
+;?? pvp                                                                            		
+;?? + ?? = [?]??                                                              		
+(InitPetSwap	(index 37)	(Material1 1756 1 )(Material1 1871 1 ) (Material2 1758 1 )(Material2 1873 1 ) (item 2586 100000)	(item 2610 25000)	(item 2634 24000)	(item 2650 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 38)	(Material1 1756 1 )(Material1 1871 1 ) (Material2 1760 1 )(Material2 1875 1 ) (item 2587 50000)	(item 2611 25000)	(item 2635 24000)	(item 2650 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 39)	(Material1 1756 1 )(Material1 1871 1 ) (Material2 1762 1 )(Material2 1877 1 ) (item 2588 50000)	(item 2612 25000)	(item 2636 24000)	(item 2650 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 40)	(Material1 1758 1 )(Material1 1873 1 ) (Material2 1756 1 )(Material2 1871 1 ) (item 2589 50000)	(item 2613 25000)	(item 2637 24000)	(item 2651 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 41)	(Material1 1758 1 )(Material1 1873 1 ) (Material2 1760 1 )(Material2 1875 1 ) (item 2590 50000)	(item 2614 25000)	(item 2638 24000)	(item 2651 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 42)	(Material1 1758 1 )(Material1 1873 1 ) (Material2 1762 1 )(Material2 1877 1 ) (item 2591 50000)	(item 2615 25000)	(item 2639 24000)	(item 2651 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 43)	(Material1 1760 1 )(Material1 1875 1 ) (Material2 1756 1 )(Material2 1871 1 ) (item 2592 50000)	(item 2616 25000)	(item 2640 24000)	(item 2652 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 44)	(Material1 1760 1 )(Material1 1875 1 ) (Material2 1758 1 )(Material2 1873 1 ) (item 2593 50000)	(item 2617 25000)	(item 2641 24000)	(item 2652 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 45)	(Material1 1760 1 )(Material1 1875 1 ) (Material2 1762 1 )(Material2 1877 1 ) (item 2594 50000)	(item 2618 25000)	(item 2642 24000)	(item 2652 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 46)	(Material1 1762 1 )(Material1 1877 1 ) (Material2 1756 1 )(Material2 1871 1 ) (item 2595 50000)	(item 2619 25000)	(item 2643 24000)	(item 2653 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 47)	(Material1 1762 1 )(Material1 1877 1 ) (Material2 1758 1 )(Material2 1873 1 ) (item 2596 50000)	(item 2620 25000)	(item 2644 24000)	(item 2653 1000))
+;?? + ?? = [?]??                                                                                                 	                      	   	
+(InitPetSwap	(index 48)	(Material1 1762 1 )(Material1 1877 1 ) (Material2 1760 1 )(Material2 1875 1 ) (item 2597 50000)	(item 2621 25000)	(item 2645 94000)	(item 2653 100000))

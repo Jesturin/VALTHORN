@@ -1,0 +1,20 @@
+[Quest]
+Index = 9503
+[RemainQuest]
+Index = 9521
+
+[WinnerQuest]
+Index = 9520
+[Limit]
+Level = 60
+
+;type 1 = winner reward
+;type 2 = loser reward
+(reward (round 3)(type 0)(index 8104)(amount 1))
+(reward (round 4)(type 0)(index 6321)(amount 15))
+(reward (round 5)(type 0)(index 6321)(amount 25))
+(reward (round 6)(type 0)(index 6321)(amount 50))
+(reward (round 7)(type 0)(index 8100)(amount 1))
+(reward (round 7)(type 1)(index 8100)(amount 1))
+(reward (round 7)(type 1)(index 8104)(amount 1))
+(reward (round 7)(type 1)(index 8771)(amount 20))

@@ -1,0 +1,2 @@
+;controls skill learning level and specs
+(Skill (Class 2)(Index 31)(Specialties 7,23)(Levels 30,32,34,35,39))

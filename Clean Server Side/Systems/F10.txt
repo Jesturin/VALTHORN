@@ -1,0 +1,54 @@
+﻿[Quest]
+Index = 9507
+
+;Same EXP applies for hunting system
+;Multiply => Number of times that EXP Applies
+;Gap => 0 = Gap does not applie (Raw EXP), 1 => Gap applies
+(F10EXP (Level 60)(EXP 232669663)(Multiply 1)(Gap 0)(RewardID 10))
+(F10EXP (Level 61)(EXP 232669663)(Multiply 1)(Gap 0)(RewardID 10))
+(F10EXP (Level 62)(EXP 232669663)(Multiply 1)(Gap 0)(RewardID 10))
+(F10EXP (Level 63)(EXP 402292133)(Multiply 1)(Gap 0)(RewardID 10))
+
+;Chance for a player to be picked to receive a random drop (10% of players in the system example)
+[PickPlayer]
+Chance = 10
+
+;drops with chances
+(F10Item (index 48)(amount 1)(chance 10))
+(F10Item (index 47)(amount 5)(chance 20))
+(F10Item (index 31)(amount 5000)(chance 40))
+
+;Lvl 1 to 69
+[First]
+Amount = 22900000
+
+;Lvl 70 to Lvl 74
+[Second]
+Amount = 231335900
+
+;Lvl 75 to 79
+[Third]
+Amount = 624378694
+
+;Lvl 80 to 84
+[Forth]
+Amount = 4352729505
+
+;Lvl 85 to 89
+[Fifth]
+Amount = 5699235949
+
+;Lvl 90 to 94
+[Sixth]
+Amount = 18908899323
+
+;Lvl 95 to 100
+[Seventh]
+Amount = 5146267520‬2
+
+;Level 100+
+[Eighth]
+Amount = 10500000000
+
+[HighExp]
+Multiply = 60

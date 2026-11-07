@@ -1,0 +1,26 @@
+/sinevent 3600 to start it for 1hour
+"SinEvent" in EventTimer
+
+[Map]
+X = 28
+Y = 32
+
+[System]
+DefaultTime = 900 //if system starts auto
+SpawnCycle = 60 //Spawns mobs every 60 secs
+ImmunityTime = 2 //Revival immunity time (2sec not being able to be attacked, 0 to disable immunity at revival)
+
+[Points]
+PerMob = 1
+PerPlayer = 2
+
+[Limit]
+MinimumPoints = 10 // needs minimum 10 points to receive participant reward
+
+[Reward]
+ParticipantRewardID = 1
+WinnerRewardID = 2
+
+//monster spawns
+(Spawn (Index 1)(Amount 3)(X 258369)(Y 261207))
+(Spawn (Index 2)(Amount 6)(X 258369)(Y 261207))

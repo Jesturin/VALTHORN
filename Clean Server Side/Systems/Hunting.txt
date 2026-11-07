@@ -1,0 +1,22 @@
+[Start]
+Time = 23:00:00
+
+;Shows which guild is registered for next hunting
+[ReplyQuest]
+Index = 4197
+
+[Map]
+Index = 16
+
+[Duration]
+Seconds = 1800
+
+[Summon]
+X = 331760
+Y = 232784
+
+[Monster]
+Index = 1327
+
+[Exp]
+Amount = 47240000000

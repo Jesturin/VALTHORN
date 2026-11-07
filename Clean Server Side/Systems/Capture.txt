@@ -1,0 +1,68 @@
+[Quest]
+Index = 9199
+RedIndex = 9200
+BlueIndex = 9201
+
+[Start]
+Time = 17:00:00
+
+[Duration]
+Seconds = 2700
+
+[Map]
+Index = 9
+
+[RedRectSafeZone]
+MaxX = 0
+MinX = 0
+
+[BlueRectSafeZone]
+MaxX = 0
+MinX = 0
+
+[RedTeleport]
+X = 247280
+Y = 248523
+
+[BlueTeleport]
+X = 250851
+Y = 248207
+
+[MonsterFlag]
+Index = 16
+X = 298330
+Y = 218720
+RedX = 298330
+RedY = 218720
+BlueX = 298330
+BlueY = 218720
+
+[MonsterGate]
+Index = 16
+RedX = 298330
+RedY = 218720
+BlueX = 298330
+BlueY = 281720
+
+[MonsterAttackers]
+Index = 8
+Amount = 50
+RedX = 298330
+RedY = 218720
+BlueX = 298330
+RedY = 218720
+
+[Capturer]
+BuffEffect = Pet_Defensebuff_02
+HPDecrease = 1500
+
+[Score]
+Points = 5
+Seconds = 30
+MaxScore = 1000
+
+[Reward]
+Index = 3360
+Amount = 10
+HonorPoints = 1000
+RewardPoints = 5000

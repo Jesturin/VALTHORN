@@ -1,0 +1,5 @@
+;limit in filename
+(Area (file 30_33)(level 55)(item 0))
+(Area (file 28_30)(level 71)(item 0))
+(Area (file 008_002)(level 83)(item 9496))
+(Area (file 28_30)(level 91)(item 0))
